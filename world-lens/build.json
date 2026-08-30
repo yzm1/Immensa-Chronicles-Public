@@ -1,9 +1,9 @@
 {
   "source_repository": "yzm1/immensa",
   "source_ref": "refs/heads/main",
-  "release": "manual-interactive-graph-run-6",
-  "source_commit": "dbebc60ec81ee12cc8a78c4ec862910326aee46c",
-  "built_at_utc": "2026-08-30T22:35:36.115063+00:00",
+  "release": "manual-interactive-graph-run-7",
+  "source_commit": "bf9295ac2f563a3ec80712bd7e4691e6aa5d0a95",
+  "built_at_utc": "2026-08-30T23:22:27.906599+00:00",
   "entrypoint": "index.html",
   "generator": "topos/tools/build_topology_explorer.py",
   "publication_policy": "PUBLIC_CLEAN_PRIVATE_DEBUG",

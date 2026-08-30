@@ -1,9 +1,9 @@
 {
   "source_repository": "yzm1/immensa",
-  "release": "manual-interactive-graph-run-6",
+  "release": "manual-interactive-graph-run-7",
   "target": "interactive-graph",
-  "source_commit": "dbebc60ec81ee12cc8a78c4ec862910326aee46c",
-  "assembled_at_utc": "2026-08-30T22:35:38.279346+00:00",
+  "source_commit": "bf9295ac2f563a3ec80712bd7e4691e6aa5d0a95",
+  "assembled_at_utc": "2026-08-30T23:22:30.202405+00:00",
   "components_updated": [
     "world-lens",
     "world-topology",
