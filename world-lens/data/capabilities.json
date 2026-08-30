@@ -1,0 +1,201 @@
+{
+  "counts": {
+    "assertions": 459,
+    "assertions_with_valid_time": 0,
+    "governed_physical_strata": 0,
+    "governed_plane_memberships": 0,
+    "layout_islands": 104,
+    "layout_singletons": 87,
+    "nodes": 373,
+    "projection_edges": 434,
+    "projections": {
+      "all_semantic": 44,
+      "flow": 13,
+      "refusal_conflict": 7,
+      "spatial_structure": 289,
+      "traversal": 77,
+      "visibility_influence": 4
+    },
+    "relation_types": {
+      "ACCESS_COND": 54,
+      "ADJACENCY": 13,
+      "ANON_REGION": 4,
+      "ASYMMETRY": 12,
+      "CONTAINMENT": 127,
+      "DIRECTION": 33,
+      "DISTANCE": 26,
+      "EXTENT": 19,
+      "FLOW": 14,
+      "PACE": 5,
+      "ROUTE": 49,
+      "ROUTE_MEMBERSHIP": 12,
+      "SEVERED": 9,
+      "SHARED_REGION": 6,
+      "TRAVEL_TIME": 34,
+      "UNANCHORED": 7,
+      "VERTICAL": 31,
+      "VISIBILITY": 4
+    },
+    "verbatim_measurements": 146
+  },
+  "lenses": {
+    "balanced": {
+      "projections": [
+        "spatial_structure"
+      ],
+      "state": "AVAILABLE"
+    },
+    "culture_diffusion": {
+      "projections": [
+        "culture_diffusion"
+      ],
+      "state": "UNAVAILABLE"
+    },
+    "ecology": {
+      "projections": [
+        "ecology"
+      ],
+      "state": "UNAVAILABLE"
+    },
+    "flow": {
+      "projections": [
+        "flow"
+      ],
+      "state": "AVAILABLE"
+    },
+    "jurisdiction_control": {
+      "projections": [
+        "jurisdiction_control"
+      ],
+      "state": "UNAVAILABLE"
+    },
+    "movement": {
+      "projections": [
+        "spatial_structure",
+        "traversal"
+      ],
+      "state": "AVAILABLE"
+    },
+    "refusal": {
+      "projections": [
+        "refusal_conflict"
+      ],
+      "state": "AVAILABLE"
+    },
+    "temporal": {
+      "projections": [
+        "temporal"
+      ],
+      "state": "UNAVAILABLE"
+    },
+    "visibility": {
+      "projections": [
+        "visibility_influence"
+      ],
+      "state": "AVAILABLE"
+    }
+  },
+  "queries": {
+    "compare_entities": {
+      "missing": [],
+      "note": "Side-by-side governed metadata and relations.",
+      "present": [
+        "nodes",
+        "assertions"
+      ],
+      "state": "AVAILABLE"
+    },
+    "ecology_range": {
+      "missing": [
+        "HAS_RANGE or OCCURS_AT instances"
+      ],
+      "note": "Representable by profile; no governed current instances.",
+      "present": [],
+      "state": "UNAVAILABLE"
+    },
+    "find_entity": {
+      "missing": [],
+      "note": "Exact governed identity/name search.",
+      "present": [
+        "nodes"
+      ],
+      "state": "AVAILABLE"
+    },
+    "global_time": {
+      "missing": [
+        "governed valid-time coverage"
+      ],
+      "note": "Empty valid_time is not current time.",
+      "present": [],
+      "state": "UNAVAILABLE"
+    },
+    "governance_control": {
+      "missing": [
+        "governance/control instances"
+      ],
+      "note": "Representable by profile; no governed current instances.",
+      "present": [],
+      "state": "UNAVAILABLE"
+    },
+    "known_spatial_relations": {
+      "missing": [],
+      "note": "Open-world known relations, not exhaustive location.",
+      "present": [
+        "spatial_structure"
+      ],
+      "state": "AVAILABLE"
+    },
+    "migration_process": {
+      "missing": [
+        "MIGRATES and ordered process instances"
+      ],
+      "note": "Representable by profile; no governed current instances.",
+      "present": [],
+      "state": "UNAVAILABLE"
+    },
+    "physical_strata": {
+      "missing": [
+        "stratum identities/relations"
+      ],
+      "note": "No governed physical-stratum membership in this build.",
+      "present": [],
+      "state": "UNAVAILABLE"
+    },
+    "plane_filter": {
+      "missing": [
+        "governed plane memberships"
+      ],
+      "note": "Unknown membership is not surface.",
+      "present": [],
+      "state": "UNAVAILABLE"
+    },
+    "related_entity": {
+      "missing": [],
+      "note": "Known governed incident relations.",
+      "present": [
+        "projection edges"
+      ],
+      "state": "AVAILABLE"
+    },
+    "stated_measurements": {
+      "missing": [],
+      "note": "Lists verbatim values without aggregation.",
+      "present": [
+        "quantities_as_stated"
+      ],
+      "state": "AVAILABLE"
+    },
+    "traversal_path": {
+      "missing": [
+        "structured general traversal policies"
+      ],
+      "note": "No general pathfinding in this build.",
+      "present": [
+        "traversal observations"
+      ],
+      "state": "UNAVAILABLE"
+    }
+  },
+  "schema_version": "immensa-topology-explorer-build-1.0.0",
+  "semantic_digest": "sha256:f17114928ef52593be14b072b7ab8986614ce2c950b625e21eb290bbfcf943f5"
+}

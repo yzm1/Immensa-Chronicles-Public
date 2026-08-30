@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Immensa World Lens</title>
+  <link rel="stylesheet" href="./world-lens.css">
+</head>
+<body data-surface="knowledge">
+  <a class="skip-link" href="#reading-stage">Skip to knowledge view</a>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Immensa World Lens home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>Immensa</strong><small>World Lens</small></span>
+    </a>
+    <nav class="product-nav" aria-label="Immensa visual products">
+      <span aria-current="page">World Lens</span>
+      <a href="../world-topology/">Topology</a>
+      <a href="../pilots/">Pilots</a>
+    </nav>
+    <div id="build-id" class="build-id">Loading governed build…</div>
+  </header>
+
+  <div class="boundary-note" role="note">
+    <strong>WORLD KNOWLEDGE VIEW</strong>
+    <span>Not a map and not topology layout. Position, order and ornament carry no geographic meaning.</span>
+  </div>
+  <div id="build-warning" class="build-warning" hidden></div>
+
+  <form id="command-form" class="command-deck" role="search" autocomplete="off">
+    <label for="command-input">Ask the governed record</label>
+    <div class="command-row">
+      <input id="command-input" type="search" placeholder="Find Harlowe, related to Neris, measure Belloway…" aria-describedby="command-help">
+      <button type="submit">Open the lens</button>
+    </div>
+    <div id="command-help" class="command-help">Semantic commands and guided intents only. The parsed plan is always shown.</div>
+    <div id="search-results" class="search-results" role="listbox"></div>
+  </form>
+
+  <nav class="mobile-nav" aria-label="World Lens views">
+    <button type="button" data-view-target="ask-view" class="active">Ask</button>
+    <button type="button" data-view-target="explore-view">Explore</button>
+    <button type="button" data-view-target="details-view">Details</button>
+  </nav>
+
+  <main class="lens-shell">
+    <aside id="explore-view" class="spectrum view-panel mobile-active" aria-label="Knowledge spectrum">
+      <section>
+        <p class="eyebrow">Knowledge spectrum</p>
+        <h2>Layers in this build</h2>
+        <div id="layer-list" class="spectrum-list"></div>
+      </section>
+      <section>
+        <p class="eyebrow">Feature cabinet</p>
+        <div id="feature-list" class="feature-list"></div>
+      </section>
+      <details class="dark-ledger">
+        <summary>Dark areas in the record</summary>
+        <div id="capability-gaps"></div>
+      </details>
+    </aside>
+
+    <section id="ask-view" class="reading view-panel mobile-active" aria-label="Answer and knowledge view">
+      <div id="reading-stage" tabindex="-1">
+        <section class="threshold">
+          <p class="eyebrow">A visual field guide to governed knowledge</p>
+          <h1>Read the world without mistaking the page for the world.</h1>
+          <p>Browse what the current record illuminates, ask a bounded semantic question, and see exactly where knowledge ends.</p>
+          <div class="example-groups">
+            <div>
+              <h2>Available now</h2>
+              <div class="example-row">
+                <button type="button" data-query="related to Harlowe">Harlowe’s known relations</button>
+                <button type="button" data-query="measure Belloway">Measurements involving Belloway</button>
+                <button type="button" data-query="compare Neris with Ossaray">Compare Neris and Ossaray</button>
+              </div>
+            </div>
+            <div class="future-examples">
+              <h2>Competencies awaiting governed data</h2>
+              <div class="example-row">
+                <button type="button" data-query="Where do all the double-hoofed Wulvians live?">Wulvian habitat</button>
+                <button type="button" data-query="How far does the Dindinstone migrate in its lifetime before dissolving in the acid lakes of Kanra?">Dindinstone migration</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="answer-panel" class="answer-panel" aria-live="polite"></section>
+        <section class="home-cabinet">
+          <div class="section-heading">
+            <div><p class="eyebrow">Reviewed anchors</p><h2>A first cabinet of Immensa</h2></div>
+            <p>Equal-sized entries are orientation, not rank.</p>
+          </div>
+          <div id="anchor-cabinet" class="cabinet-grid"></div>
+        </section>
+      </div>
+    </section>
+
+    <aside id="details-view" class="dossier view-panel mobile-active" aria-label="Entity details">
+      <div id="dossier-content">
+        <p class="eyebrow">Dossier</p>
+        <h2>Choose an entity</h2>
+        <p>Search, browse a layer, or open a result to read its governed world record.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <span>One governed record; distinct knowledge, topology and later cartographic views.</span>
+    <a href="../world-topology/">Examine topology</a>
+  </footer>
+  <div id="live-status" class="sr-only" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

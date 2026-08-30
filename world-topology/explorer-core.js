@@ -1,3 +1,11 @@
+import {
+  buildSearchRecords,
+  exactOrBest,
+  findMatches,
+  parseCommand,
+  relationRowsForNode,
+} from "./semantic-query.js";
+
 const GRAPH_URL = "./data/graph.json";
 const QUERY_URL = "./data/query-index.json";
 const CAPABILITIES_URL = "./data/capabilities.json";
@@ -71,15 +79,6 @@ function clear(node) {
   node.replaceChildren();
 }
 
-function normalize(value) {
-  return String(value ?? "")
-    .toLocaleLowerCase()
-    .replaceAll("’", "'")
-    .replace(/[^\p{L}\p{N}_'\-]+/gu, " ")
-    .trim()
-    .replace(/\s+/g, " ");
-}
-
 function humanize(value) {
   if (RELATION_LABELS[value]) return RELATION_LABELS[value];
   return String(value ?? "unknown").toLocaleLowerCase().replaceAll("_", " ");
@@ -128,67 +127,6 @@ function supportCoverage(support, coverage) {
     element("br"),
     element("span", { text: `Coverage: ${humanize(coverage)}` }),
   ]);
-}
-
-function buildSearchRecords(graph, queryIndex) {
-  const nodeById = new Map(graph.nodes.map((node) => [node.node_id, node]));
-  return Object.entries(queryIndex.node_index)
-    .map(([nodeId, info]) => ({
-      nodeId,
-      node: nodeById.get(nodeId),
-      terms: info.normalized_search_terms,
-      rank: info.label_rank,
-      kind: info.display_kind,
-    }))
-    .filter((item) => item.node)
-    .sort((a, b) => b.rank - a.rank || a.node.label.localeCompare(b.node.label));
-}
-
-function findMatches(records, rawTerm, limit = 20) {
-  const term = normalize(rawTerm);
-  if (!term) return [];
-  const scored = [];
-  for (const record of records) {
-    let score = 0;
-    for (const candidate of record.terms) {
-      if (candidate === term) score = Math.max(score, 1000);
-      else if (candidate.startsWith(term)) score = Math.max(score, 700);
-      else if (candidate.includes(term)) score = Math.max(score, 420);
-      else {
-        const words = term.split(" ");
-        if (words.every((word) => candidate.includes(word))) score = Math.max(score, 220);
-      }
-    }
-    if (score) scored.push({ ...record, score: score + record.rank / 10 });
-  }
-  return scored.sort((a, b) => b.score - a.score || a.node.label.localeCompare(b.node.label)).slice(0, limit);
-}
-
-function exactOrBest(records, rawTerm) {
-  const matches = findMatches(records, rawTerm, 8);
-  if (!matches.length) return { state: "none", matches: [] };
-  const normalized = normalize(rawTerm);
-  const exact = matches.filter((match) => match.terms.includes(normalized));
-  if (exact.length === 1) return { state: "one", match: exact[0], matches };
-  if (exact.length > 1) return { state: "ambiguous", matches: exact };
-  if (matches.length === 1) return { state: "one", match: matches[0], matches };
-  return { state: "ambiguous", matches };
-}
-
-function parseCommand(raw) {
-  const text = raw.trim();
-  const patterns = [
-    ["compare", /^compare\s+(.+?)\s+(?:with|and)\s+(.+)$/i],
-    ["related", /^related(?:\s+to)?\s+(.+)$/i],
-    ["spatial", /^(?:where|known\s+spatial\s+relations\s+for)\s+(.+)$/i],
-    ["measure", /^(?:measure|stated\s+measurements\s+involving)\s+(.+)$/i],
-    ["find", /^find\s+(.+)$/i],
-  ];
-  for (const [verb, pattern] of patterns) {
-    const match = text.match(pattern);
-    if (match) return { verb, arguments: match.slice(1), raw: text };
-  }
-  return { verb: "find", arguments: [text], raw: text };
 }
 
 function makeCytoscapeElements(graph, queryIndex, layout) {
@@ -389,14 +327,6 @@ function updateLabels(cy, queryIndex) {
       );
     });
   });
-}
-
-function relationRowsForNode(nodeId, queryIndex, displayEdgeById) {
-  const info = queryIndex.node_index[nodeId];
-  return (info?.display_edge_ids ?? [])
-    .map((id) => displayEdgeById.get(id))
-    .filter(Boolean)
-    .sort((a, b) => a.relation_type.localeCompare(b.relation_type) || a.display_edge_id.localeCompare(b.display_edge_id));
 }
 
 function focusElements(cy, nodeIds, edgeIds = [], fit = true) {
