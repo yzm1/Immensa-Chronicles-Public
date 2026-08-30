@@ -1,0 +1,11 @@
+{
+  "component": "interactive-graph",
+  "title": "Interactive graph",
+  "source_repository": "yzm1/immensa",
+  "source_ref": "refs/heads/ci-pages-bootstrap-20260830",
+  "release": "bootstrap-interactive-graph-v0",
+  "source_commit": "df40fdc16a49875de374e8be724265f6803f23e9",
+  "built_at_utc": "2026-08-30T14:36:37.307952+00:00",
+  "entrypoint": "index.html",
+  "generator": "topos/tools/build_pilot_atlas.py"
+}

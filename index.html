@@ -6,14 +6,15 @@
   <title>Immensa Chronicles</title>
   <style>
     :root{--paper:#f5f0e6;--panel:#fffdf8;--ink:#22242a;--muted:#656b75;--line:#c9c0b2}
-    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 system-ui,sans-serif}
-    main{max-width:820px;margin:auto;padding:28px 18px 48px}h1{margin-bottom:4px}.dek{color:var(--muted);margin-top:0}
-    .card{display:block;margin-top:24px;padding:16px 18px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+    *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 system-ui,sans-serif}
+    main{max-width:820px;margin:auto;padding:28px 18px 48px} h1{margin-bottom:4px} .dek{color:var(--muted);margin-top:0}
+    .cards{display:grid;gap:12px;margin-top:24px} .card{display:flex;flex-direction:column;gap:4px;padding:16px 18px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:inherit;text-decoration:none}
+    .card strong{font-size:18px} .card span,.card small{color:var(--muted)} .empty{color:var(--muted)} footer{margin-top:28px;color:var(--muted);font-size:12px}
   </style>
 </head>
 <body><main>
   <h1>Immensa Chronicles</h1>
-  <p class="dek">Public CI renderings from the Immensa worldbuilding project.</p>
-  <div class="card">No generated renderer has been published yet.</div>
-</main></body>
-</html>
+  <p class="dek">Public CI renderings from Immensa. Each component records the tagged source release that produced it.</p>
+  <section class="cards"><a class="card" href="./interactive-graph/"><strong>Interactive graph</strong><span>release bootstrap-interactive-graph-v0</span><small>source df40fdc16a49 · 2026-08-30T14:36:37.307952+00:00</small></a></section>
+  <footer>Publication bootstrap-interactive-graph-v0 · target interactive-graph · source df40fdc16a49</footer>
+</main></body></html>

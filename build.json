@@ -1,0 +1,13 @@
+{
+  "source_repository": "yzm1/immensa",
+  "release": "bootstrap-interactive-graph-v0",
+  "target": "interactive-graph",
+  "source_commit": "df40fdc16a49875de374e8be724265f6803f23e9",
+  "assembled_at_utc": "2026-08-30T14:36:38.778562+00:00",
+  "components_updated": [
+    "interactive-graph"
+  ],
+  "components_available": [
+    "interactive-graph"
+  ]
+}
