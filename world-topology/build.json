@@ -7,6 +7,6 @@
   "entrypoint": "index.html",
   "generator": "topos/tools/build_topology_explorer.py",
   "publication_policy": "PUBLIC_CLEAN_PRIVATE_DEBUG",
-  "component": "interactive-graph",
-  "title": "Interactive graph (compatibility link)"
+  "component": "world-topology",
+  "title": "Immensa World Topology"
 }

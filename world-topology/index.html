@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Explore the governed world topology of Immensa. Schematic relationships, not a geographic map.">
+  <title>Immensa World Topology</title>
+  <link rel="stylesheet" href="./explorer.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="masthead">
+      <div class="brand">
+        <h1>Immensa World Topology</h1>
+        <p>A governed relationship explorer—not the future geographic map.</p>
+      </div>
+      <form class="command" id="command-form" role="search">
+        <label class="sr-only" for="command-input">Find or query Immensa</label>
+        <input id="command-input" autocomplete="off" spellcheck="false" placeholder="find Harlowe · related to Neris · compare Neris with Ossaray">
+        <button class="primary" type="submit">Ask</button>
+        <div class="search-results" id="search-results" role="listbox" aria-label="Matching governed identities"></div>
+      </form>
+      <div class="mode-badge">Clean · active working</div>
+    </header>
+
+    <div class="truth-banner">WORLD TOPOLOGY — SCHEMATIC, NOT GEOGRAPHIC POSITION OR SCALE</div>
+    <div class="truth-banner warning" id="build-warning" hidden></div>
+
+    <nav class="mobile-tabs" aria-label="Explorer views">
+      <button class="tab-button" type="button" data-mobile-target="world-view">World</button>
+      <button class="tab-button" type="button" data-mobile-target="answer-view">Answer</button>
+      <button class="tab-button" type="button" data-mobile-target="details-view">Details</button>
+    </nav>
+
+    <main class="workspace">
+      <aside class="panel mobile-view" id="answer-view" aria-label="Query answer and controls">
+        <section id="answer-content"></section>
+        <h3>Build summary</h3>
+        <div class="stats" id="stats"></div>
+        <h3>Lenses</h3>
+        <div class="lens-list" id="lens-list"></div>
+        <h3>Not yet governed</h3>
+        <div id="capability-list"></div>
+      </aside>
+
+      <section class="canvas-panel mobile-view" id="world-view" aria-label="Persistent topology canvas">
+        <svg id="island-overlay" aria-hidden="true"></svg>
+        <div id="cy" aria-hidden="true"></div>
+        <div class="canvas-tools">
+          <button class="quiet-button" type="button" id="fit-button">Fit world</button>
+          <button class="quiet-button" type="button" id="reset-focus-button">Clear focus</button>
+        </div>
+        <div class="canvas-key">Dashed frames are layout islands only. Quiet small nodes are source-scoped identities, visible but not silently merged. Select through search or the HTML relation lists; precise graph clicking is optional.</div>
+      </section>
+
+      <aside class="panel mobile-view" id="details-view" aria-label="Selected topology details">
+        <section id="details-content">
+          <h2>Inspect Immensa</h2>
+          <p>Search or select a node. Every incident assertion will be available here as ordinary HTML.</p>
+          <div class="status-card">
+            <strong>Public clean view</strong>
+            <div>The full evidence/provenance explorer is built as a restricted artifact because it contains corpus quotations and source metadata.</div>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span id="build-id">Loading semantic build…</span>
+      <span>Active-working profile · all nodes currently unplaced</span>
+    </footer>
+    <div id="live-status" class="sr-only" aria-live="polite"></div>
+  </div>
+  <script src="./vendor/cytoscape.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
