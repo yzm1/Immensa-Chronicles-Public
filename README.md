@@ -1,29 +1,26 @@
-# Immensa Chronicles — Public Renderings
+# Immensa Chronicles
 
-This repository is the public publication target for generated Immensa artifacts and the GitHub Pages home for Immensa's browser-facing maps, graphs, explorers and tools.
+> **Progression has a history.**
 
-The authoritative source corpus, evidence, build tooling and homepage generator live in the private `yzm1/immensa` repository. Files published here are generated outputs intended for browser viewing; they should not be maintained independently by hand.
+Immensa is a fantasy world in which Classes, Skills, tiers, magical materials and other familiar progression systems have shaped civilization for tens of thousands of years.
 
-GitHub Pages serves this repository directly from the `main` branch root. Rendering happens only in the private repository's tag-triggered CI; this public repository does not need its own Actions deployment workflow.
+That changes what a progression-fantasy world looks like. Classes are professions, institutions and inherited traditions as well as builds. Roads and ruins can preserve obsolete ways of becoming. Creature ecologies feed economies and progression alike. Laws, worship, trade, cities, guilds and states have adapted to a world where personal advancement is an ordinary fact of history.
 
-## Root navigation hub
+There was no single lost golden age. The ancients had ancients of their own. Different eras reached different heights, forgot different things and left behind routes, techniques, species, institutions and worldworks that later civilizations only partly understand.
 
-`index.html` is the durable entry point for the published Immensa toolset. The private publisher regenerates it after every release by discovering every top-level component directory that contains an `index.html`.
+And the whole power ladder remains in the same world. A place does not stop mattering because stronger people exist elsewhere.
 
-A component's optional `build.json` fields can control how it appears in the hub:
+## Explore Immensa
 
-- `title`
-- `description`
-- `category` and `category_label`
-- `featured`
-- `status`
+This repository hosts the public interactive atlas for **Immensa Chronicles**.
 
-Components without presentation metadata still appear automatically, so adding a new renderer does not require maintaining a second hard-coded navigation list.
+- **World Lens** — browse places, peoples, institutions, layers and known relationships.
+- **World Topology** — explore how known places, routes and other world elements connect without pretending those connections are yet a complete geographic map.
 
-## Publication convention
+The atlas is deliberately partial. Unknown, uncertain and contradictory parts of the world remain visible as such rather than being filled in for convenience.
 
-- `interactive-graph-v*` — rebuild and publish the current knowledge/topology explorer family.
-- `all-v*` — rebuild and publish every registered public renderer.
-- Future renderer-specific tags follow the same `<renderer>-v*` convention.
+## The setting in one sentence
 
-A renderer-specific publication replaces only that renderer's directory, leaving other published components intact. The root site index and `build.json` are regenerated from the complete assembled site so navigation always reflects everything currently available.
+**Most progression fantasy asks what happens when a person has a System. Immensa asks what happens when civilizations have had one for tens of thousands of years.**
+
+The result is meant to feel at once recognizably fantasy and much older, larger and stranger than it first appears: dragons and guilds, ruins and roads, moving cities, professions, monsters, religions, ecologies and ordinary lives all participating in one continuous historical world.
