@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="Explore the governed world topology of Immensa. Schematic relationships, not a geographic map.">
+  <meta name="description" content="Explore known connections among places, routes and other parts of Immensa. A relationship view, not a finished geographic map.">
   <title>Immensa World Topology</title>
   <link rel="stylesheet" href="./explorer.css">
 </head>
@@ -12,62 +12,62 @@
     <header class="masthead">
       <div class="brand">
         <h1>Immensa World Topology</h1>
-        <p>A governed relationship explorer—not the future geographic map.</p>
+        <p>Trace how known places and routes connect before the world is complete enough for one honest map.</p>
       </div>
       <form class="command" id="command-form" role="search">
         <label class="sr-only" for="command-input">Find or query Immensa</label>
         <input id="command-input" autocomplete="off" spellcheck="false" placeholder="find Harlowe · related to Neris · compare Neris with Ossaray">
         <button class="primary" type="submit">Ask</button>
-        <div class="search-results" id="search-results" role="listbox" aria-label="Matching governed identities"></div>
+        <div class="search-results" id="search-results" role="listbox" aria-label="Matching names and places"></div>
       </form>
-      <div class="mode-badge">Clean · active working</div>
+      <a class="mode-badge" href="../" style="text-decoration:none">Immensa Chronicles</a>
     </header>
 
-    <div class="truth-banner">WORLD TOPOLOGY — SCHEMATIC, NOT GEOGRAPHIC POSITION OR SCALE</div>
-    <div class="truth-banner warning" id="build-warning" hidden></div>
+    <div class="truth-banner">RELATIONSHIPS, NOT GEOGRAPHIC POSITION OR SCALE</div>
+    <div class="truth-banner warning" id="build-warning" style="display:none" aria-hidden="true"></div>
 
     <nav class="mobile-tabs" aria-label="Explorer views">
       <button class="tab-button" type="button" data-mobile-target="world-view">World</button>
-      <button class="tab-button" type="button" data-mobile-target="answer-view">Answer</button>
+      <button class="tab-button" type="button" data-mobile-target="answer-view">Discover</button>
       <button class="tab-button" type="button" data-mobile-target="details-view">Details</button>
     </nav>
 
     <main class="workspace">
-      <aside class="panel mobile-view" id="answer-view" aria-label="Query answer and controls">
+      <aside class="panel mobile-view" id="answer-view" aria-label="Discovery and controls">
         <section id="answer-content"></section>
-        <h3>Build summary</h3>
+        <h3>What this view contains</h3>
         <div class="stats" id="stats"></div>
-        <h3>Lenses</h3>
+        <h3>Ways to look</h3>
         <div class="lens-list" id="lens-list"></div>
-        <h3>Not yet governed</h3>
+        <h3>Not enough is known yet</h3>
         <div id="capability-list"></div>
       </aside>
 
-      <section class="canvas-panel mobile-view" id="world-view" aria-label="Persistent topology canvas">
+      <section class="canvas-panel mobile-view" id="world-view" aria-label="World relationship canvas">
         <svg id="island-overlay" aria-hidden="true"></svg>
         <div id="cy" aria-hidden="true"></div>
         <div class="canvas-tools">
-          <button class="quiet-button" type="button" id="fit-button">Fit world</button>
+          <button class="quiet-button" type="button" id="fit-button">Fit view</button>
           <button class="quiet-button" type="button" id="reset-focus-button">Clear focus</button>
         </div>
-        <div class="canvas-key">Dashed frames are layout islands only. Quiet small nodes are source-scoped identities, visible but not silently merged. Select through search or the HTML relation lists; precise graph clicking is optional.</div>
+        <div class="canvas-key">Dashed frames group material for readability only. Quiet small entries remain separate when the current world record does not justify treating similar names as the same thing. Search or use the relation lists if the graph itself is too dense.</div>
       </section>
 
-      <aside class="panel mobile-view" id="details-view" aria-label="Selected topology details">
+      <aside class="panel mobile-view" id="details-view" aria-label="Selected world details">
         <section id="details-content">
           <h2>Inspect Immensa</h2>
-          <p>Search or select a node. Every incident assertion will be available here as ordinary HTML.</p>
+          <p>Search or select something to follow its currently known relationships.</p>
           <div class="status-card">
-            <strong>Public clean view</strong>
-            <div>The full evidence/provenance explorer is built as a restricted artifact because it contains corpus quotations and source metadata.</div>
+            <strong>The map is allowed to lose.</strong>
+            <div>This view shows relationships we can currently support. Unknown placement stays unknown rather than being invented to make the picture look complete.</div>
           </div>
         </section>
       </aside>
     </main>
 
     <footer class="footer">
-      <span id="build-id">Loading semantic build…</span>
-      <span>Active-working profile · all nodes currently unplaced</span>
+      <span id="build-id" style="display:none" aria-hidden="true"></span>
+      <span>Immensa is still being built and explored.</span>
     </footer>
     <div id="live-status" class="sr-only" aria-live="polite"></div>
   </div>
