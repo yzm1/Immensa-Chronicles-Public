@@ -1,0 +1,136 @@
+{
+  "fixtures": [
+    {
+      "fixture_id": "entity-harlowe",
+      "fixture_state": "GOVERNED_CURRENT_DATA",
+      "label": "Harlowe",
+      "plate_type": "ENTITY_LAYER_SCORE",
+      "subject_entity_ids": [
+        "PL-HARLOWE"
+      ]
+    },
+    {
+      "components": [
+        {
+          "address": [
+            "deep plane",
+            "cave margins"
+          ],
+          "evidence_form": "range_component",
+          "label": "Moss Basin"
+        },
+        {
+          "address": [
+            "surface",
+            "north shoals"
+          ],
+          "evidence_form": "range_component",
+          "label": "Grayling Isles"
+        }
+      ],
+      "coverage_state": "OPEN_WORLD_FIXTURE",
+      "fixture_id": "range-wulvians",
+      "fixture_state": "SYNTHETIC_PRESENTATION_ONLY",
+      "label": "Double-hoofed Wulvians",
+      "observations": [
+        {
+          "address": [
+            "surface",
+            "reed margin"
+          ],
+          "label": "one field observation"
+        }
+      ],
+      "plate_type": "RANGE_HABITAT"
+    },
+    {
+      "calculation_status": "LIFETIME_TOTAL_NOT_RECOVERABLE",
+      "certified_partial_sum": "530 miles across three certified non-overlapping legs",
+      "fixture_id": "process-dindinstone",
+      "fixture_state": "SYNTHETIC_PRESENTATION_ONLY",
+      "label": "Dindinstone lifecycle",
+      "plate_type": "PROCESS_LIFECYCLE",
+      "stages": [
+        {
+          "label": "birth",
+          "measure_after": "120 miles"
+        },
+        {
+          "label": "seasonal basin",
+          "measure_after": "unknown"
+        },
+        {
+          "label": "high pass",
+          "measure_after": "185 miles"
+        },
+        {
+          "label": "salt reach",
+          "measure_after": "225 miles"
+        },
+        {
+          "event": "dissolves",
+          "label": "Acid Lakes of Kanra"
+        }
+      ]
+    },
+    {
+      "components": [
+        "Valley component",
+        "Sub-mountain component"
+      ],
+      "fixture_id": "governance-mountain-valley",
+      "fixture_state": "SYNTHETIC_PRESENTATION_ONLY",
+      "label": "Multipart kingdom fixture",
+      "plate_type": "JURISDICTION_WEAVE",
+      "roles": [
+        {
+          "actor": "Kingdom fixture",
+          "role": "governs",
+          "spans": [
+            0,
+            1
+          ]
+        },
+        {
+          "actor": "Valley people",
+          "role": "inhabits",
+          "spans": [
+            0
+          ]
+        },
+        {
+          "actor": "Deep wardens",
+          "role": "controls",
+          "spans": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "bands": [
+        "Upper made ground",
+        "Limestone unit",
+        "Unknown interval",
+        "Basalt unit"
+      ],
+      "fixture_id": "strata-local-section",
+      "fixture_state": "SYNTHETIC_PRESENTATION_ONLY",
+      "label": "Local section fixture",
+      "plate_type": "PHYSICAL_STRATA",
+      "scale_state": "EQUAL_SCHEMATIC_BANDS",
+      "trace": "maintained stair"
+    },
+    {
+      "fixture_id": "compare-neris-ossaray",
+      "fixture_state": "GOVERNED_CURRENT_DATA",
+      "label": "Neris and Ossaray",
+      "plate_type": "COMPARISON",
+      "subject_entity_ids": [
+        "PL-NERIS",
+        "PL-OSSARAY"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}
