@@ -3,20 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Immensa Chronicles is an ongoing fantasy worldbuilding project by Yali Zak-Malkin: a world so vast the horizon seems flat, where progression has tens of thousands of years of history.">
-  <title>Immensa Chronicles — Progression has a history</title>
+  <meta name="description" content="Immensa Chronicles — an ongoing fantasy worldbuilding and fiction project by Yali Zak-Malkin. A world of impossible roads, deep history, progression, wonder and lives lived at immense scale.">
+  <title>Immensa Chronicles — The world keeps going</title>
   <style>
-    :root{--paper:#f3efe6;--panel:#fffdf8;--ink:#20242a;--muted:#616970;--line:#cec5b7;--accent:#315c68;--accent-soft:#e4edef;--deep:#16262c;--warm:#8a6235;--shadow:0 18px 44px rgba(32,36,42,.08)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}.shell{max-width:1180px;margin:auto;padding:0 22px 70px}
-    .topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:21px 0;border-bottom:1px solid var(--line)}.wordmark{text-decoration:none;font-family:Georgia,serif;font-size:20px}.topbar nav{display:flex;gap:18px;color:var(--muted);font-size:14px}.topbar nav a{text-decoration:none}.topbar nav a:hover{color:var(--accent)}
-    .hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:52px;align-items:end;padding:76px 0 64px}.eyebrow{margin:0 0 12px;color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}h1{max-width:800px;margin:0;font-family:Georgia,serif;font-size:clamp(58px,9vw,106px);font-weight:500;line-height:.88;letter-spacing:-.045em}.lede{max-width:820px;margin:30px 0 0;font-family:Georgia,serif;font-size:clamp(22px,3vw,31px);line-height:1.35;color:#333b40}.hero-side{padding:0 0 5px 24px;border-left:1px solid var(--line)}.hero-side p{margin:0 0 18px;color:var(--muted)}.hero-side strong{color:var(--ink)}.cta{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:999px;background:var(--deep);color:#fff;text-decoration:none;font-weight:700;font-size:14px}
-    .principles{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line)}.principle{padding:28px 28px 31px 0}.principle+.principle{padding-left:28px;border-left:1px solid var(--line)}.principle small{color:var(--warm);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.principle h2{margin:9px 0 8px;font-family:Georgia,serif;font-size:24px;font-weight:500}.principle p{margin:0;color:var(--muted)}
-    .explore{padding:68px 0 18px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:22px}.section-head h2{margin:0;font-family:Georgia,serif;font-size:clamp(34px,5vw,52px);font-weight:500;line-height:1}.section-head p{max-width:520px;margin:0;color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{display:flex;min-height:310px;flex-direction:column;padding:25px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-decoration:none;box-shadow:0 2px 0 rgba(32,36,42,.02);transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}.card:hover{transform:translateY(-3px);border-color:#a7afa9;box-shadow:var(--shadow)}.card .kind{color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.card h3{margin:42px 0 12px;font-family:Georgia,serif;font-size:34px;font-weight:500;line-height:1.08}.card p{max-width:520px;margin:0;color:var(--muted)}.card .open{margin-top:auto;padding-top:30px;color:var(--accent);font-weight:750}
-    .note{margin-top:34px;padding:20px 22px;border-left:4px solid var(--accent);background:rgba(255,253,248,.58);color:var(--muted)}.note strong{color:var(--ink)}
-    .about{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:70px;margin-top:74px;padding:54px 0;border-top:1px solid var(--line)}.about h2{margin:0;font-family:Georgia,serif;font-size:clamp(34px,5vw,52px);font-weight:500;line-height:1.02}.about-copy{max-width:700px}.about-copy>p{margin:0 0 18px;color:#4e565c;font-size:18px}.about-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:28px}.about-card{padding:20px;border:1px solid var(--line);border-radius:14px;background:rgba(255,253,248,.55)}.about-card h3{margin:0 0 7px;font-family:Georgia,serif;font-size:21px;font-weight:500}.about-card p{margin:0;color:var(--muted);font-size:14px}
-    footer{margin-top:34px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-    @media(max-width:820px){.hero{grid-template-columns:1fr;gap:30px;padding-top:55px}.hero-side{max-width:680px}.principles{grid-template-columns:1fr}.principle{padding:24px 0}.principle+.principle{padding-left:0;border-left:0;border-top:1px solid var(--line)}.section-head{display:block}.section-head p{margin-top:14px}.cards{grid-template-columns:1fr}.card{min-height:250px}.about{grid-template-columns:1fr;gap:24px}.about-grid{grid-template-columns:1fr}}
-    @media(max-width:560px){.shell{padding-inline:16px}.topbar nav{gap:12px;font-size:13px}.hero{padding-top:44px}h1{font-size:clamp(54px,18vw,82px)}.hero-side{padding-left:18px}.card h3{margin-top:30px}}
+    :root{
+      --paper:#f2eee5;--paper-deep:#e7dfd1;--panel:#fffdf7;--ink:#202326;--muted:#62676a;
+      --line:#cfc5b6;--accent:#315d68;--accent-soft:#dfeaec;--warm:#956b3d;--deep:#17282e;
+      --shadow:0 20px 55px rgba(26,31,33,.09)
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:
+      radial-gradient(circle at 75% 6%,rgba(49,93,104,.08),transparent 28rem),
+      linear-gradient(180deg,#f5f1e9 0,var(--paper) 38rem);font:16px/1.58 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}.shell{max-width:1180px;margin:auto;padding:0 24px 72px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:21px 0;border-bottom:1px solid var(--line)}
+    .wordmark{font:21px Georgia,serif;text-decoration:none}.topbar nav{display:flex;gap:19px;color:var(--muted);font-size:13px}.topbar nav a{text-decoration:none}.topbar nav a:hover{color:var(--accent)}
+    .eyebrow{margin:0 0 12px;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+    .hero{padding:76px 0 66px}.hero h1{max-width:960px;margin:0;font:500 clamp(62px,10vw,118px)/.86 Georgia,serif;letter-spacing:-.05em}
+    .hero-lede{max-width:910px;margin:34px 0 0;font:400 clamp(22px,3vw,31px)/1.42 Georgia,serif;color:#343b3e}
+    .hero-lede strong{font-weight:500;color:var(--ink)}
+    .identity{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:36px;align-items:end;margin-top:35px;padding-top:23px;border-top:1px solid var(--line)}
+    .identity p{max-width:760px;margin:0;color:var(--muted);font-size:17px}.identity strong{color:var(--ink)}
+    .enter{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border-radius:999px;background:var(--deep);color:white;text-decoration:none;font-size:14px;font-weight:750;white-space:nowrap}
+    .thesis-band{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);background:rgba(255,253,247,.28)}
+    .thesis{padding:23px 26px}.thesis+.thesis{border-left:1px solid var(--line)}.thesis span{display:block;color:var(--warm);font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.thesis strong{display:block;margin-top:7px;font:500 23px/1.15 Georgia,serif}
+    .glimpses{padding:72px 0 32px}.section-intro{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:end;margin-bottom:25px}.section-intro h2{margin:0;font:500 clamp(40px,6vw,64px)/.96 Georgia,serif;letter-spacing:-.025em}.section-intro p{max-width:660px;margin:0;color:var(--muted);font-size:18px}
+    .glimpse-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.glimpse{display:flex;flex-direction:column;min-height:330px;padding:24px;border:1px solid var(--line);border-radius:17px;background:rgba(255,253,247,.7);box-shadow:0 2px 0 rgba(32,35,38,.02)}
+    .glimpse .number{color:var(--accent);font:700 11px/1 system-ui;letter-spacing:.13em;text-transform:uppercase}.glimpse h3{margin:45px 0 13px;font:500 30px/1.05 Georgia,serif}.glimpse p{margin:0;color:#555c60}.glimpse .after{margin-top:auto;padding-top:27px;color:var(--muted);font-size:13px;border-top:1px solid #e2dbcf}
+    .world{padding:76px 0 20px}.world-copy{max-width:920px}.world h2{margin:0 0 25px;font:500 clamp(43px,6vw,68px)/.96 Georgia,serif;letter-spacing:-.025em}.world-copy>p{margin:0 0 22px;font:400 clamp(20px,2.3vw,25px)/1.55 Georgia,serif;color:#3e4548}
+    .world-copy>p.small{font:16px/1.65 system-ui,sans-serif;color:var(--muted)}
+    .pull{margin:48px 0;padding:34px 0;border-block:1px solid var(--line);font:italic 500 clamp(29px,4.5vw,48px)/1.2 Georgia,serif;color:var(--deep)}
+    .textures{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:31px}.texture{padding:23px 24px;border:1px solid var(--line);border-radius:15px;background:rgba(255,253,247,.52)}.texture h3{margin:0 0 8px;font:500 24px/1.15 Georgia,serif}.texture p{margin:0;color:var(--muted)}
+    .explore{padding:78px 0 18px}.explore-head{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:23px}.explore-head h2{margin:0;font:500 clamp(40px,6vw,62px)/.96 Georgia,serif}.explore-head p{max-width:550px;margin:0;color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.card{display:flex;flex-direction:column;min-height:285px;padding:25px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-decoration:none;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}.card:hover{transform:translateY(-3px);border-color:#a8b0ab;box-shadow:var(--shadow)}.card .kind{color:var(--accent);font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.card h3{margin:39px 0 11px;font:500 34px/1.08 Georgia,serif}.card p{margin:0;color:var(--muted);max-width:520px}.card .open{margin-top:auto;padding-top:28px;color:var(--accent);font-weight:750}
+    .unfinished{margin-top:26px;padding:19px 22px;border-left:4px solid var(--accent);background:rgba(255,253,247,.56);color:var(--muted)}.unfinished strong{color:var(--ink)}
+    .about{display:grid;grid-template-columns:.82fr 1.18fr;gap:68px;margin-top:76px;padding:58px 0 14px;border-top:1px solid var(--line)}.about h2{margin:0;font:500 clamp(38px,5vw,55px)/1 Georgia,serif}.about-copy>p{margin:0 0 18px;color:#4e5558;font-size:17px}.about-copy strong{color:var(--ink)}
+    .serial{margin:28px 0;padding:22px 23px;border:1px solid var(--line);border-radius:15px;background:rgba(255,253,247,.55)}.serial h3{margin:0 0 8px;font:500 23px Georgia,serif}.serial p{margin:0;color:var(--muted)}
+    details.process{margin-top:18px;color:var(--muted);font-size:14px}details.process summary{cursor:pointer;color:#4f5659;font-weight:700}details.process p{max-width:700px;margin:10px 0 0}
+    footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:52px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+    @media(max-width:850px){.identity,.section-intro,.about{grid-template-columns:1fr}.identity{align-items:start}.identity .enter{justify-self:start}.thesis-band{grid-template-columns:1fr}.thesis+.thesis{border-left:0;border-top:1px solid var(--line)}.glimpse-grid,.textures,.cards{grid-template-columns:1fr}.glimpse{min-height:250px}.explore-head{display:block}.explore-head p{margin-top:15px}.about{gap:28px}}
+    @media(max-width:560px){.shell{padding-inline:16px}.topbar nav{gap:11px}.topbar nav a:first-child{display:none}.hero{padding-top:50px}.hero h1{font-size:clamp(58px,18vw,88px)}.hero-lede{font-size:21px}.glimpses,.world,.explore{padding-top:58px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
   </style>
 </head>
@@ -24,52 +49,76 @@
   <div class="shell">
     <header class="topbar">
       <a class="wordmark" href="./">Immensa Chronicles</a>
-      <nav aria-label="Primary"><a href="#world">The world</a><a href="#explore">Explore</a><a href="#about">About</a></nav>
+      <nav aria-label="Primary"><a href="#glimpses">Glimpses</a><a href="#world">The world</a><a href="#explore">Explore</a><a href="#about">About</a></nav>
     </header>
 
     <main>
-      <section class="hero" id="world">
-        <div>
-          <p class="eyebrow">An ongoing worldbuilding & fiction project by Yali Zak-Malkin</p>
-          <h1>Progression has a history.</h1>
-          <p class="lede">Immensa is a fantasy world so vast the horizon seems flat, and so old that the ancients had ancients. Classes, Skills, tiers, magical materials and personal advancement have shaped civilizations for tens of thousands of years.</p>
+      <section class="hero">
+        <p class="eyebrow">Immensa Chronicles</p>
+        <h1>The world keeps going.</h1>
+        <p class="hero-lede">A one-way road can carry a dying child nine hundred miles before nightfall—and leave a family twenty-three years apart. Dragons write the names of the dead across miles of evening sky. A stair descends past its thousandth landing to a black sea, a harbor, and <strong>more stairs below.</strong></p>
+        <div class="identity">
+          <p><strong>Immensa</strong> is an ongoing fantasy worldbuilding and fiction project by <strong>Yali Zak-Malkin</strong>: a world so vast the horizon seems flat, so old that the ancients had ancients, and so long shaped by Classes, Skills and advancement that progression itself has an archaeology.</p>
+          <a class="enter" href="#explore">Enter the atlas <span aria-hidden="true">↓</span></a>
         </div>
-        <aside class="hero-side">
-          <p>Most progression fantasy asks what happens when <strong>a person</strong> has a System. Immensa asks what happens when <strong>civilizations</strong> have had one for ages.</p>
-          <p>Guilds, roads, laws, religions, ecologies, professions, ruins, monsters and cities all carry the consequences.</p>
-          <a class="cta" href="#explore">Enter the atlas ↓</a>
-        </aside>
       </section>
 
-      <section class="principles" aria-label="What makes Immensa different">
-        <article class="principle"><small>Scale</small><h2>The horizon seems flat.</h2><p>Distance still matters. Roads can run for thousands of miles, continents remain consequential, and extraordinary shortcuts belong to the world rather than erasing it.</p></article>
-        <article class="principle"><small>Deep time</small><h2>The ancients had ancients.</h2><p>There was no single golden age. Different eras mastered different things, misunderstood older ruins and left usable histories behind.</p></article>
-        <article class="principle"><small>Lived consequence</small><h2>The System changed civilization.</h2><p>Progression belongs to professions, institutions, ecology, law, trade, worship and infrastructure—not only to adventurers and combat builds.</p></article>
+      <section class="thesis-band" aria-label="Three promises of Immensa">
+        <div class="thesis"><span>Scale</span><strong>A world so vast the horizon seems flat.</strong></div>
+        <div class="thesis"><span>Deep time</span><strong>The ancients had ancients.</strong></div>
+        <div class="thesis"><span>Progression</span><strong>Progression has a history.</strong></div>
+      </section>
+
+      <section class="glimpses" id="glimpses">
+        <div class="section-intro">
+          <div><p class="eyebrow">Three glimpses</p><h2>Before the explanation, the world.</h2></div>
+          <p>Immensa is not meant to be understood from a list of systems. It is meant to be encountered: through roads with impossible terms, places that keep opening outward, old powers with their own ordinary lives, and people who still have to decide what to do next.</p>
+        </div>
+        <div class="glimpse-grid">
+          <article class="glimpse"><span class="number">The road</span><h3>Nine hundred miles. One day. One direction.</h3><p>Onceways make impossible distance traversable without making it cheap. People cross for medicine, trade, escape, ambition and love. The way around may be nine thousand miles. The choice remains human even when the road is not.</p><div class="after">The world can be immense and intimate in the same scene.</div></article>
+          <article class="glimpse"><span class="number">The sky</span><h3>Some names need a mile of sky to say.</h3><p>Above the Long Vanes, dragons are not encounters waiting to happen. They have borders, law, grief, memory and names written in flight. A dragon legendary to humans may still be considered a promising youth by older wings.</p><div class="after">A dragon can simply be a dragon—and still have a civilization.</div></article>
+          <article class="glimpse"><span class="number">The descent</span><h3>The thousandth landing is not the bottom.</h3><p>The Red Chasm Stair passes inns, shrines, a forest growing sideways, an abandoned village and weather inside the earth. At the landing surface explorers made into myth, there is a black sea, ships, city lights—and the Stair continues down.</p><div class="after">Every sufficiently large answer should reveal another horizon.</div></article>
+        </div>
+      </section>
+
+      <section class="world" id="world">
+        <div class="world-copy">
+          <p class="eyebrow">What kind of world is this?</p>
+          <h2>Everything important arrives with a past.</h2>
+          <p>Classes go extinct. Skills survive as folk traditions. Roads outlive the places they once reached. Professions inherit titles nobody qualifies for anymore. Creatures keep migrating toward habitats that vanished ages ago. Ancient scholars excavated older ruins, argued about them, and sometimes got them wrong.</p>
+          <p>People enter all of this mid-conversation. They inherit laws, tools, grudges, recipes, gods, neighborhoods, monsters, jokes, debts and roads already worn by other feet.</p>
+          <div class="pull">Advancement does not carry you away to a higher world. It makes the world you already live in larger.</div>
+          <p class="small">Immensa is deliberately recognizable fantasy: guilds, parties, dragons, monster hunts, magical materials, Classes, breakthroughs, dungeons, legendary craftspeople and ridiculous abilities are welcome. The difference is that none of them arrived yesterday. Tens of thousands of years of people have lived with them, built around them, misunderstood them, improved them, broken them and left things behind.</p>
+          <div class="textures">
+            <article class="texture"><h3>Wonder before paperwork.</h3><p>A forest with trees tens of miles high is allowed to be beautiful or terrifying before anyone explains who maintains the road through it. The consequences matter because the wonder matters first.</p></article>
+            <article class="texture"><h3>Ordinary life survives the extraordinary.</h3><p>There are inns, bakeries, children, bad coffee, jokes, pets, repairs, festivals and people going home. A world wonder can have weeds. A frightening creature can play. A civilization-changing resource can make excellent soup.</p></article>
+            <article class="texture"><h3>No single golden age.</h3><p>One age mastered routes, another memory, another living bodies, another something modern people no longer know how to name. Modern societies are genuinely better at other things. No civilization owns the past.</p></article>
+            <article class="texture"><h3>The map is allowed to lose.</h3><p>A frontier can turn out to be somebody else’s interior. A dungeon can contain a civilization. A mountain can later be understood as part of something larger. The revelation widens the same world instead of replacing it.</p></article>
+          </div>
+        </div>
       </section>
 
       <section class="explore" id="explore">
-        <div class="section-head"><div><p class="eyebrow">Explore Immensa</p><h2>A growing atlas of the world</h2></div><p>Immensa is still being built and explored. These views show what is currently known without forcing uncertain pieces into a single false map. More geographic, historical and thematic views will join them as the world grows.</p></div>
+        <div class="explore-head"><div><p class="eyebrow">Explore Immensa</p><h2>Two windows into a much larger world.</h2></div><p>The public atlas is still young. These views expose some of the places and connections already established without pretending that unfinished, disputed or genuinely unknown parts of the world have been solved.</p></div>
         <div class="cards">
-          <a class="card" href="./world-lens/"><span class="kind">World guide</span><h3>World Lens</h3><p>Browse places, peoples, routes, institutions, layers, measurements and relationships across the known world.</p><span class="open">Open the World Lens →</span></a>
-          <a class="card" href="./world-topology/"><span class="kind">Connections</span><h3>World Topology</h3><p>Explore how known places, routes and other world elements connect. It is a relationship map, not a claim that every point already has a geographic position.</p><span class="open">Explore world connections →</span></a>
+          <a class="card" href="./world-lens/"><span class="kind">Browse the world</span><h3>World Lens</h3><p>Move through places, peoples, routes, institutions, layers and known relationships. Start with a name and see what else it touches.</p><span class="open">Open the World Lens →</span></a>
+          <a class="card" href="./world-topology/"><span class="kind">Trace connections</span><h3>World Topology</h3><p>Explore how known places and routes connect before enough is known to draw a single honest geographic map.</p><span class="open">Explore world connections →</span></a>
         </div>
-        <div class="note"><strong>The atlas is partial by design.</strong> Some things are unfinished because the project is ongoing; others are unknown, disputed or mysterious inside the world itself. The atlas does not manufacture certainty merely to look complete.</div>
+        <div class="unfinished"><strong>Immensa is still being built and explored.</strong> Some blanks are simply work not done yet. Others are mysteries, contradictions, lost knowledge or places nobody in the stories has mapped. The project does not need to pretend those are the same thing—or fill either kind of blank just to make the atlas look finished.</div>
       </section>
 
       <section class="about" id="about">
-        <div><p class="eyebrow">About the project</p><h2>Immensa is being discovered as it is built.</h2></div>
+        <div><p class="eyebrow">About</p><h2>A worldbuilding project that is becoming a story.</h2></div>
         <div class="about-copy">
-          <p><strong>Immensa Chronicles</strong> is an ongoing worldbuilding and fiction project by <strong>Yali Zak-Malkin</strong>. It is being developed toward a progression-fantasy / LitRPG serial, alongside stories, essays, maps and other ways of entering the world.</p>
-          <p>The setting is not presented as a finished encyclopedia. New histories, journeys, societies, creatures, places and connections continue to be developed, tested against one another and revised.</p>
-          <div class="about-grid">
-            <article class="about-card"><h3>Creative direction</h3><p>World direction, curation and decisions about what becomes part of Immensa are by Yali Zak-Malkin.</p></article>
-            <article class="about-card"><h3>AI-assisted development</h3><p>AI tools are used extensively for research, analysis, prototyping, drafting and software development. They are part of the process, not the identity of the project.</p></article>
-          </div>
+          <p><strong>Immensa Chronicles</strong> is an ongoing worldbuilding and fiction project by <strong>Yali Zak-Malkin</strong>. Hundreds of short stories, essays and interlocking world records are being used to discover the setting from different lives, scales and eras rather than define it all from above.</p>
+          <p>Some pieces become foundations. Some are revised or contradicted. Places recur and gain history. Large areas remain untouched. The aim is not a perfectly complete encyclopedia; it is a world with enough depth, texture, danger, beauty, humor and unfinished horizon to keep producing stories.</p>
+          <div class="serial"><h3>Where it is going</h3><p>Immensa is being developed toward a long-form progression-fantasy / LitRPG serial. The current fiction and worldbuilding are ways of finding what deserves to survive into that story—and making sure that when the protagonist begins in one small place, there is genuinely more world beyond every horizon.</p></div>
+          <details class="process"><summary>Development process & AI use</summary><p>AI tools are used extensively in research, corpus analysis, prototyping, drafting and software development. Creative direction, selection, revision, curation and final decisions about the project are by Yali Zak-Malkin. AI is part of how Immensa is being built, not what Immensa is about.</p></details>
         </div>
       </section>
     </main>
 
-    <footer>Immensa Chronicles · an ongoing worldbuilding and fiction project by Yali Zak-Malkin · © 2026</footer>
+    <footer><span>Immensa Chronicles · Yali Zak-Malkin</span><span>Ongoing worldbuilding & fiction · © 2026</span></footer>
   </div>
 </body>
 </html>
