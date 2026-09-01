@@ -447,6 +447,29 @@
       ]
     },
     {
+      "assertion_id": "AS-0c89af32bea44e0f",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-dc0106d194a27969",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-cb4792c55416ba9b"
+      ],
+      "projections": [
+        "flow"
+      ],
+      "relation_family": "flow",
+      "relation_type": "FLOW",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-90b1565cf586f9",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-0de75c9d5ad7d575",
       "component_effects": [
         "CONNECT"
@@ -839,6 +862,29 @@
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-1b7b262a08579e0c",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-c5e4257ea306eb31",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-531d2e2244c0b2b5"
+      ],
+      "projections": [
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-45fc4a89fcf444",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
       ]
     },
     {
@@ -1943,6 +1989,29 @@
       ]
     },
     {
+      "assertion_id": "AS-3bf00101042a465b",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-216f1121a71ae1c5",
+      "from_node": "PL-LONG-VANES-CONSULATE",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-c429ee8a56801d71"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "PL-VANERY",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
       "assertion_id": "AS-3c099ccb6bcbb12b",
       "component_effects": [
         "NONE"
@@ -2190,6 +2259,29 @@
       "relation_type": "DIRECTION",
       "semantic_direction": "SOURCE_TO_TARGET",
       "to_node": "PL-CANDLECUT",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-43fbb0f5d4c5dab2",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-05c5376b7f1b7fb8",
+      "from_node": "SRC-35dc6061add6ff",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-946da1508f5d1ff6"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "DIRECTION",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "PL-LONG-VANES",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -2944,6 +3036,29 @@
       ]
     },
     {
+      "assertion_id": "AS-5897783b068262ab",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-d302d3f1c84f30dd",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-f92fc8c74cf3ba10"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "DIRECTION",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-82b61f0d54ff7b",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-5903a1763ebf2496",
       "component_effects": [
         "CONNECT"
@@ -2961,6 +3076,29 @@
       "relation_type": "FLOW",
       "semantic_direction": "ROLE_ORDERED",
       "to_node": "SRC-a15297a9d7163e",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-59241b2a365c5465",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-c8f7053d2dbdce59",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-b78022c711198f7f"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-ee1160b3a646e5",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -3420,6 +3558,29 @@
       "traversal_direction": "UNKNOWN",
       "traversal_effects": [
         "NONE",
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-61555bcb4f191fcb",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-0d147abd0e2da213",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-3cb5a837347d9afb"
+      ],
+      "projections": [
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-b37da0269d7c12",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
         "OBSERVATION_ONLY"
       ]
     },
@@ -4548,6 +4709,29 @@
       ]
     },
     {
+      "assertion_id": "AS-7cc990ddfe060cb9",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-759f6942684d6f7e",
+      "from_node": "SRC-11138ddc6b08ee",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-948aaf284a31a459"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "PL-VANERY",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
       "assertion_id": "AS-7cf47eb3dae38f94",
       "component_effects": [
         "CONNECT",
@@ -5006,6 +5190,29 @@
       "relation_type": "VERTICAL",
       "semantic_direction": "SOURCE_TO_TARGET",
       "to_node": "PL-CANNET-VENTS",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-8834362af622c460",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-f2df2a648c21ffc2",
+      "from_node": "SRC-967d4f5f3e37ff",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-038b8034e6a800f7"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "refusal_conflict",
+      "relation_type": "UNANCHORED",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "PL-LONG-VANES",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -5883,6 +6090,29 @@
       ]
     },
     {
+      "assertion_id": "AS-9fa438a2ead6e3fe",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-990fe3eb29fb72ce",
+      "from_node": "SRC-f66af553a9b1d4",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-1f7d6ef7feb00fd6"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "PL-LONG-VANES",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-9fc1fa9f1aacc393",
       "component_effects": [
         "CONNECT"
@@ -6639,6 +6869,29 @@
       ]
     },
     {
+      "assertion_id": "AS-b5715d166bc2a521",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-eba3f594621e9cc4",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-63ef762a078be4f7"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-b5b173c36489b1",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-b6ae2590a953c755",
       "component_effects": [
         "NONE"
@@ -6798,6 +7051,29 @@
       "relation_type": "DISTANCE",
       "semantic_direction": "NONE",
       "to_node": "PL-HARLOWE",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-ba40aed6e4331d26",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-02674f1f4587ec35",
+      "from_node": "PL-LONG-VANES-CONSULATE",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-50a28113767dc730"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-62ff591bbf2a54",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -8803,6 +9079,29 @@
       ]
     },
     {
+      "assertion_id": "AS-e5df50fe60935fd3",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-3023b9bb49f8e0d7",
+      "from_node": "PL-LONG-VANES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-8fe64d647973ad08"
+      ],
+      "projections": [
+        "visibility_influence"
+      ],
+      "relation_family": "perception",
+      "relation_type": "VISIBILITY",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-a070a90133f545",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-e6813e8df5eef703",
       "component_effects": [
         "CONNECT"
@@ -10317,6 +10616,27 @@
     },
     {
       "anchor_labels": [
+        "The Long Vanes"
+      ],
+      "bounds": {
+        "max_x": 6586.9046,
+        "max_y": 489.3288,
+        "min_x": 6113.4148,
+        "min_y": 16.0
+      },
+      "description": "Layout island containing The Long Vanes",
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "member_node_ids": [
+        "PL-LONG-VANES",
+        "SRC-35dc6061add6ff",
+        "SRC-82b61f0d54ff7b",
+        "SRC-b5b173c36489b1",
+        "SRC-f66af553a9b1d4"
+      ],
+      "node_count": 5
+    },
+    {
+      "anchor_labels": [
         "Ravel Sea"
       ],
       "bounds": {
@@ -10439,6 +10759,24 @@
     },
     {
       "anchor_labels": [
+        "Long Vanes consulate"
+      ],
+      "bounds": {
+        "max_x": 6225.484,
+        "max_y": 960.3212,
+        "min_x": 6113.4148,
+        "min_y": 631.3288
+      },
+      "description": "Layout island containing Long Vanes consulate",
+      "layout_island_id": "LI-4a9e564117b4084c",
+      "member_node_ids": [
+        "PL-LONG-VANES-CONSULATE",
+        "SRC-62ff591bbf2a54"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
         "Upper Shelf"
       ],
       "bounds": {
@@ -10544,6 +10882,23 @@
     },
     {
       "anchor_labels": [
+        "The Load Chamber"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1198.3212,
+        "min_x": 6113.4148,
+        "min_y": 1102.3212
+      },
+      "description": "Isolated in layout backbone: The Load Chamber",
+      "layout_island_id": "LI-99978c7c1efaaa56",
+      "member_node_ids": [
+        "PL-LOAD-CHAMBER"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "The Seam-Glow Country"
       ],
       "bounds": {
@@ -10556,6 +10911,23 @@
       "layout_island_id": "LI-17957f1bb4464826",
       "member_node_ids": [
         "PL-SEAM-GLOW-COUNTRY"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "Vanery"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1436.3212,
+        "min_x": 6113.4148,
+        "min_y": 1340.3212
+      },
+      "description": "Isolated in layout backbone: Vanery",
+      "layout_island_id": "LI-39708ff792a380b9",
+      "member_node_ids": [
+        "PL-VANERY"
       ],
       "node_count": 1
     },
@@ -10777,6 +11149,23 @@
       "layout_island_id": "LI-1666051e6fe1166d",
       "member_node_ids": [
         "SRC-0ce523d6ae784b"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the consulate"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1674.3212,
+        "min_x": 6113.4148,
+        "min_y": 1578.3212
+      },
+      "description": "Isolated in layout backbone: the consulate",
+      "layout_island_id": "LI-a60b8ab754ee0231",
+      "member_node_ids": [
+        "SRC-11138ddc6b08ee"
       ],
       "node_count": 1
     },
@@ -11015,6 +11404,23 @@
       "layout_island_id": "LI-ecfcee5006972167",
       "member_node_ids": [
         "SRC-44cfc4539cb074"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "dragons"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1912.3212,
+        "min_x": 6113.4148,
+        "min_y": 1816.3212
+      },
+      "description": "Isolated in layout backbone: dragons",
+      "layout_island_id": "LI-aa2cad95741e88a3",
+      "member_node_ids": [
+        "SRC-45fc4a89fcf444"
       ],
       "node_count": 1
     },
@@ -11479,6 +11885,23 @@
     },
     {
       "anchor_labels": [
+        "human courts"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2150.3212,
+        "min_x": 6113.4148,
+        "min_y": 2054.3212
+      },
+      "description": "Isolated in layout backbone: human courts",
+      "layout_island_id": "LI-056aa14c446d737f",
+      "member_node_ids": [
+        "SRC-90b1565cf586f9"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "Ravel Salt, Third Month"
       ],
       "bounds": {
@@ -11542,6 +11965,23 @@
       "layout_island_id": "LI-798c2961d071b75f",
       "member_node_ids": [
         "SRC-9631e98f6cfe44"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the Corse Vale poachers"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2388.3212,
+        "min_x": 6113.4148,
+        "min_y": 2292.3212
+      },
+      "description": "Isolated in layout backbone: the Corse Vale poachers",
+      "layout_island_id": "LI-4954b44dd718ea64",
+      "member_node_ids": [
+        "SRC-967d4f5f3e37ff"
       ],
       "node_count": 1
     },
@@ -11627,6 +12067,23 @@
       "layout_island_id": "LI-b685a0dd91ae1b09",
       "member_node_ids": [
         "SRC-9fd038d4cb6fb5"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the yard"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2626.3212,
+        "min_x": 6113.4148,
+        "min_y": 2530.3212
+      },
+      "description": "Isolated in layout backbone: the yard",
+      "layout_island_id": "LI-04c087e34a6bf146",
+      "member_node_ids": [
+        "SRC-a070a90133f545"
       ],
       "node_count": 1
     },
@@ -11729,6 +12186,23 @@
       "layout_island_id": "LI-dfb7eb67e4a8e624",
       "member_node_ids": [
         "SRC-b120c9e7a9d97b"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "flyway, weather, game, and sovereignty rights"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2864.3212,
+        "min_x": 6113.4148,
+        "min_y": 2768.3212
+      },
+      "description": "Isolated in layout backbone: flyway, weather, game, and sovereignty rights",
+      "layout_island_id": "LI-9553f1c4ea1bde52",
+      "member_node_ids": [
+        "SRC-b37da0269d7c12"
       ],
       "node_count": 1
     },
@@ -12001,6 +12475,23 @@
       "layout_island_id": "LI-77b832c738946afa",
       "member_node_ids": [
         "SRC-ec9b092d3cb662"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "weather territory"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 3102.3212,
+        "min_x": 6113.4148,
+        "min_y": 3006.3212
+      },
+      "description": "Isolated in layout backbone: weather territory",
+      "layout_island_id": "LI-74408a62a96254da",
+      "member_node_ids": [
+        "SRC-ee1160b3a646e5"
       ],
       "node_count": 1
     },
@@ -12995,6 +13486,20 @@
         "Kestel"
       ]
     },
+    "PL-LOAD-CHAMBER": {
+      "assertion_ids": [],
+      "display_edge_ids": [],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-99978c7c1efaaa56",
+      "normalized_search_terms": [
+        "the load chamber"
+      ],
+      "search_terms": [
+        "The Load Chamber"
+      ]
+    },
     "PL-LONG-BREATH-SPIRE": {
       "assertion_ids": [
         "AS-2084f3ec9f19f933",
@@ -13013,6 +13518,63 @@
       ],
       "search_terms": [
         "The Long-Breath Spire"
+      ]
+    },
+    "PL-LONG-VANES": {
+      "assertion_ids": [
+        "AS-0c89af32bea44e0f",
+        "AS-1b7b262a08579e0c",
+        "AS-43fbb0f5d4c5dab2",
+        "AS-5897783b068262ab",
+        "AS-59241b2a365c5465",
+        "AS-61555bcb4f191fcb",
+        "AS-8834362af622c460",
+        "AS-9fa438a2ead6e3fe",
+        "AS-b5715d166bc2a521",
+        "AS-cc5bbf77b81be44c",
+        "AS-e5df50fe60935fd3"
+      ],
+      "display_edge_ids": [
+        "DE-05c5376b7f1b7fb8",
+        "DE-0d147abd0e2da213",
+        "DE-3023b9bb49f8e0d7",
+        "DE-990fe3eb29fb72ce",
+        "DE-c5e4257ea306eb31",
+        "DE-c8f7053d2dbdce59",
+        "DE-d302d3f1c84f30dd",
+        "DE-dc0106d194a27969",
+        "DE-eba3f594621e9cc4",
+        "DE-f2df2a648c21ffc2"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "normalized_search_terms": [
+        "the long vanes"
+      ],
+      "search_terms": [
+        "The Long Vanes"
+      ]
+    },
+    "PL-LONG-VANES-CONSULATE": {
+      "assertion_ids": [
+        "AS-3bf00101042a465b",
+        "AS-ba40aed6e4331d26"
+      ],
+      "display_edge_ids": [
+        "DE-02674f1f4587ec35",
+        "DE-216f1121a71ae1c5"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-4a9e564117b4084c",
+      "normalized_search_terms": [
+        "long vanes consulate"
+      ],
+      "search_terms": [
+        "Long Vanes consulate"
       ]
     },
     "PL-LONGBARROW": {
@@ -13576,6 +14138,26 @@
       ],
       "search_terms": [
         "Three-Crown Coast"
+      ]
+    },
+    "PL-VANERY": {
+      "assertion_ids": [
+        "AS-3bf00101042a465b",
+        "AS-7cc990ddfe060cb9"
+      ],
+      "display_edge_ids": [
+        "DE-216f1121a71ae1c5",
+        "DE-759f6942684d6f7e"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-39708ff792a380b9",
+      "normalized_search_terms": [
+        "vanery"
+      ],
+      "search_terms": [
+        "Vanery"
       ]
     },
     "PL-VASSE-OLUN": {
@@ -14530,6 +15112,24 @@
         "two stone arches"
       ]
     },
+    "SRC-11138ddc6b08ee": {
+      "assertion_ids": [
+        "AS-7cc990ddfe060cb9"
+      ],
+      "display_edge_ids": [
+        "DE-759f6942684d6f7e"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-a60b8ab754ee0231",
+      "normalized_search_terms": [
+        "the consulate"
+      ],
+      "search_terms": [
+        "the consulate"
+      ]
+    },
     "SRC-12131d9488051a": {
       "assertion_ids": [
         "AS-7f0fbf1a919b3353",
@@ -15273,6 +15873,24 @@
         "the shipping books consulted"
       ]
     },
+    "SRC-35dc6061add6ff": {
+      "assertion_ids": [
+        "AS-43fbb0f5d4c5dab2"
+      ],
+      "display_edge_ids": [
+        "DE-05c5376b7f1b7fb8"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "normalized_search_terms": [
+        "long vanes' southern approach country"
+      ],
+      "search_terms": [
+        "Long Vanes' southern approach country"
+      ]
+    },
     "SRC-366118795a1975": {
       "assertion_ids": [
         "AS-6613460ad3015356",
@@ -15671,6 +16289,24 @@
       ],
       "search_terms": [
         "The Deep Crossings"
+      ]
+    },
+    "SRC-45fc4a89fcf444": {
+      "assertion_ids": [
+        "AS-1b7b262a08579e0c"
+      ],
+      "display_edge_ids": [
+        "DE-c5e4257ea306eb31"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-aa2cad95741e88a3",
+      "normalized_search_terms": [
+        "dragons"
+      ],
+      "search_terms": [
+        "dragons"
       ]
     },
     "SRC-45fe0da12c855b": {
@@ -16347,6 +16983,24 @@
       ],
       "search_terms": [
         "the forge (four hearths)"
+      ]
+    },
+    "SRC-62ff591bbf2a54": {
+      "assertion_ids": [
+        "AS-ba40aed6e4331d26"
+      ],
+      "display_edge_ids": [
+        "DE-02674f1f4587ec35"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-4a9e564117b4084c",
+      "normalized_search_terms": [
+        "a shoulder of bare mountain"
+      ],
+      "search_terms": [
+        "a shoulder of bare mountain"
       ]
     },
     "SRC-6529a88598e589": {
@@ -17157,6 +17811,24 @@
         "somebody's grandmother, turning a wheel under a false name"
       ]
     },
+    "SRC-82b61f0d54ff7b": {
+      "assertion_ids": [
+        "AS-5897783b068262ab"
+      ],
+      "display_edge_ids": [
+        "DE-d302d3f1c84f30dd"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "normalized_search_terms": [
+        "the flyways"
+      ],
+      "search_terms": [
+        "the flyways"
+      ]
+    },
     "SRC-838a2cd275c370": {
       "assertion_ids": [
         "AS-2f02b50a3e8d3a9c"
@@ -17545,6 +18217,24 @@
         "The Joint Commission Room"
       ]
     },
+    "SRC-90b1565cf586f9": {
+      "assertion_ids": [
+        "AS-0c89af32bea44e0f"
+      ],
+      "display_edge_ids": [
+        "DE-dc0106d194a27969"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-056aa14c446d737f",
+      "normalized_search_terms": [
+        "human courts"
+      ],
+      "search_terms": [
+        "human courts"
+      ]
+    },
     "SRC-90ece533317e17": {
       "assertion_ids": [
         "AS-95f46338995ae8d1"
@@ -17849,6 +18539,24 @@
         "ordinary road country"
       ]
     },
+    "SRC-967d4f5f3e37ff": {
+      "assertion_ids": [
+        "AS-8834362af622c460"
+      ],
+      "display_edge_ids": [
+        "DE-f2df2a648c21ffc2"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-4954b44dd718ea64",
+      "normalized_search_terms": [
+        "the corse vale poachers"
+      ],
+      "search_terms": [
+        "the Corse Vale poachers"
+      ]
+    },
     "SRC-9724dcd039cc08": {
       "assertion_ids": [
         "AS-722e71352547ff3e"
@@ -18079,6 +18787,24 @@
       ],
       "search_terms": [
         "UNNAMED:counties"
+      ]
+    },
+    "SRC-a070a90133f545": {
+      "assertion_ids": [
+        "AS-e5df50fe60935fd3"
+      ],
+      "display_edge_ids": [
+        "DE-3023b9bb49f8e0d7"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-04c087e34a6bf146",
+      "normalized_search_terms": [
+        "the yard"
+      ],
+      "search_terms": [
+        "the yard"
       ]
     },
     "SRC-a0860a480c36a7": {
@@ -18626,6 +19352,24 @@
         "Tel Soran / the yellow flats"
       ]
     },
+    "SRC-b37da0269d7c12": {
+      "assertion_ids": [
+        "AS-61555bcb4f191fcb"
+      ],
+      "display_edge_ids": [
+        "DE-0d147abd0e2da213"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-9553f1c4ea1bde52",
+      "normalized_search_terms": [
+        "flyway weather game and sovereignty rights"
+      ],
+      "search_terms": [
+        "flyway, weather, game, and sovereignty rights"
+      ]
+    },
     "SRC-b596773b8781f7": {
       "assertion_ids": [
         "AS-7315ed17da98a950"
@@ -18642,6 +19386,24 @@
       ],
       "search_terms": [
         "the haulage yard the Ostergan build was traced to"
+      ]
+    },
+    "SRC-b5b173c36489b1": {
+      "assertion_ids": [
+        "AS-b5715d166bc2a521"
+      ],
+      "display_edge_ids": [
+        "DE-eba3f594621e9cc4"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "normalized_search_terms": [
+        "high flyways and weather corridors"
+      ],
+      "search_terms": [
+        "high flyways and weather corridors"
       ]
     },
     "SRC-b5c51285686c7a": {
@@ -19954,6 +20716,24 @@
         "Fourth-Gate Meal Mark"
       ]
     },
+    "SRC-ee1160b3a646e5": {
+      "assertion_ids": [
+        "AS-59241b2a365c5465"
+      ],
+      "display_edge_ids": [
+        "DE-c8f7053d2dbdce59"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-74408a62a96254da",
+      "normalized_search_terms": [
+        "weather territory"
+      ],
+      "search_terms": [
+        "weather territory"
+      ]
+    },
     "SRC-ee77e951b53c1e": {
       "assertion_ids": [
         "AS-578b5dcf999766e7",
@@ -20244,6 +21024,24 @@
         "the Wend country"
       ]
     },
+    "SRC-f66af553a9b1d4": {
+      "assertion_ids": [
+        "AS-9fa438a2ead6e3fe"
+      ],
+      "display_edge_ids": [
+        "DE-990fe3eb29fb72ce"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "normalized_search_terms": [
+        "fenwyrm speech etiquette leaves"
+      ],
+      "search_terms": [
+        "Fenwyrm Speech Etiquette Leaves"
+      ]
+    },
     "SRC-f72bcc0c19d6a2": {
       "assertion_ids": [
         "AS-86538e0472189754"
@@ -20444,5 +21242,5 @@
     }
   },
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644"
+  "semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9"
 }

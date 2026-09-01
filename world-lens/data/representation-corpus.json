@@ -563,6 +563,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-0c89af32bea44e0f",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "source"
+        },
+        {
+          "entity_id": "SRC-90b1565cf586f9",
+          "role": "sink"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "FLOW",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-0de75c9d5ad7d575",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -1010,6 +1033,29 @@
         {
           "entity_id": "PL-FIVEDOOR",
           "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-1b7b262a08579e0c",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "Not all dragons belong to them.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "controlled_thing"
+        },
+        {
+          "entity_id": "SRC-45fc4a89fcf444",
+          "role": "eligible_party"
         }
       ],
       "polarity": "POSITIVE",
@@ -2396,6 +2442,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-3bf00101042a465b",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES-CONSULATE",
+          "role": "origin"
+        },
+        {
+          "entity_id": "PL-VANERY",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "two-day ascent by the consulate stair; specific Story-124 consular approach only, not a universal route weight"
+        }
+      ],
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-3c099ccb6bcbb12b",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "the working passage saw a handful a season",
@@ -2653,6 +2727,29 @@
         },
         {
           "entity_id": "PL-CANDLECUT",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "DIRECTION",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-43fbb0f5d4c5dab2",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-35dc6061add6ff",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "PL-LONG-VANES",
           "role": "reference_thing"
         }
       ],
@@ -3587,6 +3684,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-5897783b068262ab",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-82b61f0d54ff7b",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "DIRECTION",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-5903a1763ebf2496",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -3610,6 +3730,34 @@
         }
       ],
       "relation_type": "FLOW",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-59241b2a365c5465",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "subject"
+        },
+        {
+          "entity_id": "SRC-ee1160b3a646e5",
+          "role": "extent_reference"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "flyways and weather territory through draconic law"
+        }
+      ],
+      "relation_type": "EXTENT",
       "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -4150,6 +4298,29 @@
       "relation_type": "ROUTE",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "UNKNOWN",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-61555bcb4f191fcb",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "hold flyway, weather, game, and sovereignty rights",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "controlled_thing"
+        },
+        {
+          "entity_id": "SRC-b37da0269d7c12",
+          "role": "eligible_party"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
       "valid_time": []
     },
     {
@@ -5544,6 +5715,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-7cc990ddfe060cb9",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "SRC-11138ddc6b08ee",
+          "role": "origin"
+        },
+        {
+          "entity_id": "PL-VANERY",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "two days by the consulate stair"
+        }
+      ],
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-7cf47eb3dae38f94",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -6057,6 +6256,29 @@
       "quantities_as_stated": [],
       "relation_type": "VERTICAL",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-8834362af622c460",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "now dispersed into your lowlands, believing distance is depth",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-967d4f5f3e37ff",
+          "role": "known_participant"
+        },
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "unresolved_participant"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "UNANCHORED",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -7180,6 +7402,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-9fa438a2ead6e3fe",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-f66af553a9b1d4",
+          "role": "contained"
+        },
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-9fc1fa9f1aacc393",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -8152,6 +8397,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-b5715d166bc2a521",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-b5b173c36489b1",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-b6ae2590a953c755",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "you are tagged for between four and nine days depending on quantity and on the person",
@@ -8329,6 +8597,34 @@
       ],
       "relation_type": "DISTANCE",
       "semantic_direction": "NONE",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-ba40aed6e4331d26",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES-CONSULATE",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-62ff591bbf2a54",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "at four thousand feet"
+        }
+      ],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -9477,6 +9773,25 @@
       "relation_type": "ROUTE",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "UNKNOWN",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-cc5bbf77b81be44c",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "the refusal to invent a lexis for the Long Vanes",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "known_participant"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "UNANCHORED",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
       "valid_time": []
     },
     {
@@ -10940,6 +11255,29 @@
       "polarity": "POSITIVE",
       "quantities_as_stated": [],
       "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-e5df50fe60935fd3",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-VANES",
+          "role": "observer_or_vantage"
+        },
+        {
+          "entity_id": "SRC-a070a90133f545",
+          "role": "target"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VISIBILITY",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -547190,7 +547528,7 @@
     "placement_default": "unplaced",
     "reviewed_entities": "identity-reviewed governed records"
   },
-  "representation_digest": "sha256:04a01c003ecc721e8701c2c60b7630a34abaf68e37ad1087c347fc739a856e75",
+  "representation_digest": "sha256:6df8c1b6ae8ab66cbf7104ef0b531e111e961a58db1cb1d9a6440359ed561538",
   "reviewed_entities": [
     {
       "assertion_ids": [
@@ -548145,6 +548483,35 @@
       "record_state": "REVIEWED_IDENTITY"
     },
     {
+      "assertion_ids": [],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-LOAD-CHAMBER",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 7
+      },
+      "label": "The Load Chamber",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-LOAD-CHAMBER",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
       "assertion_ids": [
         "AS-2084f3ec9f19f933",
         "AS-ff765cd8dbe5b556"
@@ -548175,6 +548542,90 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-PL-LONG-BREATH-SPIRE",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-0c89af32bea44e0f",
+        "AS-1b7b262a08579e0c",
+        "AS-43fbb0f5d4c5dab2",
+        "AS-5897783b068262ab",
+        "AS-59241b2a365c5465",
+        "AS-61555bcb4f191fcb",
+        "AS-8834362af622c460",
+        "AS-9fa438a2ead6e3fe",
+        "AS-b5715d166bc2a521",
+        "AS-cc5bbf77b81be44c",
+        "AS-e5df50fe60935fd3"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED",
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-LONG-VANES",
+      "facets": [
+        "organization_or_institution",
+        "person_or_person_concept",
+        "place_or_region",
+        "race_lineage_or_existence",
+        "society_polity_or_people"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 1
+      },
+      "label": "The Long Vanes",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure",
+        "social_political",
+        "institutions_organizations",
+        "agents_lives"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-LONG-VANES",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-3bf00101042a465b",
+        "AS-ba40aed6e4331d26"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-LONG-VANES-CONSULATE",
+      "facets": [
+        "organization_or_institution"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 3
+      },
+      "label": "Long Vanes consulate",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure",
+        "institutions_organizations"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-LONG-VANES-CONSULATE",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -548956,6 +549407,41 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-PL-THREE-CROWN-COAST",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-3bf00101042a465b",
+        "AS-7cc990ddfe060cb9"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-VANERY",
+      "facets": [
+        "organization_or_institution",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 6
+      },
+      "label": "Vanery",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure",
+        "institutions_organizations"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-VANERY",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -550386,6 +550872,37 @@
     },
     {
       "assertion_ids": [
+        "AS-7cc990ddfe060cb9"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-11138ddc6b08ee",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 7
+      },
+      "label": "the consulate",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-11138ddc6b08ee",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-7f0fbf1a919b3353",
         "AS-ae7289d254b46861"
       ],
@@ -551659,6 +552176,37 @@
     },
     {
       "assertion_ids": [
+        "AS-43fbb0f5d4c5dab2"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-35dc6061add6ff",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 3
+      },
+      "label": "Long Vanes' southern approach country",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-35dc6061add6ff",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-6613460ad3015356",
         "AS-c5389569c2d4890b"
       ],
@@ -552340,6 +552888,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-44cfc4539cb074",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-1b7b262a08579e0c"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-45fc4a89fcf444",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 6
+      },
+      "label": "dragons",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-45fc4a89fcf444",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -553495,6 +554074,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-62dc77f592a5bb",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-ba40aed6e4331d26"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-62ff591bbf2a54",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 6
+      },
+      "label": "a shoulder of bare mountain",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-62ff591bbf2a54",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -554890,6 +555500,37 @@
     },
     {
       "assertion_ids": [
+        "AS-5897783b068262ab"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-82b61f0d54ff7b",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 0
+      },
+      "label": "the flyways",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-82b61f0d54ff7b",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-2f02b50a3e8d3a9c"
       ],
       "authority_states": [
@@ -555550,6 +556191,37 @@
     },
     {
       "assertion_ids": [
+        "AS-0c89af32bea44e0f"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-90b1565cf586f9",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 5
+      },
+      "label": "human courts",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-90b1565cf586f9",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-95f46338995ae8d1"
       ],
       "authority_states": [
@@ -556077,6 +556749,37 @@
     },
     {
       "assertion_ids": [
+        "AS-8834362af622c460"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-967d4f5f3e37ff",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 6
+      },
+      "label": "the Corse Vale poachers",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-967d4f5f3e37ff",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-722e71352547ff3e"
       ],
       "authority_states": [
@@ -556476,6 +557179,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-9fd038d4cb6fb5",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-e5df50fe60935fd3"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-a070a90133f545",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 3
+      },
+      "label": "the yard",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-a070a90133f545",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -557414,6 +558148,37 @@
     },
     {
       "assertion_ids": [
+        "AS-61555bcb4f191fcb"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-b37da0269d7c12",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 7
+      },
+      "label": "flyway, weather, game, and sovereignty rights",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-b37da0269d7c12",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-7315ed17da98a950"
       ],
       "authority_states": [
@@ -557441,6 +558206,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-b596773b8781f7",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-b5715d166bc2a521"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-b5b173c36489b1",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 6
+      },
+      "label": "high flyways and weather corridors",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-b5b173c36489b1",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -559689,6 +560485,37 @@
     },
     {
       "assertion_ids": [
+        "AS-59241b2a365c5465"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-ee1160b3a646e5",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 6
+      },
+      "label": "weather territory",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-ee1160b3a646e5",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-578b5dcf999766e7",
         "AS-605fce4cff32e555",
         "AS-a97cfd3eaafa61d0"
@@ -560187,6 +561014,37 @@
     },
     {
       "assertion_ids": [
+        "AS-9fa438a2ead6e3fe"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-f66af553a9b1d4",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 7
+      },
+      "label": "Fenwyrm Speech Etiquette Leaves",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-f66af553a9b1d4",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-86538e0472189754"
       ],
       "authority_states": [
@@ -560593,9 +561451,9 @@
     },
     "catalogue_records": 22253,
     "catalogue_unplaced": 22253,
-    "reviewed_assertions": 509,
-    "reviewed_entities": 409,
-    "reviewed_unplaced": 409
+    "reviewed_assertions": 523,
+    "reviewed_entities": 425,
+    "reviewed_unplaced": 425
   },
-  "topology_semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644"
+  "topology_semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9"
 }

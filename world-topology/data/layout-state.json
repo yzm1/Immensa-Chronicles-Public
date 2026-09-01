@@ -5,7 +5,7 @@
     "projection": "spatial_structure"
   },
   "layout_algorithm": "immensa-deterministic-component-force-1",
-  "layout_id": "layout:61a18f42076e3cc080b1f5d423c0cbacb06ef8cee7c8e2efdba6224f601d02d6",
+  "layout_id": "layout:21b74de3be34979fae6bc47636d6f389e84a7c906c8244797239b26b3823eb5e",
   "layout_islands": [
     {
       "anchor_labels": [
@@ -507,6 +507,27 @@
     },
     {
       "anchor_labels": [
+        "The Long Vanes"
+      ],
+      "bounds": {
+        "max_x": 6586.9046,
+        "max_y": 489.3288,
+        "min_x": 6113.4148,
+        "min_y": 16.0
+      },
+      "description": "Layout island containing The Long Vanes",
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "member_node_ids": [
+        "PL-LONG-VANES",
+        "SRC-35dc6061add6ff",
+        "SRC-82b61f0d54ff7b",
+        "SRC-b5b173c36489b1",
+        "SRC-f66af553a9b1d4"
+      ],
+      "node_count": 5
+    },
+    {
+      "anchor_labels": [
         "Ravel Sea"
       ],
       "bounds": {
@@ -629,6 +650,24 @@
     },
     {
       "anchor_labels": [
+        "Long Vanes consulate"
+      ],
+      "bounds": {
+        "max_x": 6225.484,
+        "max_y": 960.3212,
+        "min_x": 6113.4148,
+        "min_y": 631.3288
+      },
+      "description": "Layout island containing Long Vanes consulate",
+      "layout_island_id": "LI-4a9e564117b4084c",
+      "member_node_ids": [
+        "PL-LONG-VANES-CONSULATE",
+        "SRC-62ff591bbf2a54"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
         "Upper Shelf"
       ],
       "bounds": {
@@ -734,6 +773,23 @@
     },
     {
       "anchor_labels": [
+        "The Load Chamber"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1198.3212,
+        "min_x": 6113.4148,
+        "min_y": 1102.3212
+      },
+      "description": "Isolated in layout backbone: The Load Chamber",
+      "layout_island_id": "LI-99978c7c1efaaa56",
+      "member_node_ids": [
+        "PL-LOAD-CHAMBER"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "The Seam-Glow Country"
       ],
       "bounds": {
@@ -746,6 +802,23 @@
       "layout_island_id": "LI-17957f1bb4464826",
       "member_node_ids": [
         "PL-SEAM-GLOW-COUNTRY"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "Vanery"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1436.3212,
+        "min_x": 6113.4148,
+        "min_y": 1340.3212
+      },
+      "description": "Isolated in layout backbone: Vanery",
+      "layout_island_id": "LI-39708ff792a380b9",
+      "member_node_ids": [
+        "PL-VANERY"
       ],
       "node_count": 1
     },
@@ -967,6 +1040,23 @@
       "layout_island_id": "LI-1666051e6fe1166d",
       "member_node_ids": [
         "SRC-0ce523d6ae784b"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the consulate"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1674.3212,
+        "min_x": 6113.4148,
+        "min_y": 1578.3212
+      },
+      "description": "Isolated in layout backbone: the consulate",
+      "layout_island_id": "LI-a60b8ab754ee0231",
+      "member_node_ids": [
+        "SRC-11138ddc6b08ee"
       ],
       "node_count": 1
     },
@@ -1205,6 +1295,23 @@
       "layout_island_id": "LI-ecfcee5006972167",
       "member_node_ids": [
         "SRC-44cfc4539cb074"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "dragons"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 1912.3212,
+        "min_x": 6113.4148,
+        "min_y": 1816.3212
+      },
+      "description": "Isolated in layout backbone: dragons",
+      "layout_island_id": "LI-aa2cad95741e88a3",
+      "member_node_ids": [
+        "SRC-45fc4a89fcf444"
       ],
       "node_count": 1
     },
@@ -1669,6 +1776,23 @@
     },
     {
       "anchor_labels": [
+        "human courts"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2150.3212,
+        "min_x": 6113.4148,
+        "min_y": 2054.3212
+      },
+      "description": "Isolated in layout backbone: human courts",
+      "layout_island_id": "LI-056aa14c446d737f",
+      "member_node_ids": [
+        "SRC-90b1565cf586f9"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "Ravel Salt, Third Month"
       ],
       "bounds": {
@@ -1732,6 +1856,23 @@
       "layout_island_id": "LI-798c2961d071b75f",
       "member_node_ids": [
         "SRC-9631e98f6cfe44"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the Corse Vale poachers"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2388.3212,
+        "min_x": 6113.4148,
+        "min_y": 2292.3212
+      },
+      "description": "Isolated in layout backbone: the Corse Vale poachers",
+      "layout_island_id": "LI-4954b44dd718ea64",
+      "member_node_ids": [
+        "SRC-967d4f5f3e37ff"
       ],
       "node_count": 1
     },
@@ -1817,6 +1958,23 @@
       "layout_island_id": "LI-b685a0dd91ae1b09",
       "member_node_ids": [
         "SRC-9fd038d4cb6fb5"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the yard"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2626.3212,
+        "min_x": 6113.4148,
+        "min_y": 2530.3212
+      },
+      "description": "Isolated in layout backbone: the yard",
+      "layout_island_id": "LI-04c087e34a6bf146",
+      "member_node_ids": [
+        "SRC-a070a90133f545"
       ],
       "node_count": 1
     },
@@ -1919,6 +2077,23 @@
       "layout_island_id": "LI-dfb7eb67e4a8e624",
       "member_node_ids": [
         "SRC-b120c9e7a9d97b"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "flyway, weather, game, and sovereignty rights"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 2864.3212,
+        "min_x": 6113.4148,
+        "min_y": 2768.3212
+      },
+      "description": "Isolated in layout backbone: flyway, weather, game, and sovereignty rights",
+      "layout_island_id": "LI-9553f1c4ea1bde52",
+      "member_node_ids": [
+        "SRC-b37da0269d7c12"
       ],
       "node_count": 1
     },
@@ -2196,6 +2371,23 @@
     },
     {
       "anchor_labels": [
+        "weather territory"
+      ],
+      "bounds": {
+        "max_x": 6209.4148,
+        "max_y": 3102.3212,
+        "min_x": 6113.4148,
+        "min_y": 3006.3212
+      },
+      "description": "Isolated in layout backbone: weather territory",
+      "layout_island_id": "LI-74408a62a96254da",
+      "member_node_ids": [
+        "SRC-ee1160b3a646e5"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "Eastern-Arch Witness Packet"
       ],
       "bounds": {
@@ -2443,10 +2635,25 @@
       "x": 4358.7467,
       "y": 446.8279
     },
+    "PL-LOAD-CHAMBER": {
+      "layout_island_id": "LI-99978c7c1efaaa56",
+      "x": 6161.4148,
+      "y": 1150.3212
+    },
     "PL-LONG-BREATH-SPIRE": {
       "layout_island_id": "LI-322f5fe98d7f2efc",
       "x": 1729.0382,
       "y": 642.4784
+    },
+    "PL-LONG-VANES": {
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "x": 6350.1535,
+      "y": 252.7346
+    },
+    "PL-LONG-VANES-CONSULATE": {
+      "layout_island_id": "LI-4a9e564117b4084c",
+      "x": 6161.4148,
+      "y": 679.3288
     },
     "PL-LONGBARROW": {
       "layout_island_id": "LI-d134d2423eb6e2a7",
@@ -2547,6 +2754,11 @@
       "layout_island_id": "LI-900676c01b2c8d7b",
       "x": 1515.5877,
       "y": 3264.3992
+    },
+    "PL-VANERY": {
+      "layout_island_id": "LI-39708ff792a380b9",
+      "x": 6161.4148,
+      "y": 1388.3212
     },
     "PL-VASSE-OLUN": {
       "layout_island_id": "LI-fcf3dc4142e5f45a",
@@ -2753,6 +2965,11 @@
       "x": 331.6298,
       "y": 1655.7604
     },
+    "SRC-11138ddc6b08ee": {
+      "layout_island_id": "LI-a60b8ab754ee0231",
+      "x": 6161.4148,
+      "y": 1626.3212
+    },
     "SRC-12131d9488051a": {
       "layout_island_id": "LI-57e6842106016a00",
       "x": 64.0,
@@ -2958,6 +3175,11 @@
       "x": 100.6815,
       "y": 913.6833
     },
+    "SRC-35dc6061add6ff": {
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "x": 6538.9046,
+      "y": 184.477
+    },
     "SRC-366118795a1975": {
       "layout_island_id": "LI-1d1bbe32083d593b",
       "x": 2486.3082,
@@ -3067,6 +3289,11 @@
       "layout_island_id": "LI-ecfcee5006972167",
       "x": 4420.0,
       "y": 3702.868
+    },
+    "SRC-45fc4a89fcf444": {
+      "layout_island_id": "LI-aa2cad95741e88a3",
+      "x": 6161.4148,
+      "y": 1864.3212
     },
     "SRC-45fe0da12c855b": {
       "layout_island_id": "LI-83a0976a6fd5b17a",
@@ -3252,6 +3479,11 @@
       "layout_island_id": "LI-2888d82e45c014b4",
       "x": 630.6192,
       "y": 321.71
+    },
+    "SRC-62ff591bbf2a54": {
+      "layout_island_id": "LI-4a9e564117b4084c",
+      "x": 6177.484,
+      "y": 912.3212
     },
     "SRC-6529a88598e589": {
       "layout_island_id": "LI-2888d82e45c014b4",
@@ -3478,6 +3710,11 @@
       "x": 554.0513,
       "y": 188.6801
     },
+    "SRC-82b61f0d54ff7b": {
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "x": 6418.3545,
+      "y": 441.3288
+    },
     "SRC-838a2cd275c370": {
       "layout_island_id": "LI-bf40fb5f1a5132f0",
       "x": 1076.9912,
@@ -3583,6 +3820,11 @@
       "x": 1715.6934,
       "y": 3255.4479
     },
+    "SRC-90b1565cf586f9": {
+      "layout_island_id": "LI-056aa14c446d737f",
+      "x": 6161.4148,
+      "y": 2102.3212
+    },
     "SRC-90ece533317e17": {
       "layout_island_id": "LI-74e1210933ec8b23",
       "x": 548.0,
@@ -3668,6 +3910,11 @@
       "x": 1274.0,
       "y": 4178.868
     },
+    "SRC-967d4f5f3e37ff": {
+      "layout_island_id": "LI-4954b44dd718ea64",
+      "x": 6161.4148,
+      "y": 2340.3212
+    },
     "SRC-9724dcd039cc08": {
       "layout_island_id": "LI-2888d82e45c014b4",
       "x": 251.7383,
@@ -3732,6 +3979,11 @@
       "layout_island_id": "LI-b685a0dd91ae1b09",
       "x": 2242.0,
       "y": 4178.868
+    },
+    "SRC-a070a90133f545": {
+      "layout_island_id": "LI-04c087e34a6bf146",
+      "x": 6161.4148,
+      "y": 2578.3212
     },
     "SRC-a0860a480c36a7": {
       "layout_island_id": "LI-322f5fe98d7f2efc",
@@ -3883,10 +4135,20 @@
       "x": 4172.8342,
       "y": 934.1807
     },
+    "SRC-b37da0269d7c12": {
+      "layout_island_id": "LI-9553f1c4ea1bde52",
+      "x": 6161.4148,
+      "y": 2816.3212
+    },
     "SRC-b596773b8781f7": {
       "layout_island_id": "LI-2888d82e45c014b4",
       "x": 112.138,
       "y": 319.6462
+    },
+    "SRC-b5b173c36489b1": {
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "x": 6281.9019,
+      "y": 64.0
     },
     "SRC-b5c51285686c7a": {
       "layout_island_id": "LI-fcf3dc4142e5f45a",
@@ -4248,6 +4510,11 @@
       "x": 1331.8729,
       "y": 2125.994
     },
+    "SRC-ee1160b3a646e5": {
+      "layout_island_id": "LI-74408a62a96254da",
+      "x": 6161.4148,
+      "y": 3054.3212
+    },
     "SRC-ee77e951b53c1e": {
       "layout_island_id": "LI-2888d82e45c014b4",
       "x": 782.5595,
@@ -4328,6 +4595,11 @@
       "x": 4610.512,
       "y": 1772.9421
     },
+    "SRC-f66af553a9b1d4": {
+      "layout_island_id": "LI-51b44a6f4ddb3324",
+      "x": 6161.4148,
+      "y": 320.9877
+    },
     "SRC-f72bcc0c19d6a2": {
       "layout_island_id": "LI-40a609eab69311fd",
       "x": 5699.4366,
@@ -4384,8 +4656,8 @@
       "y": 1021.5997
     }
   },
-  "previous_layout_id": "layout:56602024936a2078aa4e3d583dc08def64804b263e821ecef34f0a96c2833e44",
+  "previous_layout_id": "layout:61a18f42076e3cc080b1f5d423c0cbacb06ef8cee7c8e2efdba6224f601d02d6",
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644",
+  "semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9",
   "world_graph_seed": "immensa-world-topology-v1"
 }

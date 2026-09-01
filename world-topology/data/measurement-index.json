@@ -332,6 +332,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-3bf00101042a465b",
+      "measurement_id": "QM-3bf00101042a465b-01",
+      "participant_node_ids": [
+        "PL-LONG-VANES-CONSULATE",
+        "PL-VANERY"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "TRAVEL_TIME",
+      "value_verbatim": "two-day ascent by the consulate stair; specific Story-124 consular approach only, not a universal route weight"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-3e9c5e4b06f787cd",
       "measurement_id": "QM-3e9c5e4b06f787cd-01",
       "participant_node_ids": [
@@ -505,6 +517,18 @@
       "quantity_kind": "journey_time",
       "relation_type": "FLOW",
       "value_verbatim": "Four of us go down to the eel houses in the second and third month"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-59241b2a365c5465",
+      "measurement_id": "QM-59241b2a365c5465-01",
+      "participant_node_ids": [
+        "PL-LONG-VANES",
+        "SRC-ee1160b3a646e5"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "flyways and weather territory through draconic law"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -870,6 +894,18 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "a village nine miles out"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-7cc990ddfe060cb9",
+      "measurement_id": "QM-7cc990ddfe060cb9-01",
+      "participant_node_ids": [
+        "SRC-11138ddc6b08ee",
+        "PL-VANERY"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "TRAVEL_TIME",
+      "value_verbatim": "two days by the consulate stair"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1314,6 +1350,18 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "three miles from Harlowe"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-ba40aed6e4331d26",
+      "measurement_id": "QM-ba40aed6e4331d26-01",
+      "participant_node_ids": [
+        "PL-LONG-VANES-CONSULATE",
+        "SRC-62ff591bbf2a54"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "VERTICAL",
+      "value_verbatim": "at four thousand feet"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1952,5 +2000,5 @@
     }
   ],
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644"
+  "semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9"
 }
