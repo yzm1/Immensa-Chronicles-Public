@@ -97,6 +97,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   white-space: nowrap;
 }
 
+.mode-links { justify-self: end; display: flex; align-items: center; gap: 7px; }
+
 .mode-badge.debug { color: #712f2b; background: #f5dfda; border-color: #c68b83; }
 
 .truth-banner {
@@ -273,7 +275,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .masthead { grid-template-columns: 1fr auto; padding: 10px; }
   .brand p { display: none; }
   .command { grid-column: 1 / -1; grid-row: 2; }
-  .mode-badge { grid-column: 2; grid-row: 1; }
+  .mode-links { grid-column: 2; grid-row: 1; }
   .truth-banner { padding-inline: 10px; }
   .mobile-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 7px 10px; border-bottom: 1px solid var(--line); background: var(--paper); }
   .tab-button { min-height: 44px; }

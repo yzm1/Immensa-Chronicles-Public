@@ -52,7 +52,7 @@
       "assertion_id": "AS-069d5db5931e563d",
       "measurement_id": "QM-069d5db5931e563d-01",
       "participant_node_ids": [
-        "SRC-f4b0950115df55",
+        "PL-BLACK-CHOIR-CHASM",
         "PL-NERIS"
       ],
       "quantity_kind": "physical_distance",
@@ -228,6 +228,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-2e463bbbad7bde06",
+      "measurement_id": "QM-2e463bbbad7bde06-01",
+      "participant_node_ids": [
+        "PL-CANNET-VENTS",
+        "SRC-c732f15ab5c64c"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "CONTAINMENT",
+      "value_verbatim": "Vall's council ... needed workers. The Cannet Vents had killed two hundred and eight laborers in five years."
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-2f221d5fb59eddd6",
       "measurement_id": "QM-2f221d5fb59eddd6-01",
       "participant_node_ids": [
@@ -237,6 +249,18 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "three provinces away"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-31bbff10e6865f25",
+      "measurement_id": "QM-31bbff10e6865f25-01",
+      "participant_node_ids": [
+        "SRC-7f217e63e4c4b3",
+        "PL-CANNET-VENTS"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "DISTANCE",
+      "value_verbatim": "four countries over"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -417,7 +441,7 @@
       "measurement_id": "QM-4e0a2cd0dab8329f-01",
       "participant_node_ids": [
         "PL-NERIS",
-        "SRC-0a00fa5517f52c"
+        "PL-HOLLOW-SINK"
       ],
       "quantity_kind": "journey_time",
       "relation_type": "ACCESS_COND",
@@ -505,6 +529,29 @@
       "quantity_kind": "journey_time",
       "relation_type": "DISTANCE",
       "value_verbatim": "nine hundred miles in one day, one direction, one use per person per road"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-5b297016757603a5",
+      "measurement_id": "QM-5b297016757603a5-01",
+      "participant_node_ids": [
+        "SRC-462bb3d0411dfd",
+        "PL-MARN"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "ROUTE",
+      "value_verbatim": "The road is lit for the first mile and a half. Then there are posts with lamps at four hundred yard intervals for another mile. Then there is one lamp on a post, on its own, and beyond that there is nothing at all"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-5c1d4a52c107a23f",
+      "measurement_id": "QM-5c1d4a52c107a23f-01",
+      "participant_node_ids": [
+        "PL-MARN"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "the largest inhabited space in the known world"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -756,6 +803,17 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-7247f0c460b51bb4",
+      "measurement_id": "QM-7247f0c460b51bb4-01",
+      "participant_node_ids": [
+        "PL-ROOFLINE"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "A failed rib can shift weight miles away."
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-74a9de870b9a0edb",
       "measurement_id": "QM-74a9de870b9a0edb-01",
       "participant_node_ids": [
@@ -818,7 +876,7 @@
       "assertion_id": "AS-7f9917a6e8a3598e",
       "measurement_id": "QM-7f9917a6e8a3598e-01",
       "participant_node_ids": [
-        "SRC-fcd2f02cc24bb5",
+        "PL-CANDLE-BASIN",
         "PL-NERIS"
       ],
       "quantity_kind": "physical_distance",
@@ -851,6 +909,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-8af274b92c4eb9e7",
+      "measurement_id": "QM-8af274b92c4eb9e7-01",
+      "participant_node_ids": [
+        "PL-HOLLOW-SINK",
+        "SRC-986b7d59715e6c"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "Fourteen mapped chambers"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-8edc4ca59e966e41",
       "measurement_id": "QM-8edc4ca59e966e41-01",
       "participant_node_ids": [
@@ -863,6 +933,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-9050eac590bd0b0e",
+      "measurement_id": "QM-9050eac590bd0b0e-01",
+      "participant_node_ids": [
+        "SRC-bae585ff67b0f7",
+        "PL-CANNET-VENTS"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "TRAVEL_TIME",
+      "value_verbatim": "he had been at the Cannet vents for nineteen months"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-90be9d53def3c5a5",
       "measurement_id": "QM-90be9d53def3c5a5-01",
       "participant_node_ids": [
@@ -872,6 +954,17 @@
       "quantity_kind": "journey_time",
       "relation_type": "ACCESS_COND",
       "value_verbatim": "Come as a guest, through a chapter house, with your line measured on arrival and again every ninth day"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-94a83b30609e50a7",
+      "measurement_id": "QM-94a83b30609e50a7-01",
+      "participant_node_ids": [
+        "RT-OSSARAY-LIFT-CORRIDORS"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "ACCESS_COND",
+      "value_verbatim": "stop for about a week, once a generation, by an agreement written into every lease"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1013,6 +1106,17 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-a6142eb3c3445f30",
+      "measurement_id": "QM-a6142eb3c3445f30-01",
+      "participant_node_ids": [
+        "PL-CANNET-VENTS"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "ACCESS_COND",
+      "value_verbatim": "Nineteen months at the Cannet vents. Said without irony."
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-a655dae3875a625d",
       "measurement_id": "QM-a655dae3875a625d-01",
       "participant_node_ids": [
@@ -1094,6 +1198,41 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-a9beb531b3afc5d7",
+      "measurement_id": "QM-a9beb531b3afc5d7-01",
+      "participant_node_ids": [
+        "PL-MARN"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "The largest inhabited space anybody has measured. A floor you could put a small country on, under a ceiling too high to see."
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-abc8dd30424a2771",
+      "measurement_id": "QM-abc8dd30424a2771-01",
+      "participant_node_ids": [
+        "PL-ROPEWALK-HOUSE",
+        "SRC-f86fe4f821f155"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "DISTANCE",
+      "value_verbatim": "a few streets"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-ade1bb6c3dff6929",
+      "measurement_id": "QM-ade1bb6c3dff6929-01",
+      "participant_node_ids": [
+        "PL-BELLOWAY-UPPER-GALLERIES",
+        "SRC-a54a16a8a94f68"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "VERTICAL",
+      "value_verbatim": "the first two miles of the Ossaray networks below the Belloway lifts"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-ae7289d254b46861",
       "measurement_id": "QM-ae7289d254b46861-01",
       "participant_node_ids": [
@@ -1109,7 +1248,7 @@
       "assertion_id": "AS-b1891ce7cfffa719",
       "measurement_id": "QM-b1891ce7cfffa719-01",
       "participant_node_ids": [
-        "SRC-fcd2f02cc24bb5",
+        "PL-CANDLE-BASIN",
         "PL-NERIS"
       ],
       "quantity_kind": "physical_distance",
@@ -1139,6 +1278,18 @@
       "quantity_kind": "journey_time",
       "relation_type": "ACCESS_COND",
       "value_verbatim": "you are tagged for between four and nine days depending on quantity and on the person"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-b8ca2277fa3e3ab3",
+      "measurement_id": "QM-b8ca2277fa3e3ab3-01",
+      "participant_node_ids": [
+        "PL-BELLOWAY-UPPER-GALLERIES",
+        "SRC-5dcbd2122dbf60"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "CONTAINMENT",
+      "value_verbatim": "the first two miles of the Ossaray networks"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1296,6 +1447,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-c64ca9bb34663617",
+      "measurement_id": "QM-c64ca9bb34663617-01",
+      "participant_node_ids": [
+        "SRC-8a8864c1cc9996",
+        "PL-NERIS-UPPER-SHELF"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "DISTANCE",
+      "value_verbatim": "six miles into the shelf"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-c674c9081f58c656",
       "measurement_id": "QM-c674c9081f58c656-01",
       "participant_node_ids": [
@@ -1327,6 +1490,17 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "five thousand eight hundred miles"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-c898856ef3470808",
+      "measurement_id": "QM-c898856ef3470808-01",
+      "participant_node_ids": [
+        "PL-MARN"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "a floor you could put a small country on, under a ceiling too high to see"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1365,6 +1539,17 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-d221603895551957",
+      "measurement_id": "QM-d221603895551957-01",
+      "participant_node_ids": [
+        "PL-HOLLOW-SINK"
+      ],
+      "quantity_kind": "extent",
+      "relation_type": "EXTENT",
+      "value_verbatim": "fourteen mapped chambers deep"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-d571273c4a70f745",
       "measurement_id": "QM-d571273c4a70f745-01",
       "participant_node_ids": [
@@ -1374,6 +1559,17 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "four weeks each way"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-d584911f1a852d01",
+      "measurement_id": "QM-d584911f1a852d01-01",
+      "participant_node_ids": [
+        "PL-NINE-DAY-SHAFT"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "ACCESS_COND",
+      "value_verbatim": "A sealed side landing opens only during the nine-day migration."
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1398,6 +1594,30 @@
       "quantity_kind": "journey_time",
       "relation_type": "CONTAINMENT",
       "value_verbatim": "four weeks in the Registry at Vasse Olun"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-d7ed77af73a6dc67",
+      "measurement_id": "QM-d7ed77af73a6dc67-01",
+      "participant_node_ids": [
+        "PL-MARN",
+        "SRC-462bb3d0411dfd"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "ACCESS_COND",
+      "value_verbatim": "They walk out four miles, twice a year, and sit down, and put the lamp out, and hold on to somebody."
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-d7ed77af73a6dc67",
+      "measurement_id": "QM-d7ed77af73a6dc67-02",
+      "participant_node_ids": [
+        "PL-MARN",
+        "SRC-462bb3d0411dfd"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "ACCESS_COND",
+      "value_verbatim": "They walk out four miles, twice a year, and sit down, and put the lamp out, and hold on to somebody."
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1467,6 +1687,18 @@
       "quantity_kind": "extent",
       "relation_type": "EXTENT",
       "value_verbatim": "wide enough for freight caravans four abreast"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-d9f70fe32b022dcc",
+      "measurement_id": "QM-d9f70fe32b022dcc-01",
+      "participant_node_ids": [
+        "PL-MARN",
+        "SRC-a8892d5981b05f"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "TRAVEL_TIME",
+      "value_verbatim": "eleven days out and eleven back"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1720,5 +1952,5 @@
     }
   ],
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:f17114928ef52593be14b072b7ab8986614ce2c950b625e21eb290bbfcf943f5"
+  "semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644"
 }

@@ -273,7 +273,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-f4b0950115df55",
+          "entity_id": "PL-BLACK-CHOIR-CHASM",
           "role": "located_thing"
         },
         {
@@ -333,6 +333,29 @@
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-073cadd9ff3999de",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "origin"
+        },
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ROUTE",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "UNKNOWN",
       "valid_time": []
     },
     {
@@ -667,7 +690,7 @@
       "layer_id": "movement_infrastructure",
       "participants": [
         {
-          "entity_id": "SRC-87512cf2c1292c",
+          "entity_id": "PL-MARN",
           "role": "source"
         },
         {
@@ -1108,6 +1131,25 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-1ead95034aa72d2f",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "Nothing if we stay east.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-NERIS-UPPER-SHELF",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-1f0b90d05149df4d",
       "authority_state": "WORKING_LEAN",
       "conditions_as_stated": "",
@@ -1153,6 +1195,29 @@
           "value_verbatim": "Dense stew served on four-year drilling shifts, culturally linked to the famous smear"
         }
       ],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-2084f3ec9f19f933",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LONG-BREATH-SPIRE",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-9e94242ef9dc6c",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
@@ -1208,7 +1273,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-d32162c20ed6fc",
+          "entity_id": "PL-NINE-DAY-SHAFT",
           "role": "located_thing"
         },
         {
@@ -1573,7 +1638,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-b8b41c3dfaf934",
+          "entity_id": "PL-RISERS-DEPTH",
           "role": "located_thing"
         },
         {
@@ -1659,6 +1724,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-2d7b7966db165573",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-a67b4800513ad1",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-2e25fad0752dae17",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -1678,6 +1766,53 @@
         }
       ],
       "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-2e463bbbad7bde06",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-c732f15ab5c64c",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "Vall's council ... needed workers. The Cannet Vents had killed two hundred and eight laborers in five years."
+        }
+      ],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-2e4fda25905409f8",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "beautiful from a distance",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "known_participant"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "UNANCHORED",
       "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -1826,6 +1961,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-31bbff10e6865f25",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-7f217e63e4c4b3",
+          "role": "first_endpoint"
+        },
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "second_endpoint"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "four countries over"
+        }
+      ],
+      "relation_type": "DISTANCE",
+      "semantic_direction": "NONE",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-3357a40932308790",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -1833,7 +1996,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-dda3b8453bb7a2",
+          "entity_id": "PL-ROOFLINE",
           "role": "contained"
         },
         {
@@ -1919,6 +2082,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-3486894010615169",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-568f836dbabdd9",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-34f49610c8d7e1ce",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -1926,7 +2112,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-3c4f4deddf08ae",
+          "entity_id": "PL-LOWER-BLOOM",
           "role": "located_thing"
         },
         {
@@ -2198,7 +2384,7 @@
           "role": "first"
         },
         {
-          "entity_id": "SRC-55b48db4e405cc",
+          "entity_id": "PL-NERIS-BLACK-SEA",
           "role": "second"
         }
       ],
@@ -2335,6 +2521,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-3feef99aff8609a4",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "first"
+        },
+        {
+          "entity_id": "SRC-6c0a42127d6562",
+          "role": "second"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-402a1edcd4fad9a5",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -2359,6 +2568,29 @@
       ],
       "relation_type": "TRAVEL_TIME",
       "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-408c4889dc3268f4",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-ROOFED-COUNTRY",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-d8d21734fd7319",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -2939,7 +3171,7 @@
           "role": "controlled_thing"
         },
         {
-          "entity_id": "SRC-0a00fa5517f52c",
+          "entity_id": "PL-HOLLOW-SINK",
           "role": "eligible_party"
         }
       ],
@@ -2952,6 +3184,29 @@
       ],
       "relation_type": "ACCESS_COND",
       "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-4f46e5d26ecfa106",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-CANDLE-BASIN",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-105e4d9e5a3aff",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -3022,6 +3277,29 @@
       "quantities_as_stated": [],
       "relation_type": "ACCESS_COND",
       "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-5215cfb1a9eb7a01",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-DROWNED-VENT-NURSERY",
+          "role": "first"
+        },
+        {
+          "entity_id": "SRC-5bf71b2b08425f",
+          "role": "second"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -3142,6 +3420,25 @@
       ],
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-56425f6f95a96410",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "ends at a natural cave carrying water upward from somewhere below",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-LOWER-BLOOM",
+          "role": "known_participant"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "UNANCHORED",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -3438,6 +3735,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-5b297016757603a5",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "SRC-462bb3d0411dfd",
+          "role": "origin"
+        },
+        {
+          "entity_id": "PL-MARN",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "The road is lit for the first mile and a half. Then there are posts with lamps at four hundred yard intervals for another mile. Then there is one lamp on a post, on its own, and beyond that there is nothing at all"
+        }
+      ],
+      "relation_type": "ROUTE",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "UNKNOWN",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-5b3d0e89acdba809",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -3504,6 +3829,49 @@
       "relation_type": "ROUTE",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "UNKNOWN",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-5c1d4a52c107a23f",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "subject"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "the largest inhabited space in the known world"
+        }
+      ],
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-5cbe6111b8f5f71d",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "We do not light the Marn. We light the roads.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
       "valid_time": []
     },
     {
@@ -4140,7 +4508,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-aa0aa0e6a1d588",
+          "entity_id": "PL-MARN",
           "role": "contained"
         },
         {
@@ -4597,6 +4965,52 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-703714f29c5b6480",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "origin"
+        },
+        {
+          "entity_id": "SRC-14836b5b158711",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ROUTE",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "UNKNOWN",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-704a301d05adffb9",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-5dcbd2122dbf60",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-7063dad08b79d1c1",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -4741,6 +5155,30 @@
       "quantities_as_stated": [],
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-7247f0c460b51bb4",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-ROOFLINE",
+          "role": "subject"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "A failed rib can shift weight miles away."
+        }
+      ],
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -5175,6 +5613,25 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-7e166e29544f5268",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "One sealed branch carries load into a cavern modern surveys cannot enter",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-ROOFLINE",
+          "role": "known_participant"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "UNANCHORED",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-7ec5995d988ed969",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -5251,7 +5708,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-fcd2f02cc24bb5",
+          "entity_id": "PL-CANDLE-BASIN",
           "role": "located_thing"
         },
         {
@@ -5507,6 +5964,52 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-852d0a0515f2f2b5",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-462bb3d0411dfd",
+          "role": "first"
+        },
+        {
+          "entity_id": "PL-MARN",
+          "role": "second"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-86538e0472189754",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "subject"
+        },
+        {
+          "entity_id": "SRC-f72bcc0c19d6a2",
+          "role": "anonymous_unit"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ANON_REGION",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-87001e6f0f1bc127",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "Two days of Widowmaker, replaced by forty minutes of standing in the sky.",
@@ -5531,6 +6034,29 @@
       ],
       "relation_type": "ASYMMETRY",
       "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-87345e408f4f6a92",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-6082e04df289d6",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -5646,6 +6172,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-8af274b92c4eb9e7",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "subject"
+        },
+        {
+          "entity_id": "SRC-986b7d59715e6c",
+          "role": "extent_reference"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "Fourteen mapped chambers"
+        }
+      ],
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-8b48e92fd4a8a71f",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "THE THREADING - SHUT. Two civilizations conduct their whole diplomacy by counting flowers.",
@@ -5699,7 +6253,7 @@
           "role": "origin"
         },
         {
-          "entity_id": "SRC-0a00fa5517f52c",
+          "entity_id": "PL-HOLLOW-SINK",
           "role": "destination"
         }
       ],
@@ -5753,6 +6307,29 @@
       "quantities_as_stated": [],
       "relation_type": "VERTICAL",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-8df416c2af28bcbf",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "no jurisdiction; neither the Ossaray networks nor Neris but a shaft cut from above into ground nobody has claimed",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "controlled_thing"
+        },
+        {
+          "entity_id": "SRC-c909dfdae3c358",
+          "role": "eligible_party"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -5877,6 +6454,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-9050eac590bd0b0e",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "SRC-bae585ff67b0f7",
+          "role": "origin"
+        },
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "he had been at the Cannet vents for nineteen months"
+        }
+      ],
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-90be9d53def3c5a5",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "Come as a guest, through a chapter house, with your line measured on arrival and again every ninth day",
@@ -5935,7 +6540,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-7cbd00872dbfa4",
+          "entity_id": "PL-MYTH-GALLERY",
           "role": "located_thing"
         },
         {
@@ -5947,6 +6552,30 @@
       "quantities_as_stated": [],
       "relation_type": "VERTICAL",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-94a83b30609e50a7",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "stop for about a week, once a generation, by an agreement written into every lease",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "RT-OSSARAY-LIFT-CORRIDORS",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "stop for about a week, once a generation, by an agreement written into every lease"
+        }
+      ],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -6725,11 +7354,34 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-9f0f1fc3a8ec3e",
+          "entity_id": "PL-RISING-GATE",
           "role": "contained"
         },
         {
           "entity_id": "PL-BELLOWAY",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-a35d72a87fcf1143",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-7d82c0b982102f",
           "role": "container"
         }
       ],
@@ -6771,7 +7423,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-aa27f48829c0a8",
+          "entity_id": "PL-THREADING-ORCHID-WALL",
           "role": "contained"
         },
         {
@@ -6805,6 +7457,30 @@
       "polarity": "POSITIVE",
       "quantities_as_stated": [],
       "relation_type": "FLOW",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-a6142eb3c3445f30",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "Nineteen months at the Cannet vents. Said without irony.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "Nineteen months at the Cannet vents. Said without irony."
+        }
+      ],
+      "relation_type": "ACCESS_COND",
       "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -7086,6 +7762,30 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-a9beb531b3afc5d7",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "subject"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "The largest inhabited space anybody has measured. A floor you could put a small country on, under a ceiling too high to see."
+        }
+      ],
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-aaa6aeb18032d0ef",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -7109,6 +7809,34 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-abc8dd30424a2771",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-ROPEWALK-HOUSE",
+          "role": "first_endpoint"
+        },
+        {
+          "entity_id": "SRC-f86fe4f821f155",
+          "role": "second_endpoint"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "a few streets"
+        }
+      ],
+      "relation_type": "DISTANCE",
+      "semantic_direction": "NONE",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-ac1b9c6f5085148e",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -7127,6 +7855,34 @@
       "polarity": "POSITIVE",
       "quantities_as_stated": [],
       "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-ade1bb6c3dff6929",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-BELLOWAY-UPPER-GALLERIES",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-a54a16a8a94f68",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "the first two miles of the Ossaray networks below the Belloway lifts"
+        }
+      ],
+      "relation_type": "VERTICAL",
       "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -7213,7 +7969,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-fcd2f02cc24bb5",
+          "entity_id": "PL-CANDLE-BASIN",
           "role": "first_endpoint"
         },
         {
@@ -7447,6 +8203,57 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-b8b4a42ef8329efc",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "RT-OSSARAY-LIFT-CORRIDORS",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-b8a600a8ab877a",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-b8ca2277fa3e3ab3",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-BELLOWAY-UPPER-GALLERIES",
+          "role": "contained"
+        },
+        {
+          "entity_id": "SRC-5dcbd2122dbf60",
+          "role": "container"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "the first two miles of the Ossaray networks"
+        }
+      ],
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-b909951075a9f92c",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -7625,7 +8432,7 @@
       "layer_id": "movement_infrastructure",
       "participants": [
         {
-          "entity_id": "SRC-0a00fa5517f52c",
+          "entity_id": "PL-HOLLOW-SINK",
           "role": "origin"
         },
         {
@@ -7864,6 +8671,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-c0f504c590d8008a",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-6c0a42127d6562",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-c116cf43c113064e",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "It still stood outside Harlowe. White stone arch. No visible road beyond until a valid traveler committed.",
@@ -7894,7 +8724,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-f34ceab7ba8dc3",
+          "entity_id": "PL-ROPEWALK-HOUSE",
           "role": "contained"
         },
         {
@@ -8207,6 +9037,25 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-c5808a44fdf4078f",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "may prevent return to shallower environments",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-c5966689e65b10a7",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -8296,6 +9145,34 @@
       ],
       "relation_type": "TRAVEL_TIME",
       "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-c64ca9bb34663617",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-8a8864c1cc9996",
+          "role": "first_endpoint"
+        },
+        {
+          "entity_id": "PL-NERIS-UPPER-SHELF",
+          "role": "second_endpoint"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "six miles into the shelf"
+        }
+      ],
+      "relation_type": "DISTANCE",
+      "semantic_direction": "NONE",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -8398,6 +9275,30 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-c898856ef3470808",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "subject"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "a floor you could put a small country on, under a ceiling too high to see"
+        }
+      ],
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-c921cd69ba881f83",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "given to someone choosing to cross the Onceway so their departure remains usable evidence even if they never return",
@@ -8416,6 +9317,25 @@
       "polarity": "POSITIVE",
       "quantities_as_stated": [],
       "relation_type": "ASYMMETRY",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-c9444fc8dc27c941",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "MF-DESCENT-MIGRATION",
+          "role": "source"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "FLOW",
       "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -8497,7 +9417,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-8ac643b578e2b5",
+          "entity_id": "PL-DROWNED-VENT-NURSERY",
           "role": "contained"
         },
         {
@@ -8658,6 +9578,25 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-cf4db29afc99bb97",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "Heat, corrosive vapor and pressure shifts made ordinary bodies expensive to keep alive.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-CANNET-VENTS",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-cfa39492830e573f",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -8788,6 +9727,30 @@
       "quantities_as_stated": [],
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-d221603895551957",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "subject"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "extent",
+          "value_verbatim": "fourteen mapped chambers deep"
+        }
+      ],
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -8958,6 +9921,30 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-d584911f1a852d01",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "A sealed side landing opens only during the nine-day migration.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-NINE-DAY-SHAFT",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "A sealed side landing opens only during the nine-day migration."
+        }
+      ],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-d5b0853f6eb54ef6",
       "authority_state": "MIXED_OR_UNSTATED",
       "conditions_as_stated": "",
@@ -9096,6 +10083,38 @@
       ],
       "polarity": "POSITIVE",
       "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-d7ed77af73a6dc67",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "They walk out four miles, twice a year, and sit down, and put the lamp out, and hold on to somebody.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "controlled_thing"
+        },
+        {
+          "entity_id": "SRC-462bb3d0411dfd",
+          "role": "eligible_party"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "physical_distance",
+          "value_verbatim": "They walk out four miles, twice a year, and sit down, and put the lamp out, and hold on to somebody."
+        },
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "They walk out four miles, twice a year, and sit down, and put the lamp out, and hold on to somebody."
+        }
+      ],
       "relation_type": "ACCESS_COND",
       "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
@@ -9329,6 +10348,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-d9639c8e0f611364",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-18faf69e423454",
+          "role": "first"
+        },
+        {
+          "entity_id": "PL-MARN",
+          "role": "second"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-d969ab4f9029744b",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -9348,6 +10390,34 @@
       "quantities_as_stated": [],
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-d9f70fe32b022dcc",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-MARN",
+          "role": "origin"
+        },
+        {
+          "entity_id": "SRC-a8892d5981b05f",
+          "role": "destination"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [
+        {
+          "quantity_kind": "journey_time",
+          "value_verbatim": "eleven days out and eleven back"
+        }
+      ],
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -9731,6 +10801,25 @@
       "polarity": "POSITIVE",
       "quantities_as_stated": [],
       "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-e2741c44dfcedec8",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "MF-RISING-MIGRATION",
+          "role": "source"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "FLOW",
       "semantic_direction": "ROLE_ORDERED",
       "traversal_direction": "NONE",
       "valid_time": []
@@ -10356,6 +11445,48 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-eff1c6ccc410a153",
+      "authority_state": "STORY_FACT",
+      "conditions_as_stated": "begins at Tier twenty-six during quiet season. Nobody goes there.",
+      "epistemic_status": "attested",
+      "layer_id": "movement_infrastructure",
+      "participants": [
+        {
+          "entity_id": "PL-BLACK-CHOIR-CHASM",
+          "role": "controlled_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-f05d7b443b4128bb",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "made both surface and Neris approaches impassable",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "SRC-6a77cd850c8dad",
+          "role": "severed_thing"
+        },
+        {
+          "entity_id": "PL-HOLLOW-SINK",
+          "role": "former_or_intended_endpoint"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "SEVERED",
+      "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-f0fe0ff821395931",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -10582,6 +11713,29 @@
       "valid_time": []
     },
     {
+      "assertion_id": "AS-f602b1a0e12293ba",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "PL-BELLOWAY-FEAST-GROUND",
+          "role": "located_thing"
+        },
+        {
+          "entity_id": "SRC-157ed31df80b74",
+          "role": "reference_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
       "assertion_id": "AS-f60c331e815953af",
       "authority_state": "STORY_FACT",
       "conditions_as_stated": "",
@@ -10703,6 +11857,25 @@
       ],
       "relation_type": "TRAVEL_TIME",
       "semantic_direction": "ROLE_ORDERED",
+      "traversal_direction": "NONE",
+      "valid_time": []
+    },
+    {
+      "assertion_id": "AS-fae4de4c786a2ea5",
+      "authority_state": "MIXED_OR_UNSTATED",
+      "conditions_as_stated": "",
+      "epistemic_status": "attested",
+      "layer_id": "physical_places",
+      "participants": [
+        {
+          "entity_id": "RT-OSSARAY-DESCENT-ROUTE",
+          "role": "located_thing"
+        }
+      ],
+      "polarity": "POSITIVE",
+      "quantities_as_stated": [],
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
       "traversal_direction": "NONE",
       "valid_time": []
     },
@@ -10942,7 +12115,7 @@
       "layer_id": "physical_places",
       "participants": [
         {
-          "entity_id": "SRC-40b0284c304d29",
+          "entity_id": "PL-LONG-BREATH-SPIRE",
           "role": "located_thing"
         },
         {
@@ -532008,8 +533181,72 @@
     "placement_default": "unplaced",
     "reviewed_entities": "identity-reviewed governed records"
   },
-  "representation_digest": "sha256:d5647893c3cfb97c152c82e82f0e4dcf6d9bf3bebb19615e19a269425f2732c1",
+  "representation_digest": "sha256:1628d0f0fdce43b12d89d2587a8c006cff37c4ab757483808e811f14412d29e5",
   "reviewed_entities": [
+    {
+      "assertion_ids": [
+        "AS-c9444fc8dc27c941"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "MF-DESCENT-MIGRATION",
+      "facets": [
+        "language_or_tongue"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 0
+      },
+      "label": "the Descent",
+      "layer_ids": [
+        "movement_infrastructure",
+        "culture_language"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-MF-DESCENT-MIGRATION",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-e2741c44dfcedec8"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "MF-RISING-MIGRATION",
+      "facets": [
+        "language_or_tongue"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 4
+      },
+      "label": "the Rising",
+      "layer_ids": [
+        "movement_infrastructure",
+        "culture_language"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-MF-RISING-MIGRATION",
+      "record_state": "REVIEWED_IDENTITY"
+    },
     {
       "assertion_ids": [
         "AS-06ef995bec736502",
@@ -532059,6 +533296,164 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-PL-BELLOWAY",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-f602b1a0e12293ba"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-BELLOWAY-FEAST-GROUND",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 5
+      },
+      "label": "The Feast Ground, Belloway",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-BELLOWAY-FEAST-GROUND",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-BELLOWAY-ROPEWALK",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 2
+      },
+      "label": "Ropewalk",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-BELLOWAY-ROPEWALK",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-ade1bb6c3dff6929",
+        "AS-b8ca2277fa3e3ab3"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-BELLOWAY-UPPER-GALLERIES",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 1
+      },
+      "label": "The Upper Galleries of Belloway",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-BELLOWAY-UPPER-GALLERIES",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-069d5db5931e563d",
+        "AS-eff1c6ccc410a153"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-BLACK-CHOIR-CHASM",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 0
+      },
+      "label": "the Black Choir chasm",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-BLACK-CHOIR-CHASM",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-4f46e5d26ecfa106",
+        "AS-7f9917a6e8a3598e",
+        "AS-b1891ce7cfffa719"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-CANDLE-BASIN",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 5
+      },
+      "label": "the Candle Basin",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-CANDLE-BASIN",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -532132,6 +533527,49 @@
     },
     {
       "assertion_ids": [
+        "AS-2d7b7966db165573",
+        "AS-2e463bbbad7bde06",
+        "AS-2e4fda25905409f8",
+        "AS-31bbff10e6865f25",
+        "AS-704a301d05adffb9",
+        "AS-87345e408f4f6a92",
+        "AS-8df416c2af28bcbf",
+        "AS-9050eac590bd0b0e",
+        "AS-a6142eb3c3445f30",
+        "AS-c5808a44fdf4078f",
+        "AS-cf4db29afc99bb97"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED",
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-CANNET-VENTS",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 5
+      },
+      "label": "The Cannet Vents",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-CANNET-VENTS",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-0ea4565a9d309051",
         "AS-16c300e6919075e4",
         "AS-22276e4abbd67f09",
@@ -532176,6 +533614,40 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-PL-COLDHARBOR",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-5215cfb1a9eb7a01",
+        "AS-cbad26b4eadb1290"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-DROWNED-VENT-NURSERY",
+      "facets": [
+        "dungeon_spire_or_world_structure",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 2
+      },
+      "label": "The Drowned Vent Nursery",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-DROWNED-VENT-NURSERY",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -532257,7 +533729,7 @@
         "stroke_count": 3,
         "variant": 4
       },
-      "label": "the Glasshouse Stair",
+      "label": "Glasshouse Stair — frostglass kiln site",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -532296,7 +533768,7 @@
         "stroke_count": 2,
         "variant": 7
       },
-      "label": "the Grayling Isles",
+      "label": "Grayling Isles",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure",
@@ -532468,6 +533940,52 @@
     },
     {
       "assertion_ids": [
+        "AS-073cadd9ff3999de",
+        "AS-073cadd9ff3999de",
+        "AS-3486894010615169",
+        "AS-3feef99aff8609a4",
+        "AS-4e0a2cd0dab8329f",
+        "AS-703714f29c5b6480",
+        "AS-86538e0472189754",
+        "AS-8af274b92c4eb9e7",
+        "AS-8c6bf7a34e54c96f",
+        "AS-bc2bba4acc8fa4a7",
+        "AS-c0f504c590d8008a",
+        "AS-d221603895551957",
+        "AS-f05d7b443b4128bb"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED",
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-HOLLOW-SINK",
+      "facets": [
+        "dungeon_spire_or_world_structure",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 3
+      },
+      "label": "Hollow Sink",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-HOLLOW-SINK",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-03ed42580bd0d7e1",
         "AS-047f0c66139df25b",
         "AS-04b1f11c0d010ba7",
@@ -532619,6 +534137,39 @@
     },
     {
       "assertion_ids": [
+        "AS-2084f3ec9f19f933",
+        "AS-ff765cd8dbe5b556"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-LONG-BREATH-SPIRE",
+      "facets": [
+        "dungeon_spire_or_world_structure"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 0
+      },
+      "label": "The Long-Breath Spire",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-LONG-BREATH-SPIRE",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-5a0cdbffeeec7a66",
         "AS-619892a8c2630271",
         "AS-64d258d7b86fa8ab",
@@ -532662,6 +534213,117 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-PL-LONGBARROW",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-34f49610c8d7e1ce",
+        "AS-56425f6f95a96410"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-LOWER-BLOOM",
+      "facets": [
+        "dungeon_spire_or_world_structure",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 1
+      },
+      "label": "The Lower Bloom",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-LOWER-BLOOM",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-106f427fdb6a65cb",
+        "AS-5b297016757603a5",
+        "AS-5c1d4a52c107a23f",
+        "AS-5cbe6111b8f5f71d",
+        "AS-683905fd85741597",
+        "AS-852d0a0515f2f2b5",
+        "AS-a35d72a87fcf1143",
+        "AS-a9beb531b3afc5d7",
+        "AS-c898856ef3470808",
+        "AS-d7ed77af73a6dc67",
+        "AS-d9639c8e0f611364",
+        "AS-d9f70fe32b022dcc"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED",
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-MARN",
+      "facets": [
+        "person_or_person_concept",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 4
+      },
+      "label": "the Marn",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure",
+        "agents_lives"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-MARN",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-919783f5308ba84e"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-MYTH-GALLERY",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 4
+      },
+      "label": "The Myth Gallery",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-MYTH-GALLERY",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -532728,6 +534390,104 @@
     },
     {
       "assertion_ids": [
+        "AS-3a8b86caa8932f46"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-NERIS-BLACK-SEA",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 7
+      },
+      "label": "Neris black inland sea",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-NERIS-BLACK-SEA",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-1ead95034aa72d2f",
+        "AS-c64ca9bb34663617"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-NERIS-UPPER-SHELF",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 1
+      },
+      "label": "Upper Shelf",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-NERIS-UPPER-SHELF",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-22ac4193fea938f4",
+        "AS-d584911f1a852d01"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-NINE-DAY-SHAFT",
+      "facets": [
+        "dungeon_spire_or_world_structure",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 0
+      },
+      "label": "The Nine-Day Shaft",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-NINE-DAY-SHAFT",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-0bf5f742eabbc093",
         "AS-384f7dd200a79a96",
         "AS-4b5daf1d219b450e",
@@ -532765,7 +534525,7 @@
         "stroke_count": 3,
         "variant": 0
       },
-      "label": "the Old Cordon",
+      "label": "Old Cordon",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -532862,7 +534622,7 @@
         "stroke_count": 4,
         "variant": 7
       },
-      "label": "the Ravel Sea",
+      "label": "Ravel Sea",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -532872,6 +534632,170 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-PL-RAVEL-SEA",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-2bdec07d663f164f"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-RISERS-DEPTH",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 4
+      },
+      "label": "The Riser's Depth",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-RISERS-DEPTH",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-a34c2e24583ad068"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-RISING-GATE",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 4
+      },
+      "label": "The Rising Gate",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-RISING-GATE",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-408c4889dc3268f4"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-ROOFED-COUNTRY",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 5
+      },
+      "label": "The Roofed Country",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-ROOFED-COUNTRY",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-3357a40932308790",
+        "AS-7247f0c460b51bb4",
+        "AS-7e166e29544f5268"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-ROOFLINE",
+      "facets": [
+        "construct_or_artificial_being",
+        "dungeon_spire_or_world_structure",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 0
+      },
+      "label": "The Roofline",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure",
+        "agents_lives"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-ROOFLINE",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-abc8dd30424a2771",
+        "AS-c121dc8db8720fda"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-ROPEWALK-HOUSE",
+      "facets": [
+        "language_or_tongue",
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 2
+      },
+      "label": "The Ropewalk House, Belloway",
+      "layer_ids": [
+        "physical_places",
+        "culture_language"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-ROPEWALK-HOUSE",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -532923,6 +534847,66 @@
       "record_state": "REVIEWED_IDENTITY"
     },
     {
+      "assertion_ids": [],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-SEAM-GLOW-COUNTRY",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 3
+      },
+      "label": "The Seam-Glow Country",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-SEAM-GLOW-COUNTRY",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-a3bb2dc7a6e80f0a"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "place",
+      "entity_id": "PL-THREADING-ORCHID-WALL",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "block",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 3
+      },
+      "label": "The Threading Orchid Wall",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-PL-THREADING-ORCHID-WALL",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
       "assertion_ids": [
         "AS-26e3eafcc4f30e99",
         "AS-81b01e6583fd5853",
@@ -532933,7 +534917,8 @@
         "AS-fec29d7f00d20af9"
       ],
       "authority_states": [
-        "MIXED_OR_UNSTATED"
+        "MIXED_OR_UNSTATED",
+        "STORY_FACT"
       ],
       "display_kind": "place",
       "entity_id": "PL-THREE-CROWN-COAST",
@@ -532950,7 +534935,7 @@
         "stroke_count": 4,
         "variant": 2
       },
-      "label": "the Three-Crown Coast",
+      "label": "Three-Crown Coast",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure",
@@ -533057,7 +535042,7 @@
         "stroke_count": 2,
         "variant": 2
       },
-      "label": "the Amberline",
+      "label": "Amberline",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -533103,7 +535088,7 @@
         "stroke_count": 2,
         "variant": 0
       },
-      "label": "the Corun Stair",
+      "label": "Corun Stair",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -533154,7 +535139,7 @@
         "stroke_count": 3,
         "variant": 3
       },
-      "label": "a Hidden Road",
+      "label": "Hidden Road",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -533217,7 +535202,7 @@
         "stroke_count": 4,
         "variant": 5
       },
-      "label": "Onceway (from Harlowe side)",
+      "label": "Onceway",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -533227,6 +535212,71 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-RT-ONCEWAY-CLASS",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-fae4de4c786a2ea5"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "route",
+      "entity_id": "RT-OSSARAY-DESCENT-ROUTE",
+      "facets": [
+        "route_or_transport"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "chevron",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 5
+      },
+      "label": "The Descent Route",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-RT-OSSARAY-DESCENT-ROUTE",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-94a83b30609e50a7",
+        "AS-b8b4a42ef8329efc"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "route",
+      "entity_id": "RT-OSSARAY-LIFT-CORRIDORS",
+      "facets": [
+        "place_or_region"
+      ],
+      "identity_status": "CANONICAL_ANCHOR",
+      "interface_mark": {
+        "mark_family": "chevron",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 4
+      },
+      "label": "The Lift Corridors",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-RT-OSSARAY-LIFT-CORRIDORS",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -533247,7 +535297,7 @@
       "facets": [
         "place_or_region"
       ],
-      "identity_status": "CANONICAL_HOMONYM_SENSE",
+      "identity_status": "CANONICAL_ANCHOR",
       "interface_mark": {
         "mark_family": "chevron",
         "rotation_quadrants": 1,
@@ -533255,7 +535305,7 @@
         "stroke_count": 2,
         "variant": 4
       },
-      "label": "the Line",
+      "label": "The Line",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -533299,7 +535349,7 @@
         "stroke_count": 2,
         "variant": 3
       },
-      "label": "the Threading",
+      "label": "The Threading",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure",
@@ -533360,7 +535410,7 @@
         "stroke_count": 3,
         "variant": 2
       },
-      "label": "the Underway",
+      "label": "Underway",
       "layer_ids": [
         "physical_places",
         "movement_infrastructure"
@@ -533738,39 +535788,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-09e4e033fb5aec",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-4e0a2cd0dab8329f",
-        "AS-8c6bf7a34e54c96f",
-        "AS-bc2bba4acc8fa4a7"
-      ],
-      "authority_states": [
-        "STORY_FACT"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-0a00fa5517f52c",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 3,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 2,
-        "variant": 5
-      },
-      "label": "Upper Vent Three",
-      "layer_ids": [
-        "movement_infrastructure"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-0a00fa5517f52c",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -534298,6 +536315,37 @@
     },
     {
       "assertion_ids": [
+        "AS-4f46e5d26ecfa106"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-105e4d9e5a3aff",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 6
+      },
+      "label": "Neris and the Black Choir chasm",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-105e4d9e5a3aff",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-31172d47be49b104"
       ],
       "authority_states": [
@@ -534423,6 +536471,37 @@
     },
     {
       "assertion_ids": [
+        "AS-703714f29c5b6480"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-14836b5b158711",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 2
+      },
+      "label": "the surface and Neris",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-14836b5b158711",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-2469cddf231053db"
       ],
       "authority_states": [
@@ -534515,6 +536594,37 @@
       "record_state": "REVIEWED_IDENTITY"
     },
     {
+      "assertion_ids": [
+        "AS-f602b1a0e12293ba"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-157ed31df80b74",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 3
+      },
+      "label": "the Belloway lift head",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-157ed31df80b74",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
       "assertion_ids": [],
       "authority_states": [
         "MIXED_OR_UNSTATED"
@@ -534570,6 +536680,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-1869b628603710",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-d9639c8e0f611364"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-18faf69e423454",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 6
+      },
+      "label": "Ess Marrow",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-18faf69e423454",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -535760,37 +537901,6 @@
     },
     {
       "assertion_ids": [
-        "AS-34f49610c8d7e1ce"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-3c4f4deddf08ae",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 0,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 6
-      },
-      "label": "The Lower Bloom",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-3c4f4deddf08ae",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-33e89c19ca811021"
       ],
       "authority_states": [
@@ -535942,37 +538052,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-3f6aaf87bc49a2",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-ff765cd8dbe5b556"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-40b0284c304d29",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 2,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 3,
-        "variant": 6
-      },
-      "label": "The Long-Breath Spire (a tall chambered structure)",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-40b0284c304d29",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -536283,6 +538362,40 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-45fe0da12c855b",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-5b297016757603a5",
+        "AS-852d0a0515f2f2b5",
+        "AS-d7ed77af73a6dc67"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-462bb3d0411dfd",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 6
+      },
+      "label": "Ess Marrow",
+      "layer_ids": [
+        "physical_places",
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-462bb3d0411dfd",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -536753,37 +538866,6 @@
     },
     {
       "assertion_ids": [
-        "AS-3a8b86caa8932f46"
-      ],
-      "authority_states": [
-        "STORY_FACT"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-55b48db4e405cc",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 1,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 3,
-        "variant": 6
-      },
-      "label": "the black inland sea",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-55b48db4e405cc",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-26bdfb867b590f9f"
       ],
       "authority_states": [
@@ -536811,6 +538893,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-565337a4f6ed51",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-3486894010615169"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-568f836dbabdd9",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 5
+      },
+      "label": "the basalt country",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-568f836dbabdd9",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -537066,6 +539179,37 @@
     },
     {
       "assertion_ids": [
+        "AS-5215cfb1a9eb7a01"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-5bf71b2b08425f",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 7
+      },
+      "label": "the surrounding nursery district",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-5bf71b2b08425f",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-b483f6d51d75d141"
       ],
       "authority_states": [
@@ -537124,6 +539268,38 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-5d4f7c7f852c9a",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-704a301d05adffb9",
+        "AS-b8ca2277fa3e3ab3"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-5dcbd2122dbf60",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 2
+      },
+      "label": "the Ossaray networks",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-5dcbd2122dbf60",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -537248,6 +539424,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-6041ea20af20ef",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-87345e408f4f6a92"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-6082e04df289d6",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 2
+      },
+      "label": "The Turnwort Line, Cannet",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-6082e04df289d6",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -537469,6 +539676,37 @@
     },
     {
       "assertion_ids": [
+        "AS-f05d7b443b4128bb"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-6a77cd850c8dad",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 1
+      },
+      "label": "surface and Neris approaches",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-6a77cd850c8dad",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-37cd42c1b1314fb7"
       ],
       "authority_states": [
@@ -537589,6 +539827,38 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-6b8d8569814fa7",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-3feef99aff8609a4",
+        "AS-c0f504c590d8008a"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-6c0a42127d6562",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 2
+      },
+      "label": "the Abyssal city of Neris",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-6c0a42127d6562",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -538270,37 +540540,6 @@
     },
     {
       "assertion_ids": [
-        "AS-919783f5308ba84e"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-7cbd00872dbfa4",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 3,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 3,
-        "variant": 0
-      },
-      "label": "The Myth Gallery",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-7cbd00872dbfa4",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-e223b449fdd91778"
       ],
       "authority_states": [
@@ -538332,6 +540571,37 @@
     },
     {
       "assertion_ids": [
+        "AS-a35d72a87fcf1143"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-7d82c0b982102f",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 3
+      },
+      "label": "the Concord",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-7d82c0b982102f",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-5219b34f1953a047"
       ],
       "authority_states": [
@@ -538359,6 +540629,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-7e786e0b494f46",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-31bbff10e6865f25"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-7f217e63e4c4b3",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 7
+      },
+      "label": "Adder Kell's home coastal district",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-7f217e63e4c4b3",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -538766,37 +541067,6 @@
     },
     {
       "assertion_ids": [
-        "AS-106f427fdb6a65cb"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-87512cf2c1292c",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 2,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 3,
-        "variant": 0
-      },
-      "label": "the Marn",
-      "layer_ids": [
-        "movement_infrastructure"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-87512cf2c1292c",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-44d2f6d25391d58f"
       ],
       "authority_states": [
@@ -538923,6 +541193,37 @@
     },
     {
       "assertion_ids": [
+        "AS-c64ca9bb34663617"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-8a8864c1cc9996",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 4
+      },
+      "label": "the old route collapse",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-8a8864c1cc9996",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-aaa6aeb18032d0ef"
       ],
       "authority_states": [
@@ -538950,37 +541251,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-8a8da8d0632b8b",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-cbad26b4eadb1290"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-8ac643b578e2b5",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 1,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 5
-      },
-      "label": "The Drowned Vent Nursery",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-8ac643b578e2b5",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -539860,6 +542130,37 @@
     },
     {
       "assertion_ids": [
+        "AS-8af274b92c4eb9e7"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-986b7d59715e6c",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 0
+      },
+      "label": "chambers",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-986b7d59715e6c",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-c5966689e65b10a7"
       ],
       "authority_states": [
@@ -540015,6 +542316,37 @@
     },
     {
       "assertion_ids": [
+        "AS-2084f3ec9f19f933"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-9e94242ef9dc6c",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 2
+      },
+      "label": "the deep network",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-9e94242ef9dc6c",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-74a9de870b9a0edb"
       ],
       "authority_states": [
@@ -540042,37 +542374,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-9eaad1d52e5706",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-a34c2e24583ad068"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-9f0f1fc3a8ec3e",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 3,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 0
-      },
-      "label": "The Rising Gate",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-9f0f1fc3a8ec3e",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -540449,6 +542750,37 @@
     },
     {
       "assertion_ids": [
+        "AS-ade1bb6c3dff6929"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-a54a16a8a94f68",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 6
+      },
+      "label": "the Belloway lifts",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-a54a16a8a94f68",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-4df88416398f64a6"
       ],
       "authority_states": [
@@ -540476,6 +542808,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-a5a7ce0ed12918",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-2d7b7966db165573"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-a67b4800513ad1",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 6
+      },
+      "label": "the mountain",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-a67b4800513ad1",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -540573,6 +542936,37 @@
     },
     {
       "assertion_ids": [
+        "AS-d9f70fe32b022dcc"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-a8892d5981b05f",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 0
+      },
+      "label": "the furthest point reached",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-a8892d5981b05f",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-6599a3cadc2374dd"
       ],
       "authority_states": [
@@ -540600,68 +542994,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-a8be88a394edc4",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-683905fd85741597"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-aa0aa0e6a1d588",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 0,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 7
-      },
-      "label": "the Marn",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-aa0aa0e6a1d588",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-a3bb2dc7a6e80f0a"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-aa27f48829c0a8",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 3,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 3,
-        "variant": 6
-      },
-      "label": "The Threading Orchid Wall",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-aa27f48829c0a8",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -541197,6 +543529,37 @@
     },
     {
       "assertion_ids": [
+        "AS-b8b4a42ef8329efc"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-b8a600a8ab877a",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 0
+      },
+      "label": "the Ossaray networks",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-b8a600a8ab877a",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-8fac448fdc02a2c9"
       ],
       "authority_states": [
@@ -541224,37 +543587,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-b8b0e6fa22ca66",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-2bdec07d663f164f"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-b8b41c3dfaf934",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 2,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 7
-      },
-      "label": "The Riser's Depth",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-b8b41c3dfaf934",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -541410,6 +543742,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-ba825eb650f382",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-9050eac590bd0b0e"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-bae585ff67b0f7",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 0,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 5
+      },
+      "label": "Adder Kell",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-bae585ff67b0f7",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -542005,6 +544368,37 @@
     },
     {
       "assertion_ids": [
+        "AS-2e463bbbad7bde06"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-c732f15ab5c64c",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 2,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 4
+      },
+      "label": "Vall",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-c732f15ab5c64c",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-dd58fa78ebf6f15b"
       ],
       "authority_states": [
@@ -542063,6 +544457,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-c8f8d502dea525",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-8df416c2af28bcbf"
+      ],
+      "authority_states": [
+        "STORY_FACT"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-c909dfdae3c358",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 4,
+        "variant": 3
+      },
+      "label": "the magistracy / the Concord",
+      "layer_ids": [
+        "movement_infrastructure"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-c909dfdae3c358",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -542350,37 +544775,6 @@
     },
     {
       "assertion_ids": [
-        "AS-22ac4193fea938f4"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-d32162c20ed6fc",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 3,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 5
-      },
-      "label": "The Nine-Day Shaft",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-d32162c20ed6fc",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-d1410c4079a2a73d"
       ],
       "authority_states": [
@@ -542634,6 +545028,37 @@
     },
     {
       "assertion_ids": [
+        "AS-408c4889dc3268f4"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-d8d21734fd7319",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 1,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 0
+      },
+      "label": "the Ossaray networks",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-d8d21734fd7319",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-6bf6e1a3025c6f6b"
       ],
       "authority_states": [
@@ -542723,37 +545148,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-db7bf0d8716c70",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-3357a40932308790"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-dda3b8453bb7a2",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 0,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 6
-      },
-      "label": "The Roofline",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-dda3b8453bb7a2",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -543627,37 +546021,6 @@
     },
     {
       "assertion_ids": [
-        "AS-c121dc8db8720fda"
-      ],
-      "authority_states": [
-        "MIXED_OR_UNSTATED"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-f34ceab7ba8dc3",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 2,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 3,
-        "variant": 3
-      },
-      "label": "Ropewalk",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-f34ceab7ba8dc3",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-eb4dc2155c0b416c"
       ],
       "authority_states": [
@@ -543718,37 +546081,6 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-f429960e3164b2",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
-        "AS-069d5db5931e563d"
-      ],
-      "authority_states": [
-        "STORY_FACT"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-f4b0950115df55",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 1,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 2,
-        "variant": 6
-      },
-      "label": "the Black Choir chasm",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-f4b0950115df55",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -543846,6 +546178,37 @@
     },
     {
       "assertion_ids": [
+        "AS-86538e0472189754"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-f72bcc0c19d6a2",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 2,
+        "variant": 7
+      },
+      "label": "UNNAMED:chambers",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-f72bcc0c19d6a2",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
         "AS-6365c5961fd1fd23"
       ],
       "authority_states": [
@@ -543904,6 +546267,37 @@
       "placement_status": "UNPLACED",
       "plane_memberships": [],
       "record_id": "GR-SRC-f818d3f5fae7eb",
+      "record_state": "REVIEWED_IDENTITY"
+    },
+    {
+      "assertion_ids": [
+        "AS-abc8dd30424a2771"
+      ],
+      "authority_states": [
+        "MIXED_OR_UNSTATED"
+      ],
+      "display_kind": "concept",
+      "entity_id": "SRC-f86fe4f821f155",
+      "facets": [
+        "unclassified_candidate"
+      ],
+      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
+      "interface_mark": {
+        "mark_family": "circle",
+        "rotation_quadrants": 3,
+        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
+        "stroke_count": 3,
+        "variant": 3
+      },
+      "label": "the lift head",
+      "layer_ids": [
+        "physical_places"
+      ],
+      "location_mode": "UNKNOWN",
+      "physical_strata": [],
+      "placement_status": "UNPLACED",
+      "plane_memberships": [],
+      "record_id": "GR-SRC-f86fe4f821f155",
       "record_state": "REVIEWED_IDENTITY"
     },
     {
@@ -544094,38 +546488,6 @@
     },
     {
       "assertion_ids": [
-        "AS-7f9917a6e8a3598e",
-        "AS-b1891ce7cfffa719"
-      ],
-      "authority_states": [
-        "STORY_FACT"
-      ],
-      "display_kind": "concept",
-      "entity_id": "SRC-fcd2f02cc24bb5",
-      "facets": [
-        "unclassified_candidate"
-      ],
-      "identity_status": "SOURCE_SCOPED_UNRESOLVED",
-      "interface_mark": {
-        "mark_family": "circle",
-        "rotation_quadrants": 3,
-        "semantic_scope": "PRESENTATION_ONLY_NOT_IN_WORLD_SYMBOL",
-        "stroke_count": 4,
-        "variant": 4
-      },
-      "label": "the Candle Basin",
-      "layer_ids": [
-        "physical_places"
-      ],
-      "location_mode": "UNKNOWN",
-      "physical_strata": [],
-      "placement_status": "UNPLACED",
-      "plane_memberships": [],
-      "record_id": "GR-SRC-fcd2f02cc24bb5",
-      "record_state": "REVIEWED_IDENTITY"
-    },
-    {
-      "assertion_ids": [
         "AS-f677ff42bfcf1b64"
       ],
       "authority_states": [
@@ -544220,9 +546582,9 @@
     },
     "catalogue_records": 21703,
     "catalogue_unplaced": 21703,
-    "reviewed_assertions": 459,
-    "reviewed_entities": 373,
-    "reviewed_unplaced": 373
+    "reviewed_assertions": 509,
+    "reviewed_entities": 409,
+    "reviewed_unplaced": 409
   },
-  "topology_semantic_digest": "sha256:f17114928ef52593be14b072b7ab8986614ce2c950b625e21eb290bbfcf943f5"
+  "topology_semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644"
 }

@@ -1,0 +1,2107 @@
+{
+  "answers": [
+    {
+      "answer": "The Threading is the one known connection between the two networks. It is a route-space of about nine days when open; its drawn curve has no geographic length.",
+      "answer_id": "answer:connection",
+      "feature_ids": [
+        "RT-THREADING",
+        "PL-THREADING-ORCHID-WALL"
+      ],
+      "patterns": [
+        "connects ossaray and neris",
+        "connection ossaray neris",
+        "how get ossaray neris"
+      ]
+    },
+    {
+      "answer": "Candle Basin is recorded 400 miles east of Neris on the local Neris chart. That is a governed local-chart distance, not planetary longitude.",
+      "answer_id": "answer:candle-distance",
+      "feature_ids": [
+        "PL-CANDLE-BASIN",
+        "PL-NERIS"
+      ],
+      "patterns": [
+        "how far candle basin neris",
+        "distance candle basin neris",
+        "where candle basin"
+      ]
+    },
+    {
+      "answer": "The Upper Galleries fill the first two miles below the lifts. Several miles farther down, the Nine-Day Shaft passes through one bounded Dungeon band; lower still, Cannet Vents are physically beneath the network without implied political ownership.",
+      "answer_id": "answer:belloway-below",
+      "feature_ids": [
+        "PL-BELLOWAY-UPPER-GALLERIES",
+        "PL-NINE-DAY-SHAFT",
+        "PL-CANNET-VENTS"
+      ],
+      "patterns": [
+        "what lies below belloway",
+        "below belloway",
+        "belloway depth"
+      ]
+    },
+    {
+      "answer": "The once-a-generation Rising emphasizes the lift corridors and Rising Gate, interrupts freight, and turns migration into watched civic time. It is a recurring process, not a fixed map region.",
+      "answer_id": "answer:rising",
+      "feature_ids": [
+        "MF-RISING-MIGRATION",
+        "RT-OSSARAY-LIFT-CORRIDORS",
+        "PL-RISING-GATE"
+      ],
+      "patterns": [
+        "what changes during rising",
+        "during the rising",
+        "rising migration"
+      ]
+    },
+    {
+      "answer": "The longer-cycle Descent follows the downward shafts and is associated with the Feast Ground's transformation into a vast gathering. Route, migration and civic ground remain separate things.",
+      "answer_id": "answer:descent",
+      "feature_ids": [
+        "MF-DESCENT-MIGRATION",
+        "RT-OSSARAY-DESCENT-ROUTE",
+        "PL-BELLOWAY-FEAST-GROUND"
+      ],
+      "patterns": [
+        "what changes during descent",
+        "during the descent",
+        "descent migration"
+      ]
+    },
+    {
+      "answer": "The recorded journey travels eight ordinary hours from Neris before an old lift, rises 1,700 feet, and reaches Upper Shelf. The old route collapses six miles into the shelf; alternatives carry time and survey uncertainty.",
+      "answer_id": "answer:upper-shelf",
+      "feature_ids": [
+        "PL-NERIS",
+        "PL-NERIS-UPPER-SHELF"
+      ],
+      "patterns": [
+        "upper shelf route",
+        "how reach upper shelf",
+        "upper shelf survey"
+      ]
+    },
+    {
+      "answer": "The Turn is not a fixed place or line. It is a relation between a place and how long someone has been exposed to the deep; this atlas deliberately draws no Turn boundary.",
+      "answer_id": "answer:turn",
+      "feature_ids": [
+        "PL-OSSARAY"
+      ],
+      "patterns": [
+        "where is the turn",
+        "draw the turn",
+        "what is the turn"
+      ]
+    },
+    {
+      "answer": "Ossaray is recorded as 1,100 miles across at its widest survey. The atlas does not convert that statement into a guessed outline or scale bar.",
+      "answer_id": "answer:scale",
+      "feature_ids": [
+        "PL-OSSARAY",
+        "PL-MARN"
+      ],
+      "patterns": [
+        "how large ossaray",
+        "size of ossaray",
+        "ossaray wide"
+      ]
+    }
+  ],
+  "character_areas": [
+    {
+      "area_id": "anonymous:character:ossaray:marn-vault",
+      "authority": "OPTIONAL_CARTOGRAPHIC_INTERPRETATION",
+      "character_type": "VAST_STILL_LIT_VAULT",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.2645,
+            0.529
+          ],
+          [
+            0.482,
+            0.43
+          ],
+          [
+            0.7575,
+            0.4916
+          ],
+          [
+            0.83,
+            0.6896
+          ],
+          [
+            0.656,
+            0.859
+          ],
+          [
+            0.3805,
+            0.8392
+          ],
+          [
+            0.25,
+            0.6764
+          ],
+          [
+            0.2645,
+            0.529
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "place_promise": "Country-scale floor, horizon-like ceiling and constant ivory light.",
+      "semantic_effect": "NONE",
+      "transition_mode": "GRADIENT"
+    },
+    {
+      "area_id": "anonymous:character:ossaray:belloway-civic",
+      "authority": "OPTIONAL_CARTOGRAPHIC_INTERPRETATION",
+      "character_type": "ORDINARY_LIFT_CIVIC_GALLERIES",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.145,
+            0.2805
+          ],
+          [
+            0.22,
+            0.24
+          ],
+          [
+            0.315,
+            0.2652
+          ],
+          [
+            0.34,
+            0.3462
+          ],
+          [
+            0.28,
+            0.4155
+          ],
+          [
+            0.185,
+            0.4074
+          ],
+          [
+            0.14,
+            0.3408
+          ],
+          [
+            0.145,
+            0.2805
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "place_promise": "A roofed, lit civic threshold where ordinary institutions meet lifts, water and Dungeon seam.",
+      "semantic_effect": "NONE",
+      "transition_mode": "MOSAIC"
+    },
+    {
+      "area_id": "anonymous:character:ossaray:worldwork",
+      "authority": "OPTIONAL_CARTOGRAPHIC_INTERPRETATION",
+      "character_type": "LIVING_LOAD_BEARING_WORKS",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "boundary_semantics": "GRADIENT_NOT_WORLD_BOUNDARY",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "INTERPRETIVE_CHARACTER_ENVELOPE",
+        "layout_points": [
+          [
+            0.721658,
+            0.873433
+          ],
+          [
+            0.566974,
+            0.96419
+          ],
+          [
+            0.390715,
+            0.964621
+          ],
+          [
+            0.236207,
+            0.87144
+          ],
+          [
+            0.277726,
+            0.756164
+          ],
+          [
+            0.38813,
+            0.683495
+          ],
+          [
+            0.579101,
+            0.689705
+          ],
+          [
+            0.680249,
+            0.757374
+          ],
+          [
+            0.721658,
+            0.873433
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CARTOGRAPHIC_CHARACTER_AREA"
+      },
+      "place_promise": "Immense shafts and inspected living structure remain infrastructure rather than scenery.",
+      "semantic_effect": "NONE",
+      "transition_mode": "BRAIDED"
+    },
+    {
+      "area_id": "anonymous:character:neris:shore-life",
+      "authority": "OPTIONAL_CARTOGRAPHIC_INTERPRETATION",
+      "character_type": "INLAND_SEA_ORDINARY_SHORE",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.03,
+            0.4875
+          ],
+          [
+            0.098,
+            0.42
+          ],
+          [
+            0.25,
+            0.462
+          ],
+          [
+            0.29,
+            0.597
+          ],
+          [
+            0.194,
+            0.7125
+          ],
+          [
+            0.042,
+            0.699
+          ],
+          [
+            0.03,
+            0.588
+          ],
+          [
+            0.03,
+            0.4875
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "place_promise": "A black inland shore crossed by freight, schoolchildren, shrines and resting animals.",
+      "semantic_effect": "NONE",
+      "transition_mode": "MOSAIC"
+    },
+    {
+      "area_id": "anonymous:character:neris:upper-shelf",
+      "authority": "OPTIONAL_CARTOGRAPHIC_INTERPRETATION",
+      "character_type": "OLD_SURVEY_UPWARD_HAZARD",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.3252,
+            0.08
+          ],
+          [
+            0.4568,
+            0.06
+          ],
+          [
+            0.573,
+            0.12
+          ],
+          [
+            0.5548,
+            0.212
+          ],
+          [
+            0.4652,
+            0.26
+          ],
+          [
+            0.335,
+            0.232
+          ],
+          [
+            0.3,
+            0.155
+          ],
+          [
+            0.3252,
+            0.08
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "place_promise": "An old, uncertain upward route where cold, pressure and mana change produce glass-needle rain.",
+      "semantic_effect": "NONE",
+      "transition_mode": "GRADIENT"
+    },
+    {
+      "area_id": "anonymous:character:neris:black-choir",
+      "authority": "OPTIONAL_CARTOGRAPHIC_INTERPRETATION",
+      "character_type": "DEEP_QUIET_SEASON_HAZARD",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "boundary_semantics": "GRADIENT_NOT_WORLD_BOUNDARY",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "INTERPRETIVE_CHARACTER_ENVELOPE",
+        "layout_points": [
+          [
+            0.367781,
+            0.78761
+          ],
+          [
+            0.27759,
+            0.818861
+          ],
+          [
+            0.187909,
+            0.771511
+          ],
+          [
+            0.173217,
+            0.709494
+          ],
+          [
+            0.21978,
+            0.64511
+          ],
+          [
+            0.305086,
+            0.638671
+          ],
+          [
+            0.376925,
+            0.659502
+          ],
+          [
+            0.409457,
+            0.730271
+          ],
+          [
+            0.367781,
+            0.78761
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CARTOGRAPHIC_CHARACTER_AREA"
+      },
+      "place_promise": "A locally deeper chasm whose observed danger is seasonal, not a depth law.",
+      "semantic_effect": "NONE",
+      "transition_mode": "GRADIENT"
+    }
+  ],
+  "features": [
+    {
+      "facts": [
+        {
+          "label": "Collective Scale",
+          "measurement_domain": "experience",
+          "text": "downward migration is the largest gathering in the deep world"
+        }
+      ],
+      "feature_id": "MF-DESCENT-MIGRATION",
+      "frame_id": "FR-OSSARAY",
+      "geometry": null,
+      "kind": "recurring migration",
+      "label": "The Descent",
+      "layers": [
+        "routes",
+        "life"
+      ],
+      "rank": 2,
+      "states": [
+        "descent"
+      ],
+      "summary": "A longer-cycle downward migration described as the largest gathering in the deep world.",
+      "symbol": "migration",
+      "uncertainty": [
+        "conflate migration, route and festival ground"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Cyclic Scale",
+          "measurement_domain": "experience",
+          "text": "once-a-generation upward migration stops freight and becomes watched civic time"
+        }
+      ],
+      "feature_id": "MF-RISING-MIGRATION",
+      "frame_id": "FR-OSSARAY",
+      "geometry": null,
+      "kind": "recurring migration",
+      "label": "The Rising",
+      "layers": [
+        "routes",
+        "life"
+      ],
+      "rank": 2,
+      "states": [
+        "rising"
+      ],
+      "summary": "A once-a-generation upward migration that interrupts freight and becomes watched civic time.",
+      "symbol": "migration",
+      "uncertainty": [
+        "treat the migration as a fixed extent"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Surface exits",
+          "measurement_domain": "cardinality",
+          "text": "three lifts to three different countries"
+        }
+      ],
+      "feature_id": "PL-BELLOWAY",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.24,
+        "layout_y": 0.31,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "deep town",
+      "label": "Belloway",
+      "layers": [
+        "places",
+        "life",
+        "routes"
+      ],
+      "rank": 1,
+      "summary": "An ordinary, inhabited lift-town in Ossaray, joined to three different surface countries.",
+      "symbol": "town",
+      "uncertainty": [
+        "merge endpoints or infer their mutual distance"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Below",
+          "measurement_domain": "local relation",
+          "text": "main gallery below lift head"
+        },
+        {
+          "label": "Collective Kinetic Wonder",
+          "measurement_domain": "experience",
+          "text": "usually quiet gallery becomes fires, nets, crowds and noise for a migration-linked civic gathering"
+        }
+      ],
+      "feature_id": "PL-BELLOWAY-FEAST-GROUND",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.285,
+        "layout_y": 0.39,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "civic gallery",
+      "label": "Feast Ground",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 2,
+      "states": [
+        "rising",
+        "descent"
+      ],
+      "summary": "A usually quiet main gallery cleared for a migration-linked gathering of fires, nets and immense noise.",
+      "symbol": "civic",
+      "uncertainty": [
+        "make festival attendance a permanent population extent",
+        "make festival state permanent"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "PL-BELLOWAY-ROPEWALK",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "STREET_PROPOSAL",
+        "layout_points": [
+          [
+            0.16,
+            0.34
+          ],
+          [
+            0.26,
+            0.34
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_PATH_OR_AXIS"
+      },
+      "kind": "street",
+      "label": "Ropewalk",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 3,
+      "summary": "A Belloway street a few streets from the lift head, close enough to see it.",
+      "symbol": "street",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Below",
+          "measurement_domain": "local extent/depth",
+          "text": "first two miles of Ossaray networks below Belloway lifts"
+        },
+        {
+          "label": "Ordinary Deep",
+          "measurement_domain": "experience",
+          "text": "first two miles below lifts are roofed, lit and ordinary"
+        }
+      ],
+      "feature_id": "PL-BELLOWAY-UPPER-GALLERIES",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.145,
+            0.2805
+          ],
+          [
+            0.22,
+            0.24
+          ],
+          [
+            0.315,
+            0.2652
+          ],
+          [
+            0.34,
+            0.3462
+          ],
+          [
+            0.28,
+            0.4155
+          ],
+          [
+            0.185,
+            0.4074
+          ],
+          [
+            0.14,
+            0.3408
+          ],
+          [
+            0.145,
+            0.2805
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "kind": "lived deep country",
+      "label": "Upper Galleries",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 2,
+      "summary": "The first two miles below Belloway's lifts: roofed, lit and deliberately ordinary.",
+      "symbol": "extent",
+      "uncertainty": [
+        "add spectacle merely because this is Deep",
+        "make Belloway a two-mile-radius settlement"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Relative depth",
+          "measurement_domain": "local vertical offset",
+          "text": "2 miles deeper; Tier 26 start during quiet season"
+        }
+      ],
+      "feature_id": "PL-BLACK-CHOIR-CHASM",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.29,
+        "layout_y": 0.72,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "deep chasm",
+      "label": "Black Choir Chasm",
+      "layers": [
+        "places",
+        "water-depth",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "A chasm two miles deeper than Neris; its observed Tier onset belongs to quiet season, not a universal rule.",
+      "symbol": "chasm",
+      "uncertainty": [
+        "infer Tier from depth or permanent Tier band"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Local chart relation",
+          "measurement_domain": "local chart distance",
+          "text": "400 miles east; deeper than Neris and Black Choir; mostly Tier 3"
+        }
+      ],
+      "feature_id": "PL-CANDLE-BASIN",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.75,
+        "layout_y": 0.45,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "deep basin",
+      "label": "Candle Basin",
+      "layers": [
+        "places",
+        "water-depth",
+        "life"
+      ],
+      "rank": 1,
+      "summary": "A deep basin 400 miles east of Neris on the local chart, known for mushrooms and irritating poets.",
+      "symbol": "basin",
+      "uncertainty": [
+        "promote local east to planetary longitude"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Below the network",
+          "measurement_domain": "qualitative vertical",
+          "text": "low vent country beneath Ossaray networks"
+        }
+      ],
+      "feature_id": "PL-CANNET-VENTS",
+      "frame_id": "FR-INDEX_ONLY",
+      "geometry": null,
+      "kind": "low vent country",
+      "label": "Cannet Vents",
+      "layers": [
+        "places",
+        "water-depth",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "Low vent country physically beneath the Ossaray networks; political containment is not implied.",
+      "symbol": "vent",
+      "uncertainty": [
+        "infer political containment from physical beneath-ness"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Local seam",
+          "measurement_domain": "local boundary",
+          "text": "Belloway drainage gallery ends at pool whose far wall is Dungeon"
+        },
+        {
+          "label": "Boundary Wonder",
+          "measurement_domain": "experience",
+          "text": "city nursery district is literally organized around a site half ordinary water and half Dungeon"
+        }
+      ],
+      "feature_id": "PL-DROWNED-VENT-NURSERY",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.15,
+        "layout_y": 0.4,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "ordinary–Dungeon seam",
+      "label": "Drowned Vent Nursery",
+      "layers": [
+        "places",
+        "life",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "A nursery district built around a roofed pool whose far wall belongs to a bounded Dungeon.",
+      "symbol": "seam",
+      "uncertainty": [
+        "classify the near water or city district as Dungeon",
+        "expand Dungeon status beyond stated boundary"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "PL-HOLLOW-SINK",
+      "frame_id": "FR-SURFACE-HOLLOW",
+      "geometry": null,
+      "kind": "surface Dungeon interchange",
+      "label": "Hollow Sink",
+      "layers": [
+        "places",
+        "routes",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "A System-recognized Dungeon and surface-side interchange associated with the Neris gate.",
+      "symbol": "gate",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "PL-LONG-BREATH-SPIRE",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.72,
+        "layout_y": 0.82,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "deep spire",
+      "label": "Long-Breath Spire",
+      "layers": [
+        "places",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "A chambered structure below Ossaray whose doors follow an immense pressure cycle.",
+      "symbol": "spire",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "PL-LOWER-BLOOM",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.66,
+        "layout_y": 0.76,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "deep locality",
+      "label": "Lower Bloom",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 3,
+      "summary": "A named lower locality retained without inventing its extent or relation to the chart's other depths.",
+      "symbol": "place",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Within",
+          "measurement_domain": "nonmetric extent",
+          "text": "floor could hold a small country; ceiling unseen from middle"
+        },
+        {
+          "label": "Scale Wonder",
+          "measurement_domain": "experience",
+          "text": "country-scale floor under a ceiling too high to see from the middle"
+        }
+      ],
+      "feature_id": "PL-MARN",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.2645,
+            0.529
+          ],
+          [
+            0.482,
+            0.43
+          ],
+          [
+            0.7575,
+            0.4916
+          ],
+          [
+            0.83,
+            0.6896
+          ],
+          [
+            0.656,
+            0.859
+          ],
+          [
+            0.3805,
+            0.8392
+          ],
+          [
+            0.25,
+            0.6764
+          ],
+          [
+            0.2645,
+            0.529
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "kind": "vast cavern country",
+      "label": "The Marn",
+      "layers": [
+        "places",
+        "water-depth",
+        "life"
+      ],
+      "rank": 1,
+      "summary": "Ossaray's largest single space: a country-scale floor beneath a ceiling unseen from the middle.",
+      "symbol": "extent",
+      "uncertainty": [
+        "infer dimensions or centroid",
+        "invent exact height or diameter"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "PL-MYTH-GALLERY",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.18,
+        "layout_y": 0.49,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "gallery",
+      "label": "Myth Gallery",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 3,
+      "summary": "A named Belloway gallery retained as an atlas anchor; its wider extent remains underdetermined.",
+      "symbol": "place",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Depth network",
+          "measurement_domain": "relative depth statement",
+          "text": "roughly fourteen miles down; separate country"
+        },
+        {
+          "label": "Shore",
+          "measurement_domain": "local physical depth + route distinction",
+          "text": "sea measured fourteen miles below local surface; walkable route much farther"
+        },
+        {
+          "label": "Country-scale chart",
+          "measurement_domain": "qualitative chart structure",
+          "text": "six broad depth-bands plus buried seas, caverns, forests, galleries, faults, settlements, sealed regions, ranges and seasonal mana currents"
+        },
+        {
+          "label": "Journey",
+          "measurement_domain": "journey sequence",
+          "text": "eastern shore road; eight hours ordinary travel before old lift station"
+        },
+        {
+          "label": "Ordinary Life",
+          "measurement_domain": "experience",
+          "text": "ordinary route includes tolls, freight, schoolchildren, shrine and low-tier animals"
+        }
+      ],
+      "feature_id": "PL-NERIS",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "SHORE_ANCHOR_PROPOSAL",
+        "layout_x": 0.18,
+        "layout_y": 0.45,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "deep city and country",
+      "label": "Neris",
+      "layers": [
+        "places",
+        "life",
+        "water-depth"
+      ],
+      "rank": 1,
+      "summary": "An old, accomplished deep civilization on the shore of a black inland sea.",
+      "symbol": "city",
+      "uncertainty": [
+        "convert depth to route length",
+        "infer straight route geometry",
+        "instantiate unnamed examples as exact features",
+        "treat fourteen miles as Ossaray-to-Neris straight-line distance",
+        "treat these observations as exhaustive demographic statistics"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "PL-NERIS-BLACK-SEA",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.03,
+            0.4875
+          ],
+          [
+            0.098,
+            0.42
+          ],
+          [
+            0.25,
+            0.462
+          ],
+          [
+            0.29,
+            0.597
+          ],
+          [
+            0.194,
+            0.7125
+          ],
+          [
+            0.042,
+            0.699
+          ],
+          [
+            0.03,
+            0.588
+          ],
+          [
+            0.03,
+            0.4875
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "kind": "buried sea",
+      "label": "Black Inland Sea",
+      "layers": [
+        "places",
+        "water-depth",
+        "life"
+      ],
+      "rank": 1,
+      "summary": "The inland sea whose shore is occupied by Neris, measured locally fourteen miles below the surface.",
+      "symbol": "water",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Local lift offset",
+          "measurement_domain": "local lift offset",
+          "text": "lift rises 1700 feet before Upper Shelf"
+        },
+        {
+          "label": "Journey observation",
+          "measurement_domain": "journey observation",
+          "text": "ambient mana dropped twelve percent during lift"
+        },
+        {
+          "label": "Route break",
+          "measurement_domain": "path-domain distance",
+          "text": "old route collapsed six miles into shelf"
+        },
+        {
+          "label": "Route alternatives",
+          "measurement_domain": "journey time",
+          "text": "east detour two days longer; western route shorter but seasonal/recent-survey uncertainty"
+        },
+        {
+          "label": "Hazard",
+          "measurement_domain": "experience",
+          "text": "vertical route produces glass-needle rain despite lower mana and pressure"
+        },
+        {
+          "label": "Uncertainty And Expertise",
+          "measurement_domain": "experience",
+          "text": "local expert explicitly gives 60 percent confidence because records are old and last survey was 38 years ago"
+        }
+      ],
+      "feature_id": "PL-NERIS-UPPER-SHELF",
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.3252,
+            0.08
+          ],
+          [
+            0.4568,
+            0.06
+          ],
+          [
+            0.573,
+            0.12
+          ],
+          [
+            0.5548,
+            0.212
+          ],
+          [
+            0.4652,
+            0.26
+          ],
+          [
+            0.335,
+            0.232
+          ],
+          [
+            0.3,
+            0.155
+          ],
+          [
+            0.3252,
+            0.08
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "kind": "broad cavern and route stage",
+      "label": "Upper Shelf",
+      "layers": [
+        "places",
+        "routes",
+        "water-depth",
+        "hazards"
+      ],
+      "rank": 1,
+      "summary": "A broad upper cavern reached by an old, partly failed route whose latest confirmed survey is decades old.",
+      "symbol": "extent",
+      "uncertainty": [
+        "infer a universal vertical mana gradient",
+        "infer all upward travel or all cold vents produce glass rain",
+        "infer precise path lengths or safety from travel time",
+        "make six miles the shelf radius",
+        "treat as global elevation",
+        "turn local reputation into current surveyed fact"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Below",
+          "measurement_domain": "local depth + seam",
+          "text": "bounded Dungeon band several miles below Belloway inside old lift shaft"
+        }
+      ],
+      "feature_id": "PL-NINE-DAY-SHAFT",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.1,
+        "layout_y": 0.57,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "shaft and bounded Dungeon seam",
+      "label": "Nine-Day Shaft",
+      "layers": [
+        "routes",
+        "water-depth",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "An old lift shaft several miles below Belloway that passes through one bounded Dungeon band.",
+      "symbol": "shaft",
+      "uncertainty": [
+        "classify entire shaft as Dungeon"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Survey extent",
+          "measurement_domain": "extent only",
+          "text": "1100 miles across at widest survey"
+        },
+        {
+          "label": "Surface overlap",
+          "measurement_domain": "cardinality / overlap",
+          "text": "about eleven surface polities; four seas; disputed mountain range"
+        },
+        {
+          "label": "The Turn",
+          "measurement_domain": "not a metric",
+          "text": "not a fixed place; relation between place and exposure duration"
+        }
+      ],
+      "feature_id": "PL-OSSARAY",
+      "frame_id": "FR-OSSARAY",
+      "geometry": null,
+      "kind": "deep network",
+      "label": "Ossaray",
+      "layers": [
+        "places",
+        "water-depth"
+      ],
+      "rank": 1,
+      "summary": "An enormous inhabited deep-world network surveyed at 1,100 miles across at its widest.",
+      "symbol": "network",
+      "uncertainty": [
+        "create a circular 1100-mile polygon",
+        "draw a universal Turn line",
+        "invent surface boundaries or one owner above Ossaray"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "At",
+          "measurement_domain": "local relation",
+          "text": "principal lift head"
+        }
+      ],
+      "feature_id": "PL-RISING-GATE",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.265,
+        "layout_y": 0.295,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "principal lift head",
+      "label": "Rising Gate",
+      "layers": [
+        "routes",
+        "life"
+      ],
+      "rank": 2,
+      "states": [
+        "rising"
+      ],
+      "summary": "Belloway's principal lift head and a focus of generational migration time.",
+      "symbol": "gate",
+      "uncertainty": [
+        "equate every Belloway lift head with this gate without evidence"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Crosses",
+          "measurement_domain": "influence not metric footprint",
+          "text": "several galleries; load effects can propagate miles"
+        },
+        {
+          "label": "Conceptual Wonder",
+          "measurement_domain": "experience",
+          "text": "living bodies can be inspected as load-bearing parts of built structural practice"
+        }
+      ],
+      "feature_id": "PL-ROOFLINE",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "WORLDWORK_FOOTPRINT_PROPOSAL",
+        "layout_points": [
+          [
+            0.08,
+            0.65
+          ],
+          [
+            0.49,
+            0.49
+          ],
+          [
+            0.9,
+            0.35
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_PATH_OR_AXIS"
+      },
+      "kind": "load-bearing worldwork",
+      "label": "The Roofline",
+      "layers": [
+        "places",
+        "life",
+        "hazards"
+      ],
+      "rank": 2,
+      "summary": "Old ribs, plates and resonant braces redistribute roof load across several inhabited galleries.",
+      "symbol": "worldwork",
+      "uncertainty": [
+        "imply every Ossaray structure is alive",
+        "infer its complete geometry from affected galleries"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Near",
+          "measurement_domain": "qualitative local distance",
+          "text": "few streets from lift head; on Ropewalk"
+        },
+        {
+          "label": "Attachment And Consequence",
+          "measurement_domain": "experience",
+          "text": "several hundred surface-born citizens include people who crossed decades ago and built lives there"
+        }
+      ],
+      "feature_id": "PL-ROPEWALK-HOUSE",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "POINT",
+        "layout_x": 0.205,
+        "layout_y": 0.335,
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_POSITION"
+      },
+      "kind": "civic institution",
+      "label": "Ropewalk House",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 2,
+      "summary": "A statute house for surface-born citizens who cannot go back up, staffed by people who built lives below.",
+      "symbol": "civic",
+      "uncertainty": [
+        "convert “few streets” into miles",
+        "narrate all crossed residents as tragic or unwilling"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Part of",
+          "measurement_domain": "qualitative extent",
+          "text": "Marn provinces; fixed ivory light"
+        },
+        {
+          "label": "Light And Perception",
+          "measurement_domain": "experience",
+          "text": "constant ivory seam light makes surface day/night feel alien"
+        }
+      ],
+      "feature_id": "PL-SEAM-GLOW-COUNTRY",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.4698,
+            0.586
+          ],
+          [
+            0.5732,
+            0.57
+          ],
+          [
+            0.6645,
+            0.618
+          ],
+          [
+            0.6502,
+            0.6916
+          ],
+          [
+            0.5798,
+            0.73
+          ],
+          [
+            0.4775,
+            0.7076
+          ],
+          [
+            0.45,
+            0.646
+          ],
+          [
+            0.4698,
+            0.586
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "kind": "Marn province",
+      "label": "Seam-Glow Country",
+      "layers": [
+        "places",
+        "life"
+      ],
+      "rank": 2,
+      "summary": "A Marn province under constant old-ivory seam light, where surface day and night feel alien.",
+      "symbol": "extent",
+      "uncertainty": [
+        "imply all Marn has identical light/ecology",
+        "make all Ossaray light identical"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Within",
+          "measurement_domain": "ordered route location",
+          "text": "around middle of passage"
+        },
+        {
+          "label": "Quiet Mystery",
+          "measurement_domain": "experience",
+          "text": "regular watch party counts orchids to learn whether the only known inter-network connection is dying"
+        }
+      ],
+      "feature_id": "PL-THREADING-ORCHID-WALL",
+      "frame_id": "FR-THREADING",
+      "geometry": null,
+      "kind": "route observation site",
+      "label": "Orchid Wall",
+      "layers": [
+        "routes",
+        "life"
+      ],
+      "rank": 2,
+      "summary": "A site around the middle of the Threading where watch parties count orchids for signs of route condition.",
+      "symbol": "ecology",
+      "uncertainty": [
+        "claim orchids cause the Threading",
+        "infer exact half-distance or Euclidean midpoint"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "RT-CORUN-STAIR",
+      "frame_id": "FR-SURFACE-CORUN",
+      "geometry": null,
+      "kind": "unresolved surface route endpoint",
+      "label": "Corun Stair",
+      "layers": [
+        "routes"
+      ],
+      "rank": 3,
+      "summary": "A named surface-side route endpoint whose wider geographic position remains unresolved.",
+      "symbol": "route",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Within",
+          "measurement_domain": "route/process support",
+          "text": "main shafts downward; longer cycle than Rising"
+        }
+      ],
+      "feature_id": "RT-OSSARAY-DESCENT-ROUTE",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "ROUTE_PROPOSAL",
+        "layout_points": [
+          [
+            0.24,
+            0.31
+          ],
+          [
+            0.19,
+            0.49
+          ],
+          [
+            0.14,
+            0.74
+          ],
+          [
+            0.16,
+            0.97
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "PORTRAYAL_PATH_OR_AXIS"
+      },
+      "kind": "migration route",
+      "label": "Descent Route",
+      "layers": [
+        "routes",
+        "life"
+      ],
+      "rank": 2,
+      "states": [
+        "descent"
+      ],
+      "summary": "Main shafts leading downward on a cycle longer than the Rising.",
+      "symbol": "route",
+      "uncertainty": [
+        "turn route into a permanent regional boundary"
+      ]
+    },
+    {
+      "facts": [],
+      "feature_id": "RT-OSSARAY-LIFT-CORRIDORS",
+      "frame_id": "FR-OSSARAY",
+      "geometry": {
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "CORRIDOR_SYSTEM_PROPOSAL",
+        "paths": [
+          {
+            "layout_points": [
+              [
+                0.24,
+                0.31
+              ],
+              [
+                0.12,
+                0.13
+              ]
+            ]
+          },
+          {
+            "layout_points": [
+              [
+                0.24,
+                0.31
+              ],
+              [
+                0.26,
+                0.09
+              ]
+            ]
+          },
+          {
+            "layout_points": [
+              [
+                0.24,
+                0.31
+              ],
+              [
+                0.38,
+                0.15
+              ]
+            ]
+          }
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "MULTIPART_PORTRAYAL_OF_ONE_ENTITY"
+      },
+      "kind": "corridor system",
+      "label": "Lift Corridors",
+      "layers": [
+        "routes",
+        "water-depth"
+      ],
+      "rank": 2,
+      "states": [
+        "rising"
+      ],
+      "summary": "Ossaray's principal shaft corridors, portrayed as one system with several branches.",
+      "symbol": "route",
+      "uncertainty": [
+        "wider placement or extent remains underdetermined"
+      ]
+    },
+    {
+      "facts": [
+        {
+          "label": "Connection",
+          "measurement_domain": "route time",
+          "text": "nine-day passage; open and closed within living memory"
+        },
+        {
+          "label": "Absence And Scale",
+          "measurement_domain": "experience",
+          "text": "connection between civilizations can be physically present as silence, orchids and a shut passage"
+        }
+      ],
+      "feature_id": "RT-THREADING",
+      "frame_id": "FR-THREADING",
+      "geometry": null,
+      "kind": "conditional natural passage",
+      "label": "The Threading",
+      "layers": [
+        "routes",
+        "life"
+      ],
+      "rank": 1,
+      "summary": "The one known connection between Ossaray and Neris: about nine days when open, currently silent and closed.",
+      "symbol": "route",
+      "uncertainty": [
+        "infer exterior distance or current openness from drawn route length",
+        "turn current closure into eternal closure"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "description": "A portrayal of selected Ossaray identities and relations; no outer outline is asserted.",
+      "frame_id": "FR-OSSARAY",
+      "label": "Ossaray local chart",
+      "stamp": "NONMETRIC · LOCAL PORTRAYAL",
+      "unknown_policy": "All unmarked chart space remains underdetermined."
+    },
+    {
+      "description": "A portrayal of selected Neris identities and local measurements; east is local to this chart.",
+      "frame_id": "FR-NERIS",
+      "label": "Neris local chart",
+      "stamp": "NONMETRIC · LOCAL PORTRAYAL",
+      "unknown_policy": "Buried seas, caverns, settlements and ranges beyond these marks remain unplaced."
+    },
+    {
+      "description": "The one known passage between the networks, ordered as route-space only.",
+      "frame_id": "FR-THREADING",
+      "label": "The Threading",
+      "stamp": "ROUTE-SPACE · DRAWN LENGTH HAS NO SCALE",
+      "unknown_policy": "Current closure and unobserved passage state remain explicit."
+    },
+    {
+      "description": "Local offsets and ordinal depth are kept in their source domains.",
+      "frame_id": "FR-VERTICAL",
+      "label": "Local vertical sections",
+      "stamp": "MIXED LOCAL DATUMS · NO GLOBAL ELEVATION",
+      "unknown_policy": "No transform joins these sections into a single elevation model."
+    }
+  ],
+  "layer_definitions": [
+    {
+      "default": true,
+      "label": "Places",
+      "layer_id": "places"
+    },
+    {
+      "default": true,
+      "label": "Routes & access",
+      "layer_id": "routes"
+    },
+    {
+      "default": true,
+      "label": "Water, depth & measures",
+      "layer_id": "water-depth"
+    },
+    {
+      "default": true,
+      "label": "Life & civic places",
+      "layer_id": "life"
+    },
+    {
+      "default": true,
+      "label": "Hazards & seams",
+      "layer_id": "hazards"
+    },
+    {
+      "default": false,
+      "label": "Character & time-depth",
+      "layer_id": "character"
+    }
+  ],
+  "measurements": [
+    {
+      "display_coordinate_derived": false,
+      "domain": "extent only",
+      "label": "Survey extent",
+      "measurement_id": "measurement:c001",
+      "object_ids": [],
+      "subject_id": "PL-OSSARAY",
+      "value": "1100 miles across at widest survey"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "relative depth statement",
+      "label": "Depth network",
+      "measurement_id": "measurement:c003",
+      "object_ids": [
+        "PL-OSSARAY"
+      ],
+      "subject_id": "PL-NERIS",
+      "value": "roughly fourteen miles down; separate country"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "route time",
+      "label": "Connection",
+      "measurement_id": "measurement:c004",
+      "object_ids": [
+        "PL-OSSARAY",
+        "PL-NERIS"
+      ],
+      "subject_id": "RT-THREADING",
+      "value": "nine-day passage; open and closed within living memory"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "cardinality",
+      "label": "Surface exits",
+      "measurement_id": "measurement:c006",
+      "object_ids": [],
+      "subject_id": "PL-BELLOWAY",
+      "value": "three lifts to three different countries"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "local physical depth + route distinction",
+      "label": "Shore",
+      "measurement_id": "measurement:c008",
+      "object_ids": [
+        "PL-NERIS-BLACK-SEA"
+      ],
+      "subject_id": "PL-NERIS",
+      "value": "sea measured fourteen miles below local surface; walkable route much farther"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "local vertical offset",
+      "label": "Relative depth",
+      "measurement_id": "measurement:c009",
+      "object_ids": [
+        "PL-NERIS"
+      ],
+      "subject_id": "PL-BLACK-CHOIR-CHASM",
+      "value": "2 miles deeper; Tier 26 start during quiet season"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "local chart distance",
+      "label": "Local chart relation",
+      "measurement_id": "measurement:c010",
+      "object_ids": [
+        "PL-NERIS"
+      ],
+      "subject_id": "PL-CANDLE-BASIN",
+      "value": "400 miles east; deeper than Neris and Black Choir; mostly Tier 3"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "journey sequence",
+      "label": "Journey",
+      "measurement_id": "measurement:c012",
+      "object_ids": [
+        "PL-NERIS-UPPER-SHELF"
+      ],
+      "subject_id": "PL-NERIS",
+      "value": "eastern shore road; eight hours ordinary travel before old lift station"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "local lift offset",
+      "label": "Local lift offset",
+      "measurement_id": "measurement:c013",
+      "object_ids": [],
+      "subject_id": "PL-NERIS-UPPER-SHELF",
+      "value": "lift rises 1700 feet before Upper Shelf"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "journey observation",
+      "label": "Journey observation",
+      "measurement_id": "measurement:c014",
+      "object_ids": [],
+      "subject_id": "PL-NERIS-UPPER-SHELF",
+      "value": "ambient mana dropped twelve percent during lift"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "path-domain distance",
+      "label": "Route break",
+      "measurement_id": "measurement:c015",
+      "object_ids": [],
+      "subject_id": "PL-NERIS-UPPER-SHELF",
+      "value": "old route collapsed six miles into shelf"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "journey time",
+      "label": "Route alternatives",
+      "measurement_id": "measurement:c016",
+      "object_ids": [],
+      "subject_id": "PL-NERIS-UPPER-SHELF",
+      "value": "east detour two days longer; western route shorter but seasonal/recent-survey uncertainty"
+    },
+    {
+      "display_coordinate_derived": false,
+      "domain": "local extent/depth",
+      "label": "Below",
+      "measurement_id": "measurement:c017",
+      "object_ids": [
+        "PL-BELLOWAY"
+      ],
+      "subject_id": "PL-BELLOWAY-UPPER-GALLERIES",
+      "value": "first two miles of Ossaray networks below Belloway lifts"
+    }
+  ],
+  "out_of_scope_answer": "That question is not answered by this bounded atlas plate. Try World Lens for corpus-wide knowledge; absence here does not mean absence in Immensa.",
+  "realization": {
+    "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+    "cross_chart_distance": "FORBIDDEN",
+    "decision_id": "ON01-CD001",
+    "global_vertical_datum": "ABSENT",
+    "initial_treatment": "R0_NO_REGION",
+    "label": "Atlas realization 1",
+    "optional_character_treatment": "R3_TIME_DEPTH",
+    "seed": "immensa:atlas:ossaray-neris:01:v1",
+    "semantic_effect": "NONE",
+    "world_query_geometry": false
+  },
+  "route_space": {
+    "current_state": "closed within living memory; no permanent state inferred",
+    "duration": "about nine days when open",
+    "frame_id": "FR-THREADING",
+    "geometry": {
+      "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+      "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+      "kind": "ROUTE_DISPLAY_CURVE",
+      "layout_points": [
+        [
+          0.0,
+          0.5
+        ],
+        [
+          0.18,
+          0.72
+        ],
+        [
+          0.43,
+          0.26
+        ],
+        [
+          0.68,
+          0.7
+        ],
+        [
+          1.0,
+          0.5
+        ]
+      ],
+      "queryable_as_world_geometry": false,
+      "representation_role": "PORTRAYAL_PATH_OR_AXIS"
+    },
+    "stops": [
+      {
+        "feature_id": "PL-OSSARAY",
+        "order": 0.0,
+        "role": "endpoint"
+      },
+      {
+        "feature_id": "PL-THREADING-ORCHID-WALL",
+        "order": 0.55,
+        "role": "around the middle"
+      },
+      {
+        "feature_id": "PL-NERIS",
+        "order": 1.0,
+        "role": "endpoint"
+      }
+    ]
+  },
+  "schema_version": "immensa-ossaray-neris-atlas-1.0.0",
+  "scope_note": "A coordinated, nonmetric atlas plate—not a world map and not a shared coordinate system.",
+  "states": [
+    {
+      "description": "The Threading is shown silent and closed; recurring migrations are not active.",
+      "label": "Current",
+      "state_id": "current"
+    },
+    {
+      "description": "Once-a-generation upward migration emphasis; lift corridors and civic watching become active.",
+      "label": "Rising",
+      "state_id": "rising"
+    },
+    {
+      "description": "Longer-cycle downward migration emphasis; Descent Route and gathering ground become active.",
+      "label": "Descent",
+      "state_id": "descent"
+    }
+  ],
+  "subtitle": "Ossaray, Neris & the Threading",
+  "surface_interchanges": [
+    {
+      "feature_id": "PL-HOLLOW-SINK",
+      "interchange_id": "surface:hollow",
+      "label": "Hollow Sink",
+      "status": "named local interchange; wider surface placement unstated"
+    },
+    {
+      "feature_id": "RT-CORUN-STAIR",
+      "interchange_id": "surface:corun",
+      "label": "Corun Stair",
+      "status": "endpoint identity retained; wider position unresolved"
+    },
+    {
+      "interchange_id": "surface:belloway-a",
+      "label": "Belloway lift exit A",
+      "status": "different country; identity and mutual position unknown"
+    },
+    {
+      "interchange_id": "surface:belloway-b",
+      "label": "Belloway lift exit B",
+      "status": "different country; identity and mutual position unknown"
+    },
+    {
+      "interchange_id": "surface:belloway-c",
+      "label": "Belloway lift exit C",
+      "status": "different country; identity and mutual position unknown"
+    }
+  ],
+  "time_depth_overlays": [
+    {
+      "feature_ids": [
+        "RT-OSSARAY-LIFT-CORRIDORS",
+        "RT-OSSARAY-DESCENT-ROUTE"
+      ],
+      "frame_id": "FR-OSSARAY",
+      "geometry": null,
+      "kind": "RECURRING_MIGRATION_CYCLE",
+      "overlay_id": "anonymous:time:belloway-generational-cycle",
+      "reader_effect": "The quiet civic galleries periodically become watched, crowded movement infrastructure.",
+      "semantic_effect": "NONE",
+      "static_region_forbidden": true
+    },
+    {
+      "feature_ids": [
+        "PL-NERIS-UPPER-SHELF"
+      ],
+      "frame_id": "FR-NERIS",
+      "geometry": {
+        "boundary_semantics": "NONE",
+        "coordinate_semantics": "DISPLAY_ONLY_NONMETRIC",
+        "geometry_authority": "ADOPTED_ATLAS_PORTRAYAL_ONLY",
+        "kind": "APPROXIMATE_REALIZATION_ENVELOPE",
+        "layout_points": [
+          [
+            0.3252,
+            0.08
+          ],
+          [
+            0.4568,
+            0.06
+          ],
+          [
+            0.573,
+            0.12
+          ],
+          [
+            0.5548,
+            0.212
+          ],
+          [
+            0.4652,
+            0.26
+          ],
+          [
+            0.335,
+            0.232
+          ],
+          [
+            0.3,
+            0.155
+          ],
+          [
+            0.3252,
+            0.08
+          ]
+        ],
+        "queryable_as_world_geometry": false,
+        "representation_role": "CANDIDATE_EXTENT_ENVELOPE"
+      },
+      "kind": "AGED_SURVEY_CONFIDENCE",
+      "overlay_id": "anonymous:time:neris-survey-age",
+      "reader_effect": "The route is experienced through records old enough to be visibly uncertain.",
+      "semantic_effect": "NONE",
+      "static_region_forbidden": false
+    },
+    {
+      "feature_ids": [
+        "RT-THREADING",
+        "PL-THREADING-ORCHID-WALL"
+      ],
+      "frame_id": "FR-THREADING",
+      "geometry": null,
+      "kind": "CURRENTLY_CLOSED_RECURRING_WATCH",
+      "overlay_id": "anonymous:time:threading-watch",
+      "reader_effect": "Silence and counted orchids make present closure legible without declaring it permanent.",
+      "semantic_effect": "NONE",
+      "static_region_forbidden": true
+    }
+  ],
+  "title": "Beneath Two Worlds",
+  "truth_line": "Named facts are governed; positions and incomplete shapes are an adopted atlas realization; blank space is underdetermined.",
+  "vertical_sections": [
+    {
+      "mode": "local approximate depth",
+      "rows": [
+        {
+          "feature_id": "local-surface-reference:neris",
+          "label": "local surface reference",
+          "position": 0,
+          "value": "local zero"
+        },
+        {
+          "feature_id": "PL-NERIS",
+          "label": "Neris",
+          "position": 0.4,
+          "value": "roughly 14 miles down"
+        },
+        {
+          "feature_id": "PL-BLACK-CHOIR-CHASM",
+          "label": "Black Choir",
+          "position": 0.61,
+          "value": "about 2 miles deeper"
+        },
+        {
+          "feature_id": "PL-CANDLE-BASIN",
+          "label": "Candle Basin",
+          "position": 0.84,
+          "value": "deeper than both; exact depth unknown"
+        }
+      ],
+      "section_id": "neris-depth",
+      "title": "Neris local depth"
+    },
+    {
+      "mode": "local lift offset",
+      "rows": [
+        {
+          "feature_id": "journey:below-map:old-lift-station",
+          "label": "old lift station",
+          "position": 0.72,
+          "value": "local reference"
+        },
+        {
+          "feature_id": "PL-NERIS-UPPER-SHELF",
+          "label": "Upper Shelf",
+          "position": 0.24,
+          "value": "1,700 feet up; mana fell 12% during lift"
+        }
+      ],
+      "section_id": "upper-shelf-lift",
+      "title": "Upper Shelf lift stage"
+    },
+    {
+      "mode": "mixed local extent and ordinal depth",
+      "rows": [
+        {
+          "feature_id": "PL-BELLOWAY",
+          "label": "Belloway lifts",
+          "position": 0.1,
+          "value": "local reference"
+        },
+        {
+          "feature_id": "PL-BELLOWAY-UPPER-GALLERIES",
+          "label": "Upper Galleries",
+          "position": 0.3,
+          "value": "first 2 miles below lifts"
+        },
+        {
+          "feature_id": "PL-NINE-DAY-SHAFT",
+          "label": "Nine-Day Shaft",
+          "position": 0.6,
+          "value": "several miles below"
+        },
+        {
+          "feature_id": "PL-CANNET-VENTS",
+          "label": "Cannet Vents",
+          "position": 0.88,
+          "value": "low vent country below the network"
+        }
+      ],
+      "section_id": "belloway-depth",
+      "title": "Belloway worked depth"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#071315">
+  <meta name="description" content="A reader-facing, nonmetric atlas plate of Ossaray, Neris and the Threading in Immensa.">
+  <title>Beneath Two Worlds · Immensa Atlas</title>
+  <link rel="stylesheet" href="./atlas.css">
+</head>
+<body data-ready="false" data-state="current" data-character-layer="false" data-selected-view="ossaray">
+  <a class="skip-link" href="#atlas-plate">Skip to the atlas</a>
+
+  <header class="site-head">
+    <a class="wordmark" href="../../">IMMensa <span>atlas</span></a>
+    <nav aria-label="Immensa views">
+      <a href="../../world-lens/">World Lens</a>
+      <a href="../../world-topology/">World Topology</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Deep-world atlas · Plate 01</p>
+        <h1 id="page-title"><span id="title">Beneath Two Worlds</span><small id="subtitle">Ossaray, Neris &amp; the Threading</small></h1>
+      </div>
+      <div class="truth-card" aria-label="How to read this atlas">
+        <span class="truth-mark" aria-hidden="true">◌</span>
+        <div><strong>Atlas realization</strong><p id="truth-line">Loading the atlas truth contract…</p></div>
+      </div>
+    </section>
+
+    <section class="atlas-tools" aria-label="Atlas controls">
+      <form id="search-form" class="search-box" role="search">
+        <label for="atlas-search">Search this atlas plate</label>
+        <div class="search-row">
+          <input id="atlas-search" name="q" type="search" autocomplete="off" placeholder="Try “what lies below Belloway?”">
+          <button type="submit">Find</button>
+        </div>
+        <div id="search-suggestions" class="suggestions" role="listbox" aria-label="Atlas search suggestions"></div>
+      </form>
+
+      <fieldset class="state-control">
+        <legend>World state</legend>
+        <div id="state-buttons" class="segmented"></div>
+        <p id="state-description">Loading states…</p>
+      </fieldset>
+
+      <details class="layer-control">
+        <summary>Layers <span id="layer-count" aria-hidden="true"></span></summary>
+        <div id="layer-buttons" class="layer-grid"></div>
+      </details>
+    </section>
+
+    <div id="question-prompts" class="question-prompts" aria-label="Example atlas questions"></div>
+
+    <nav class="mobile-view-tabs" aria-label="Atlas view">
+      <button type="button" data-view-target="ossaray" aria-pressed="true">Ossaray</button>
+      <button type="button" data-view-target="threading" aria-pressed="false">Threading</button>
+      <button type="button" data-view-target="neris" aria-pressed="false">Neris</button>
+      <button type="button" data-view-target="section" aria-pressed="false">Depth</button>
+    </nav>
+
+    <section id="atlas-plate" class="plate-layout" aria-label="Beneath Two Worlds atlas plate">
+      <div class="map-column">
+        <div class="plate-mast">
+          <div><span>Plate 01</span><strong>Coordinated local views</strong></div>
+          <p id="scope-note">Local charts loading…</p>
+        </div>
+
+        <div class="chart-pair">
+          <article class="chart-card" data-atlas-view="ossaray" aria-labelledby="ossaray-heading">
+            <header>
+              <div><p>Local chart</p><h2 id="ossaray-heading">Ossaray</h2></div>
+              <span class="chart-stamp" id="ossaray-stamp">NONMETRIC</span>
+            </header>
+            <svg id="ossaray-map" class="atlas-map" viewBox="0 0 1000 700" role="img" aria-labelledby="ossaray-map-title ossaray-map-desc">
+              <title id="ossaray-map-title">Ossaray local atlas chart</title>
+              <desc id="ossaray-map-desc">An interactive nonmetric portrayal of selected places, routes, civic sites and hazards in Ossaray.</desc>
+            </svg>
+            <p class="chart-note" id="ossaray-note"></p>
+          </article>
+
+          <article class="chart-card" data-atlas-view="neris" aria-labelledby="neris-heading">
+            <header>
+              <div><p>Local chart</p><h2 id="neris-heading">Neris</h2></div>
+              <span class="chart-stamp" id="neris-stamp">NONMETRIC</span>
+            </header>
+            <svg id="neris-map" class="atlas-map" viewBox="0 0 1000 700" role="img" aria-labelledby="neris-map-title neris-map-desc">
+              <title id="neris-map-title">Neris local atlas chart</title>
+              <desc id="neris-map-desc">An interactive nonmetric portrayal of Neris, its inland sea, Candle Basin, Upper Shelf and selected depths.</desc>
+            </svg>
+            <p class="chart-note" id="neris-note"></p>
+          </article>
+        </div>
+
+        <article class="route-card" data-atlas-view="threading" aria-labelledby="threading-heading">
+          <header>
+            <div><p>Ordered route-space</p><h2 id="threading-heading">The Threading</h2></div>
+            <span class="chart-stamp" id="threading-stamp">DRAWN LENGTH HAS NO SCALE</span>
+          </header>
+          <svg id="threading-map" class="threading-map" viewBox="0 0 1200 250" role="img" aria-labelledby="threading-map-title threading-map-desc">
+            <title id="threading-map-title">The Threading route-space</title>
+            <desc id="threading-map-desc">An ordered portrayal from Ossaray through Orchid Wall to Neris. The curve is not geographic distance.</desc>
+          </svg>
+          <div class="route-facts"><strong id="route-duration"></strong><span id="route-state"></span></div>
+        </article>
+
+        <article class="section-card" data-atlas-view="section" aria-labelledby="section-heading">
+          <header>
+            <div><p>Mixed local datums</p><h2 id="section-heading">Depth without a false world elevation</h2></div>
+            <span class="chart-stamp" id="section-stamp">NO GLOBAL DATUM</span>
+          </header>
+          <div id="vertical-sections" class="vertical-sections"></div>
+        </article>
+
+        <section class="surface-strip" aria-labelledby="surface-heading">
+          <div class="surface-title"><p>Surface interchanges</p><h2 id="surface-heading">Doors upward, not a shared mini-map</h2></div>
+          <div id="surface-cards" class="surface-cards"></div>
+        </section>
+
+        <div class="legend" aria-label="Atlas legend">
+          <div><span class="legend-symbol town"></span><span>settlement / civic place</span></div>
+          <div><span class="legend-symbol route"></span><span>route or corridor</span></div>
+          <div><span class="legend-symbol water"></span><span>water / depth</span></div>
+          <div><span class="legend-symbol seam"></span><span>hazard or seam</span></div>
+          <div><span class="legend-symbol extent"></span><span>approximate portrayal extent</span></div>
+          <div><span class="legend-symbol unknown"></span><span>underdetermined beyond marks</span></div>
+        </div>
+      </div>
+
+      <aside id="inspector" class="inspector" aria-labelledby="inspector-title">
+        <div class="inspector-topline"><span>Atlas reader</span><button id="clear-selection" type="button" hidden>Clear</button></div>
+        <p class="inspector-kicker" id="inspector-kicker">How to begin</p>
+        <h2 id="inspector-title">Choose a mark or ask a question</h2>
+        <div id="inspector-content">
+          <p>Select any named mark for a concise account of what is known and what the drawing leaves open.</p>
+          <p class="quiet">This reader intentionally omits source paths, evidence IDs and extraction machinery.</p>
+        </div>
+        <div id="live-status" class="sr-only" aria-live="polite"></div>
+      </aside>
+    </section>
+
+    <details class="atlas-index" id="atlas-index">
+      <summary><span>Atlas index</span><small>A complete text alternative to every mapped feature</small></summary>
+      <div class="index-tools"><label for="index-filter">Filter index</label><input id="index-filter" type="search" placeholder="Name, kind or layer"></div>
+      <div id="index-list" class="index-list"></div>
+    </details>
+  </main>
+
+  <footer>
+    <p><strong>Immensa Atlas</strong> · A bounded view of a world that remains larger than its maps.</p>
+    <p><a href="../../world-lens/">Explore world knowledge</a> · <a href="../../world-topology/">Explore connections</a></p>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

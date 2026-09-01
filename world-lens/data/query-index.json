@@ -217,8 +217,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-ec0b70886eed831c",
-      "from_node": "SRC-f4b0950115df55",
+      "display_edge_id": "DE-10632da5f3c39971",
+      "from_node": "PL-BLACK-CHOIR-CHASM",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-e53e262b5a72bb07"
@@ -256,6 +256,33 @@
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-073cadd9ff3999de",
+      "component_effects": [
+        "CONNECT",
+        "NONE"
+      ],
+      "display_edge_id": "DE-341d8cf8d242bad0",
+      "from_node": "PL-HOLLOW-SINK",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-bd59d71d861f8ce0",
+        "PE-f1b51343b85b47c1"
+      ],
+      "projections": [
+        "spatial_structure",
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ROUTE",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "PL-HOLLOW-SINK",
+      "traversal_direction": "UNKNOWN",
+      "traversal_effects": [
+        "NONE",
+        "OBSERVATION_ONLY"
       ]
     },
     {
@@ -539,8 +566,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-f85854551c523f31",
-      "from_node": "SRC-87512cf2c1292c",
+      "display_edge_id": "DE-147de064c74e45e9",
+      "from_node": "PL-MARN",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-b5a5591e9b742d5a"
@@ -957,6 +984,29 @@
       ]
     },
     {
+      "assertion_id": "AS-2084f3ec9f19f933",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-8ac6eb8935f50f56",
+      "from_node": "PL-LONG-BREATH-SPIRE",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-131e441ffc88deeb"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-9e94242ef9dc6c",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-21bbd23913141319",
       "component_effects": [
         "NONE"
@@ -984,8 +1034,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-a28e07a25cd68756",
-      "from_node": "SRC-d32162c20ed6fc",
+      "display_edge_id": "DE-c5401a382f3cc28f",
+      "from_node": "PL-NINE-DAY-SHAFT",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-93084a6a60a7120e"
@@ -1310,8 +1360,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-c94ab48d88010b4c",
-      "from_node": "SRC-b8b41c3dfaf934",
+      "display_edge_id": "DE-4d7edb2ac457bcbb",
+      "from_node": "PL-RISERS-DEPTH",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-30913a2fd7d0c73d"
@@ -1369,6 +1419,52 @@
       "relation_type": "UNANCHORED",
       "semantic_direction": "ROLE_ORDERED",
       "to_node": "PL-ILBER",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-2d7b7966db165573",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-da8af166cf45da2a",
+      "from_node": "PL-CANNET-VENTS",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-fad5324d1776662c"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-a67b4800513ad1",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-2e463bbbad7bde06",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-6e1b3cc9cba97712",
+      "from_node": "PL-CANNET-VENTS",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-2ef9f025e5ab5ed6"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-c732f15ab5c64c",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -1521,12 +1617,35 @@
       ]
     },
     {
+      "assertion_id": "AS-31bbff10e6865f25",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-612bc8dcdb75adad",
+      "from_node": "SRC-7f217e63e4c4b3",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-f1efe78f33885556"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "DISTANCE",
+      "semantic_direction": "NONE",
+      "to_node": "PL-CANNET-VENTS",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-3357a40932308790",
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-31a28e29c61e6e1c",
-      "from_node": "SRC-dda3b8453bb7a2",
+      "display_edge_id": "DE-f6a1ef01fdfde167",
+      "from_node": "PL-ROOFLINE",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-42b61efc5cb156ad"
@@ -1567,12 +1686,35 @@
       ]
     },
     {
+      "assertion_id": "AS-3486894010615169",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-87e4dab201147ae4",
+      "from_node": "PL-HOLLOW-SINK",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-31728df3e5c50fba"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-568f836dbabdd9",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-34f49610c8d7e1ce",
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-cce1213b18f4c57b",
-      "from_node": "SRC-3c4f4deddf08ae",
+      "display_edge_id": "DE-2b172d9617817197",
+      "from_node": "PL-LOWER-BLOOM",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-d494e0ccf1423d56"
@@ -1782,7 +1924,7 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-8ac3f4de70dd4218",
+      "display_edge_id": "DE-b7b03b70d2d761bf",
       "from_node": "PL-NERIS",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
@@ -1794,7 +1936,7 @@
       "relation_family": "spatial",
       "relation_type": "ADJACENCY",
       "semantic_direction": "NONE",
-      "to_node": "SRC-55b48db4e405cc",
+      "to_node": "PL-NERIS-BLACK-SEA",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -1916,6 +2058,29 @@
       ]
     },
     {
+      "assertion_id": "AS-3feef99aff8609a4",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-e9d3dc937dd8f9bc",
+      "from_node": "PL-HOLLOW-SINK",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-97abea16c3643e70"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "to_node": "SRC-6c0a42127d6562",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-402a1edcd4fad9a5",
       "component_effects": [
         "NONE"
@@ -1936,6 +2101,29 @@
       "traversal_direction": "NONE",
       "traversal_effects": [
         "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-408c4889dc3268f4",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-d3e5a5d341307008",
+      "from_node": "PL-ROOFED-COUNTRY",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-991fb6a4244bba92"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-d8d21734fd7319",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
       ]
     },
     {
@@ -2407,7 +2595,7 @@
       "component_effects": [
         "NONE"
       ],
-      "display_edge_id": "DE-3b1001410bd5ad60",
+      "display_edge_id": "DE-5ce1afb45dd90c9f",
       "from_node": "PL-NERIS",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
@@ -2419,10 +2607,33 @@
       "relation_family": "movement",
       "relation_type": "ACCESS_COND",
       "semantic_direction": "ROLE_ORDERED",
-      "to_node": "SRC-0a00fa5517f52c",
+      "to_node": "PL-HOLLOW-SINK",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-4f46e5d26ecfa106",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-a0c78ba754283c82",
+      "from_node": "PL-CANDLE-BASIN",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-718f4f33f9a3a786"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-105e4d9e5a3aff",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
       ]
     },
     {
@@ -2466,6 +2677,29 @@
       "relation_type": "DISTANCE",
       "semantic_direction": "NONE",
       "to_node": "PL-SAAN-KEL",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-5215cfb1a9eb7a01",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-e34ea71025e19ebe",
+      "from_node": "PL-DROWNED-VENT-NURSERY",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-bac93ac8fc7b9f87"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "to_node": "SRC-5bf71b2b08425f",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -2822,6 +3056,33 @@
       "relation_type": "ROUTE",
       "semantic_direction": "SOURCE_TO_TARGET",
       "to_node": "PL-OLD-CORDON",
+      "traversal_direction": "UNKNOWN",
+      "traversal_effects": [
+        "NONE",
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-5b297016757603a5",
+      "component_effects": [
+        "CONNECT",
+        "NONE"
+      ],
+      "display_edge_id": "DE-537f1bb9fd67f3cf",
+      "from_node": "SRC-462bb3d0411dfd",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-1ef8885f21c3c975",
+        "PE-3b38c6589295e9d1"
+      ],
+      "projections": [
+        "spatial_structure",
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ROUTE",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "PL-MARN",
       "traversal_direction": "UNKNOWN",
       "traversal_effects": [
         "NONE",
@@ -3447,8 +3708,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-1ae83891f8c32b05",
-      "from_node": "SRC-aa0aa0e6a1d588",
+      "display_edge_id": "DE-5fa27f19438bc2f9",
+      "from_node": "PL-MARN",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-8910e28e985a2228"
@@ -3816,6 +4077,56 @@
       "traversal_effects": [
         "NONE",
         "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-703714f29c5b6480",
+      "component_effects": [
+        "CONNECT",
+        "NONE"
+      ],
+      "display_edge_id": "DE-d6d8a1e6bd5c7152",
+      "from_node": "PL-HOLLOW-SINK",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-38d40c8278f030d9",
+        "PE-d39e07e35354654b"
+      ],
+      "projections": [
+        "spatial_structure",
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ROUTE",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-14836b5b158711",
+      "traversal_direction": "UNKNOWN",
+      "traversal_effects": [
+        "NONE",
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-704a301d05adffb9",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-2c20a8623467ad02",
+      "from_node": "PL-CANNET-VENTS",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-7541419e080f53c7"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-5dcbd2122dbf60",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
       ]
     },
     {
@@ -4383,8 +4694,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-fa66465dd608b202",
-      "from_node": "SRC-fcd2f02cc24bb5",
+      "display_edge_id": "DE-ee654ba2bffd9e19",
+      "from_node": "PL-CANDLE-BASIN",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-e0bc1f3c17001d00"
@@ -4632,6 +4943,75 @@
       ]
     },
     {
+      "assertion_id": "AS-852d0a0515f2f2b5",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-3e1954d05b135d8c",
+      "from_node": "SRC-462bb3d0411dfd",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-5205622ec3c3a3c6"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "to_node": "PL-MARN",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-86538e0472189754",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-a2bf40f852bedb93",
+      "from_node": "PL-HOLLOW-SINK",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-4fac05ce32c6ac5c"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "grouping",
+      "relation_type": "ANON_REGION",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-f72bcc0c19d6a2",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-87345e408f4f6a92",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-5b2f19587793163d",
+      "from_node": "SRC-6082e04df289d6",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-161031d33c882164"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "PL-CANNET-VENTS",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-886a95e57dc8081d",
       "component_effects": [
         "CONNECT",
@@ -4728,6 +5108,29 @@
       ]
     },
     {
+      "assertion_id": "AS-8af274b92c4eb9e7",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-514f382354c2a34d",
+      "from_node": "PL-HOLLOW-SINK",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-7d4bbeb330af4af2"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "EXTENT",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-986b7d59715e6c",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-8babf3e6efaf9f0f",
       "component_effects": [
         "CONNECT"
@@ -4756,7 +5159,7 @@
         "CONNECT",
         "NONE"
       ],
-      "display_edge_id": "DE-94da23513b4843fe",
+      "display_edge_id": "DE-99536b62edef4543",
       "from_node": "PL-NERIS",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
@@ -4770,7 +5173,7 @@
       "relation_family": "movement",
       "relation_type": "ROUTE",
       "semantic_direction": "SOURCE_TO_TARGET",
-      "to_node": "SRC-0a00fa5517f52c",
+      "to_node": "PL-HOLLOW-SINK",
       "traversal_direction": "UNKNOWN",
       "traversal_effects": [
         "NONE",
@@ -4821,6 +5224,29 @@
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-8df416c2af28bcbf",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-ac7d2c013eabb8c1",
+      "from_node": "PL-CANNET-VENTS",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-dbcd4997c26028fa"
+      ],
+      "projections": [
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-c909dfdae3c358",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
       ]
     },
     {
@@ -4943,6 +5369,29 @@
       ]
     },
     {
+      "assertion_id": "AS-9050eac590bd0b0e",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-70ed58b9b876b001",
+      "from_node": "SRC-bae585ff67b0f7",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-12be7b7dd117abe1"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "PL-CANNET-VENTS",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
       "assertion_id": "AS-90be9d53def3c5a5",
       "component_effects": [
         "NONE"
@@ -4993,8 +5442,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-0112bb011947c868",
-      "from_node": "SRC-7cbd00872dbfa4",
+      "display_edge_id": "DE-4181389483b5c001",
+      "from_node": "PL-MYTH-GALLERY",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-754472b21d6e7c18"
@@ -5565,8 +6014,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-a071a8b60f336d13",
-      "from_node": "SRC-9f0f1fc3a8ec3e",
+      "display_edge_id": "DE-6565f0ae84a6e34c",
+      "from_node": "PL-RISING-GATE",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-7e5e300d4790f758"
@@ -5578,6 +6027,29 @@
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
       "to_node": "PL-BELLOWAY",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-a35d72a87fcf1143",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-88b9e6b28d6fa91d",
+      "from_node": "PL-MARN",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-b7933f1a11545720"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-7d82c0b982102f",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -5611,8 +6083,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-21fda5c814e068ac",
-      "from_node": "SRC-aa27f48829c0a8",
+      "display_edge_id": "DE-53628e74cb99ace6",
+      "from_node": "PL-THREADING-ORCHID-WALL",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-b95dfe8644a2a049"
@@ -5860,6 +6332,29 @@
       ]
     },
     {
+      "assertion_id": "AS-abc8dd30424a2771",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-827c064828e136fb",
+      "from_node": "PL-ROPEWALK-HOUSE",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-ce7cbc931901f702"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "DISTANCE",
+      "semantic_direction": "NONE",
+      "to_node": "SRC-f86fe4f821f155",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-ac1b9c6f5085148e",
       "component_effects": [
         "CONNECT"
@@ -5877,6 +6372,29 @@
       "relation_type": "CONTAINMENT",
       "semantic_direction": "SOURCE_TO_TARGET",
       "to_node": "PL-CANDLECUT",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-ade1bb6c3dff6929",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-97a06e73dbca310a",
+      "from_node": "PL-BELLOWAY-UPPER-GALLERIES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-c45658991f2b7478"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-a54a16a8a94f68",
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
@@ -5956,8 +6474,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-e941a0fa5f094e4e",
-      "from_node": "SRC-fcd2f02cc24bb5",
+      "display_edge_id": "DE-21dcb22c360be178",
+      "from_node": "PL-CANDLE-BASIN",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-264d9465e40da589"
@@ -6167,6 +6685,52 @@
       ]
     },
     {
+      "assertion_id": "AS-b8b4a42ef8329efc",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-c0f41f7b8bb298e7",
+      "from_node": "RT-OSSARAY-LIFT-CORRIDORS",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-df2e58c5c5dc4330"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-b8a600a8ab877a",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-b8ca2277fa3e3ab3",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-4d8690366ea9e020",
+      "from_node": "PL-BELLOWAY-UPPER-GALLERIES",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-06cbd6b6a09c944c"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "CONTAINMENT",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-5dcbd2122dbf60",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-b909951075a9f92c",
       "component_effects": [
         "CONNECT",
@@ -6345,8 +6909,8 @@
         "CONNECT",
         "NONE"
       ],
-      "display_edge_id": "DE-85102ed94ff77427",
-      "from_node": "SRC-0a00fa5517f52c",
+      "display_edge_id": "DE-3045ae2d542174a3",
+      "from_node": "PL-HOLLOW-SINK",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-2552a3ea0fa87d14",
@@ -6551,6 +7115,29 @@
       ]
     },
     {
+      "assertion_id": "AS-c0f504c590d8008a",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-84b5ed43c6056bf8",
+      "from_node": "SRC-6c0a42127d6562",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-1c62004bc352e1f1"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "PL-HOLLOW-SINK",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-c116cf43c113064e",
       "component_effects": [
         "NONE"
@@ -6578,8 +7165,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-a1d15c33db666f61",
-      "from_node": "SRC-f34ceab7ba8dc3",
+      "display_edge_id": "DE-1fa5a37c5e0f79a3",
+      "from_node": "PL-ROPEWALK-HOUSE",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-e276ed6672cf3e2c"
@@ -6896,6 +7483,29 @@
       ]
     },
     {
+      "assertion_id": "AS-c64ca9bb34663617",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-3450b23a0f28ac31",
+      "from_node": "SRC-8a8864c1cc9996",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-aa4fdfc94ca8a5a2"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "DISTANCE",
+      "semantic_direction": "NONE",
+      "to_node": "PL-NERIS-UPPER-SHELF",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-c6b59d3fc990b5c9",
       "component_effects": [
         "CONNECT"
@@ -7015,8 +7625,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-48f23a5f3074d1aa",
-      "from_node": "SRC-8ac643b578e2b5",
+      "display_edge_id": "DE-7d5b2c283906b1c7",
+      "from_node": "PL-DROWNED-VENT-NURSERY",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-aa6e2e3320ecd80c"
@@ -7541,6 +8151,29 @@
       ]
     },
     {
+      "assertion_id": "AS-d7ed77af73a6dc67",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-45dcadb3bd867ed4",
+      "from_node": "PL-MARN",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-d2e1280ff43fe3f0"
+      ],
+      "projections": [
+        "traversal"
+      ],
+      "relation_family": "movement",
+      "relation_type": "ACCESS_COND",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-462bb3d0411dfd",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
+      ]
+    },
+    {
       "assertion_id": "AS-d81357952e9937d3",
       "component_effects": [
         "NONE"
@@ -7702,6 +8335,29 @@
       ]
     },
     {
+      "assertion_id": "AS-d9639c8e0f611364",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-81cc157b8f5767dd",
+      "from_node": "SRC-18faf69e423454",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-31ba9d431f4cecd9"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "ADJACENCY",
+      "semantic_direction": "NONE",
+      "to_node": "PL-MARN",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
+      ]
+    },
+    {
       "assertion_id": "AS-d969ab4f9029744b",
       "component_effects": [
         "CONNECT"
@@ -7722,6 +8378,29 @@
       "traversal_direction": "NONE",
       "traversal_effects": [
         "NONE"
+      ]
+    },
+    {
+      "assertion_id": "AS-d9f70fe32b022dcc",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-5d3bd7f670d50213",
+      "from_node": "PL-MARN",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-3006fcb6d3b7fd5d"
+      ],
+      "projections": [
+        "all_semantic"
+      ],
+      "relation_family": "measurement",
+      "relation_type": "TRAVEL_TIME",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "SRC-a8892d5981b05f",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "OBSERVATION_ONLY"
       ]
     },
     {
@@ -8546,6 +9225,29 @@
       ]
     },
     {
+      "assertion_id": "AS-f05d7b443b4128bb",
+      "component_effects": [
+        "NONE"
+      ],
+      "display_edge_id": "DE-fb5d1c6682f62b15",
+      "from_node": "SRC-6a77cd850c8dad",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-e6db1824baf188b7"
+      ],
+      "projections": [
+        "refusal_conflict"
+      ],
+      "relation_family": "refusal_conflict",
+      "relation_type": "SEVERED",
+      "semantic_direction": "ROLE_ORDERED",
+      "to_node": "PL-HOLLOW-SINK",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "BLOCKED"
+      ]
+    },
+    {
       "assertion_id": "AS-f0fe0ff821395931",
       "component_effects": [
         "CONNECT"
@@ -8735,6 +9437,29 @@
       "traversal_effects": [
         "NONE",
         "OBSERVATION_ONLY"
+      ]
+    },
+    {
+      "assertion_id": "AS-f602b1a0e12293ba",
+      "component_effects": [
+        "CONNECT"
+      ],
+      "display_edge_id": "DE-a332d10138526640",
+      "from_node": "PL-BELLOWAY-FEAST-GROUND",
+      "polarity": "POSITIVE",
+      "projection_edge_ids": [
+        "PE-13a375f0c6f4f151"
+      ],
+      "projections": [
+        "spatial_structure"
+      ],
+      "relation_family": "spatial",
+      "relation_type": "VERTICAL",
+      "semantic_direction": "SOURCE_TO_TARGET",
+      "to_node": "SRC-157ed31df80b74",
+      "traversal_direction": "NONE",
+      "traversal_effects": [
+        "NONE"
       ]
     },
     {
@@ -9026,8 +9751,8 @@
       "component_effects": [
         "CONNECT"
       ],
-      "display_edge_id": "DE-a120ac602c771076",
-      "from_node": "SRC-40b0284c304d29",
+      "display_edge_id": "DE-98d45baff0bdd1a0",
+      "from_node": "PL-LONG-BREATH-SPIRE",
       "polarity": "POSITIVE",
       "projection_edge_ids": [
         "PE-c450d6d64c503f7f"
@@ -9178,8 +9903,8 @@
     {
       "anchor_labels": [
         "Belloway",
-        "Neris",
-        "Ossaray"
+        "Hollow Sink",
+        "Neris"
       ],
       "bounds": {
         "max_x": 2242.9934,
@@ -9187,49 +9912,59 @@
         "min_x": 1224.0296,
         "min_y": 16.0
       },
-      "description": "Layout island containing Belloway, Neris, Ossaray",
-      "layout_island_id": "LI-6fcc997662299f65",
+      "description": "Layout island containing Belloway, Hollow Sink, Neris",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "member_node_ids": [
         "PL-BELLOWAY",
+        "PL-BLACK-CHOIR-CHASM",
+        "PL-CANDLE-BASIN",
+        "PL-DROWNED-VENT-NURSERY",
+        "PL-HOLLOW-SINK",
+        "PL-LONG-BREATH-SPIRE",
+        "PL-LOWER-BLOOM",
+        "PL-MARN",
+        "PL-MYTH-GALLERY",
         "PL-NERIS",
+        "PL-NERIS-BLACK-SEA",
+        "PL-NINE-DAY-SHAFT",
         "PL-OSSARAY",
-        "SRC-0a00fa5517f52c",
+        "PL-RISERS-DEPTH",
+        "PL-RISING-GATE",
+        "PL-ROOFLINE",
+        "PL-ROPEWALK-HOUSE",
         "SRC-0bc357457c795a",
         "SRC-105bf464838e47",
+        "SRC-105e4d9e5a3aff",
+        "SRC-14836b5b158711",
         "SRC-14949cc2c2c6b3",
+        "SRC-18faf69e423454",
         "SRC-1e78fd5bbcd301",
         "SRC-2321e425862030",
         "SRC-39742c3672b7a6",
-        "SRC-3c4f4deddf08ae",
-        "SRC-40b0284c304d29",
-        "SRC-55b48db4e405cc",
+        "SRC-462bb3d0411dfd",
+        "SRC-568f836dbabdd9",
         "SRC-58614f8645fbc2",
+        "SRC-5bf71b2b08425f",
         "SRC-6041ea20af20ef",
         "SRC-69150c2082abe4",
+        "SRC-6c0a42127d6562",
         "SRC-799d8da83f16c7",
-        "SRC-7cbd00872dbfa4",
+        "SRC-7d82c0b982102f",
         "SRC-8a8da8d0632b8b",
-        "SRC-8ac643b578e2b5",
         "SRC-98aa75a2956b62",
-        "SRC-9f0f1fc3a8ec3e",
+        "SRC-9e94242ef9dc6c",
         "SRC-a0860a480c36a7",
         "SRC-a443e298df7922",
         "SRC-a786a24c5233b6",
-        "SRC-aa0aa0e6a1d588",
         "SRC-aec2b8f114dd36",
-        "SRC-b8b41c3dfaf934",
         "SRC-b8d6d7f93f60a1",
-        "SRC-d32162c20ed6fc",
         "SRC-d56841ef3f306f",
-        "SRC-dda3b8453bb7a2",
-        "SRC-f34ceab7ba8dc3",
-        "SRC-f4b0950115df55",
+        "SRC-f86fe4f821f155",
         "SRC-f9a42d84296782",
         "SRC-fa0582efd48f88",
-        "SRC-fac2a0512b686c",
-        "SRC-fcd2f02cc24bb5"
+        "SRC-fac2a0512b686c"
       ],
-      "node_count": 38
+      "node_count": 48
     },
     {
       "anchor_labels": [
@@ -9410,7 +10145,7 @@
     {
       "anchor_labels": [
         "Coldharbor",
-        "the Glasshouse Stair"
+        "Glasshouse Stair — frostglass kiln site"
       ],
       "bounds": {
         "max_x": 2403.3678,
@@ -9418,7 +10153,7 @@
         "min_x": 1799.6588,
         "min_y": 1559.3438
       },
-      "description": "Layout island containing Coldharbor, the Glasshouse Stair",
+      "description": "Layout island containing Coldharbor, Glasshouse Stair — frostglass kiln site",
       "layout_island_id": "LI-e6df15fce19b14f3",
       "member_node_ids": [
         "PL-COLDHARBOR",
@@ -9438,7 +10173,7 @@
     },
     {
       "anchor_labels": [
-        "the Amberline"
+        "Amberline"
       ],
       "bounds": {
         "max_x": 3110.3652,
@@ -9446,7 +10181,7 @@
         "min_x": 2545.3678,
         "min_y": 1559.3438
       },
-      "description": "Layout island containing the Amberline",
+      "description": "Layout island containing Amberline",
       "layout_island_id": "LI-beb86ae56e2f90f2",
       "member_node_ids": [
         "RT-AMBERLINE",
@@ -9464,7 +10199,7 @@
     },
     {
       "anchor_labels": [
-        "the Corun Stair"
+        "Corun Stair"
       ],
       "bounds": {
         "max_x": 3810.4208,
@@ -9472,7 +10207,7 @@
         "min_x": 3252.3652,
         "min_y": 1559.3438
       },
-      "description": "Layout island containing the Corun Stair",
+      "description": "Layout island containing Corun Stair",
       "layout_island_id": "LI-1110b201f3116cee",
       "member_node_ids": [
         "RT-CORUN-STAIR",
@@ -9490,7 +10225,32 @@
     },
     {
       "anchor_labels": [
-        "the Grayling Isles"
+        "The Cannet Vents",
+        "The Upper Galleries of Belloway"
+      ],
+      "bounds": {
+        "max_x": 5925.4148,
+        "max_y": 688.1818,
+        "min_x": 5403.4366,
+        "min_y": 16.0
+      },
+      "description": "Layout island containing The Cannet Vents, The Upper Galleries of Belloway",
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "member_node_ids": [
+        "PL-BELLOWAY-UPPER-GALLERIES",
+        "PL-CANNET-VENTS",
+        "SRC-5dcbd2122dbf60",
+        "SRC-6082e04df289d6",
+        "SRC-7f217e63e4c4b3",
+        "SRC-a54a16a8a94f68",
+        "SRC-a67b4800513ad1",
+        "SRC-c732f15ab5c64c"
+      ],
+      "node_count": 8
+    },
+    {
+      "anchor_labels": [
+        "Grayling Isles"
       ],
       "bounds": {
         "max_x": 4420.512,
@@ -9498,7 +10258,7 @@
         "min_x": 3952.4208,
         "min_y": 1559.3438
       },
-      "description": "Layout island containing the Grayling Isles",
+      "description": "Layout island containing Grayling Isles",
       "layout_island_id": "LI-6d72940d16499f41",
       "member_node_ids": [
         "PL-GRAYLING-ISLES",
@@ -9512,7 +10272,7 @@
     },
     {
       "anchor_labels": [
-        "the Old Cordon"
+        "Old Cordon"
       ],
       "bounds": {
         "max_x": 5036.6642,
@@ -9520,7 +10280,7 @@
         "min_x": 4562.512,
         "min_y": 1559.3438
       },
-      "description": "Layout island containing the Old Cordon",
+      "description": "Layout island containing Old Cordon",
       "layout_island_id": "LI-39a104bb1f7b527d",
       "member_node_ids": [
         "PL-OLD-CORDON",
@@ -9534,8 +10294,8 @@
     },
     {
       "anchor_labels": [
-        "Way-Guest",
-        "a Dungeon or Spire"
+        "Hidden Road",
+        "Way-Guest"
       ],
       "bounds": {
         "max_x": 494.161,
@@ -9543,7 +10303,7 @@
         "min_x": 16.0,
         "min_y": 3016.2208
       },
-      "description": "Layout island containing Way-Guest, a Dungeon or Spire",
+      "description": "Layout island containing Hidden Road, Way-Guest",
       "layout_island_id": "LI-def606109ca8a230",
       "member_node_ids": [
         "RT-HIDDEN-ROAD-CLASS",
@@ -9557,7 +10317,7 @@
     },
     {
       "anchor_labels": [
-        "the Ravel Sea"
+        "Ravel Sea"
       ],
       "bounds": {
         "max_x": 1124.9912,
@@ -9565,7 +10325,7 @@
         "min_x": 636.161,
         "min_y": 3016.2208
       },
-      "description": "Layout island containing the Ravel Sea",
+      "description": "Layout island containing Ravel Sea",
       "layout_island_id": "LI-bf40fb5f1a5132f0",
       "member_node_ids": [
         "PL-RAVEL-SEA",
@@ -9578,7 +10338,29 @@
     },
     {
       "anchor_labels": [
-        "the Three-Crown Coast"
+        "The Threading",
+        "The Threading Orchid Wall"
+      ],
+      "bounds": {
+        "max_x": 2334.2882,
+        "max_y": 3444.5572,
+        "min_x": 1959.5852,
+        "min_y": 3016.2208
+      },
+      "description": "Layout island containing The Threading, The Threading Orchid Wall",
+      "layout_island_id": "LI-964248abcc4a8d24",
+      "member_node_ids": [
+        "PL-THREADING-ORCHID-WALL",
+        "RT-THREADING",
+        "SRC-8737226cbac030",
+        "SRC-9dc5392687f9f2",
+        "SRC-d23c2400339695"
+      ],
+      "node_count": 5
+    },
+    {
+      "anchor_labels": [
+        "Three-Crown Coast"
       ],
       "bounds": {
         "max_x": 1763.6934,
@@ -9586,7 +10368,7 @@
         "min_x": 1266.9912,
         "min_y": 3016.2208
       },
-      "description": "Layout island containing the Three-Crown Coast",
+      "description": "Layout island containing Three-Crown Coast",
       "layout_island_id": "LI-900676c01b2c8d7b",
       "member_node_ids": [
         "PL-THREE-CROWN-COAST",
@@ -9594,27 +10376,6 @@
         "SRC-8fc48d943a78f1",
         "SRC-9112cc1a25cc20",
         "SRC-b8b0e6fa22ca66"
-      ],
-      "node_count": 5
-    },
-    {
-      "anchor_labels": [
-        "the Threading"
-      ],
-      "bounds": {
-        "max_x": 2334.2882,
-        "max_y": 3444.5572,
-        "min_x": 1905.6934,
-        "min_y": 3016.2208
-      },
-      "description": "Layout island containing the Threading",
-      "layout_island_id": "LI-b751a3bcc60fa548",
-      "member_node_ids": [
-        "RT-THREADING",
-        "SRC-8737226cbac030",
-        "SRC-9dc5392687f9f2",
-        "SRC-aa27f48829c0a8",
-        "SRC-d23c2400339695"
       ],
       "node_count": 5
     },
@@ -9640,7 +10401,7 @@
     },
     {
       "anchor_labels": [
-        "the Line"
+        "The Line"
       ],
       "bounds": {
         "max_x": 3525.4366,
@@ -9648,7 +10409,7 @@
         "min_x": 3069.0182,
         "min_y": 3016.2208
       },
-      "description": "Layout island containing the Line",
+      "description": "Layout island containing The Line",
       "layout_island_id": "LI-ad1d64f0dd2147a3",
       "member_node_ids": [
         "RT-THE-LINE",
@@ -9657,6 +10418,163 @@
         "SRC-f9dedac54544dd"
       ],
       "node_count": 4
+    },
+    {
+      "anchor_labels": [
+        "The Feast Ground, Belloway"
+      ],
+      "bounds": {
+        "max_x": 5726.3206,
+        "max_y": 982.2398,
+        "min_x": 5403.4366,
+        "min_y": 830.1818
+      },
+      "description": "Layout island containing The Feast Ground, Belloway",
+      "layout_island_id": "LI-940ed34e9408548d",
+      "member_node_ids": [
+        "PL-BELLOWAY-FEAST-GROUND",
+        "SRC-157ed31df80b74"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
+        "Upper Shelf"
+      ],
+      "bounds": {
+        "max_x": 5618.8568,
+        "max_y": 1421.1476,
+        "min_x": 5403.4366,
+        "min_y": 1124.2398
+      },
+      "description": "Layout island containing Upper Shelf",
+      "layout_island_id": "LI-6170ebf2b1f25f53",
+      "member_node_ids": [
+        "PL-NERIS-UPPER-SHELF",
+        "SRC-8a8864c1cc9996"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
+        "The Roofed Country"
+      ],
+      "bounds": {
+        "max_x": 5640.15,
+        "max_y": 1845.6648,
+        "min_x": 5403.4366,
+        "min_y": 1563.1476
+      },
+      "description": "Layout island containing The Roofed Country",
+      "layout_island_id": "LI-50bcc9a8b8003a95",
+      "member_node_ids": [
+        "PL-ROOFED-COUNTRY",
+        "SRC-d8d21734fd7319"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
+        "The Lift Corridors"
+      ],
+      "bounds": {
+        "max_x": 5650.0234,
+        "max_y": 2262.2804,
+        "min_x": 5403.4366,
+        "min_y": 1987.6648
+      },
+      "description": "Layout island containing The Lift Corridors",
+      "layout_island_id": "LI-8a2c4a0ea626f2f4",
+      "member_node_ids": [
+        "RT-OSSARAY-LIFT-CORRIDORS",
+        "SRC-b8a600a8ab877a"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
+        "the Descent"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 2500.2804,
+        "min_x": 5403.4366,
+        "min_y": 2404.2804
+      },
+      "description": "Isolated in layout backbone: the Descent",
+      "layout_island_id": "LI-25ba2f57ce65ce7d",
+      "member_node_ids": [
+        "MF-DESCENT-MIGRATION"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the Rising"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 2738.2804,
+        "min_x": 5403.4366,
+        "min_y": 2642.2804
+      },
+      "description": "Isolated in layout backbone: the Rising",
+      "layout_island_id": "LI-ab1d93f2b92c527f",
+      "member_node_ids": [
+        "MF-RISING-MIGRATION"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "Ropewalk"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 2976.2804,
+        "min_x": 5403.4366,
+        "min_y": 2880.2804
+      },
+      "description": "Isolated in layout backbone: Ropewalk",
+      "layout_island_id": "LI-ae3836b9c086f622",
+      "member_node_ids": [
+        "PL-BELLOWAY-ROPEWALK"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "The Seam-Glow Country"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 3214.2804,
+        "min_x": 5403.4366,
+        "min_y": 3118.2804
+      },
+      "description": "Isolated in layout backbone: The Seam-Glow Country",
+      "layout_island_id": "LI-17957f1bb4464826",
+      "member_node_ids": [
+        "PL-SEAM-GLOW-COUNTRY"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "The Descent Route"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 3452.2804,
+        "min_x": 5403.4366,
+        "min_y": 3356.2804
+      },
+      "description": "Isolated in layout backbone: The Descent Route",
+      "layout_island_id": "LI-0ce8d9a50e50c97e",
+      "member_node_ids": [
+        "RT-OSSARAY-DESCENT-ROUTE"
+      ],
+      "node_count": 1
     },
     {
       "anchor_labels": [
@@ -10306,6 +11224,23 @@
     },
     {
       "anchor_labels": [
+        "surface and Neris approaches"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 3690.2804,
+        "min_x": 5403.4366,
+        "min_y": 3594.2804
+      },
+      "description": "Isolated in layout backbone: surface and Neris approaches",
+      "layout_island_id": "LI-f1b4f8b0c72b482c",
+      "member_node_ids": [
+        "SRC-6a77cd850c8dad"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "Underway Embankment Delta"
       ],
       "bounds": {
@@ -10476,23 +11411,6 @@
     },
     {
       "anchor_labels": [
-        "the Marn"
-      ],
-      "bounds": {
-        "max_x": 4710.0,
-        "max_y": 3988.868,
-        "min_x": 4614.0,
-        "min_y": 3892.868
-      },
-      "description": "Isolated in layout backbone: the Marn",
-      "layout_island_id": "LI-5ec0f2359fc7cb63",
-      "member_node_ids": [
-        "SRC-87512cf2c1292c"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
         "the continent"
       ],
       "bounds": {
@@ -10646,6 +11564,23 @@
     },
     {
       "anchor_labels": [
+        "chambers"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 3928.2804,
+        "min_x": 5403.4366,
+        "min_y": 3832.2804
+      },
+      "description": "Isolated in layout backbone: chambers",
+      "layout_island_id": "LI-5e99062653c93542",
+      "member_node_ids": [
+        "SRC-986b7d59715e6c"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "home (Softwater Combe)"
       ],
       "bounds": {
@@ -10748,6 +11683,23 @@
     },
     {
       "anchor_labels": [
+        "the furthest point reached"
+      ],
+      "bounds": {
+        "max_x": 5499.4366,
+        "max_y": 4166.2804,
+        "min_x": 5403.4366,
+        "min_y": 4070.2804
+      },
+      "description": "Isolated in layout backbone: the furthest point reached",
+      "layout_island_id": "LI-01bab62edb3fc3f6",
+      "member_node_ids": [
+        "SRC-a8892d5981b05f"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "the Onceway gate"
       ],
       "bounds": {
@@ -10794,6 +11746,23 @@
       "layout_island_id": "LI-3c2ff5a9c066420b",
       "member_node_ids": [
         "SRC-b5d02ae411aca3"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "Adder Kell"
+      ],
+      "bounds": {
+        "max_x": 5747.4366,
+        "max_y": 112.0,
+        "min_x": 5651.4366,
+        "min_y": 16.0
+      },
+      "description": "Isolated in layout backbone: Adder Kell",
+      "layout_island_id": "LI-e589ae845c57064d",
+      "member_node_ids": [
+        "SRC-bae585ff67b0f7"
       ],
       "node_count": 1
     },
@@ -10862,6 +11831,23 @@
       "layout_island_id": "LI-bc20697fc073d49f",
       "member_node_ids": [
         "SRC-c15ac336a5f114"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the magistracy / the Concord"
+      ],
+      "bounds": {
+        "max_x": 5747.4366,
+        "max_y": 350.0,
+        "min_x": 5651.4366,
+        "min_y": 254.0
+      },
+      "description": "Isolated in layout backbone: the magistracy / the Concord",
+      "layout_island_id": "LI-5dddc03c251d5726",
+      "member_node_ids": [
+        "SRC-c909dfdae3c358"
       ],
       "node_count": 1
     },
@@ -11105,6 +12091,23 @@
     },
     {
       "anchor_labels": [
+        "UNNAMED:chambers"
+      ],
+      "bounds": {
+        "max_x": 5747.4366,
+        "max_y": 588.0,
+        "min_x": 5651.4366,
+        "min_y": 492.0
+      },
+      "description": "Isolated in layout backbone: UNNAMED:chambers",
+      "layout_island_id": "LI-40a609eab69311fd",
+      "member_node_ids": [
+        "SRC-f72bcc0c19d6a2"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
         "Onceway gate"
       ],
       "bounds": {
@@ -11139,6 +12142,38 @@
     }
   ],
   "node_index": {
+    "MF-DESCENT-MIGRATION": {
+      "assertion_ids": [
+        "AS-c9444fc8dc27c941"
+      ],
+      "display_edge_ids": [],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 100,
+      "layout_island_id": "LI-25ba2f57ce65ce7d",
+      "normalized_search_terms": [
+        "the descent"
+      ],
+      "search_terms": [
+        "the Descent"
+      ]
+    },
+    "MF-RISING-MIGRATION": {
+      "assertion_ids": [
+        "AS-e2741c44dfcedec8"
+      ],
+      "display_edge_ids": [],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 100,
+      "layout_island_id": "LI-ab1d93f2b92c527f",
+      "normalized_search_terms": [
+        "the rising"
+      ],
+      "search_terms": [
+        "the Rising"
+      ]
+    },
     "PL-BELLOWAY": {
       "assertion_ids": [
         "AS-06ef995bec736502",
@@ -11160,33 +12195,126 @@
         "AS-f12177bbbdeb42a6"
       ],
       "display_edge_ids": [
-        "DE-0112bb011947c868",
+        "DE-147de064c74e45e9",
+        "DE-1fa5a37c5e0f79a3",
         "DE-28d963cd460c03ab",
         "DE-373e1002aa2c9b70",
-        "DE-48f23a5f3074d1aa",
+        "DE-4181389483b5c001",
         "DE-59d1b5537eb52437",
+        "DE-6565f0ae84a6e34c",
+        "DE-7d5b2c283906b1c7",
         "DE-979074b10f057e52",
-        "DE-a071a8b60f336d13",
         "DE-a110f5b20efec5a0",
-        "DE-a1d15c33db666f61",
-        "DE-a28e07a25cd68756",
         "DE-c27f5ea75a1eac7c",
+        "DE-c5401a382f3cc28f",
         "DE-c5d94259749892d4",
         "DE-e68d03f499544e5d",
         "DE-efe1b723278fbf01",
         "DE-f7ee068f7a48fbfe",
-        "DE-f85854551c523f31",
         "DE-fb5d87426c6669b6"
       ],
       "display_kind": "place",
       "display_kind_basis": "entity_class",
       "label_rank": 100,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "belloway"
       ],
       "search_terms": [
         "Belloway"
+      ]
+    },
+    "PL-BELLOWAY-FEAST-GROUND": {
+      "assertion_ids": [
+        "AS-f602b1a0e12293ba"
+      ],
+      "display_edge_ids": [
+        "DE-a332d10138526640"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-940ed34e9408548d",
+      "normalized_search_terms": [
+        "the feast ground belloway"
+      ],
+      "search_terms": [
+        "The Feast Ground, Belloway"
+      ]
+    },
+    "PL-BELLOWAY-ROPEWALK": {
+      "assertion_ids": [],
+      "display_edge_ids": [],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-ae3836b9c086f622",
+      "normalized_search_terms": [
+        "ropewalk"
+      ],
+      "search_terms": [
+        "Ropewalk"
+      ]
+    },
+    "PL-BELLOWAY-UPPER-GALLERIES": {
+      "assertion_ids": [
+        "AS-ade1bb6c3dff6929",
+        "AS-b8ca2277fa3e3ab3"
+      ],
+      "display_edge_ids": [
+        "DE-4d8690366ea9e020",
+        "DE-97a06e73dbca310a"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "the upper galleries of belloway"
+      ],
+      "search_terms": [
+        "The Upper Galleries of Belloway"
+      ]
+    },
+    "PL-BLACK-CHOIR-CHASM": {
+      "assertion_ids": [
+        "AS-069d5db5931e563d",
+        "AS-eff1c6ccc410a153"
+      ],
+      "display_edge_ids": [
+        "DE-10632da5f3c39971"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the black choir chasm"
+      ],
+      "search_terms": [
+        "the Black Choir chasm"
+      ]
+    },
+    "PL-CANDLE-BASIN": {
+      "assertion_ids": [
+        "AS-4f46e5d26ecfa106",
+        "AS-7f9917a6e8a3598e",
+        "AS-b1891ce7cfffa719"
+      ],
+      "display_edge_ids": [
+        "DE-21dcb22c360be178",
+        "DE-a0c78ba754283c82",
+        "DE-ee654ba2bffd9e19"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the candle basin"
+      ],
+      "search_terms": [
+        "the Candle Basin"
       ]
     },
     "PL-CANDLECUT": {
@@ -11278,6 +12406,40 @@
         "Candlecut"
       ]
     },
+    "PL-CANNET-VENTS": {
+      "assertion_ids": [
+        "AS-2d7b7966db165573",
+        "AS-2e463bbbad7bde06",
+        "AS-2e4fda25905409f8",
+        "AS-31bbff10e6865f25",
+        "AS-704a301d05adffb9",
+        "AS-87345e408f4f6a92",
+        "AS-8df416c2af28bcbf",
+        "AS-9050eac590bd0b0e",
+        "AS-a6142eb3c3445f30",
+        "AS-c5808a44fdf4078f",
+        "AS-cf4db29afc99bb97"
+      ],
+      "display_edge_ids": [
+        "DE-2c20a8623467ad02",
+        "DE-5b2f19587793163d",
+        "DE-612bc8dcdb75adad",
+        "DE-6e1b3cc9cba97712",
+        "DE-70ed58b9b876b001",
+        "DE-ac7d2c013eabb8c1",
+        "DE-da8af166cf45da2a"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "the cannet vents"
+      ],
+      "search_terms": [
+        "The Cannet Vents"
+      ]
+    },
     "PL-COLDHARBOR": {
       "assertion_ids": [
         "AS-0ea4565a9d309051",
@@ -11321,6 +12483,26 @@
       ],
       "search_terms": [
         "Coldharbor"
+      ]
+    },
+    "PL-DROWNED-VENT-NURSERY": {
+      "assertion_ids": [
+        "AS-5215cfb1a9eb7a01",
+        "AS-cbad26b4eadb1290"
+      ],
+      "display_edge_ids": [
+        "DE-7d5b2c283906b1c7",
+        "DE-e34ea71025e19ebe"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the drowned vent nursery"
+      ],
+      "search_terms": [
+        "The Drowned Vent Nursery"
       ]
     },
     "PL-FIVEDOOR": {
@@ -11396,10 +12578,10 @@
       "label_rank": 90,
       "layout_island_id": "LI-e6df15fce19b14f3",
       "normalized_search_terms": [
-        "the glasshouse stair"
+        "glasshouse stair frostglass kiln site"
       ],
       "search_terms": [
-        "the Glasshouse Stair"
+        "Glasshouse Stair — frostglass kiln site"
       ]
     },
     "PL-GRAYLING-ISLES": {
@@ -11423,10 +12605,10 @@
       "label_rank": 100,
       "layout_island_id": "LI-6d72940d16499f41",
       "normalized_search_terms": [
-        "the grayling isles"
+        "grayling isles"
       ],
       "search_terms": [
-        "the Grayling Isles"
+        "Grayling Isles"
       ]
     },
     "PL-GREENMOUTH": {
@@ -11582,6 +12764,47 @@
       ],
       "search_terms": [
         "Harnesse"
+      ]
+    },
+    "PL-HOLLOW-SINK": {
+      "assertion_ids": [
+        "AS-073cadd9ff3999de",
+        "AS-3486894010615169",
+        "AS-3feef99aff8609a4",
+        "AS-4e0a2cd0dab8329f",
+        "AS-703714f29c5b6480",
+        "AS-86538e0472189754",
+        "AS-8af274b92c4eb9e7",
+        "AS-8c6bf7a34e54c96f",
+        "AS-bc2bba4acc8fa4a7",
+        "AS-c0f504c590d8008a",
+        "AS-d221603895551957",
+        "AS-f05d7b443b4128bb"
+      ],
+      "display_edge_ids": [
+        "DE-3045ae2d542174a3",
+        "DE-341d8cf8d242bad0",
+        "DE-514f382354c2a34d",
+        "DE-5ce1afb45dd90c9f",
+        "DE-84b5ed43c6056bf8",
+        "DE-87e4dab201147ae4",
+        "DE-99536b62edef4543",
+        "DE-a2bf40f852bedb93",
+        "DE-d6d8a1e6bd5c7152",
+        "DE-e9d3dc937dd8f9bc",
+        "DE-fb5d1c6682f62b15"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "hollow sink",
+        "upper vent three"
+      ],
+      "search_terms": [
+        "Hollow Sink",
+        "Upper Vent Three"
       ]
     },
     "PL-ILBER": {
@@ -11772,6 +12995,26 @@
         "Kestel"
       ]
     },
+    "PL-LONG-BREATH-SPIRE": {
+      "assertion_ids": [
+        "AS-2084f3ec9f19f933",
+        "AS-ff765cd8dbe5b556"
+      ],
+      "display_edge_ids": [
+        "DE-8ac6eb8935f50f56",
+        "DE-98d45baff0bdd1a0"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the long-breath spire"
+      ],
+      "search_terms": [
+        "The Long-Breath Spire"
+      ]
+    },
     "PL-LONGBARROW": {
       "assertion_ids": [
         "AS-5a0cdbffeeec7a66",
@@ -11807,6 +13050,79 @@
         "Longbarrow"
       ]
     },
+    "PL-LOWER-BLOOM": {
+      "assertion_ids": [
+        "AS-34f49610c8d7e1ce",
+        "AS-56425f6f95a96410"
+      ],
+      "display_edge_ids": [
+        "DE-2b172d9617817197"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the lower bloom"
+      ],
+      "search_terms": [
+        "The Lower Bloom"
+      ]
+    },
+    "PL-MARN": {
+      "assertion_ids": [
+        "AS-106f427fdb6a65cb",
+        "AS-5b297016757603a5",
+        "AS-5c1d4a52c107a23f",
+        "AS-5cbe6111b8f5f71d",
+        "AS-683905fd85741597",
+        "AS-852d0a0515f2f2b5",
+        "AS-a35d72a87fcf1143",
+        "AS-a9beb531b3afc5d7",
+        "AS-c898856ef3470808",
+        "AS-d7ed77af73a6dc67",
+        "AS-d9639c8e0f611364",
+        "AS-d9f70fe32b022dcc"
+      ],
+      "display_edge_ids": [
+        "DE-147de064c74e45e9",
+        "DE-3e1954d05b135d8c",
+        "DE-45dcadb3bd867ed4",
+        "DE-537f1bb9fd67f3cf",
+        "DE-5d3bd7f670d50213",
+        "DE-5fa27f19438bc2f9",
+        "DE-81cc157b8f5767dd",
+        "DE-88b9e6b28d6fa91d"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the marn"
+      ],
+      "search_terms": [
+        "the Marn"
+      ]
+    },
+    "PL-MYTH-GALLERY": {
+      "assertion_ids": [
+        "AS-919783f5308ba84e"
+      ],
+      "display_edge_ids": [
+        "DE-4181389483b5c001"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the myth gallery"
+      ],
+      "search_terms": [
+        "The Myth Gallery"
+      ]
+    },
     "PL-NERIS": {
       "assertion_ids": [
         "AS-04b831b3f042c4e1",
@@ -11837,37 +13153,93 @@
         "AS-f60c331e815953af"
       ],
       "display_edge_ids": [
+        "DE-10632da5f3c39971",
         "DE-1b0bf9c4383d2f8c",
+        "DE-21dcb22c360be178",
         "DE-23a0ae37ae042d67",
-        "DE-3b1001410bd5ad60",
+        "DE-2b172d9617817197",
+        "DE-3045ae2d542174a3",
         "DE-464b7d78348b5123",
+        "DE-5ce1afb45dd90c9f",
         "DE-6bb3d4e85d9c7c00",
         "DE-764036e99b16c61e",
         "DE-7b6d30a6bb9b7b1c",
-        "DE-85102ed94ff77427",
         "DE-869fe0462bae5f9f",
-        "DE-8ac3f4de70dd4218",
         "DE-90676aa281c0219b",
-        "DE-94da23513b4843fe",
+        "DE-99536b62edef4543",
         "DE-a34f513d26945402",
         "DE-aa60e6afd3fdf169",
         "DE-ab9dc2500684c9ec",
         "DE-b46c4492700cdfa9",
         "DE-b71dd6595cd3d5f2",
-        "DE-cce1213b18f4c57b",
-        "DE-e941a0fa5f094e4e",
-        "DE-ec0b70886eed831c",
-        "DE-fa66465dd608b202"
+        "DE-b7b03b70d2d761bf",
+        "DE-ee654ba2bffd9e19"
       ],
       "display_kind": "place",
       "display_kind_basis": "entity_class",
       "label_rank": 100,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "neris"
       ],
       "search_terms": [
         "Neris"
+      ]
+    },
+    "PL-NERIS-BLACK-SEA": {
+      "assertion_ids": [
+        "AS-3a8b86caa8932f46"
+      ],
+      "display_edge_ids": [
+        "DE-b7b03b70d2d761bf"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "neris black inland sea"
+      ],
+      "search_terms": [
+        "Neris black inland sea"
+      ]
+    },
+    "PL-NERIS-UPPER-SHELF": {
+      "assertion_ids": [
+        "AS-1ead95034aa72d2f",
+        "AS-c64ca9bb34663617"
+      ],
+      "display_edge_ids": [
+        "DE-3450b23a0f28ac31"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-6170ebf2b1f25f53",
+      "normalized_search_terms": [
+        "upper shelf"
+      ],
+      "search_terms": [
+        "Upper Shelf"
+      ]
+    },
+    "PL-NINE-DAY-SHAFT": {
+      "assertion_ids": [
+        "AS-22ac4193fea938f4",
+        "AS-d584911f1a852d01"
+      ],
+      "display_edge_ids": [
+        "DE-c5401a382f3cc28f"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the nine-day shaft"
+      ],
+      "search_terms": [
+        "The Nine-Day Shaft"
       ]
     },
     "PL-OLD-CORDON": {
@@ -11908,10 +13280,10 @@
       "label_rank": 100,
       "layout_island_id": "LI-39a104bb1f7b527d",
       "normalized_search_terms": [
-        "the old cordon"
+        "old cordon"
       ],
       "search_terms": [
-        "the Old Cordon"
+        "Old Cordon"
       ]
     },
     "PL-OSSARAY": {
@@ -11941,30 +13313,30 @@
       ],
       "display_edge_ids": [
         "DE-0b636eb40a96610c",
-        "DE-1ae83891f8c32b05",
         "DE-1b0bf9c4383d2f8c",
         "DE-224e571a2ead58eb",
         "DE-256ec822a620f671",
         "DE-2b87a66356113102",
-        "DE-31a28e29c61e6e1c",
         "DE-46455b453e4bd268",
+        "DE-4d7edb2ac457bcbb",
+        "DE-5fa27f19438bc2f9",
         "DE-764036e99b16c61e",
         "DE-796e7e1767baffdd",
         "DE-7b6d30a6bb9b7b1c",
         "DE-869fe0462bae5f9f",
-        "DE-a120ac602c771076",
+        "DE-98d45baff0bdd1a0",
         "DE-a34f513d26945402",
         "DE-c27f5ea75a1eac7c",
         "DE-c77d248a45823925",
-        "DE-c94ab48d88010b4c",
         "DE-cdb60847e8ca2487",
         "DE-ddda9e91886e34f7",
-        "DE-ed65dfa8f5f6cde8"
+        "DE-ed65dfa8f5f6cde8",
+        "DE-f6a1ef01fdfde167"
       ],
       "display_kind": "place",
       "display_kind_basis": "entity_class",
       "label_rank": 100,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "ossaray",
         "underclay"
@@ -11997,10 +13369,106 @@
       "label_rank": 100,
       "layout_island_id": "LI-bf40fb5f1a5132f0",
       "normalized_search_terms": [
-        "the ravel sea"
+        "ravel sea"
       ],
       "search_terms": [
-        "the Ravel Sea"
+        "Ravel Sea"
+      ]
+    },
+    "PL-RISERS-DEPTH": {
+      "assertion_ids": [
+        "AS-2bdec07d663f164f"
+      ],
+      "display_edge_ids": [
+        "DE-4d7edb2ac457bcbb"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the riser's depth"
+      ],
+      "search_terms": [
+        "The Riser's Depth"
+      ]
+    },
+    "PL-RISING-GATE": {
+      "assertion_ids": [
+        "AS-a34c2e24583ad068"
+      ],
+      "display_edge_ids": [
+        "DE-6565f0ae84a6e34c"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the rising gate"
+      ],
+      "search_terms": [
+        "The Rising Gate"
+      ]
+    },
+    "PL-ROOFED-COUNTRY": {
+      "assertion_ids": [
+        "AS-408c4889dc3268f4"
+      ],
+      "display_edge_ids": [
+        "DE-d3e5a5d341307008"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-50bcc9a8b8003a95",
+      "normalized_search_terms": [
+        "the roofed country"
+      ],
+      "search_terms": [
+        "The Roofed Country"
+      ]
+    },
+    "PL-ROOFLINE": {
+      "assertion_ids": [
+        "AS-3357a40932308790",
+        "AS-7247f0c460b51bb4",
+        "AS-7e166e29544f5268"
+      ],
+      "display_edge_ids": [
+        "DE-f6a1ef01fdfde167"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the roofline"
+      ],
+      "search_terms": [
+        "The Roofline"
+      ]
+    },
+    "PL-ROPEWALK-HOUSE": {
+      "assertion_ids": [
+        "AS-abc8dd30424a2771",
+        "AS-c121dc8db8720fda"
+      ],
+      "display_edge_ids": [
+        "DE-1fa5a37c5e0f79a3",
+        "DE-827c064828e136fb"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "ropewalk belloway",
+        "the ropewalk house belloway"
+      ],
+      "search_terms": [
+        "Ropewalk (Belloway)",
+        "The Ropewalk House, Belloway"
       ]
     },
     "PL-SAAN-KEL": {
@@ -12049,6 +13517,38 @@
         "Saan Kel"
       ]
     },
+    "PL-SEAM-GLOW-COUNTRY": {
+      "assertion_ids": [],
+      "display_edge_ids": [],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-17957f1bb4464826",
+      "normalized_search_terms": [
+        "the seam-glow country"
+      ],
+      "search_terms": [
+        "The Seam-Glow Country"
+      ]
+    },
+    "PL-THREADING-ORCHID-WALL": {
+      "assertion_ids": [
+        "AS-a3bb2dc7a6e80f0a"
+      ],
+      "display_edge_ids": [
+        "DE-53628e74cb99ace6"
+      ],
+      "display_kind": "place",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-964248abcc4a8d24",
+      "normalized_search_terms": [
+        "the threading orchid wall"
+      ],
+      "search_terms": [
+        "The Threading Orchid Wall"
+      ]
+    },
     "PL-THREE-CROWN-COAST": {
       "assertion_ids": [
         "AS-26e3eafcc4f30e99",
@@ -12072,10 +13572,10 @@
       "label_rank": 100,
       "layout_island_id": "LI-900676c01b2c8d7b",
       "normalized_search_terms": [
-        "the three-crown coast"
+        "three-crown coast"
       ],
       "search_terms": [
-        "the Three-Crown Coast"
+        "Three-Crown Coast"
       ]
     },
     "PL-VASSE-OLUN": {
@@ -12173,10 +13673,10 @@
       "label_rank": 100,
       "layout_island_id": "LI-beb86ae56e2f90f2",
       "normalized_search_terms": [
-        "the amberline"
+        "amberline"
       ],
       "search_terms": [
-        "the Amberline"
+        "Amberline"
       ]
     },
     "RT-CORUN-STAIR": {
@@ -12211,10 +13711,10 @@
       "label_rank": 100,
       "layout_island_id": "LI-1110b201f3116cee",
       "normalized_search_terms": [
-        "the corun stair"
+        "corun stair"
       ],
       "search_terms": [
-        "the Corun Stair"
+        "Corun Stair"
       ]
     },
     "RT-HIDDEN-ROAD-CLASS": {
@@ -12257,10 +13757,10 @@
       "label_rank": 60,
       "layout_island_id": "LI-def606109ca8a230",
       "normalized_search_terms": [
-        "a hidden road"
+        "hidden road"
       ],
       "search_terms": [
-        "a Hidden Road"
+        "Hidden Road"
       ]
     },
     "RT-ONCEWAY-CLASS": {
@@ -12313,10 +13813,45 @@
       "label_rank": 60,
       "layout_island_id": "LI-57e6842106016a00",
       "normalized_search_terms": [
-        "onceway from harlowe side"
+        "onceway"
       ],
       "search_terms": [
-        "Onceway (from Harlowe side)"
+        "Onceway"
+      ]
+    },
+    "RT-OSSARAY-DESCENT-ROUTE": {
+      "assertion_ids": [
+        "AS-fae4de4c786a2ea5"
+      ],
+      "display_edge_ids": [],
+      "display_kind": "route",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-0ce8d9a50e50c97e",
+      "normalized_search_terms": [
+        "the descent route"
+      ],
+      "search_terms": [
+        "The Descent Route"
+      ]
+    },
+    "RT-OSSARAY-LIFT-CORRIDORS": {
+      "assertion_ids": [
+        "AS-94a83b30609e50a7",
+        "AS-b8b4a42ef8329efc"
+      ],
+      "display_edge_ids": [
+        "DE-c0f41f7b8bb298e7"
+      ],
+      "display_kind": "route",
+      "display_kind_basis": "entity_class",
+      "label_rank": 100,
+      "layout_island_id": "LI-8a2c4a0ea626f2f4",
+      "normalized_search_terms": [
+        "the lift corridors"
+      ],
+      "search_terms": [
+        "The Lift Corridors"
       ]
     },
     "RT-THE-LINE": {
@@ -12338,13 +13873,13 @@
       ],
       "display_kind": "route",
       "display_kind_basis": "entity_class",
-      "label_rank": 90,
+      "label_rank": 100,
       "layout_island_id": "LI-ad1d64f0dd2147a3",
       "normalized_search_terms": [
         "the line"
       ],
       "search_terms": [
-        "the Line"
+        "The Line"
       ]
     },
     "RT-THREADING": {
@@ -12364,7 +13899,7 @@
       "display_edge_ids": [
         "DE-0558bad1054806e7",
         "DE-067a819ff5bbc3a8",
-        "DE-21fda5c814e068ac",
+        "DE-53628e74cb99ace6",
         "DE-60f2d979a1811203",
         "DE-6689c582d3f2c750",
         "DE-d9dc7bf74d87dbbf",
@@ -12373,12 +13908,12 @@
       "display_kind": "route",
       "display_kind_basis": "entity_class",
       "label_rank": 100,
-      "layout_island_id": "LI-b751a3bcc60fa548",
+      "layout_island_id": "LI-964248abcc4a8d24",
       "normalized_search_terms": [
         "the threading"
       ],
       "search_terms": [
-        "the Threading"
+        "The Threading"
       ]
     },
     "RT-UNDERWAY-CLASS": {
@@ -12441,10 +13976,10 @@
       "label_rank": 60,
       "layout_island_id": "LI-1d1bbe32083d593b",
       "normalized_search_terms": [
-        "the underway"
+        "underway"
       ],
       "search_terms": [
-        "the Underway"
+        "Underway"
       ]
     },
     "SRC-003145adfc256c": {
@@ -12659,28 +14194,6 @@
         "the paradox fire"
       ]
     },
-    "SRC-0a00fa5517f52c": {
-      "assertion_ids": [
-        "AS-4e0a2cd0dab8329f",
-        "AS-8c6bf7a34e54c96f",
-        "AS-bc2bba4acc8fa4a7"
-      ],
-      "display_edge_ids": [
-        "DE-3b1001410bd5ad60",
-        "DE-85102ed94ff77427",
-        "DE-94da23513b4843fe"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "upper vent three"
-      ],
-      "search_terms": [
-        "Upper Vent Three"
-      ]
-    },
     "SRC-0a5b838c2d34b6": {
       "assertion_ids": [
         "AS-622e25e39ad08802"
@@ -12781,7 +14294,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the western upper shelf"
       ],
@@ -12973,12 +14486,30 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "flatday the dip after a level"
       ],
       "search_terms": [
         "flatday (the dip after a level)"
+      ]
+    },
+    "SRC-105e4d9e5a3aff": {
+      "assertion_ids": [
+        "AS-4f46e5d26ecfa106"
+      ],
+      "display_edge_ids": [
+        "DE-a0c78ba754283c82"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "neris and the black choir chasm"
+      ],
+      "search_terms": [
+        "Neris and the Black Choir chasm"
       ]
     },
     "SRC-107407c42c3865": {
@@ -13055,6 +14586,24 @@
         "Mara Voss"
       ]
     },
+    "SRC-14836b5b158711": {
+      "assertion_ids": [
+        "AS-703714f29c5b6480"
+      ],
+      "display_edge_ids": [
+        "DE-d6d8a1e6bd5c7152"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the surface and neris"
+      ],
+      "search_terms": [
+        "the surface and Neris"
+      ]
+    },
     "SRC-14949cc2c2c6b3": {
       "assertion_ids": [
         "AS-2469cddf231053db"
@@ -13065,7 +14614,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "a chapter house"
       ],
@@ -13109,6 +14658,24 @@
         "the Mana Wild"
       ]
     },
+    "SRC-157ed31df80b74": {
+      "assertion_ids": [
+        "AS-f602b1a0e12293ba"
+      ],
+      "display_edge_ids": [
+        "DE-a332d10138526640"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-940ed34e9408548d",
+      "normalized_search_terms": [
+        "the belloway lift head"
+      ],
+      "search_terms": [
+        "the Belloway lift head"
+      ]
+    },
     "SRC-16853f1a5fda68": {
       "assertion_ids": [],
       "display_edge_ids": [],
@@ -13139,6 +14706,24 @@
       ],
       "search_terms": [
         "the new Onceway"
+      ]
+    },
+    "SRC-18faf69e423454": {
+      "assertion_ids": [
+        "AS-d9639c8e0f611364"
+      ],
+      "display_edge_ids": [
+        "DE-81cc157b8f5767dd"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "ess marrow"
+      ],
+      "search_terms": [
+        "Ess Marrow"
       ]
     },
     "SRC-19243dbc43fef0": {
@@ -13223,7 +14808,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the surface"
       ],
@@ -13374,7 +14959,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "dov ellery lift-master"
       ],
@@ -13772,7 +15357,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "belloway deep-bore shift stew"
       ],
@@ -13834,24 +15419,6 @@
       ],
       "search_terms": [
         "the six arrival points"
-      ]
-    },
-    "SRC-3c4f4deddf08ae": {
-      "assertion_ids": [
-        "AS-34f49610c8d7e1ce"
-      ],
-      "display_edge_ids": [
-        "DE-cce1213b18f4c57b"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the lower bloom"
-      ],
-      "search_terms": [
-        "The Lower Bloom"
       ]
     },
     "SRC-3d26bb899a9084": {
@@ -13942,24 +15509,6 @@
       ],
       "search_terms": [
         "Harnesse upper air / skyplough corridor"
-      ]
-    },
-    "SRC-40b0284c304d29": {
-      "assertion_ids": [
-        "AS-ff765cd8dbe5b556"
-      ],
-      "display_edge_ids": [
-        "DE-a120ac602c771076"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the long-breath spire a tall chambered structure"
-      ],
-      "search_terms": [
-        "The Long-Breath Spire (a tall chambered structure)"
       ]
     },
     "SRC-40cc9c313dd9bf": {
@@ -14140,6 +15689,28 @@
       ],
       "search_terms": [
         "the ordinary long road"
+      ]
+    },
+    "SRC-462bb3d0411dfd": {
+      "assertion_ids": [
+        "AS-5b297016757603a5",
+        "AS-852d0a0515f2f2b5",
+        "AS-d7ed77af73a6dc67"
+      ],
+      "display_edge_ids": [
+        "DE-3e1954d05b135d8c",
+        "DE-45dcadb3bd867ed4",
+        "DE-537f1bb9fd67f3cf"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "ess marrow"
+      ],
+      "search_terms": [
+        "Ess Marrow"
       ]
     },
     "SRC-47b39e21a877fe": {
@@ -14412,24 +15983,6 @@
         "Old Cordon Clearance"
       ]
     },
-    "SRC-55b48db4e405cc": {
-      "assertion_ids": [
-        "AS-3a8b86caa8932f46"
-      ],
-      "display_edge_ids": [
-        "DE-8ac3f4de70dd4218"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the black inland sea"
-      ],
-      "search_terms": [
-        "the black inland sea"
-      ]
-    },
     "SRC-565337a4f6ed51": {
       "assertion_ids": [
         "AS-26bdfb867b590f9f"
@@ -14446,6 +15999,24 @@
       ],
       "search_terms": [
         "new Onceway terminus"
+      ]
+    },
+    "SRC-568f836dbabdd9": {
+      "assertion_ids": [
+        "AS-3486894010615169"
+      ],
+      "display_edge_ids": [
+        "DE-87e4dab201147ae4"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the basalt country"
+      ],
+      "search_terms": [
+        "the basalt country"
       ]
     },
     "SRC-57d99aa4a0c5f1": {
@@ -14516,7 +16087,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the surface"
       ],
@@ -14596,6 +16167,24 @@
         "the company"
       ]
     },
+    "SRC-5bf71b2b08425f": {
+      "assertion_ids": [
+        "AS-5215cfb1a9eb7a01"
+      ],
+      "display_edge_ids": [
+        "DE-e34ea71025e19ebe"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the surrounding nursery district"
+      ],
+      "search_terms": [
+        "the surrounding nursery district"
+      ]
+    },
     "SRC-5d34152dc3120d": {
       "assertion_ids": [
         "AS-b483f6d51d75d141"
@@ -14630,6 +16219,26 @@
       ],
       "search_terms": [
         "Ansel Row"
+      ]
+    },
+    "SRC-5dcbd2122dbf60": {
+      "assertion_ids": [
+        "AS-704a301d05adffb9",
+        "AS-b8ca2277fa3e3ab3"
+      ],
+      "display_edge_ids": [
+        "DE-2c20a8623467ad02",
+        "DE-4d8690366ea9e020"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "the ossaray networks"
+      ],
+      "search_terms": [
+        "the Ossaray networks"
       ]
     },
     "SRC-5e3057faf57b47": {
@@ -14696,12 +16305,30 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the crystal veins"
       ],
       "search_terms": [
         "the crystal veins"
+      ]
+    },
+    "SRC-6082e04df289d6": {
+      "assertion_ids": [
+        "AS-87345e408f4f6a92"
+      ],
+      "display_edge_ids": [
+        "DE-5b2f19587793163d"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "the turnwort line cannet"
+      ],
+      "search_terms": [
+        "The Turnwort Line, Cannet"
       ]
     },
     "SRC-62dc77f592a5bb": {
@@ -14822,12 +16449,30 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the grey hour pre-dawn hour when panes answer slow"
       ],
       "search_terms": [
         "the grey hour (pre-dawn hour when panes answer slow)"
+      ]
+    },
+    "SRC-6a77cd850c8dad": {
+      "assertion_ids": [
+        "AS-f05d7b443b4128bb"
+      ],
+      "display_edge_ids": [
+        "DE-fb5d1c6682f62b15"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-f1b4f8b0c72b482c",
+      "normalized_search_terms": [
+        "surface and neris approaches"
+      ],
+      "search_terms": [
+        "surface and Neris approaches"
       ]
     },
     "SRC-6ab4268977753f": {
@@ -14900,6 +16545,26 @@
       ],
       "search_terms": [
         "a district that reads high"
+      ]
+    },
+    "SRC-6c0a42127d6562": {
+      "assertion_ids": [
+        "AS-3feef99aff8609a4",
+        "AS-c0f504c590d8008a"
+      ],
+      "display_edge_ids": [
+        "DE-84b5ed43c6056bf8",
+        "DE-e9d3dc937dd8f9bc"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the abyssal city of neris"
+      ],
+      "search_terms": [
+        "the Abyssal city of Neris"
       ]
     },
     "SRC-6ccc8b0ca434f9": {
@@ -15214,7 +16879,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "four hundred surface-born citizens"
       ],
@@ -15294,24 +16959,6 @@
         "Maren"
       ]
     },
-    "SRC-7cbd00872dbfa4": {
-      "assertion_ids": [
-        "AS-919783f5308ba84e"
-      ],
-      "display_edge_ids": [
-        "DE-0112bb011947c868"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the myth gallery"
-      ],
-      "search_terms": [
-        "The Myth Gallery"
-      ]
-    },
     "SRC-7d050d42264c64": {
       "assertion_ids": [
         "AS-e223b449fdd91778"
@@ -15330,6 +16977,24 @@
         "The Kestel Low Districts"
       ]
     },
+    "SRC-7d82c0b982102f": {
+      "assertion_ids": [
+        "AS-a35d72a87fcf1143"
+      ],
+      "display_edge_ids": [
+        "DE-88b9e6b28d6fa91d"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the concord"
+      ],
+      "search_terms": [
+        "the Concord"
+      ]
+    },
     "SRC-7e786e0b494f46": {
       "assertion_ids": [
         "AS-5219b34f1953a047"
@@ -15346,6 +17011,24 @@
       ],
       "search_terms": [
         "two overlapping Dungeons"
+      ]
+    },
+    "SRC-7f217e63e4c4b3": {
+      "assertion_ids": [
+        "AS-31bbff10e6865f25"
+      ],
+      "display_edge_ids": [
+        "DE-612bc8dcdb75adad"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "adder kell's home coastal district"
+      ],
+      "search_terms": [
+        "Adder Kell's home coastal district"
       ]
     },
     "SRC-7f6f63e8637646": {
@@ -15574,30 +17257,12 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-b751a3bcc60fa548",
+      "layout_island_id": "LI-964248abcc4a8d24",
       "normalized_search_terms": [
         "two depth networks two deep capitals"
       ],
       "search_terms": [
         "two depth networks (two deep capitals)"
-      ]
-    },
-    "SRC-87512cf2c1292c": {
-      "assertion_ids": [
-        "AS-106f427fdb6a65cb"
-      ],
-      "display_edge_ids": [
-        "DE-f85854551c523f31"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-5ec0f2359fc7cb63",
-      "normalized_search_terms": [
-        "the marn"
-      ],
-      "search_terms": [
-        "the Marn"
       ]
     },
     "SRC-876f605bc4b339": {
@@ -15674,6 +17339,24 @@
         "the Fourth Northern Army"
       ]
     },
+    "SRC-8a8864c1cc9996": {
+      "assertion_ids": [
+        "AS-c64ca9bb34663617"
+      ],
+      "display_edge_ids": [
+        "DE-3450b23a0f28ac31"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-6170ebf2b1f25f53",
+      "normalized_search_terms": [
+        "the old route collapse"
+      ],
+      "search_terms": [
+        "the old route collapse"
+      ]
+    },
     "SRC-8a8da8d0632b8b": {
       "assertion_ids": [
         "AS-aaa6aeb18032d0ef"
@@ -15684,30 +17367,12 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "going to be read first registry visit"
       ],
       "search_terms": [
         "going to be read (first Registry visit)"
-      ]
-    },
-    "SRC-8ac643b578e2b5": {
-      "assertion_ids": [
-        "AS-cbad26b4eadb1290"
-      ],
-      "display_edge_ids": [
-        "DE-48f23a5f3074d1aa"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the drowned vent nursery"
-      ],
-      "search_terms": [
-        "The Drowned Vent Nursery"
       ]
     },
     "SRC-8b9f6965240cc5": {
@@ -16220,6 +17885,24 @@
         "a Hidden Road condition"
       ]
     },
+    "SRC-986b7d59715e6c": {
+      "assertion_ids": [
+        "AS-8af274b92c4eb9e7"
+      ],
+      "display_edge_ids": [
+        "DE-514f382354c2a34d"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-5e99062653c93542",
+      "normalized_search_terms": [
+        "chambers"
+      ],
+      "search_terms": [
+        "chambers"
+      ]
+    },
     "SRC-98aa75a2956b62": {
       "assertion_ids": [
         "AS-c5966689e65b10a7"
@@ -16230,7 +17913,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "myth-gallery interpretation residency"
       ],
@@ -16302,12 +17985,30 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-b751a3bcc60fa548",
+      "layout_island_id": "LI-964248abcc4a8d24",
       "normalized_search_terms": [
         "threading orchid"
       ],
       "search_terms": [
         "Threading orchid"
+      ]
+    },
+    "SRC-9e94242ef9dc6c": {
+      "assertion_ids": [
+        "AS-2084f3ec9f19f933"
+      ],
+      "display_edge_ids": [
+        "DE-8ac6eb8935f50f56"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the deep network"
+      ],
+      "search_terms": [
+        "the deep network"
       ]
     },
     "SRC-9eaad1d52e5706": {
@@ -16324,24 +18025,6 @@
       ],
       "search_terms": [
         "home (Softwater Combe)"
-      ]
-    },
-    "SRC-9f0f1fc3a8ec3e": {
-      "assertion_ids": [
-        "AS-a34c2e24583ad068"
-      ],
-      "display_edge_ids": [
-        "DE-a071a8b60f336d13"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the rising gate"
-      ],
-      "search_terms": [
-        "The Rising Gate"
       ]
     },
     "SRC-9f57de892034f2": {
@@ -16408,7 +18091,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "a different depth network"
       ],
@@ -16534,7 +18217,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the surface polities"
       ],
@@ -16560,6 +18243,24 @@
         "a corn merchant's (Sabeth's employer)"
       ]
     },
+    "SRC-a54a16a8a94f68": {
+      "assertion_ids": [
+        "AS-ade1bb6c3dff6929"
+      ],
+      "display_edge_ids": [
+        "DE-97a06e73dbca310a"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "the belloway lifts"
+      ],
+      "search_terms": [
+        "the Belloway lifts"
+      ]
+    },
     "SRC-a5a7ce0ed12918": {
       "assertion_ids": [
         "AS-4df88416398f64a6"
@@ -16576,6 +18277,24 @@
       ],
       "search_terms": [
         "travellers seeking readings"
+      ]
+    },
+    "SRC-a67b4800513ad1": {
+      "assertion_ids": [
+        "AS-2d7b7966db165573"
+      ],
+      "display_edge_ids": [
+        "DE-da8af166cf45da2a"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "the mountain"
+      ],
+      "search_terms": [
+        "the mountain"
       ]
     },
     "SRC-a68cf826bf5af9": {
@@ -16606,7 +18325,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the surface"
       ],
@@ -16632,6 +18351,24 @@
         "The Tallow Valleys"
       ]
     },
+    "SRC-a8892d5981b05f": {
+      "assertion_ids": [
+        "AS-d9f70fe32b022dcc"
+      ],
+      "display_edge_ids": [
+        "DE-5d3bd7f670d50213"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-01bab62edb3fc3f6",
+      "normalized_search_terms": [
+        "the furthest point reached"
+      ],
+      "search_terms": [
+        "the furthest point reached"
+      ]
+    },
     "SRC-a8be88a394edc4": {
       "assertion_ids": [
         "AS-6599a3cadc2374dd"
@@ -16648,42 +18385,6 @@
       ],
       "search_terms": [
         "The Slag Country"
-      ]
-    },
-    "SRC-aa0aa0e6a1d588": {
-      "assertion_ids": [
-        "AS-683905fd85741597"
-      ],
-      "display_edge_ids": [
-        "DE-1ae83891f8c32b05"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the marn"
-      ],
-      "search_terms": [
-        "the Marn"
-      ]
-    },
-    "SRC-aa27f48829c0a8": {
-      "assertion_ids": [
-        "AS-a3bb2dc7a6e80f0a"
-      ],
-      "display_edge_ids": [
-        "DE-21fda5c814e068ac"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-b751a3bcc60fa548",
-      "normalized_search_terms": [
-        "the threading orchid wall"
-      ],
-      "search_terms": [
-        "The Threading Orchid Wall"
       ]
     },
     "SRC-aa2c0a228875e7": {
@@ -16822,7 +18523,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "belloway depth broth"
       ],
@@ -16997,6 +18698,24 @@
         "the famous Debt column"
       ]
     },
+    "SRC-b8a600a8ab877a": {
+      "assertion_ids": [
+        "AS-b8b4a42ef8329efc"
+      ],
+      "display_edge_ids": [
+        "DE-c0f41f7b8bb298e7"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-8a2c4a0ea626f2f4",
+      "normalized_search_terms": [
+        "the ossaray networks"
+      ],
+      "search_terms": [
+        "the Ossaray networks"
+      ]
+    },
     "SRC-b8b0e6fa22ca66": {
       "assertion_ids": [
         "AS-8fac448fdc02a2c9"
@@ -17015,24 +18734,6 @@
         "The Tithe Stone"
       ]
     },
-    "SRC-b8b41c3dfaf934": {
-      "assertion_ids": [
-        "AS-2bdec07d663f164f"
-      ],
-      "display_edge_ids": [
-        "DE-c94ab48d88010b4c"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the riser's depth"
-      ],
-      "search_terms": [
-        "The Riser's Depth"
-      ]
-    },
     "SRC-b8d6d7f93f60a1": {
       "assertion_ids": [
         "AS-d88a00b9aa40b2a6"
@@ -17043,7 +18744,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "seam-glow plaster"
       ],
@@ -17121,6 +18822,24 @@
       ],
       "search_terms": [
         "The Drowned Wheat Seed House"
+      ]
+    },
+    "SRC-bae585ff67b0f7": {
+      "assertion_ids": [
+        "AS-9050eac590bd0b0e"
+      ],
+      "display_edge_ids": [
+        "DE-70ed58b9b876b001"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-e589ae845c57064d",
+      "normalized_search_terms": [
+        "adder kell"
+      ],
+      "search_terms": [
+        "Adder Kell"
       ]
     },
     "SRC-baf82ff3a94d5d": {
@@ -17465,6 +19184,24 @@
         "White Road"
       ]
     },
+    "SRC-c732f15ab5c64c": {
+      "assertion_ids": [
+        "AS-2e463bbbad7bde06"
+      ],
+      "display_edge_ids": [
+        "DE-6e1b3cc9cba97712"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-7860a4f198ea6892",
+      "normalized_search_terms": [
+        "vall"
+      ],
+      "search_terms": [
+        "Vall"
+      ]
+    },
     "SRC-c8d0fba83789c8": {
       "assertion_ids": [
         "AS-dd58fa78ebf6f15b"
@@ -17499,6 +19236,24 @@
       ],
       "search_terms": [
         "Vane"
+      ]
+    },
+    "SRC-c909dfdae3c358": {
+      "assertion_ids": [
+        "AS-8df416c2af28bcbf"
+      ],
+      "display_edge_ids": [
+        "DE-ac7d2c013eabb8c1"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-5dddc03c251d5726",
+      "normalized_search_terms": [
+        "the magistracy the concord"
+      ],
+      "search_terms": [
+        "the magistracy / the Concord"
       ]
     },
     "SRC-cd7aaf8ec05c0e": {
@@ -17641,7 +19396,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-b751a3bcc60fa548",
+      "layout_island_id": "LI-964248abcc4a8d24",
       "normalized_search_terms": [
         "two depth networks"
       ],
@@ -17665,24 +19420,6 @@
       ],
       "search_terms": [
         "the Neris networks"
-      ]
-    },
-    "SRC-d32162c20ed6fc": {
-      "assertion_ids": [
-        "AS-22ac4193fea938f4"
-      ],
-      "display_edge_ids": [
-        "DE-a28e07a25cd68756"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the nine-day shaft"
-      ],
-      "search_terms": [
-        "The Nine-Day Shaft"
       ]
     },
     "SRC-d36043af2f9771": {
@@ -17757,7 +19494,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "ground the surface"
       ],
@@ -17837,6 +19574,24 @@
         "The White Road"
       ]
     },
+    "SRC-d8d21734fd7319": {
+      "assertion_ids": [
+        "AS-408c4889dc3268f4"
+      ],
+      "display_edge_ids": [
+        "DE-d3e5a5d341307008"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-50bcc9a8b8003a95",
+      "normalized_search_terms": [
+        "the ossaray networks"
+      ],
+      "search_terms": [
+        "the Ossaray networks"
+      ]
+    },
     "SRC-d8f2b6f7fcd2f6": {
       "assertion_ids": [
         "AS-6bf6e1a3025c6f6b"
@@ -17889,24 +19644,6 @@
       ],
       "search_terms": [
         "General Sarai Venn / the Fourth Northern Army column"
-      ]
-    },
-    "SRC-dda3b8453bb7a2": {
-      "assertion_ids": [
-        "AS-3357a40932308790"
-      ],
-      "display_edge_ids": [
-        "DE-31a28e29c61e6e1c"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the roofline"
-      ],
-      "search_terms": [
-        "The Roofline"
       ]
     },
     "SRC-de79e6f5029c72": {
@@ -18415,24 +20152,6 @@
         "Split Shelf"
       ]
     },
-    "SRC-f34ceab7ba8dc3": {
-      "assertion_ids": [
-        "AS-c121dc8db8720fda"
-      ],
-      "display_edge_ids": [
-        "DE-a1d15c33db666f61"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "ropewalk"
-      ],
-      "search_terms": [
-        "Ropewalk"
-      ]
-    },
     "SRC-f3bad63980e2bc": {
       "assertion_ids": [
         "AS-eb4dc2155c0b416c"
@@ -18469,24 +20188,6 @@
       ],
       "search_terms": [
         "Andrel"
-      ]
-    },
-    "SRC-f4b0950115df55": {
-      "assertion_ids": [
-        "AS-069d5db5931e563d"
-      ],
-      "display_edge_ids": [
-        "DE-ec0b70886eed831c"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the black choir chasm"
-      ],
-      "search_terms": [
-        "the Black Choir chasm"
       ]
     },
     "SRC-f538e1c13fb8ee": {
@@ -18543,6 +20244,24 @@
         "the Wend country"
       ]
     },
+    "SRC-f72bcc0c19d6a2": {
+      "assertion_ids": [
+        "AS-86538e0472189754"
+      ],
+      "display_edge_ids": [
+        "DE-a2bf40f852bedb93"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-40a609eab69311fd",
+      "normalized_search_terms": [
+        "unnamed chambers"
+      ],
+      "search_terms": [
+        "UNNAMED:chambers"
+      ]
+    },
     "SRC-f74817db59bf09": {
       "assertion_ids": [
         "AS-6365c5961fd1fd23"
@@ -18579,6 +20298,24 @@
         "Ilber Coach-Spring Steel"
       ]
     },
+    "SRC-f86fe4f821f155": {
+      "assertion_ids": [
+        "AS-abc8dd30424a2771"
+      ],
+      "display_edge_ids": [
+        "DE-827c064828e136fb"
+      ],
+      "display_kind": "ambiguous",
+      "display_kind_basis": "fallback",
+      "label_rank": 20,
+      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "normalized_search_terms": [
+        "the lift head"
+      ],
+      "search_terms": [
+        "the lift head"
+      ]
+    },
     "SRC-f95cfe08042d48": {
       "assertion_ids": [
         "AS-c116cf43c113064e"
@@ -18607,7 +20344,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "a surface-born resident of neris"
       ],
@@ -18643,7 +20380,7 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "belloway rib-hand drill"
       ],
@@ -18679,32 +20416,12 @@
       "display_kind": "ambiguous",
       "display_kind_basis": "fallback",
       "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
+      "layout_island_id": "LI-322f5fe98d7f2efc",
       "normalized_search_terms": [
         "the tier-iv mana crystal veins"
       ],
       "search_terms": [
         "the Tier-IV mana crystal veins"
-      ]
-    },
-    "SRC-fcd2f02cc24bb5": {
-      "assertion_ids": [
-        "AS-7f9917a6e8a3598e",
-        "AS-b1891ce7cfffa719"
-      ],
-      "display_edge_ids": [
-        "DE-e941a0fa5f094e4e",
-        "DE-fa66465dd608b202"
-      ],
-      "display_kind": "ambiguous",
-      "display_kind_basis": "fallback",
-      "label_rank": 20,
-      "layout_island_id": "LI-6fcc997662299f65",
-      "normalized_search_terms": [
-        "the candle basin"
-      ],
-      "search_terms": [
-        "the Candle Basin"
       ]
     },
     "SRC-fe89d3f75ee427": {
@@ -18727,5 +20444,5 @@
     }
   },
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:f17114928ef52593be14b072b7ab8986614ce2c950b625e21eb290bbfcf943f5"
+  "semantic_digest": "sha256:14b18733c0123a1840e06c148ff453db8d220f039542e3e4262b4abab3835644"
 }
