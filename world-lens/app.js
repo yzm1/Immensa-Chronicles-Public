@@ -128,6 +128,7 @@ function layerMotif(parent, layer, x, y, scale = 1) {
   });
   const id = layer.layer_id;
   if (id === "physical_places") group.append(svgElement("path", { d: "M-17,-4 H17 M-17,4 H17 M-10,-8 V8" }));
+  else if (id === "sky_time") group.append(svgElement("path", { d: "M-17,7 A17,17 0 0 1 17,7 M0,-10 V7 M-6,-4 L0,-10 L6,-4 M-12,11 H12" }));
   else if (id === "movement_infrastructure") group.append(svgElement("path", { d: "M-17,-5 H12 L17,0 L12,5 H-17 M-12,0 H8" }));
   else if (id === "living_ecology") group.append(svgElement("path", { d: "M0,10 V-10 M0,-2 L-13,-10 M0,3 L13,-7 M0,7 L-10,1" }));
   else if (id === "resources_economy_industry") group.append(svgElement("path", { d: "M-17,-6 H-3 V6 H-17 Z M3,-6 H17 V6 H3 Z M-3,0 H3" }));
@@ -222,7 +223,17 @@ async function start() {
   const assertionById = new Map(representation.assertions.map((row) => [row.assertion_id, row]));
   const layerById = new Map(representation.layers.map((row) => [row.layer_id, row]));
   const fixtureById = new Map(fixtures.fixtures.map((row) => [row.fixture_id, row]));
-  const catalogueSearch = representation.catalogue_records.map((row) => ({ ...row, search: normalize(`${row.label} ${row.entry_code}`) }));
+  const catalogueSearch = representation.catalogue_records.map((row) => ({
+    ...row,
+    search: normalize([
+      row.label,
+      row.entry_code,
+      row.category,
+      row.entry_status,
+      row.epistemic_layer,
+      ...row.layer_ids.map((layerId) => layerById.get(layerId)?.label ?? layerId),
+    ].filter(Boolean).join(" ")),
+  }));
   const stage = document.getElementById("answer-panel");
   const trail = [];
 
@@ -440,6 +451,9 @@ async function start() {
   function renderCatalogueRecord(record, { navigate = true } = {}) {
     const layer = layerById.get(record.layer_ids[0]);
     const svg = makeSvg(`${record.label} source-scoped catalogue record`, 440);
+    const epistemicLine = record.epistemic_layer
+      ? `ENTRY ${humanize(record.entry_status)} · EPISTEMIC ${humanize(record.epistemic_layer)}`
+      : "";
     markShape(svg, record, 126, 110, 44, true);
     svg.append(
       svgElement("text", { x: 205, y: 92, class: "micro muted" }, "OPEN FRAME · IDENTITY NOT MERGED"),
@@ -448,6 +462,7 @@ async function start() {
       svgElement("line", { x1: 205, y1: 237, x2: 1105, y2: 237, stroke: layer.accent, "stroke-width": 2 }),
       svgElement("text", { x: 230, y: 207, class: "layer-label" }, layer.label),
       svgElement("text", { x: 230, y: 228, class: "annotation muted" }, "Single classified source record; no cross-source identity or relationship asserted"),
+      ...(epistemicLine ? [svgElement("text", { x: 205, y: 283, class: "micro muted" }, epistemicLine.toLocaleUpperCase())] : []),
       svgElement("path", { d: "M205,316 H535 M665,316 H1105", class: "unknown-rift" }),
       svgElement("text", { x: 600, y: 321, class: "micro", "text-anchor": "middle" }, "IDENTITY REVIEW RIFT"),
     );
@@ -461,14 +476,18 @@ async function start() {
       index: record.entry_code || record.candidate_id,
       note: [
         element("span", {}, [element("strong", { text: "Authority: " }), humanize(record.authority_state)]),
+        record.entry_status ? element("span", {}, [element("strong", { text: "Entry status: " }), humanize(record.entry_status)]) : null,
+        record.epistemic_layer ? element("span", {}, [element("strong", { text: "Epistemic layer: " }), humanize(record.epistemic_layer)]) : null,
         element("span", {}, [element("strong", { text: "Location: " }), humanize(record.location_status)]),
         element("span", {}, [element("strong", { text: "Placement: " }), humanize(record.placement_status)]),
-      ],
+      ].filter(Boolean),
     }));
     const outline = outlineHeading(record.label, "Source-scoped catalogue representation; not a reviewed global identity.");
     outline.append(element("dl", {}, [
       element("dt", { text: "Layer" }), element("dd", { text: layer.label }),
       element("dt", { text: "Category" }), element("dd", { text: humanize(record.category) }),
+      ...(record.entry_status ? [element("dt", { text: "Entry status" }), element("dd", { text: humanize(record.entry_status) })] : []),
+      ...(record.epistemic_layer ? [element("dt", { text: "Epistemic layer" }), element("dd", { text: humanize(record.epistemic_layer) })] : []),
       element("dt", { text: "Geometry capability" }), element("dd", { text: humanize(record.geometry_capability) }),
     ]));
     document.body.dataset.queryKind = "catalogue_record";
@@ -496,7 +515,7 @@ async function start() {
     });
     svg.append(
       svgElement("line", { x1: 55, y1: 158, x2: 1145, y2: 158, stroke: layer.accent, "stroke-width": 5 }),
-      svgElement("text", { x: 55, y: 142, class: "micro muted" }, `${layer.motif} · selected ribbon expanded; twelve ribbons remain compressed above`),
+      svgElement("text", { x: 55, y: 142, class: "micro muted" }, `${layer.motif} · selected ribbon expanded; ${representation.layers.length - 1} ribbons remain compressed above`),
       svgElement("text", { x: 55, y: 205, class: "serif", "font-size": 26 }, "Reviewed identities"),
     );
     layerMotif(svg, layer, 1110, 134, 1);
@@ -703,9 +722,12 @@ async function start() {
       list.append(button);
     });
     catalogue.forEach((record) => {
+      const scope = record.epistemic_layer
+        ? `${humanize(record.category)} · ${humanize(record.epistemic_layer)} · source-scoped`
+        : `${humanize(record.category)} · source-scoped`;
       const button = element("button", { type: "button" }, [
         element("strong", { text: record.label }),
-        element("small", { text: `${humanize(record.category)} · source-scoped` }),
+        element("small", { text: scope }),
       ]);
       button.addEventListener("click", () => renderCatalogueRecord(record));
       list.append(button);
