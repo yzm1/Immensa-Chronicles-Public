@@ -5,91 +5,8 @@
     "projection": "spatial_structure"
   },
   "layout_algorithm": "immensa-deterministic-component-force-1",
-  "layout_id": "layout:21b74de3be34979fae6bc47636d6f389e84a7c906c8244797239b26b3823eb5e",
+  "layout_id": "layout:584d7a6f969999ceac1cd4d301af0c68c78181b30210e4165bfa5ecd4572cfd5",
   "layout_islands": [
-    {
-      "anchor_labels": [
-        "Candlecut",
-        "Ilber"
-      ],
-      "bounds": {
-        "max_x": 1082.0296,
-        "max_y": 1252.3016,
-        "min_x": 16.0,
-        "min_y": 16.0
-      },
-      "description": "Layout island containing Candlecut, Ilber",
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "member_node_ids": [
-        "PL-CANDLECUT",
-        "PL-ILBER",
-        "SRC-0a5b838c2d34b6",
-        "SRC-0acd8b57dd08a8",
-        "SRC-0c3cd79a824ed7",
-        "SRC-0d25c613ea1360",
-        "SRC-1459e985de3635",
-        "SRC-194b1429cad7bf",
-        "SRC-1b3ea3325bbd8a",
-        "SRC-2cabbcb8b41eb9",
-        "SRC-2d1677749cf1e0",
-        "SRC-343b25bd2b8190",
-        "SRC-3d26bb899a9084",
-        "SRC-3eae3c010e1436",
-        "SRC-41e69fd18057e2",
-        "SRC-49770cd139ae51",
-        "SRC-4ecb9e3c60e5a6",
-        "SRC-502bff6d6d3cb8",
-        "SRC-522a04cfc8662e",
-        "SRC-5b8ea6dfe19f02",
-        "SRC-5e3057faf57b47",
-        "SRC-62dc77f592a5bb",
-        "SRC-6529a88598e589",
-        "SRC-6761039cf830af",
-        "SRC-67e7d1b08afdf7",
-        "SRC-6ab4268977753f",
-        "SRC-6b670fa5080f97",
-        "SRC-6b8d8569814fa7",
-        "SRC-6feb98831f63b1",
-        "SRC-701d0ff663a96f",
-        "SRC-70b1accffd339f",
-        "SRC-75484f1c74dc20",
-        "SRC-79c35cfef4c28c",
-        "SRC-80dd12ba637c5c",
-        "SRC-8165dd7a08ff8e",
-        "SRC-88e9271e82f1b5",
-        "SRC-8bb3d4fca70f88",
-        "SRC-8f2ffb90846b6a",
-        "SRC-912f3ef01a9854",
-        "SRC-91a16971993b21",
-        "SRC-95cbeb7c448651",
-        "SRC-9724dcd039cc08",
-        "SRC-990f2ba6bdc20d",
-        "SRC-a14a7f0142f37c",
-        "SRC-a46468493b5027",
-        "SRC-a85fee687db4f3",
-        "SRC-a8be88a394edc4",
-        "SRC-aa2c0a228875e7",
-        "SRC-aa4d0a3b66dd3a",
-        "SRC-ab3b2fa0fe2416",
-        "SRC-b596773b8781f7",
-        "SRC-b92fbda1b61b55",
-        "SRC-ba825eb650f382",
-        "SRC-bf5f3f6b4d3324",
-        "SRC-bf7a16f6e6982d",
-        "SRC-c8f8d502dea525",
-        "SRC-cdb1b043e068e5",
-        "SRC-cdea2d29ef886e",
-        "SRC-ce3638e215b58b",
-        "SRC-d46fe017a5870e",
-        "SRC-d6b4171ffa9ed9",
-        "SRC-e128b34350ad12",
-        "SRC-ee77e951b53c1e",
-        "SRC-f429960e3164b2",
-        "SRC-f74817db59bf09",
-        "SRC-f818d3f5fae7eb"
-      ],
-      "node_count": 66
-    },
     {
       "anchor_labels": [
         "Belloway",
@@ -103,7 +20,7 @@
         "min_y": 16.0
       },
       "description": "Layout island containing Belloway, Hollow Sink, Neris",
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "member_node_ids": [
         "PL-BELLOWAY",
         "PL-BLACK-CHOIR-CHASM",
@@ -123,11 +40,10 @@
         "PL-ROOFLINE",
         "PL-ROPEWALK-HOUSE",
         "SRC-0bc357457c795a",
-        "SRC-105bf464838e47",
-        "SRC-105e4d9e5a3aff",
         "SRC-14836b5b158711",
         "SRC-14949cc2c2c6b3",
         "SRC-18faf69e423454",
+        "SRC-1ddef0570fca6f",
         "SRC-1e78fd5bbcd301",
         "SRC-2321e425862030",
         "SRC-39742c3672b7a6",
@@ -136,25 +52,75 @@
         "SRC-58614f8645fbc2",
         "SRC-5bf71b2b08425f",
         "SRC-6041ea20af20ef",
-        "SRC-69150c2082abe4",
         "SRC-6c0a42127d6562",
-        "SRC-799d8da83f16c7",
         "SRC-7d82c0b982102f",
+        "SRC-814ac5f6be28b2",
         "SRC-8a8da8d0632b8b",
         "SRC-98aa75a2956b62",
-        "SRC-9e94242ef9dc6c",
         "SRC-a0860a480c36a7",
         "SRC-a443e298df7922",
         "SRC-a786a24c5233b6",
         "SRC-aec2b8f114dd36",
         "SRC-b8d6d7f93f60a1",
         "SRC-d56841ef3f306f",
+        "SRC-e9717854a68368",
         "SRC-f86fe4f821f155",
         "SRC-f9a42d84296782",
         "SRC-fa0582efd48f88",
         "SRC-fac2a0512b686c"
       ],
-      "node_count": 48
+      "node_count": 46
+    },
+    {
+      "anchor_labels": [
+        "Ilber"
+      ],
+      "bounds": {
+        "max_x": 1082.0296,
+        "max_y": 1252.3016,
+        "min_x": 16.0,
+        "min_y": 632.7155
+      },
+      "description": "Layout island containing Ilber",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
+      "member_node_ids": [
+        "PL-ILBER",
+        "SRC-0acd8b57dd08a8",
+        "SRC-1459e985de3635",
+        "SRC-194b1429cad7bf",
+        "SRC-1b3ea3325bbd8a",
+        "SRC-2cabbcb8b41eb9",
+        "SRC-2d1677749cf1e0",
+        "SRC-343b25bd2b8190",
+        "SRC-3a6bb0e6440d63",
+        "SRC-3d26bb899a9084",
+        "SRC-3eae3c010e1436",
+        "SRC-41e69fd18057e2",
+        "SRC-49770cd139ae51",
+        "SRC-4ecb9e3c60e5a6",
+        "SRC-502bff6d6d3cb8",
+        "SRC-5b8ea6dfe19f02",
+        "SRC-6529a88598e589",
+        "SRC-69189bb69b07ad",
+        "SRC-6ab4268977753f",
+        "SRC-6b8d8569814fa7",
+        "SRC-6feb98831f63b1",
+        "SRC-70b1accffd339f",
+        "SRC-8bb3d4fca70f88",
+        "SRC-95cbeb7c448651",
+        "SRC-990f2ba6bdc20d",
+        "SRC-a14a7f0142f37c",
+        "SRC-a46468493b5027",
+        "SRC-aa4d0a3b66dd3a",
+        "SRC-ba825eb650f382",
+        "SRC-d46fe017a5870e",
+        "SRC-d6b4171ffa9ed9",
+        "SRC-e128b34350ad12",
+        "SRC-e2e612bd1c2d01",
+        "SRC-ee77e951b53c1e",
+        "SRC-f818d3f5fae7eb"
+      ],
+      "node_count": 35
     },
     {
       "anchor_labels": [
@@ -167,7 +133,7 @@
         "min_y": 16.0
       },
       "description": "Layout island containing Fivedoor",
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "member_node_ids": [
         "PL-FIVEDOOR",
         "RT-UNDERWAY-CLASS",
@@ -191,74 +157,63 @@
         "SRC-7e786e0b494f46",
         "SRC-8016d18dcaa761",
         "SRC-8e25f7bae0adc5",
-        "SRC-90fa5c94d760b1",
         "SRC-953dcd8e1f3afd",
         "SRC-959e5f1d8d2372",
         "SRC-99e0b5bd2e52c3",
         "SRC-b7a96d74d16bb8",
-        "SRC-b95e66cbdde9f9",
         "SRC-c039148387f32d",
         "SRC-c55aa8a757ac0d",
         "SRC-d7a8fc6d38e39f",
-        "SRC-e0d8e08396509f",
         "SRC-e13b2b2fde7b17",
         "SRC-e5a85dba9a16b9",
         "SRC-eef55c2a91e6ab",
         "SRC-f0f416fb20b2e9",
         "SRC-fe89d3f75ee427"
       ],
-      "node_count": 37
+      "node_count": 34
     },
     {
       "anchor_labels": [
-        "Kestel",
-        "Vasse Olun"
+        "Candlecut"
       ],
       "bounds": {
-        "max_x": 4775.7074,
-        "max_y": 1024.9286,
-        "min_x": 3941.1578,
+        "max_x": 1075.371,
+        "max_y": 607.9972,
+        "min_x": 21.9254,
         "min_y": 16.0
       },
-      "description": "Layout island containing Kestel, Vasse Olun",
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "description": "Layout island containing Candlecut",
+      "layout_island_id": "LI-86089924143f515b",
       "member_node_ids": [
-        "PL-KESTEL",
-        "PL-VASSE-OLUN",
-        "SRC-3693f8f86bd5f8",
-        "SRC-39d570319dfae0",
-        "SRC-40cf7a5505d36a",
-        "SRC-43827d2f8f8b40",
-        "SRC-57e176398b83b5",
-        "SRC-5ed42e72b7fbbd",
-        "SRC-68f5d0786cccfa",
-        "SRC-7d050d42264c64",
-        "SRC-7ff53d328f126f",
-        "SRC-84f1ea2fb4cdce",
-        "SRC-8e31fabc1dd558",
-        "SRC-8f452582c8b0ec",
-        "SRC-8f9ceec082e089",
-        "SRC-9403eaf5ec025c",
-        "SRC-99cb0148374262",
-        "SRC-acd293499a71fa",
-        "SRC-af627bf9d9703e",
-        "SRC-b2fdeff12bd5ae",
-        "SRC-b5c51285686c7a",
-        "SRC-baf82ff3a94d5d",
-        "SRC-bb19b71b5accca",
-        "SRC-bd40032d2277d3",
-        "SRC-c08e270f06622f",
-        "SRC-c1328494fb64a9",
-        "SRC-c510ec0eeea524",
-        "SRC-c8d0fba83789c8",
-        "SRC-ce75ac89232d02",
-        "SRC-d6a3ff6b45ec28",
-        "SRC-e0c0c6a8c65198",
-        "SRC-e44e7e830cad24",
-        "SRC-e8d69273c468b5",
-        "SRC-ef87fde9b060b0"
+        "PL-CANDLECUT",
+        "SRC-0d25c613ea1360",
+        "SRC-0f9e3854532b65",
+        "SRC-522a04cfc8662e",
+        "SRC-62dc77f592a5bb",
+        "SRC-6761039cf830af",
+        "SRC-67e7d1b08afdf7",
+        "SRC-6b670fa5080f97",
+        "SRC-701d0ff663a96f",
+        "SRC-75484f1c74dc20",
+        "SRC-79c35cfef4c28c",
+        "SRC-80dd12ba637c5c",
+        "SRC-8f2ffb90846b6a",
+        "SRC-912f3ef01a9854",
+        "SRC-91a16971993b21",
+        "SRC-9724dcd039cc08",
+        "SRC-a85fee687db4f3",
+        "SRC-a8be88a394edc4",
+        "SRC-aa2c0a228875e7",
+        "SRC-ab3b2fa0fe2416",
+        "SRC-b596773b8781f7",
+        "SRC-b92fbda1b61b55",
+        "SRC-cdb1b043e068e5",
+        "SRC-cdea2d29ef886e",
+        "SRC-ce3638e215b58b",
+        "SRC-d68955a6de8e86",
+        "SRC-f429960e3164b2"
       ],
-      "node_count": 34
+      "node_count": 27
     },
     {
       "anchor_labels": [
@@ -270,26 +225,22 @@
         "max_x": 900.6808,
         "max_y": 2874.2208,
         "min_x": 16.0,
-        "min_y": 1559.3438
+        "min_y": 2084.221
       },
       "description": "Layout island containing Greenmouth, Harlowe, Saan Kel",
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "member_node_ids": [
         "PL-GREENMOUTH",
         "PL-HARLOWE",
         "PL-SAAN-KEL",
-        "RT-ONCEWAY-CLASS",
         "SRC-0812a9f542e505",
         "SRC-0de5979e1965fc",
-        "SRC-107407c42c3865",
         "SRC-12131d9488051a",
         "SRC-1869b628603710",
+        "SRC-39ce3debbcb4d0",
         "SRC-43400fb29f8a45",
         "SRC-565337a4f6ed51",
         "SRC-6894e53024b1b5",
-        "SRC-6af70fe9d4b145",
-        "SRC-6e36536efcfd69",
-        "SRC-7415747f3097f6",
         "SRC-8463afa36fe225",
         "SRC-94ca8e618046f9",
         "SRC-a308440341d0b0",
@@ -298,39 +249,76 @@
         "SRC-c6fc186f3acd2a",
         "SRC-d8155a397232e7",
         "SRC-db7bf0d8716c70",
-        "SRC-eb3dd57445887e",
-        "SRC-f3bad63980e2bc"
+        "SRC-eb3dd57445887e"
       ],
-      "node_count": 25
+      "node_count": 20
     },
     {
       "anchor_labels": [
-        "Harnesse"
+        "Kestel"
       ],
       "bounds": {
-        "max_x": 1657.6588,
-        "max_y": 2173.994,
-        "min_x": 1042.6808,
-        "min_y": 1559.3438
+        "max_x": 4775.2609,
+        "max_y": 513.965,
+        "min_x": 3941.1578,
+        "min_y": 24.4083
       },
-      "description": "Layout island containing Harnesse",
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "description": "Layout island containing Kestel",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "member_node_ids": [
-        "PL-HARNESSE",
-        "SRC-21a923df1998d0",
-        "SRC-3e7e217fc14e55",
-        "SRC-3f6aaf87bc49a2",
-        "SRC-515b75279bdeb1",
-        "SRC-6ec34a1a4f3cb5",
-        "SRC-7c4310b6477542",
-        "SRC-81075c5aef1d90",
-        "SRC-916cae3781c401",
-        "SRC-95e094e813388c",
-        "SRC-a68cf826bf5af9",
-        "SRC-ab332ef48022e9",
-        "SRC-edbba9caabfb90"
+        "PL-KESTEL",
+        "SRC-30df9327e8e40b",
+        "SRC-3693f8f86bd5f8",
+        "SRC-40cf7a5505d36a",
+        "SRC-46ace81af54962",
+        "SRC-57e176398b83b5",
+        "SRC-68f5d0786cccfa",
+        "SRC-7d050d42264c64",
+        "SRC-8f9ceec082e089",
+        "SRC-9403eaf5ec025c",
+        "SRC-9bd60b2220df5c",
+        "SRC-b5c51285686c7a",
+        "SRC-baf82ff3a94d5d",
+        "SRC-bb19b71b5accca",
+        "SRC-bd40032d2277d3",
+        "SRC-c1328494fb64a9",
+        "SRC-ce75ac89232d02",
+        "SRC-e0c0c6a8c65198"
       ],
-      "node_count": 13
+      "node_count": 18
+    },
+    {
+      "anchor_labels": [
+        "Vasse Olun"
+      ],
+      "bounds": {
+        "max_x": 4775.7074,
+        "max_y": 1024.9286,
+        "min_x": 3953.2742,
+        "min_y": 478.4393
+      },
+      "description": "Layout island containing Vasse Olun",
+      "layout_island_id": "LI-cc9c966ffd98e899",
+      "member_node_ids": [
+        "PL-VASSE-OLUN",
+        "SRC-39d570319dfae0",
+        "SRC-5ed42e72b7fbbd",
+        "SRC-7ff53d328f126f",
+        "SRC-84f1ea2fb4cdce",
+        "SRC-8f452582c8b0ec",
+        "SRC-99cb0148374262",
+        "SRC-9fa11a47dde552",
+        "SRC-acd293499a71fa",
+        "SRC-af627bf9d9703e",
+        "SRC-b2fdeff12bd5ae",
+        "SRC-c08e270f06622f",
+        "SRC-c510ec0eeea524",
+        "SRC-c8d0fba83789c8",
+        "SRC-d6a3ff6b45ec28",
+        "SRC-e8d69273c468b5",
+        "SRC-ef87fde9b060b0"
+      ],
+      "node_count": 17
     },
     {
       "anchor_labels": [
@@ -363,29 +351,83 @@
     },
     {
       "anchor_labels": [
+        "The Cannet Vents",
+        "The Upper Galleries of Belloway"
+      ],
+      "bounds": {
+        "max_x": 5925.4148,
+        "max_y": 688.1818,
+        "min_x": 5403.4366,
+        "min_y": 16.0
+      },
+      "description": "Layout island containing The Cannet Vents, The Upper Galleries of Belloway",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
+      "member_node_ids": [
+        "PL-BELLOWAY-UPPER-GALLERIES",
+        "PL-CANNET-VENTS",
+        "SRC-5dcbd2122dbf60",
+        "SRC-6082e04df289d6",
+        "SRC-74e5d9c580a8af",
+        "SRC-7f217e63e4c4b3",
+        "SRC-a4e028fe35fec2",
+        "SRC-a54a16a8a94f68",
+        "SRC-a67b4800513ad1",
+        "SRC-c732f15ab5c64c",
+        "SRC-d047169612644b"
+      ],
+      "node_count": 11
+    },
+    {
+      "anchor_labels": [
+        "Harnesse"
+      ],
+      "bounds": {
+        "max_x": 1657.6588,
+        "max_y": 2173.994,
+        "min_x": 1042.6808,
+        "min_y": 1559.3438
+      },
+      "description": "Layout island containing Harnesse",
+      "layout_island_id": "LI-93cd792a4c390752",
+      "member_node_ids": [
+        "PL-HARNESSE",
+        "SRC-21a923df1998d0",
+        "SRC-3e7e217fc14e55",
+        "SRC-3f6aaf87bc49a2",
+        "SRC-515b75279bdeb1",
+        "SRC-7c4310b6477542",
+        "SRC-81075c5aef1d90",
+        "SRC-916cae3781c401",
+        "SRC-a68cf826bf5af9",
+        "SRC-ab332ef48022e9",
+        "SRC-edbba9caabfb90"
+      ],
+      "node_count": 11
+    },
+    {
+      "anchor_labels": [
         "Amberline"
       ],
       "bounds": {
         "max_x": 3110.3652,
-        "max_y": 2118.1382,
+        "max_y": 2061.4178,
         "min_x": 2545.3678,
-        "min_y": 1559.3438
+        "min_y": 1560.5294
       },
       "description": "Layout island containing Amberline",
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "member_node_ids": [
         "RT-AMBERLINE",
         "SRC-055b03f5c2e3bf",
+        "SRC-0e46e32b860d00",
         "SRC-15567e07a1e674",
-        "SRC-769309983078f6",
-        "SRC-9f57de892034f2",
+        "SRC-86d00e344189d6",
         "SRC-a0ebb063afad35",
         "SRC-ba0bf5deeedaf1",
         "SRC-c26bc73aafa505",
-        "SRC-d36043af2f9771",
         "SRC-d534c9396b657c"
       ],
-      "node_count": 10
+      "node_count": 9
     },
     {
       "anchor_labels": [
@@ -398,45 +440,42 @@
         "min_y": 1559.3438
       },
       "description": "Layout island containing Corun Stair",
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "member_node_ids": [
         "RT-CORUN-STAIR",
         "SRC-126254bf4e34c6",
         "SRC-14cba9c91cb665",
         "SRC-230296f332f31d",
-        "SRC-2425f487a52bef",
         "SRC-316bc70c921bcd",
         "SRC-42f80224f5e69c",
         "SRC-60120482ce7e12",
         "SRC-d2f01922b97a03",
         "SRC-f09e6b69cd6449"
       ],
-      "node_count": 10
+      "node_count": 9
     },
     {
       "anchor_labels": [
-        "The Cannet Vents",
-        "The Upper Galleries of Belloway"
+        "Old Cordon"
       ],
       "bounds": {
-        "max_x": 5925.4148,
-        "max_y": 688.1818,
-        "min_x": 5403.4366,
-        "min_y": 16.0
+        "max_x": 5036.6642,
+        "max_y": 2032.5182,
+        "min_x": 4562.512,
+        "min_y": 1559.3438
       },
-      "description": "Layout island containing The Cannet Vents, The Upper Galleries of Belloway",
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "description": "Layout island containing Old Cordon",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "member_node_ids": [
-        "PL-BELLOWAY-UPPER-GALLERIES",
-        "PL-CANNET-VENTS",
-        "SRC-5dcbd2122dbf60",
-        "SRC-6082e04df289d6",
-        "SRC-7f217e63e4c4b3",
-        "SRC-a54a16a8a94f68",
-        "SRC-a67b4800513ad1",
-        "SRC-c732f15ab5c64c"
+        "PL-OLD-CORDON",
+        "SRC-53f8b563d329c6",
+        "SRC-cfed591706edc0",
+        "SRC-d8f2b6f7fcd2f6",
+        "SRC-db7804c6dea79f",
+        "SRC-e23fac4e901601",
+        "SRC-f5c572ba77ebe1"
       ],
-      "node_count": 8
+      "node_count": 7
     },
     {
       "anchor_labels": [
@@ -462,23 +501,24 @@
     },
     {
       "anchor_labels": [
-        "Old Cordon"
+        "The Threading",
+        "The Threading Orchid Wall"
       ],
       "bounds": {
-        "max_x": 5036.6642,
-        "max_y": 2032.5182,
-        "min_x": 4562.512,
-        "min_y": 1559.3438
+        "max_x": 2334.2882,
+        "max_y": 3444.5572,
+        "min_x": 1959.5852,
+        "min_y": 3016.2208
       },
-      "description": "Layout island containing Old Cordon",
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "description": "Layout island containing The Threading, The Threading Orchid Wall",
+      "layout_island_id": "LI-98bb926b856dc7b4",
       "member_node_ids": [
-        "PL-OLD-CORDON",
-        "SRC-53f8b563d329c6",
-        "SRC-cfed591706edc0",
-        "SRC-d8f2b6f7fcd2f6",
-        "SRC-db7804c6dea79f",
-        "SRC-f5c572ba77ebe1"
+        "PL-THREADING-ORCHID-WALL",
+        "RT-THREADING",
+        "SRC-6f6d51849af392",
+        "SRC-8737226cbac030",
+        "SRC-9dc5392687f9f2",
+        "SRC-d23c2400339695"
       ],
       "node_count": 6
     },
@@ -532,40 +572,18 @@
       ],
       "bounds": {
         "max_x": 1124.9912,
-        "max_y": 3504.9952,
+        "max_y": 3349.1464,
         "min_x": 636.161,
         "min_y": 3016.2208
       },
       "description": "Layout island containing Ravel Sea",
-      "layout_island_id": "LI-bf40fb5f1a5132f0",
+      "layout_island_id": "LI-0d08c065b03dbdf1",
       "member_node_ids": [
         "PL-RAVEL-SEA",
-        "SRC-7735ed467d02ba",
+        "SRC-1b85f8757ade36",
         "SRC-838a2cd275c370",
         "SRC-f2921bc4dc75d1",
         "SRC-f55da843256a16"
-      ],
-      "node_count": 5
-    },
-    {
-      "anchor_labels": [
-        "The Threading",
-        "The Threading Orchid Wall"
-      ],
-      "bounds": {
-        "max_x": 2334.2882,
-        "max_y": 3444.5572,
-        "min_x": 1959.5852,
-        "min_y": 3016.2208
-      },
-      "description": "Layout island containing The Threading, The Threading Orchid Wall",
-      "layout_island_id": "LI-964248abcc4a8d24",
-      "member_node_ids": [
-        "PL-THREADING-ORCHID-WALL",
-        "RT-THREADING",
-        "SRC-8737226cbac030",
-        "SRC-9dc5392687f9f2",
-        "SRC-d23c2400339695"
       ],
       "node_count": 5
     },
@@ -595,40 +613,39 @@
         "Longbarrow"
       ],
       "bounds": {
-        "max_x": 2927.0182,
-        "max_y": 3452.015,
+        "max_x": 2806.3412,
+        "max_y": 3386.6947,
         "min_x": 2476.2882,
         "min_y": 3016.2208
       },
       "description": "Layout island containing Longbarrow",
-      "layout_island_id": "LI-d134d2423eb6e2a7",
+      "layout_island_id": "LI-829b096aac1d3026",
       "member_node_ids": [
         "PL-LONGBARROW",
         "SRC-0e81f742c50b31",
-        "SRC-284deedb2a428e",
-        "SRC-8b9f6965240cc5"
+        "SRC-284deedb2a428e"
       ],
-      "node_count": 4
+      "node_count": 3
     },
     {
       "anchor_labels": [
-        "The Line"
+        "Onceway",
+        "a named way"
       ],
       "bounds": {
-        "max_x": 3525.4366,
-        "max_y": 3430.2998,
-        "min_x": 3069.0182,
-        "min_y": 3016.2208
+        "max_x": 674.1959,
+        "max_y": 1933.8623,
+        "min_x": 283.6298,
+        "min_y": 1607.7604
       },
-      "description": "Layout island containing The Line",
-      "layout_island_id": "LI-ad1d64f0dd2147a3",
+      "description": "Layout island containing Onceway, a named way",
+      "layout_island_id": "LI-9afe3f3b45b4fbcd",
       "member_node_ids": [
-        "RT-THE-LINE",
-        "SRC-ab2abc1ea6708b",
-        "SRC-adc728b1428577",
-        "SRC-f9dedac54544dd"
+        "RT-ONCEWAY-CLASS",
+        "SRC-107407c42c3865",
+        "SRC-6af70fe9d4b145"
       ],
-      "node_count": 4
+      "node_count": 3
     },
     {
       "anchor_labels": [
@@ -717,6 +734,24 @@
       "member_node_ids": [
         "RT-OSSARAY-LIFT-CORRIDORS",
         "SRC-b8a600a8ab877a"
+      ],
+      "node_count": 2
+    },
+    {
+      "anchor_labels": [
+        "The Line"
+      ],
+      "bounds": {
+        "max_x": 3341.6908,
+        "max_y": 3430.2998,
+        "min_x": 3238.8304,
+        "min_y": 3126.137
+      },
+      "description": "Layout island containing The Line",
+      "layout_island_id": "LI-d001481a9b70b34d",
+      "member_node_ids": [
+        "RT-THE-LINE",
+        "SRC-f9dedac54544dd"
       ],
       "node_count": 2
     },
@@ -1130,23 +1165,6 @@
     },
     {
       "anchor_labels": [
-        "an old Reach foundation"
-      ],
-      "bounds": {
-        "max_x": 2290.0,
-        "max_y": 3750.868,
-        "min_x": 2194.0,
-        "min_y": 3654.868
-      },
-      "description": "Isolated in layout backbone: an old Reach foundation",
-      "layout_island_id": "LI-615ea95603e7a4e1",
-      "member_node_ids": [
-        "SRC-21cdc7f71fa4c1"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
         "the woman's mother's cousin (fourth schedule)"
       ],
       "bounds": {
@@ -1385,23 +1403,6 @@
     },
     {
       "anchor_labels": [
-        "the Walker"
-      ],
-      "bounds": {
-        "max_x": 354.0,
-        "max_y": 3988.868,
-        "min_x": 258.0,
-        "min_y": 3892.868
-      },
-      "description": "Isolated in layout backbone: the Walker",
-      "layout_island_id": "LI-4b8159e9208c250f",
-      "member_node_ids": [
-        "SRC-4fb64b8d1d5915"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
         "surface visitors"
       ],
       "bounds": {
@@ -1431,23 +1432,6 @@
       "layout_island_id": "LI-f9bff43f3919f3f1",
       "member_node_ids": [
         "SRC-527051224ecca8"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
-        "the beast on the Kelt"
-      ],
-      "bounds": {
-        "max_x": 1080.0,
-        "max_y": 3988.868,
-        "min_x": 984.0,
-        "min_y": 3892.868
-      },
-      "description": "Isolated in layout backbone: the beast on the Kelt",
-      "layout_island_id": "LI-6be68b74c279b8f9",
-      "member_node_ids": [
-        "SRC-586eccb8d5ef0b"
       ],
       "node_count": 1
     },
@@ -1708,23 +1692,6 @@
     },
     {
       "anchor_labels": [
-        "the continent"
-      ],
-      "bounds": {
-        "max_x": 4952.0,
-        "max_y": 3988.868,
-        "min_x": 4856.0,
-        "min_y": 3892.868
-      },
-      "description": "Isolated in layout backbone: the continent",
-      "layout_island_id": "LI-94d66950f1e61e33",
-      "member_node_ids": [
-        "SRC-876f605bc4b339"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
         "the point where the Stacks first become visible"
       ],
       "bounds": {
@@ -1737,6 +1704,23 @@
       "layout_island_id": "LI-90925443f9b390b7",
       "member_node_ids": [
         "SRC-88bf26e184a2e6"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the absence trade"
+      ],
+      "bounds": {
+        "max_x": 220.4504,
+        "max_y": 733.0627,
+        "min_x": 124.4504,
+        "min_y": 637.0627
+      },
+      "description": "Isolated in layout backbone: the absence trade",
+      "layout_island_id": "LI-2e5114bd22d9c1d6",
+      "member_node_ids": [
+        "SRC-88e9271e82f1b5"
       ],
       "node_count": 1
     },
@@ -1788,23 +1772,6 @@
       "layout_island_id": "LI-056aa14c446d737f",
       "member_node_ids": [
         "SRC-90b1565cf586f9"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
-        "Ravel Salt, Third Month"
-      ],
-      "bounds": {
-        "max_x": 596.0,
-        "max_y": 4226.868,
-        "min_x": 500.0,
-        "min_y": 4130.868
-      },
-      "description": "Isolated in layout backbone: Ravel Salt, Third Month",
-      "layout_island_id": "LI-74e1210933ec8b23",
-      "member_node_ids": [
-        "SRC-90ece533317e17"
       ],
       "node_count": 1
     },
@@ -1907,23 +1874,6 @@
       "layout_island_id": "LI-5e99062653c93542",
       "member_node_ids": [
         "SRC-986b7d59715e6c"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
-        "home (Softwater Combe)"
-      ],
-      "bounds": {
-        "max_x": 1806.0,
-        "max_y": 4226.868,
-        "min_x": 1710.0,
-        "min_y": 4130.868
-      },
-      "description": "Isolated in layout backbone: home (Softwater Combe)",
-      "layout_island_id": "LI-afad338dc1faba23",
-      "member_node_ids": [
-        "SRC-9eaad1d52e5706"
       ],
       "node_count": 1
     },
@@ -2077,6 +2027,23 @@
       "layout_island_id": "LI-dfb7eb67e4a8e624",
       "member_node_ids": [
         "SRC-b120c9e7a9d97b"
+      ],
+      "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "its trades"
+      ],
+      "bounds": {
+        "max_x": 6870.9046,
+        "max_y": 112.0,
+        "min_x": 6774.9046,
+        "min_y": 16.0
+      },
+      "description": "Isolated in layout backbone: its trades",
+      "layout_island_id": "LI-617c206e662f6995",
+      "member_node_ids": [
+        "SRC-b1438fc18ac83a"
       ],
       "node_count": 1
     },
@@ -2252,40 +2219,6 @@
     },
     {
       "anchor_labels": [
-        "speech in a Registry corridor"
-      ],
-      "bounds": {
-        "max_x": 112.0,
-        "max_y": 4464.868,
-        "min_x": 16.0,
-        "min_y": 4368.868
-      },
-      "description": "Isolated in layout backbone: speech in a Registry corridor",
-      "layout_island_id": "LI-86ba9ab3ea944025",
-      "member_node_ids": [
-        "SRC-de79e6f5029c72"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
-        "two depth networks"
-      ],
-      "bounds": {
-        "max_x": 354.0,
-        "max_y": 4464.868,
-        "min_x": 258.0,
-        "min_y": 4368.868
-      },
-      "description": "Isolated in layout backbone: two depth networks",
-      "layout_island_id": "LI-dcd6f7d07f8da4d7",
-      "member_node_ids": [
-        "SRC-dff2a2a4a33dfa"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
         "surface maps"
       ],
       "bounds": {
@@ -2315,23 +2248,6 @@
       "layout_island_id": "LI-3c6a412aaebdf7b7",
       "member_node_ids": [
         "SRC-e282230aa943c7"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
-        "the Vane district"
-      ],
-      "bounds": {
-        "max_x": 1080.0,
-        "max_y": 4464.868,
-        "min_x": 984.0,
-        "min_y": 4368.868
-      },
-      "description": "Isolated in layout backbone: the Vane district",
-      "layout_island_id": "LI-9907a4dae5749e0a",
-      "member_node_ids": [
-        "SRC-e8404c7028ec7d"
       ],
       "node_count": 1
     },
@@ -2400,23 +2316,6 @@
       "layout_island_id": "LI-bc4b9e3f3c4a24d4",
       "member_node_ids": [
         "SRC-eed60d597db9f6"
-      ],
-      "node_count": 1
-    },
-    {
-      "anchor_labels": [
-        "the working passage"
-      ],
-      "bounds": {
-        "max_x": 2048.0,
-        "max_y": 4464.868,
-        "min_x": 1952.0,
-        "min_y": 4368.868
-      },
-      "description": "Isolated in layout backbone: the working passage",
-      "layout_island_id": "LI-223f1cea89706df4",
-      "member_node_ids": [
-        "SRC-ef1167e66bfc0e"
       ],
       "node_count": 1
     },
@@ -2521,12 +2420,29 @@
         "SRC-fa8cd7d7740099"
       ],
       "node_count": 1
+    },
+    {
+      "anchor_labels": [
+        "the nearest comparable site"
+      ],
+      "bounds": {
+        "max_x": 6870.9046,
+        "max_y": 350.0,
+        "min_x": 6774.9046,
+        "min_y": 254.0
+      },
+      "description": "Isolated in layout backbone: the nearest comparable site",
+      "layout_island_id": "LI-f4f46e5f1846f49a",
+      "member_node_ids": [
+        "SRC-fbaf3f1ea34f4f"
+      ],
+      "node_count": 1
     }
   ],
   "layout_version": "1.0.0",
   "metrics": {
-    "backbone_edge_crossings": 12,
-    "node_overlap_pairs_under_22_units": 8,
+    "backbone_edge_crossings": 16,
+    "node_overlap_pairs_under_22_units": 10,
     "repack_recommended": true
   },
   "positions": {
@@ -2541,7 +2457,7 @@
       "y": 2690.2804
     },
     "PL-BELLOWAY": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1734.1261,
       "y": 466.3634
     },
@@ -2556,27 +2472,27 @@
       "y": 2928.2804
     },
     "PL-BELLOWAY-UPPER-GALLERIES": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5659.3327,
       "y": 280.9236
     },
     "PL-BLACK-CHOIR-CHASM": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1830.9169,
       "y": 651.4079
     },
     "PL-CANDLE-BASIN": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1824.9024,
       "y": 487.3434
     },
     "PL-CANDLECUT": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 549.8787,
       "y": 559.9972
     },
     "PL-CANNET-VENTS": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5659.3327,
       "y": 424.9236
     },
@@ -2586,12 +2502,12 @@
       "y": 1850.7001
     },
     "PL-DROWNED-VENT-NURSERY": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1805.0937,
       "y": 433.443
     },
     "PL-FIVEDOOR": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2786.7116,
       "y": 1015.8671
     },
@@ -2606,32 +2522,32 @@
       "y": 1792.5689
     },
     "PL-GREENMOUTH": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 461.8811,
       "y": 2392.443
     },
     "PL-HARLOWE": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 524.2349,
       "y": 2500.443
     },
     "PL-HARNESSE": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1349.9658,
       "y": 1866.6092
     },
     "PL-HOLLOW-SINK": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1866.8797,
       "y": 519.7859
     },
     "PL-ILBER": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 549.8787,
       "y": 703.9972
     },
     "PL-KESTEL": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4358.7467,
       "y": 446.8279
     },
@@ -2641,7 +2557,7 @@
       "y": 1150.3212
     },
     "PL-LONG-BREATH-SPIRE": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1729.0382,
       "y": 642.4784
     },
@@ -2656,32 +2572,32 @@
       "y": 679.3288
     },
     "PL-LONGBARROW": {
-      "layout_island_id": "LI-d134d2423eb6e2a7",
+      "layout_island_id": "LI-829b096aac1d3026",
       "x": 2720.5947,
       "y": 3268.9688
     },
     "PL-LOWER-BLOOM": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1819.2285,
       "y": 660.9986
     },
     "PL-MARN": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1610.753,
       "y": 536.0114
     },
     "PL-MYTH-GALLERY": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1815.8507,
       "y": 464.0433
     },
     "PL-NERIS": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1796.48,
       "y": 574.3634
     },
     "PL-NERIS-BLACK-SEA": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1811.9817,
       "y": 478.9167
     },
@@ -2691,32 +2607,32 @@
       "y": 1373.1476
     },
     "PL-NINE-DAY-SHAFT": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1669.4176,
       "y": 409.6013
     },
     "PL-OLD-CORDON": {
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "x": 4808.7724,
       "y": 1806.0831
     },
     "PL-OSSARAY": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1671.7723,
       "y": 574.3634
     },
     "PL-RAVEL-SEA": {
-      "layout_island_id": "LI-bf40fb5f1a5132f0",
+      "layout_island_id": "LI-0d08c065b03dbdf1",
       "x": 880.739,
       "y": 3260.531
     },
     "PL-RISERS-DEPTH": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1724.2164,
       "y": 637.4238
     },
     "PL-RISING-GATE": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1669.908,
       "y": 549.2105
     },
@@ -2726,17 +2642,17 @@
       "y": 1611.1476
     },
     "PL-ROOFLINE": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1752.496,
       "y": 554.3106
     },
     "PL-ROPEWALK-HOUSE": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1652.7693,
       "y": 448.1915
     },
     "PL-SAAN-KEL": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 399.5273,
       "y": 2500.443
     },
@@ -2746,7 +2662,7 @@
       "y": 3166.2804
     },
     "PL-THREADING-ORCHID-WALL": {
-      "layout_island_id": "LI-964248abcc4a8d24",
+      "layout_island_id": "LI-98bb926b856dc7b4",
       "x": 2176.2773,
       "y": 3297.7527
     },
@@ -2761,17 +2677,17 @@
       "y": 1388.3212
     },
     "PL-VASSE-OLUN": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4358.7467,
       "y": 590.8279
     },
     "RT-AMBERLINE": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 2827.6273,
       "y": 1831.9701
     },
     "RT-CORUN-STAIR": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3524.3677,
       "y": 1841.8168
     },
@@ -2781,7 +2697,7 @@
       "y": 3265.2833
     },
     "RT-ONCEWAY-CLASS": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-9afe3f3b45b4fbcd",
       "x": 473.4599,
       "y": 1885.8623
     },
@@ -2796,17 +2712,17 @@
       "y": 2035.6648
     },
     "RT-THE-LINE": {
-      "layout_island_id": "LI-ad1d64f0dd2147a3",
+      "layout_island_id": "LI-d001481a9b70b34d",
       "x": 3293.6908,
       "y": 3174.137
     },
     "RT-THREADING": {
-      "layout_island_id": "LI-964248abcc4a8d24",
+      "layout_island_id": "LI-98bb926b856dc7b4",
       "x": 2119.9887,
       "y": 3230.4729
     },
     "RT-UNDERWAY-CLASS": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3377.821,
       "y": 431.8141
     },
@@ -2821,7 +2737,7 @@
       "y": 1824.8785
     },
     "SRC-055b03f5c2e3bf": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 2593.3678,
       "y": 1874.7239
     },
@@ -2831,7 +2747,7 @@
       "y": 3064.2208
     },
     "SRC-063daaba3717ba": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3480.8978,
       "y": 210.815
     },
@@ -2851,7 +2767,7 @@
       "y": 3064.2208
     },
     "SRC-0812a9f542e505": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 102.9501,
       "y": 2409.7763
     },
@@ -2870,11 +2786,6 @@
       "x": 5167.4366,
       "y": 3064.2208
     },
-    "SRC-0a5b838c2d34b6": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 759.5805,
-      "y": 422.189
-    },
     "SRC-0a8b665577ab92": {
       "layout_island_id": "LI-501515e9765bd07a",
       "x": 64.0,
@@ -2886,7 +2797,7 @@
       "y": 3702.868
     },
     "SRC-0acd8b57dd08a8": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 408.2648,
       "y": 920.7155
     },
@@ -2896,7 +2807,7 @@
       "y": 3702.868
     },
     "SRC-0bc357457c795a": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 2180.1051,
       "y": 645.31
     },
@@ -2905,43 +2816,48 @@
       "x": 790.0,
       "y": 3702.868
     },
-    "SRC-0c3cd79a824ed7": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 915.9133,
-      "y": 407.8631
-    },
     "SRC-0ce523d6ae784b": {
       "layout_island_id": "LI-1666051e6fe1166d",
       "x": 1032.0,
       "y": 3702.868
     },
     "SRC-0d25c613ea1360": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 181.7391,
       "y": 408.7603
     },
     "SRC-0de5979e1965fc": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 681.7787,
       "y": 2777.9236
     },
+    "SRC-0e46e32b860d00": {
+      "layout_island_id": "LI-0d5925bcf90a73a0",
+      "x": 2883.0345,
+      "y": 1763.2412
+    },
     "SRC-0e81f742c50b31": {
-      "layout_island_id": "LI-d134d2423eb6e2a7",
+      "layout_island_id": "LI-829b096aac1d3026",
       "x": 2758.3412,
       "y": 3064.2208
     },
     "SRC-0e9c9e7a53a4ae": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3109.4529,
       "y": 477.2912
     },
     "SRC-0f9b3c54095648": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3593.4561,
       "y": 316.8522
     },
+    "SRC-0f9e3854532b65": {
+      "layout_island_id": "LI-86089924143f515b",
+      "x": 606.7005,
+      "y": 481.611
+    },
     "SRC-0fca972e79c49b": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3417.3791,
       "y": 741.15
     },
@@ -2950,18 +2866,8 @@
       "x": 2212.9084,
       "y": 2099.0488
     },
-    "SRC-105bf464838e47": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
-      "x": 1469.9735,
-      "y": 918.8466
-    },
-    "SRC-105e4d9e5a3aff": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
-      "x": 1792.4941,
-      "y": 585.5886
-    },
     "SRC-107407c42c3865": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-9afe3f3b45b4fbcd",
       "x": 331.6298,
       "y": 1655.7604
     },
@@ -2971,37 +2877,37 @@
       "y": 1626.3212
     },
     "SRC-12131d9488051a": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 64.0,
       "y": 2532.1013
     },
     "SRC-126254bf4e34c6": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3565.3146,
       "y": 2076.5492
     },
     "SRC-1459e985de3635": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 1003.4306,
       "y": 902.6527
     },
     "SRC-14836b5b158711": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1956.2951,
       "y": 510.8923
     },
     "SRC-14949cc2c2c6b3": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1705.1347,
       "y": 64.0
     },
     "SRC-14cba9c91cb665": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3300.8054,
       "y": 1759.9683
     },
     "SRC-15567e07a1e674": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 2981.74,
       "y": 2013.4178
     },
@@ -3016,12 +2922,12 @@
       "y": 3702.868
     },
     "SRC-1869b628603710": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 852.6808,
       "y": 2567.7449
     },
     "SRC-18faf69e423454": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1552.1134,
       "y": 458.9675
     },
@@ -3031,14 +2937,24 @@
       "y": 3702.868
     },
     "SRC-194b1429cad7bf": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 790.7473,
       "y": 680.7155
     },
     "SRC-1b3ea3325bbd8a": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 175.588,
       "y": 812.6073
+    },
+    "SRC-1b85f8757ade36": {
+      "layout_island_id": "LI-0d08c065b03dbdf1",
+      "x": 971.0681,
+      "y": 3300.677
+    },
+    "SRC-1ddef0570fca6f": {
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
+      "x": 1702.6544,
+      "y": 537.4807
     },
     "SRC-1defa65d6080f9": {
       "layout_island_id": "LI-64f22e879184cf18",
@@ -3046,22 +2962,22 @@
       "y": 3702.868
     },
     "SRC-1e78fd5bbcd301": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1486.241,
       "y": 404.6078
     },
     "SRC-1eebb2414150f0": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3323.9662,
       "y": 198.0109
     },
     "SRC-1f1a16d7e1aaf6": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3506.2466,
       "y": 602.2817
     },
     "SRC-1f8430fba76ab7": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2968.281,
       "y": 1189.3982
     },
@@ -3071,22 +2987,17 @@
       "y": 3702.868
     },
     "SRC-21a923df1998d0": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1583.3686,
       "y": 1752.7796
     },
-    "SRC-21cdc7f71fa4c1": {
-      "layout_island_id": "LI-615ea95603e7a4e1",
-      "x": 2242.0,
-      "y": 3702.868
-    },
     "SRC-230296f332f31d": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3706.4942,
       "y": 1995.203
     },
     "SRC-2321e425862030": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 2069.0957,
       "y": 281.1331
     },
@@ -3095,13 +3006,8 @@
       "x": 4372.512,
       "y": 1808.8588
     },
-    "SRC-2425f487a52bef": {
-      "layout_island_id": "LI-1110b201f3116cee",
-      "x": 3404.9054,
-      "y": 2047.8727
-    },
     "SRC-2437b6d257a694": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3737.1147,
       "y": 339.7525
     },
@@ -3111,7 +3017,7 @@
       "y": 3702.868
     },
     "SRC-284deedb2a428e": {
-      "layout_island_id": "LI-d134d2423eb6e2a7",
+      "layout_island_id": "LI-829b096aac1d3026",
       "x": 2524.2882,
       "y": 3338.6947
     },
@@ -3121,22 +3027,22 @@
       "y": 1824.0666
     },
     "SRC-2b019143067eda": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3650.3787,
       "y": 663.5849
     },
     "SRC-2cabbcb8b41eb9": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 318.2793,
       "y": 1020.3745
     },
     "SRC-2d1677749cf1e0": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 307.9681,
       "y": 823.3101
     },
     "SRC-2d21d9763dcc10": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2616.768,
       "y": 1180.6027
     },
@@ -3150,28 +3056,33 @@
       "x": 2726.0,
       "y": 3702.868
     },
+    "SRC-30df9327e8e40b": {
+      "layout_island_id": "LI-dc5783765d6cd65f",
+      "x": 4439.6544,
+      "y": 465.965
+    },
     "SRC-3162a7f3501ebd": {
       "layout_island_id": "LI-4ccbaf4a2a648e49",
       "x": 2968.0,
       "y": 3702.868
     },
     "SRC-316bc70c921bcd": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3762.4208,
       "y": 1842.2531
     },
     "SRC-324963d7b2c6c4": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3301.599,
       "y": 679.0303
     },
     "SRC-328f769e7bd8c6": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2782.5683,
       "y": 1237.8949
     },
     "SRC-343b25bd2b8190": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 100.6815,
       "y": 913.6833
     },
@@ -3181,12 +3092,12 @@
       "y": 184.477
     },
     "SRC-366118795a1975": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2486.3082,
       "y": 883.7581
     },
     "SRC-3693f8f86bd5f8": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4543.237,
       "y": 268.7207
     },
@@ -3201,12 +3112,17 @@
       "y": 3209.0363
     },
     "SRC-39742c3672b7a6": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1422.8004,
       "y": 226.9719
     },
+    "SRC-39ce3debbcb4d0": {
+      "layout_island_id": "LI-40cdcf8cd6fca477",
+      "x": 349.8326,
+      "y": 2423.0837
+    },
     "SRC-39d570319dfae0": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4212.4961,
       "y": 526.4393
     },
@@ -3215,23 +3131,28 @@
       "x": 3452.0,
       "y": 3702.868
     },
+    "SRC-3a6bb0e6440d63": {
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
+      "x": 493.8005,
+      "y": 753.9788
+    },
     "SRC-3b078c2d8bcc29": {
       "layout_island_id": "LI-7b822c5c007b3670",
       "x": 3694.0,
       "y": 3702.868
     },
     "SRC-3d26bb899a9084": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 675.1246,
       "y": 929.8976
     },
     "SRC-3e7e217fc14e55": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1116.2727,
       "y": 1980.5765
     },
     "SRC-3eae3c010e1436": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 222.5263,
       "y": 1083.8215
     },
@@ -3241,7 +3162,7 @@
       "y": 1607.3438
     },
     "SRC-3f6aaf87bc49a2": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1204.6013,
       "y": 2082.0328
     },
@@ -3251,29 +3172,24 @@
       "y": 3064.2208
     },
     "SRC-40cf7a5505d36a": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4250.7581,
       "y": 214.6646
     },
     "SRC-41e69fd18057e2": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 779.1008,
       "y": 832.4164
     },
     "SRC-42f80224f5e69c": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3405.5991,
       "y": 1635.2288
     },
     "SRC-43400fb29f8a45": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 163.7414,
       "y": 2305.585
-    },
-    "SRC-43827d2f8f8b40": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
-      "x": 4405.8894,
-      "y": 196.0508
     },
     "SRC-4386bf3afa37bd": {
       "layout_island_id": "LI-ac1c11645f87c5c6",
@@ -3301,12 +3217,17 @@
       "y": 3702.868
     },
     "SRC-462bb3d0411dfd": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1566.5001,
       "y": 444.5562
     },
+    "SRC-46ace81af54962": {
+      "layout_island_id": "LI-dc5783765d6cd65f",
+      "x": 4454.5403,
+      "y": 449.9461
+    },
     "SRC-47b39e21a877fe": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3201.8081,
       "y": 310.3501
     },
@@ -3316,12 +3237,12 @@
       "y": 3702.868
     },
     "SRC-49770cd139ae51": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 540.0873,
       "y": 967.5786
     },
     "SRC-4c158537076ea5": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3695.622,
       "y": 227.3752
     },
@@ -3341,27 +3262,22 @@
       "y": 3464.868
     },
     "SRC-4ecb9e3c60e5a6": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 922.4734,
       "y": 685.5154
     },
-    "SRC-4fb64b8d1d5915": {
-      "layout_island_id": "LI-4b8159e9208c250f",
-      "x": 306.0,
-      "y": 3940.868
-    },
     "SRC-502bff6d6d3cb8": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 309.8308,
       "y": 1142.8742
     },
     "SRC-515b75279bdeb1": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1565.4354,
       "y": 2011.8997
     },
     "SRC-522a04cfc8662e": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 343.5817,
       "y": 243.7734
     },
@@ -3376,17 +3292,17 @@
       "y": 3940.868
     },
     "SRC-53f8b563d329c6": {
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "x": 4949.7664,
       "y": 1949.5083
     },
     "SRC-565337a4f6ed51": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 791.8377,
       "y": 2709.1073
     },
     "SRC-568f836dbabdd9": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1912.7762,
       "y": 603.4378
     },
@@ -3396,7 +3312,7 @@
       "y": 1988.1458
     },
     "SRC-57e176398b83b5": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4126.2349,
       "y": 143.0913
     },
@@ -3406,14 +3322,9 @@
       "y": 1974.5809
     },
     "SRC-58614f8645fbc2": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1772.8123,
       "y": 957.5106
-    },
-    "SRC-586eccb8d5ef0b": {
-      "layout_island_id": "LI-6be68b74c279b8f9",
-      "x": 1032.0,
-      "y": 3940.868
     },
     "SRC-5b3d30b46dfdc2": {
       "layout_island_id": "LI-95b61284b19e8ae6",
@@ -3426,12 +3337,12 @@
       "y": 3940.868
     },
     "SRC-5b8ea6dfe19f02": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 552.8416,
       "y": 1098.9999
     },
     "SRC-5bf71b2b08425f": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1866.6655,
       "y": 375.9917
     },
@@ -3446,37 +3357,32 @@
       "y": 3940.868
     },
     "SRC-5dcbd2122dbf60": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5523.5053,
       "y": 285.4729
     },
-    "SRC-5e3057faf57b47": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 850.0938,
-      "y": 310.6795
-    },
     "SRC-5ed42e72b7fbbd": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4240.4044,
       "y": 825.0659
     },
     "SRC-60120482ce7e12": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3707.2367,
       "y": 1688.9447
     },
     "SRC-6041ea20af20ef": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1888.8381,
       "y": 953.3574
     },
     "SRC-6082e04df289d6": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5877.4148,
       "y": 391.0041
     },
     "SRC-62dc77f592a5bb": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 630.6192,
       "y": 321.71
     },
@@ -3486,34 +3392,34 @@
       "y": 912.3212
     },
     "SRC-6529a88598e589": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 403.4448,
       "y": 1183.8033
     },
     "SRC-6761039cf830af": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 667.7956,
       "y": 175.2518
     },
     "SRC-67e7d1b08afdf7": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 1014.2434,
       "y": 526.0735
     },
     "SRC-6894e53024b1b5": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 308.1156,
       "y": 2826.2208
     },
     "SRC-68f5d0786cccfa": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4661.9974,
       "y": 206.041
     },
-    "SRC-69150c2082abe4": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
-      "x": 1298.3083,
-      "y": 483.5624
+    "SRC-69189bb69b07ad": {
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
+      "x": 633.4577,
+      "y": 746.9896
     },
     "SRC-6a77cd850c8dad": {
       "layout_island_id": "LI-f1b4f8b0c72b482c",
@@ -3521,27 +3427,27 @@
       "y": 3642.2804
     },
     "SRC-6ab4268977753f": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 430.7716,
       "y": 1073.1002
     },
     "SRC-6af70fe9d4b145": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-9afe3f3b45b4fbcd",
       "x": 626.1959,
       "y": 1662.5197
     },
     "SRC-6b670fa5080f97": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 920.7255,
       "y": 221.9561
     },
     "SRC-6b8d8569814fa7": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 917.0995,
       "y": 811.3463
     },
     "SRC-6c0a42127d6562": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1938.2217,
       "y": 470.9249
     },
@@ -3555,23 +3461,18 @@
       "x": 2484.0,
       "y": 3940.868
     },
-    "SRC-6e36536efcfd69": {
-      "layout_island_id": "LI-57e6842106016a00",
-      "x": 480.1102,
-      "y": 1607.3438
-    },
-    "SRC-6ec34a1a4f3cb5": {
-      "layout_island_id": "LI-4f405e50b3951acf",
-      "x": 1134.3891,
-      "y": 1721.2134
+    "SRC-6f6d51849af392": {
+      "layout_island_id": "LI-98bb926b856dc7b4",
+      "x": 2134.8198,
+      "y": 3313.9624
     },
     "SRC-6feb98831f63b1": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 1030.3231,
       "y": 694.1043
     },
     "SRC-701d0ff663a96f": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 470.7573,
       "y": 318.0629
     },
@@ -3581,12 +3482,12 @@
       "y": 1687.9179
     },
     "SRC-70b1accffd339f": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 230.8129,
       "y": 933.0447
     },
     "SRC-71b5f9c75852d4": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2563.7787,
       "y": 1014.6728
     },
@@ -3595,13 +3496,13 @@
       "x": 2726.0,
       "y": 3940.868
     },
-    "SRC-7415747f3097f6": {
-      "layout_island_id": "LI-57e6842106016a00",
-      "x": 668.3025,
-      "y": 2271.1578
+    "SRC-74e5d9c580a8af": {
+      "layout_island_id": "LI-e7e9af48b1e898b6",
+      "x": 5750.0534,
+      "y": 419.3808
     },
     "SRC-75484f1c74dc20": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 439.1988,
       "y": 176.7849
     },
@@ -3610,38 +3511,23 @@
       "x": 2968.0,
       "y": 3940.868
     },
-    "SRC-769309983078f6": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
-      "x": 2829.0528,
-      "y": 2070.1382
-    },
-    "SRC-7735ed467d02ba": {
-      "layout_island_id": "LI-bf40fb5f1a5132f0",
-      "x": 840.0799,
-      "y": 3456.9952
-    },
     "SRC-793b53c840f970": {
       "layout_island_id": "LI-a380ef30d41955c7",
       "x": 3210.0,
       "y": 3940.868
     },
     "SRC-793e734f641b47": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3176.1108,
       "y": 133.9172
     },
-    "SRC-799d8da83f16c7": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
-      "x": 1704.7578,
-      "y": 204.6493
-    },
     "SRC-79c35cfef4c28c": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 227.8132,
       "y": 514.0008
     },
     "SRC-7c4310b6477542": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1090.6808,
       "y": 1848.4815
     },
@@ -3656,22 +3542,22 @@
       "y": 3940.868
     },
     "SRC-7d050d42264c64": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4042.3072,
       "y": 225.5745
     },
     "SRC-7d82c0b982102f": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1693.4298,
       "y": 543.9087
     },
     "SRC-7e786e0b494f46": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3751.1578,
       "y": 454.4548
     },
     "SRC-7f217e63e4c4b3": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5808.2013,
       "y": 588.6962
     },
@@ -3686,29 +3572,29 @@
       "y": 3940.868
     },
     "SRC-7ff53d328f126f": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4390.0121,
       "y": 849.6417
     },
     "SRC-8016d18dcaa761": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3191.5304,
       "y": 590.4798
     },
     "SRC-80dd12ba637c5c": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 839.1044,
       "y": 157.987
     },
     "SRC-81075c5aef1d90": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1609.6588,
       "y": 1884.7525
     },
-    "SRC-8165dd7a08ff8e": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 554.0513,
-      "y": 188.6801
+    "SRC-814ac5f6be28b2": {
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
+      "x": 1647.4968,
+      "y": 359.0844
     },
     "SRC-82b61f0d54ff7b": {
       "layout_island_id": "LI-51b44a6f4ddb3324",
@@ -3716,17 +3602,17 @@
       "y": 441.3288
     },
     "SRC-838a2cd275c370": {
-      "layout_island_id": "LI-bf40fb5f1a5132f0",
+      "layout_island_id": "LI-0d08c065b03dbdf1",
       "x": 1076.9912,
       "y": 3301.1464
     },
     "SRC-8463afa36fe225": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 196.0772,
       "y": 2570.5
     },
     "SRC-84f1ea2fb4cdce": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4292.7649,
       "y": 969.7758
     },
@@ -3740,15 +3626,15 @@
       "x": 4420.0,
       "y": 3940.868
     },
+    "SRC-86d00e344189d6": {
+      "layout_island_id": "LI-0d5925bcf90a73a0",
+      "x": 2792.9214,
+      "y": 1930.6096
+    },
     "SRC-8737226cbac030": {
-      "layout_island_id": "LI-964248abcc4a8d24",
+      "layout_island_id": "LI-98bb926b856dc7b4",
       "x": 2007.5852,
       "y": 3064.2208
-    },
-    "SRC-876f605bc4b339": {
-      "layout_island_id": "LI-94d66950f1e61e33",
-      "x": 4904.0,
-      "y": 3940.868
     },
     "SRC-88bf26e184a2e6": {
       "layout_island_id": "LI-90925443f9b390b7",
@@ -3756,7 +3642,7 @@
       "y": 3940.868
     },
     "SRC-88e9271e82f1b5": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e5114bd22d9c1d6",
       "x": 172.4504,
       "y": 685.0627
     },
@@ -3771,22 +3657,17 @@
       "y": 1172.2398
     },
     "SRC-8a8da8d0632b8b": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1596.5301,
       "y": 950.4167
     },
-    "SRC-8b9f6965240cc5": {
-      "layout_island_id": "LI-d134d2423eb6e2a7",
-      "x": 2879.0182,
-      "y": 3404.015
-    },
     "SRC-8bb3d4fca70f88": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 66.4139,
       "y": 700.5758
     },
     "SRC-8e25f7bae0adc5": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3090.6269,
       "y": 219.7657
     },
@@ -3795,23 +3676,18 @@
       "x": 306.0,
       "y": 4178.868
     },
-    "SRC-8e31fabc1dd558": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
-      "x": 4078.7244,
-      "y": 852.4809
-    },
     "SRC-8f2ffb90846b6a": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 647.2626,
       "y": 64.0
     },
     "SRC-8f452582c8b0ec": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4528.9436,
       "y": 789.0188
     },
     "SRC-8f9ceec082e089": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4019.0331,
       "y": 452.5273
     },
@@ -3825,16 +3701,6 @@
       "x": 6161.4148,
       "y": 2102.3212
     },
-    "SRC-90ece533317e17": {
-      "layout_island_id": "LI-74e1210933ec8b23",
-      "x": 548.0,
-      "y": 4178.868
-    },
-    "SRC-90fa5c94d760b1": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
-      "x": 2648.5369,
-      "y": 1338.6167
-    },
     "SRC-9112cc1a25cc20": {
       "layout_island_id": "LI-900676c01b2c8d7b",
       "x": 1314.9912,
@@ -3846,17 +3712,17 @@
       "y": 4178.868
     },
     "SRC-912f3ef01a9854": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 252.3626,
       "y": 161.5924
     },
     "SRC-916cae3781c401": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1368.0952,
       "y": 1607.3438
     },
     "SRC-91a16971993b21": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 345.0993,
       "y": 415.347
     },
@@ -3866,7 +3732,7 @@
       "y": 3197.3636
     },
     "SRC-9403eaf5ec025c": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4464.7189,
       "y": 72.4083
     },
@@ -3876,29 +3742,24 @@
       "y": 4178.868
     },
     "SRC-94ca8e618046f9": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 406.3966,
       "y": 2760.4268
     },
     "SRC-953dcd8e1f3afd": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3612.736,
       "y": 145.4098
     },
     "SRC-959e5f1d8d2372": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3277.2701,
       "y": 69.1573
     },
     "SRC-95cbeb7c448651": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 609.631,
       "y": 1203.083
-    },
-    "SRC-95e094e813388c": {
-      "layout_island_id": "LI-4f405e50b3951acf",
-      "x": 1463.9575,
-      "y": 2100.295
     },
     "SRC-961d059e886fda": {
       "layout_island_id": "LI-def606109ca8a230",
@@ -3916,7 +3777,7 @@
       "y": 2340.3212
     },
     "SRC-9724dcd039cc08": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 251.7383,
       "y": 311.9018
     },
@@ -3931,49 +3792,44 @@
       "y": 3880.2804
     },
     "SRC-98aa75a2956b62": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1599.0489,
       "y": 97.2512
     },
     "SRC-990f2ba6bdc20d": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 710.0955,
       "y": 1180.1828
     },
     "SRC-99cb0148374262": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4416.7534,
       "y": 976.9286
     },
     "SRC-99e0b5bd2e52c3": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3397.3009,
       "y": 64.0
     },
+    "SRC-9bd60b2220df5c": {
+      "layout_island_id": "LI-dc5783765d6cd65f",
+      "x": 4364.0482,
+      "y": 359.3616
+    },
     "SRC-9dc5392687f9f2": {
-      "layout_island_id": "LI-964248abcc4a8d24",
+      "layout_island_id": "LI-98bb926b856dc7b4",
       "x": 2232.2788,
       "y": 3396.5572
-    },
-    "SRC-9e94242ef9dc6c": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
-      "x": 1696.6652,
-      "y": 738.3795
-    },
-    "SRC-9eaad1d52e5706": {
-      "layout_island_id": "LI-afad338dc1faba23",
-      "x": 1758.0,
-      "y": 4178.868
-    },
-    "SRC-9f57de892034f2": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
-      "x": 2907.8652,
-      "y": 1607.3438
     },
     "SRC-9f6a25a014c4b1": {
       "layout_island_id": "LI-2c564bb2bfb8cd50",
       "x": 2000.0,
       "y": 4178.868
+    },
+    "SRC-9fa11a47dde552": {
+      "layout_island_id": "LI-cc9c966ffd98e899",
+      "x": 4444.4606,
+      "y": 547.1647
     },
     "SRC-9fd038d4cb6fb5": {
       "layout_island_id": "LI-b685a0dd91ae1b09",
@@ -3986,17 +3842,17 @@
       "y": 2578.3212
     },
     "SRC-a0860a480c36a7": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 2194.9934,
       "y": 531.6812
     },
     "SRC-a0ebb063afad35": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 3033.2552,
       "y": 1711.6038
     },
     "SRC-a14a7f0142f37c": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 870.0353,
       "y": 930.4132
     },
@@ -4016,22 +3872,27 @@
       "y": 1607.5891
     },
     "SRC-a308440341d0b0": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 717.6937,
       "y": 2598.6683
     },
     "SRC-a443e298df7922": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1272.0296,
       "y": 611.0809
     },
     "SRC-a46468493b5027": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 957.7675,
       "y": 997.6272
     },
+    "SRC-a4e028fe35fec2": {
+      "layout_island_id": "LI-e7e9af48b1e898b6",
+      "x": 5587.5948,
+      "y": 345.7711
+    },
     "SRC-a54a16a8a94f68": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5689.7567,
       "y": 64.0
     },
@@ -4041,22 +3902,22 @@
       "y": 4178.868
     },
     "SRC-a67b4800513ad1": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5451.4366,
       "y": 506.3864
     },
     "SRC-a68cf826bf5af9": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1235.9764,
       "y": 1632.9536
     },
     "SRC-a786a24c5233b6": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1499.0146,
       "y": 142.5371
     },
     "SRC-a85fee687db4f3": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 880.8872,
       "y": 517.0242
     },
@@ -4066,57 +3927,47 @@
       "y": 4118.2804
     },
     "SRC-a8be88a394edc4": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 544.5832,
       "y": 65.1329
     },
     "SRC-aa2c0a228875e7": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 984.3841,
       "y": 312.488
     },
     "SRC-aa4d0a3b66dd3a": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 672.0099,
       "y": 1073.1902
     },
-    "SRC-ab2abc1ea6708b": {
-      "layout_island_id": "LI-ad1d64f0dd2147a3",
-      "x": 3477.4366,
-      "y": 3075.9748
-    },
     "SRC-ab332ef48022e9": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1495.2378,
       "y": 1651.2257
     },
     "SRC-ab3b2fa0fe2416": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 338.9504,
       "y": 105.9977
     },
     "SRC-acd293499a71fa": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4727.7074,
       "y": 628.6597
     },
-    "SRC-adc728b1428577": {
-      "layout_island_id": "LI-ad1d64f0dd2147a3",
-      "x": 3117.0182,
-      "y": 3064.2208
-    },
     "SRC-aec2b8f114dd36": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1852.5787,
       "y": 228.7051
     },
     "SRC-af627bf9d9703e": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4124.4864,
       "y": 718.4926
     },
     "SRC-afa54ef664179c": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 484.2225,
       "y": 2132.221
     },
@@ -4130,8 +3981,13 @@
       "x": 3452.0,
       "y": 4178.868
     },
+    "SRC-b1438fc18ac83a": {
+      "layout_island_id": "LI-617c206e662f6995",
+      "x": 6822.9046,
+      "y": 64.0
+    },
     "SRC-b2fdeff12bd5ae": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4172.8342,
       "y": 934.1807
     },
@@ -4141,7 +3997,7 @@
       "y": 2816.3212
     },
     "SRC-b596773b8781f7": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 112.138,
       "y": 319.6462
     },
@@ -4151,7 +4007,7 @@
       "y": 64.0
     },
     "SRC-b5c51285686c7a": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4568.8644,
       "y": 126.6413
     },
@@ -4161,7 +4017,7 @@
       "y": 4178.868
     },
     "SRC-b7a96d74d16bb8": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2780.4164,
       "y": 1369.3438
     },
@@ -4176,27 +4032,22 @@
       "y": 3064.2208
     },
     "SRC-b8d6d7f93f60a1": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1391.2035,
       "y": 588.8394
     },
     "SRC-b92fbda1b61b55": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 91.1361,
       "y": 530.9308
     },
-    "SRC-b95e66cbdde9f9": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
-      "x": 2916.553,
-      "y": 1316.4289
-    },
     "SRC-ba0bf5deeedaf1": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 2620.5443,
       "y": 1714.0578
     },
     "SRC-ba825eb650f382": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 64.0,
       "y": 810.8828
     },
@@ -4206,12 +4057,12 @@
       "y": 64.0
     },
     "SRC-baf82ff3a94d5d": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4229.4665,
       "y": 80.4588
     },
     "SRC-bb19b71b5accca": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4727.2609,
       "y": 439.0049
     },
@@ -4221,7 +4072,7 @@
       "y": 4178.868
     },
     "SRC-bd40032d2277d3": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4130.7256,
       "y": 323.8359
     },
@@ -4231,7 +4082,7 @@
       "y": 4178.868
     },
     "SRC-bdfc6e5d66ccbb": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 566.7669,
       "y": 2805.9481
     },
@@ -4240,33 +4091,23 @@
       "x": 4420.0,
       "y": 4178.868
     },
-    "SRC-bf5f3f6b4d3324": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 755.1829,
-      "y": 250.5331
-    },
-    "SRC-bf7a16f6e6982d": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 306.0481,
-      "y": 677.5489
-    },
     "SRC-bfe72d6e0d4999": {
       "layout_island_id": "LI-e6df15fce19b14f3",
       "x": 2327.9666,
       "y": 1973.6694
     },
     "SRC-c039148387f32d": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2462.6661,
       "y": 1153.6905
     },
     "SRC-c08e270f06622f": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4701.4247,
       "y": 757.229
     },
     "SRC-c1328494fb64a9": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4712.8604,
       "y": 313.9734
     },
@@ -4276,7 +4117,7 @@
       "y": 4178.868
     },
     "SRC-c26bc73aafa505": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 2744.7837,
       "y": 1608.5294
     },
@@ -4286,34 +4127,29 @@
       "y": 2099.683
     },
     "SRC-c510ec0eeea524": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4636.4225,
       "y": 862.306
     },
     "SRC-c55aa8a757ac0d": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3059.2001,
       "y": 352.2412
     },
     "SRC-c6fc186f3acd2a": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 213.212,
       "y": 2748.6507
     },
     "SRC-c732f15ab5c64c": {
-      "layout_island_id": "LI-7860a4f198ea6892",
+      "layout_island_id": "LI-e7e9af48b1e898b6",
       "x": 5610.4842,
       "y": 640.1818
     },
     "SRC-c8d0fba83789c8": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4603.855,
       "y": 651.7698
-    },
-    "SRC-c8f8d502dea525": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 149.8493,
-      "y": 1008.2033
     },
     "SRC-c909dfdae3c358": {
       "layout_island_id": "LI-5dddc03c251d5726",
@@ -4326,29 +4162,34 @@
       "y": 4178.868
     },
     "SRC-cdb1b043e068e5": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 754.3555,
       "y": 99.9304
     },
     "SRC-cdea2d29ef886e": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 1027.371,
       "y": 421.5753
     },
     "SRC-ce3638e215b58b": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 69.9254,
       "y": 429.4723
     },
     "SRC-ce75ac89232d02": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 3989.1578,
       "y": 341.2291
     },
     "SRC-cfed591706edc0": {
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "x": 4779.0341,
       "y": 1607.3438
+    },
+    "SRC-d047169612644b": {
+      "layout_island_id": "LI-e7e9af48b1e898b6",
+      "x": 5733.9161,
+      "y": 408.6856
     },
     "SRC-d058de1aa53f34": {
       "layout_island_id": "LI-75312265f0cf9e90",
@@ -4356,52 +4197,52 @@
       "y": 4178.868
     },
     "SRC-d23c2400339695": {
-      "layout_island_id": "LI-964248abcc4a8d24",
+      "layout_island_id": "LI-98bb926b856dc7b4",
       "x": 2286.2882,
       "y": 3118.0373
     },
     "SRC-d2f01922b97a03": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3300.3652,
       "y": 1922.8822
     },
-    "SRC-d36043af2f9771": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
-      "x": 2675.4377,
-      "y": 2015.563
-    },
     "SRC-d46fe017a5870e": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 885.5165,
       "y": 1073.1765
     },
     "SRC-d534c9396b657c": {
-      "layout_island_id": "LI-beb86ae56e2f90f2",
+      "layout_island_id": "LI-0d5925bcf90a73a0",
       "x": 3062.3652,
       "y": 1871.9134
     },
     "SRC-d56841ef3f306f": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1999.5273,
       "y": 920.6532
     },
+    "SRC-d68955a6de8e86": {
+      "layout_island_id": "LI-86089924143f515b",
+      "x": 651.4044,
+      "y": 548.9599
+    },
     "SRC-d6a3ff6b45ec28": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4001.2742,
       "y": 744.6751
     },
     "SRC-d6b4171ffa9ed9": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 1034.0296,
       "y": 801.1204
     },
     "SRC-d7a8fc6d38e39f": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2529.5256,
       "y": 1273.7817
     },
     "SRC-d8155a397232e7": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 285.404,
       "y": 2256.759
     },
@@ -4411,47 +4252,32 @@
       "y": 1797.6648
     },
     "SRC-d8f2b6f7fcd2f6": {
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "x": 4715.9254,
       "y": 1984.5182
     },
     "SRC-db7804c6dea79f": {
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "x": 4988.6642,
       "y": 1716.3521
     },
     "SRC-db7bf0d8716c70": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 782.5565,
       "y": 2332.3085
     },
-    "SRC-de79e6f5029c72": {
-      "layout_island_id": "LI-86ba9ab3ea944025",
-      "x": 64.0,
-      "y": 4416.868
-    },
-    "SRC-dff2a2a4a33dfa": {
-      "layout_island_id": "LI-dcd6f7d07f8da4d7",
-      "x": 306.0,
-      "y": 4416.868
-    },
     "SRC-e0c0c6a8c65198": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-dc5783765d6cd65f",
       "x": 4602.9297,
       "y": 418.4768
     },
-    "SRC-e0d8e08396509f": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
-      "x": 3513.4866,
-      "y": 78.5228
-    },
     "SRC-e128b34350ad12": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 503.3992,
       "y": 1204.3016
     },
     "SRC-e13b2b2fde7b17": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3613.7626,
       "y": 473.6489
     },
@@ -4460,35 +4286,40 @@
       "x": 548.0,
       "y": 4416.868
     },
+    "SRC-e23fac4e901601": {
+      "layout_island_id": "LI-278aa9e7b80884bd",
+      "x": 4773.1979,
+      "y": 1875.0063
+    },
     "SRC-e282230aa943c7": {
       "layout_island_id": "LI-3c6a412aaebdf7b7",
       "x": 790.0,
       "y": 4416.868
+    },
+    "SRC-e2e612bd1c2d01": {
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
+      "x": 607.9673,
+      "y": 784.4381
     },
     "SRC-e397075e791005": {
       "layout_island_id": "LI-6d72940d16499f41",
       "x": 4019.6537,
       "y": 1661.6526
     },
-    "SRC-e44e7e830cad24": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
-      "x": 4344.8877,
-      "y": 64.0
-    },
     "SRC-e5a85dba9a16b9": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3550.0223,
       "y": 738.3605
     },
-    "SRC-e8404c7028ec7d": {
-      "layout_island_id": "LI-9907a4dae5749e0a",
-      "x": 1032.0,
-      "y": 4416.868
-    },
     "SRC-e8d69273c468b5": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4531.936,
       "y": 933.97
+    },
+    "SRC-e9717854a68368": {
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
+      "x": 1833.6965,
+      "y": 594.7544
     },
     "SRC-ea1bac5082e343": {
       "layout_island_id": "LI-ab87bcd8c96f1e44",
@@ -4496,7 +4327,7 @@
       "y": 4416.868
     },
     "SRC-eb3dd57445887e": {
-      "layout_island_id": "LI-57e6842106016a00",
+      "layout_island_id": "LI-40cdcf8cd6fca477",
       "x": 828.3303,
       "y": 2443.3869
     },
@@ -4506,7 +4337,7 @@
       "y": 4416.868
     },
     "SRC-edbba9caabfb90": {
-      "layout_island_id": "LI-4f405e50b3951acf",
+      "layout_island_id": "LI-93cd792a4c390752",
       "x": 1331.8729,
       "y": 2125.994
     },
@@ -4516,7 +4347,7 @@
       "y": 3054.3212
     },
     "SRC-ee77e951b53c1e": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 782.5595,
       "y": 1015.8739
     },
@@ -4526,14 +4357,9 @@
       "y": 4416.868
     },
     "SRC-eef55c2a91e6ab": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 3720.1522,
       "y": 571.2872
-    },
-    "SRC-ef1167e66bfc0e": {
-      "layout_island_id": "LI-223f1cea89706df4",
-      "x": 2000.0,
-      "y": 4416.868
     },
     "SRC-ef567996f9394b": {
       "layout_island_id": "LI-e6df15fce19b14f3",
@@ -4541,12 +4367,12 @@
       "y": 1607.3438
     },
     "SRC-ef87fde9b060b0": {
-      "layout_island_id": "LI-fcf3dc4142e5f45a",
+      "layout_island_id": "LI-cc9c966ffd98e899",
       "x": 4004.7537,
       "y": 619.619
     },
     "SRC-f09e6b69cd6449": {
-      "layout_island_id": "LI-1110b201f3116cee",
+      "layout_island_id": "LI-88c5d6c941c2e0ed",
       "x": 3566.1584,
       "y": 1607.3438
     },
@@ -4556,7 +4382,7 @@
       "y": 4416.868
     },
     "SRC-f0f416fb20b2e9": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2613.9362,
       "y": 831.6745
     },
@@ -4566,17 +4392,12 @@
       "y": 4416.868
     },
     "SRC-f2921bc4dc75d1": {
-      "layout_island_id": "LI-bf40fb5f1a5132f0",
+      "layout_island_id": "LI-0d08c065b03dbdf1",
       "x": 921.3664,
       "y": 3064.2208
     },
-    "SRC-f3bad63980e2bc": {
-      "layout_island_id": "LI-57e6842106016a00",
-      "x": 109.0177,
-      "y": 2677.4942
-    },
     "SRC-f429960e3164b2": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-86089924143f515b",
       "x": 173.8162,
       "y": 229.7613
     },
@@ -4586,12 +4407,12 @@
       "y": 4416.868
     },
     "SRC-f55da843256a16": {
-      "layout_island_id": "LI-bf40fb5f1a5132f0",
+      "layout_island_id": "LI-0d08c065b03dbdf1",
       "x": 684.161,
       "y": 3219.8482
     },
     "SRC-f5c572ba77ebe1": {
-      "layout_island_id": "LI-39a104bb1f7b527d",
+      "layout_island_id": "LI-278aa9e7b80884bd",
       "x": 4610.512,
       "y": 1772.9421
     },
@@ -4605,18 +4426,13 @@
       "x": 5699.4366,
       "y": 540.0
     },
-    "SRC-f74817db59bf09": {
-      "layout_island_id": "LI-2888d82e45c014b4",
-      "x": 441.2732,
-      "y": 65.516
-    },
     "SRC-f818d3f5fae7eb": {
-      "layout_island_id": "LI-2888d82e45c014b4",
+      "layout_island_id": "LI-2e3fa8c3d86ccb60",
       "x": 801.8874,
       "y": 1135.5745
     },
     "SRC-f86fe4f821f155": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1550.8441,
       "y": 458.2591
     },
@@ -4626,17 +4442,17 @@
       "y": 4416.868
     },
     "SRC-f9a42d84296782": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 2138.6981,
       "y": 429.1462
     },
     "SRC-f9dedac54544dd": {
-      "layout_island_id": "LI-ad1d64f0dd2147a3",
+      "layout_island_id": "LI-d001481a9b70b34d",
       "x": 3286.8304,
       "y": 3382.2998
     },
     "SRC-fa0582efd48f88": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 1813.7392,
       "y": 81.9979
     },
@@ -4646,18 +4462,23 @@
       "y": 4416.868
     },
     "SRC-fac2a0512b686c": {
-      "layout_island_id": "LI-322f5fe98d7f2efc",
+      "layout_island_id": "LI-5573a6bf0ba02cc1",
       "x": 2082.5624,
       "y": 843.389
     },
+    "SRC-fbaf3f1ea34f4f": {
+      "layout_island_id": "LI-f4f46e5f1846f49a",
+      "x": 6822.9046,
+      "y": 302.0
+    },
     "SRC-fe89d3f75ee427": {
-      "layout_island_id": "LI-1d1bbe32083d593b",
+      "layout_island_id": "LI-6456367cfc732a4e",
       "x": 2432.9934,
       "y": 1021.5997
     }
   },
-  "previous_layout_id": "layout:61a18f42076e3cc080b1f5d423c0cbacb06ef8cee7c8e2efdba6224f601d02d6",
+  "previous_layout_id": "layout:21b74de3be34979fae6bc47636d6f389e84a7c906c8244797239b26b3823eb5e",
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9",
+  "semantic_digest": "sha256:78ac8d1b3459ad96ceee902f4700dddeaded0950b115ec7706a14e2979c6a94f",
   "world_graph_seed": "immensa-world-topology-v1"
 }

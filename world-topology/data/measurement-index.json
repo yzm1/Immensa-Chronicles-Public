@@ -2,18 +2,6 @@
   "measurements": [
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-00791eab66c03c47",
-      "measurement_id": "QM-00791eab66c03c47-01",
-      "participant_node_ids": [
-        "PL-FIVEDOOR",
-        "SRC-71b5f9c75852d4"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "TRAVEL_TIME",
-      "value_verbatim": "two days west (carter with team and wagon)"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-04b1f11c0d010ba7",
       "measurement_id": "QM-04b1f11c0d010ba7-01",
       "participant_node_ids": [
@@ -35,17 +23,6 @@
       "quantity_kind": "extent",
       "relation_type": "EXTENT",
       "value_verbatim": "oh, they have not got the beds there"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-062792ce6668f408",
-      "measurement_id": "QM-062792ce6668f408-01",
-      "participant_node_ids": [
-        "PL-FIVEDOOR"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "Five sealed gates around a hall gone soft with damp and centuries"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -82,54 +59,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "two days of it with good weather and good animals"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-13994785ba8365cb",
-      "measurement_id": "QM-13994785ba8365cb-01",
-      "participant_node_ids": [
-        "SRC-69150c2082abe4",
-        "PL-OSSARAY"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "CONTAINMENT",
-      "value_verbatim": "The grey hour in Underclay"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-14405d659fe272f7",
-      "measurement_id": "QM-14405d659fe272f7-01",
-      "participant_node_ids": [
-        "SRC-bf5f3f6b4d3324",
-        "PL-CANDLECUT"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "three provinces away"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-146f621ce87b2029",
-      "measurement_id": "QM-146f621ce87b2029-01",
-      "participant_node_ids": [
-        "PL-GREENMOUTH",
-        "PL-HARLOWE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "PACE",
-      "value_verbatim": "'About nine thousand miles.' against 'The courier had traveled for three years to reach him.'"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-146f621ce87b2029",
-      "measurement_id": "QM-146f621ce87b2029-02",
-      "participant_node_ids": [
-        "PL-GREENMOUTH",
-        "PL-HARLOWE"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "PACE",
-      "value_verbatim": "'About nine thousand miles.' against 'The courier had traveled for three years to reach him.'"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -205,29 +134,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-2c3615289711163a",
-      "measurement_id": "QM-2c3615289711163a-01",
-      "participant_node_ids": [
-        "SRC-adc728b1428577",
-        "RT-THE-LINE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "at the respectful mile"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-2e25fad0752dae17",
-      "measurement_id": "QM-2e25fad0752dae17-01",
-      "participant_node_ids": [
-        "RT-AMBERLINE"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "Kingdoms named themselves after their stretch of it."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-2e463bbbad7bde06",
       "measurement_id": "QM-2e463bbbad7bde06-01",
       "participant_node_ids": [
@@ -276,28 +182,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-374b32cbfcce9533",
-      "measurement_id": "QM-374b32cbfcce9533-01",
-      "participant_node_ids": [
-        "RT-THE-LINE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a corridor two miles wide, dead straight for a hundred leagues, then curving"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-374b32cbfcce9533",
-      "measurement_id": "QM-374b32cbfcce9533-02",
-      "participant_node_ids": [
-        "RT-THE-LINE"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a corridor two miles wide, dead straight for a hundred leagues, then curving"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-37838899cf7c5d5d",
       "measurement_id": "QM-37838899cf7c5d5d-01",
       "participant_node_ids": [
@@ -307,28 +191,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "FLOW",
       "value_verbatim": "I went to Ilber for four days in my twenties"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-384f7dd200a79a96",
-      "measurement_id": "QM-384f7dd200a79a96-01",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a ring of stone posts about two hundred miles across"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-384f7dd200a79a96",
-      "measurement_id": "QM-384f7dd200a79a96-02",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a ring of stone posts about two hundred miles across"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -380,51 +242,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-44d2f6d25391d58f",
-      "measurement_id": "QM-44d2f6d25391d58f-01",
-      "participant_node_ids": [
-        "RT-THE-LINE",
-        "SRC-876f605bc4b339"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "it ran across the whole continent, if the maps could be believed"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-4ab74769be9c8eb0",
-      "measurement_id": "QM-4ab74769be9c8eb0-01",
-      "participant_node_ids": [
-        "PL-OSSARAY"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "eleven hundred miles across at its widest survey"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-4ab74769be9c8eb0",
-      "measurement_id": "QM-4ab74769be9c8eb0-02",
-      "participant_node_ids": [
-        "PL-OSSARAY"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "eleven hundred miles across at its widest survey"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-4b5daf1d219b450e",
-      "measurement_id": "QM-4b5daf1d219b450e-01",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "anyone who ate the herb may lose the ability to intend crossing for days"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-4bd1ca1b6d69e4b5",
       "measurement_id": "QM-4bd1ca1b6d69e4b5-01",
       "participant_node_ids": [
@@ -473,18 +290,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-55064ee64d417f16",
-      "measurement_id": "QM-55064ee64d417f16-01",
-      "participant_node_ids": [
-        "SRC-6ec34a1a4f3cb5",
-        "PL-HARNESSE"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "CONTAINMENT",
-      "value_verbatim": "THE LINE AT THE FOURTH GATE CANTEEN, HARNESSE. ... It is a works canteen. It feeds four hundred airwrights twice a day"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-578b5dcf999766e7",
       "measurement_id": "QM-578b5dcf999766e7-01",
       "participant_node_ids": [
@@ -494,17 +299,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "eleven days when the water is good (there and back)"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-5845c52211b16647",
-      "measurement_id": "QM-5845c52211b16647-01",
-      "participant_node_ids": [
-        "PL-NERIS"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "TRAVEL_TIME",
-      "value_verbatim": "For eight hours, nothing exciting happened"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -532,30 +326,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-59bc77fa025bfb0b",
-      "measurement_id": "QM-59bc77fa025bfb0b-01",
-      "participant_node_ids": [
-        "RT-ONCEWAY-CLASS",
-        "SRC-6e36536efcfd69"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "nine hundred miles in one day, one direction, one use per person per road"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-59bc77fa025bfb0b",
-      "measurement_id": "QM-59bc77fa025bfb0b-02",
-      "participant_node_ids": [
-        "RT-ONCEWAY-CLASS",
-        "SRC-6e36536efcfd69"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "nine hundred miles in one day, one direction, one use per person per road"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-5b297016757603a5",
       "measurement_id": "QM-5b297016757603a5-01",
       "participant_node_ids": [
@@ -565,17 +335,6 @@
       "quantity_kind": "physical_distance",
       "relation_type": "ROUTE",
       "value_verbatim": "The road is lit for the first mile and a half. Then there are posts with lamps at four hundred yard intervals for another mile. Then there is one lamp on a post, on its own, and beyond that there is nothing at all"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-5c1d4a52c107a23f",
-      "measurement_id": "QM-5c1d4a52c107a23f-01",
-      "participant_node_ids": [
-        "PL-MARN"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "the largest inhabited space in the known world"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -600,18 +359,6 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "forty miles"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-5d9617ddd2e0bdc1",
-      "measurement_id": "QM-5d9617ddd2e0bdc1-01",
-      "participant_node_ids": [
-        "PL-GREENMOUTH",
-        "PL-HARLOWE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "About nine thousand miles."
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -651,14 +398,15 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-62ff72da3deedfc9",
-      "measurement_id": "QM-62ff72da3deedfc9-01",
+      "assertion_id": "AS-61c5df92540dafbf",
+      "measurement_id": "QM-61c5df92540dafbf-01",
       "participant_node_ids": [
-        "RT-CORUN-STAIR"
+        "SRC-9bd60b2220df5c",
+        "PL-KESTEL"
       ],
-      "quantity_kind": "journey_time",
-      "relation_type": "TRAVEL_TIME",
-      "value_verbatim": "for distances that take days to walk"
+      "quantity_kind": "physical_distance",
+      "relation_type": "DISTANCE",
+      "value_verbatim": "goes home to a village nine miles out"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -671,18 +419,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "DIRECTION",
       "value_verbatim": "two days west"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-6365c5961fd1fd23",
-      "measurement_id": "QM-6365c5961fd1fd23-01",
-      "participant_node_ids": [
-        "SRC-f74817db59bf09",
-        "PL-CANDLECUT"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "SHARED_REGION",
-      "value_verbatim": "Nine days, and Candlecut, and a morning at the cross."
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -707,17 +443,6 @@
       "quantity_kind": "physical_distance",
       "relation_type": "UNANCHORED",
       "value_verbatim": "six hundred miles"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-68ae881eb8b7cc13",
-      "measurement_id": "QM-68ae881eb8b7cc13-01",
-      "participant_node_ids": [
-        "PL-GRAYLING-ISLES"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a scatter of islands and hundreds of rocks divided by tide races"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -757,28 +482,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-6d730a854c8c9a4c",
-      "measurement_id": "QM-6d730a854c8c9a4c-01",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "Two hundred miles of waist-high grey posts"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-6d730a854c8c9a4c",
-      "measurement_id": "QM-6d730a854c8c9a4c-02",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "Two hundred miles of waist-high grey posts"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-6d810f3e9baff394",
       "measurement_id": "QM-6d810f3e9baff394-01",
       "participant_node_ids": [
@@ -788,18 +491,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "wrote the list on the coach back"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-6efdaedf730f222e",
-      "measurement_id": "QM-6efdaedf730f222e-01",
-      "participant_node_ids": [
-        "SRC-53f8b563d329c6",
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "No redroot. No marsh anything. Four days clean. Sit down"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -815,53 +506,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-71c06aad9e5fcf52",
-      "measurement_id": "QM-71c06aad9e5fcf52-01",
-      "participant_node_ids": [
-        "SRC-4fb64b8d1d5915",
-        "RT-THE-LINE"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "The Walker came every eighty years, more or less."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-7247f0c460b51bb4",
-      "measurement_id": "QM-7247f0c460b51bb4-01",
-      "participant_node_ids": [
-        "PL-ROOFLINE"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "A failed rib can shift weight miles away."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-74a9de870b9a0edb",
-      "measurement_id": "QM-74a9de870b9a0edb-01",
-      "participant_node_ids": [
-        "PL-FIVEDOOR",
-        "SRC-9eaad1d52e5706"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "PACE",
-      "value_verbatim": "coach; three days; 'a hundred miles' thought about on the way"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-74a9de870b9a0edb",
-      "measurement_id": "QM-74a9de870b9a0edb-02",
-      "participant_node_ids": [
-        "PL-FIVEDOOR",
-        "SRC-9eaad1d52e5706"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "PACE",
-      "value_verbatim": "coach; three days; 'a hundred miles' thought about on the way"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-798822283b405952",
       "measurement_id": "QM-798822283b405952-01",
       "participant_node_ids": [
@@ -871,17 +515,6 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "five thousand eight hundred miles"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-7a4502afb0411a31",
-      "measurement_id": "QM-7a4502afb0411a31-01",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "SEVERED",
-      "value_verbatim": "Four days clean: the Old Cordon quarantine"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -906,18 +539,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "two days by the consulate stair"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-7f9917a6e8a3598e",
-      "measurement_id": "QM-7f9917a6e8a3598e-01",
-      "participant_node_ids": [
-        "PL-CANDLE-BASIN",
-        "PL-NERIS"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DIRECTION",
-      "value_verbatim": "Four hundred miles east"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -993,29 +614,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-94a83b30609e50a7",
-      "measurement_id": "QM-94a83b30609e50a7-01",
-      "participant_node_ids": [
-        "RT-OSSARAY-LIFT-CORRIDORS"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "stop for about a week, once a generation, by an agreement written into every lease"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-95f46338995ae8d1",
-      "measurement_id": "QM-95f46338995ae8d1-01",
-      "participant_node_ids": [
-        "SRC-90ece533317e17",
-        "PL-RAVEL-SEA"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ASYMMETRY",
-      "value_verbatim": "A desert for nine months and a sea for three, and the salt remembers which"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-98c3cdb42e9ab6ef",
       "measurement_id": "QM-98c3cdb42e9ab6ef-01",
       "participant_node_ids": [
@@ -1052,29 +650,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-9cc63c07fb992bc3",
-      "measurement_id": "QM-9cc63c07fb992bc3-01",
-      "participant_node_ids": [
-        "SRC-8b9f6965240cc5",
-        "PL-LONGBARROW"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "CONTAINMENT",
-      "value_verbatim": "Held at one facility; costs more per year than a small department"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-9cd33478e3284365",
-      "measurement_id": "QM-9cd33478e3284365-01",
-      "participant_node_ids": [
-        "RT-ONCEWAY-CLASS"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "TRAVEL_TIME",
-      "value_verbatim": "the annual visit by the ordinary route, which takes seven weeks"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-9df78898577da983",
       "measurement_id": "QM-9df78898577da983-01",
       "participant_node_ids": [
@@ -1084,95 +659,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "FLOW",
       "value_verbatim": "the four inns that live off the buyers who come in the fifth month"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-9f4dfcb3dfb0483a",
-      "measurement_id": "QM-9f4dfcb3dfb0483a-01",
-      "participant_node_ids": [
-        "PL-OSSARAY"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a system of open depth: valleys and plains and roofed seas in a body of rock"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-9fa3bade82699064",
-      "measurement_id": "QM-9fa3bade82699064-01",
-      "participant_node_ids": [
-        "PL-SAAN-KEL"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "An engineered road wide enough to contain towns, rivers and its own weather. One known destination."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a0a492d3d9b5cdac",
-      "measurement_id": "QM-a0a492d3d9b5cdac-01",
-      "participant_node_ids": [
-        "PL-RAVEL-SEA"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "Every twenty-seven years. Three nights. Then gone."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a1466b784e7234b2",
-      "measurement_id": "QM-a1466b784e7234b2-01",
-      "participant_node_ids": [
-        "PL-RAVEL-SEA"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "six hundred miles of water had vanished"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a1466b784e7234b2",
-      "measurement_id": "QM-a1466b784e7234b2-02",
-      "participant_node_ids": [
-        "PL-RAVEL-SEA"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "six hundred miles of water had vanished"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a6142eb3c3445f30",
-      "measurement_id": "QM-a6142eb3c3445f30-01",
-      "participant_node_ids": [
-        "PL-CANNET-VENTS"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "Nineteen months at the Cannet vents. Said without irony."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a655dae3875a625d",
-      "measurement_id": "QM-a655dae3875a625d-01",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "trapped for eleven days"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a812daf0c0254902",
-      "measurement_id": "QM-a812daf0c0254902-01",
-      "participant_node_ids": [
-        "PL-ILBER",
-        "SRC-586eccb8d5ef0b"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "SEVERED",
-      "value_verbatim": "Take the animal and we have two hundred years of money and no town. In eleven years we would be a place people had heard of."
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1188,28 +674,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a91886f488f161df",
-      "measurement_id": "QM-a91886f488f161df-01",
-      "participant_node_ids": [
-        "PL-NERIS"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "The city was huge. Not capital-huge. Old-huge. Districts climbed cavern walls on stone terraces. Bridges crossed underground rivers. Boats with luminous sails moved across the buried sea."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a939bdb87a8c6161",
-      "measurement_id": "QM-a939bdb87a8c6161-01",
-      "participant_node_ids": [
-        "RT-CORUN-STAIR"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "sealed for three hundred years; water-locks closed and keepers withdrawn; reopened only 'when the door is asked for, not demanded'"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-a97cfd3eaafa61d0",
       "measurement_id": "QM-a97cfd3eaafa61d0-01",
       "participant_node_ids": [
@@ -1222,29 +686,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a99ef44e521b8274",
-      "measurement_id": "QM-a99ef44e521b8274-01",
-      "participant_node_ids": [
-        "SRC-769309983078f6",
-        "RT-AMBERLINE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "half a mile off the Amberline"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-a9beb531b3afc5d7",
-      "measurement_id": "QM-a9beb531b3afc5d7-01",
-      "participant_node_ids": [
-        "PL-MARN"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "The largest inhabited space anybody has measured. A floor you could put a small country on, under a ceiling too high to see."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-abc8dd30424a2771",
       "measurement_id": "QM-abc8dd30424a2771-01",
       "participant_node_ids": [
@@ -1254,6 +695,18 @@
       "quantity_kind": "physical_distance",
       "relation_type": "DISTANCE",
       "value_verbatim": "a few streets"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-ad57eb93a0b82c66",
+      "measurement_id": "QM-ad57eb93a0b82c66-01",
+      "participant_node_ids": [
+        "PL-LONGBARROW",
+        "SRC-fbaf3f1ea34f4f"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "UNANCHORED",
+      "value_verbatim": "six hundred miles"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1293,6 +746,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-b2de8825384ec40a",
+      "measurement_id": "QM-b2de8825384ec40a-01",
+      "participant_node_ids": [
+        "PL-BELLOWAY-UPPER-GALLERIES",
+        "SRC-a4e028fe35fec2"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "VERTICAL",
+      "value_verbatim": "the first two miles of the Ossaray networks below the Belloway lifts"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-b3dfbd34fab10873",
       "measurement_id": "QM-b3dfbd34fab10873-01",
       "participant_node_ids": [
@@ -1314,6 +779,18 @@
       "quantity_kind": "journey_time",
       "relation_type": "ACCESS_COND",
       "value_verbatim": "you are tagged for between four and nine days depending on quantity and on the person"
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-b7f75c0b2a6a3e8e",
+      "measurement_id": "QM-b7f75c0b2a6a3e8e-01",
+      "participant_node_ids": [
+        "PL-ROPEWALK-HOUSE",
+        "SRC-814ac5f6be28b2"
+      ],
+      "quantity_kind": "physical_distance",
+      "relation_type": "DISTANCE",
+      "value_verbatim": "four streets"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1401,17 +878,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-c0134f6f5d63c9ed",
-      "measurement_id": "QM-c0134f6f5d63c9ed-01",
-      "participant_node_ids": [
-        "PL-OLD-CORDON"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "a narrow crossing window before the next eleven-day cycle"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-c18d8699aa25b3eb",
       "measurement_id": "QM-c18d8699aa25b3eb-01",
       "participant_node_ids": [
@@ -1421,29 +887,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "CONTAINMENT",
       "value_verbatim": "Nine years distinguishing a process that is slow from one that is arrested"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-c3195d675ee2dd67",
-      "measurement_id": "QM-c3195d675ee2dd67-01",
-      "participant_node_ids": [
-        "PL-SAAN-KEL"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "sprawled across a river plain with suburbs, workshops, greenhouses, freight yards and five separate centers old enough to have once been independent towns"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-c31c4333780f6096",
-      "measurement_id": "QM-c31c4333780f6096-01",
-      "participant_node_ids": [
-        "SRC-105bf464838e47",
-        "PL-OSSARAY"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "CONTAINMENT",
-      "value_verbatim": "In Underclay they call it flatday, singular, no matter how many days it lasts"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1507,28 +950,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-c674c9081f58c656",
-      "measurement_id": "QM-c674c9081f58c656-01",
-      "participant_node_ids": [
-        "PL-LONGBARROW"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "the only place in six hundred miles that still has the toolchain"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-c674c9081f58c656",
-      "measurement_id": "QM-c674c9081f58c656-02",
-      "participant_node_ids": [
-        "PL-LONGBARROW"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "the only place in six hundred miles that still has the toolchain"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-c6f894be8645968e",
       "measurement_id": "QM-c6f894be8645968e-01",
       "participant_node_ids": [
@@ -1541,25 +962,15 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-c898856ef3470808",
-      "measurement_id": "QM-c898856ef3470808-01",
+      "assertion_id": "AS-ccaf21820afaaa65",
+      "measurement_id": "QM-ccaf21820afaaa65-01",
       "participant_node_ids": [
-        "PL-MARN"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "a floor you could put a small country on, under a ceiling too high to see"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-cc2ca2660521d874",
-      "measurement_id": "QM-cc2ca2660521d874-01",
-      "participant_node_ids": [
-        "RT-AMBERLINE"
+        "SRC-5d4f7c7f852c9a",
+        "PL-ILBER"
       ],
       "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "That's how long this storm is ... Nine days / The road opened on the tenth morning"
+      "relation_type": "ASYMMETRY",
+      "value_verbatim": "I went to Ilber for four days in my twenties and came back with a headache I could not account for and my mother said, without looking up, oh, they have not got the beds there"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1587,14 +998,15 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-d221603895551957",
-      "measurement_id": "QM-d221603895551957-01",
+      "assertion_id": "AS-d16e16d547e7bf43",
+      "measurement_id": "QM-d16e16d547e7bf43-01",
       "participant_node_ids": [
-        "PL-HOLLOW-SINK"
+        "RT-ONCEWAY-CLASS",
+        "RT-ONCEWAY-CLASS"
       ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "fourteen mapped chambers deep"
+      "quantity_kind": "physical_distance",
+      "relation_type": "DISTANCE",
+      "value_verbatim": "nine hundred and forty miles apart by ordinary road"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1607,17 +1019,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "four weeks each way"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-d584911f1a852d01",
-      "measurement_id": "QM-d584911f1a852d01-01",
-      "participant_node_ids": [
-        "PL-NINE-DAY-SHAFT"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "ACCESS_COND",
-      "value_verbatim": "A sealed side landing opens only during the nine-day migration."
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1669,28 +1070,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-d7fb2f2b7fa64b7f",
-      "measurement_id": "QM-d7fb2f2b7fa64b7f-01",
-      "participant_node_ids": [
-        "RT-ONCEWAY-CLASS"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "Nine hundred miles in one day. ONE DIRECTION. ONE USE PER PERSON. NO RETURN."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-d7fb2f2b7fa64b7f",
-      "measurement_id": "QM-d7fb2f2b7fa64b7f-02",
-      "participant_node_ids": [
-        "RT-ONCEWAY-CLASS"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "Nine hundred miles in one day. ONE DIRECTION. ONE USE PER PERSON. NO RETURN."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-d81357952e9937d3",
       "measurement_id": "QM-d81357952e9937d3-01",
       "participant_node_ids": [
@@ -1727,17 +1106,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-d8490a25c6e87ab7",
-      "measurement_id": "QM-d8490a25c6e87ab7-01",
-      "participant_node_ids": [
-        "RT-CORUN-STAIR"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "wide enough for freight caravans four abreast"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-d9f70fe32b022dcc",
       "measurement_id": "QM-d9f70fe32b022dcc-01",
       "participant_node_ids": [
@@ -1759,30 +1127,6 @@
       "quantity_kind": "journey_time",
       "relation_type": "TRAVEL_TIME",
       "value_verbatim": "nearer six (at night, off the road, going by the hedge lines)"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-dd7f515e0bd1aa8b",
-      "measurement_id": "QM-dd7f515e0bd1aa8b-01",
-      "participant_node_ids": [
-        "SRC-af627bf9d9703e",
-        "PL-VASSE-OLUN"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "PACE",
-      "value_verbatim": "endpoint 1: \"five thousand eight hundred miles\" ; endpoint 2: \"The journey took five months\""
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-dd7f515e0bd1aa8b",
-      "measurement_id": "QM-dd7f515e0bd1aa8b-02",
-      "participant_node_ids": [
-        "SRC-af627bf9d9703e",
-        "PL-VASSE-OLUN"
-      ],
-      "quantity_kind": "journey_time",
-      "relation_type": "PACE",
-      "value_verbatim": "endpoint 1: \"five thousand eight hundred miles\" ; endpoint 2: \"The journey took five months\""
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1834,18 +1178,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-e7f4ed240a8dddfa",
-      "measurement_id": "QM-e7f4ed240a8dddfa-01",
-      "participant_node_ids": [
-        "PL-GREENMOUTH",
-        "PL-HARLOWE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "ASYMMETRY",
-      "value_verbatim": "'I came around,' she said gently. 'Around what?' 'About nine thousand miles.'"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-e9bc7715f9828a61",
       "measurement_id": "QM-e9bc7715f9828a61-01",
       "participant_node_ids": [
@@ -1879,40 +1211,6 @@
       "quantity_kind": "physical_distance",
       "relation_type": "VERTICAL",
       "value_verbatim": "six miles higher than Neris"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-f0fe0ff821395931",
-      "measurement_id": "QM-f0fe0ff821395931-01",
-      "participant_node_ids": [
-        "SRC-d534c9396b657c",
-        "RT-AMBERLINE"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "twelve hundred miles east of the Amberline"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-f11dc8c9dba263db",
-      "measurement_id": "QM-f11dc8c9dba263db-01",
-      "participant_node_ids": [
-        "PL-THREE-CROWN-COAST"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "EXTENT",
-      "value_verbatim": "roughly 1,900 miles of ports and coast"
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-f11dc8c9dba263db",
-      "measurement_id": "QM-f11dc8c9dba263db-02",
-      "participant_node_ids": [
-        "PL-THREE-CROWN-COAST"
-      ],
-      "quantity_kind": "extent",
-      "relation_type": "EXTENT",
-      "value_verbatim": "roughly 1,900 miles of ports and coast"
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
@@ -1952,6 +1250,18 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
+      "assertion_id": "AS-f96b02e6826308a5",
+      "measurement_id": "QM-f96b02e6826308a5-01",
+      "participant_node_ids": [
+        "PL-ILBER",
+        "SRC-b1438fc18ac83a"
+      ],
+      "quantity_kind": "journey_time",
+      "relation_type": "SEVERED",
+      "value_verbatim": "Take the animal and we have two hundred years of money and no town. In eleven years we would be a place people had heard of."
+    },
+    {
+      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-f9c7edd37055ec45",
       "measurement_id": "QM-f9c7edd37055ec45-01",
       "participant_node_ids": [
@@ -1976,18 +1286,6 @@
     },
     {
       "aggregation_policy": "NOT_CERTIFIED",
-      "assertion_id": "AS-fedcea9189e3c4ae",
-      "measurement_id": "QM-fedcea9189e3c4ae-01",
-      "participant_node_ids": [
-        "PL-HARLOWE",
-        "PL-SAAN-KEL"
-      ],
-      "quantity_kind": "physical_distance",
-      "relation_type": "DISTANCE",
-      "value_verbatim": "Eight thousand miles."
-    },
-    {
-      "aggregation_policy": "NOT_CERTIFIED",
       "assertion_id": "AS-ffbecb780c6b95d9",
       "measurement_id": "QM-ffbecb780c6b95d9-01",
       "participant_node_ids": [
@@ -2000,5 +1298,5 @@
     }
   ],
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9"
+  "semantic_digest": "sha256:78ac8d1b3459ad96ceee902f4700dddeaded0950b115ec7706a14e2979c6a94f"
 }

@@ -1,42 +1,42 @@
 {
   "counts": {
-    "assertions": 523,
+    "assertions": 416,
     "assertions_with_valid_time": 0,
     "governed_physical_strata": 0,
     "governed_plane_memberships": 0,
-    "layout_islands": 130,
-    "layout_singletons": 106,
-    "nodes": 425,
-    "projection_edges": 481,
+    "layout_islands": 126,
+    "layout_singletons": 99,
+    "nodes": 406,
+    "projection_edges": 460,
     "projections": {
-      "all_semantic": 52,
-      "flow": 14,
-      "refusal_conflict": 8,
-      "spatial_structure": 318,
-      "traversal": 84,
+      "all_semantic": 51,
+      "flow": 12,
+      "refusal_conflict": 7,
+      "spatial_structure": 303,
+      "traversal": 82,
       "visibility_influence": 5
     },
     "relation_types": {
-      "ACCESS_COND": 66,
+      "ACCESS_COND": 30,
       "ADJACENCY": 17,
       "ANON_REGION": 5,
-      "ASYMMETRY": 12,
-      "CONTAINMENT": 136,
-      "DIRECTION": 35,
-      "DISTANCE": 29,
-      "EXTENT": 26,
-      "FLOW": 17,
-      "PACE": 5,
+      "ASYMMETRY": 7,
+      "CONTAINMENT": 125,
+      "DIRECTION": 31,
+      "DISTANCE": 24,
+      "EXTENT": 5,
+      "FLOW": 12,
+      "PACE": 1,
       "ROUTE": 52,
       "ROUTE_MEMBERSHIP": 12,
-      "SEVERED": 10,
-      "SHARED_REGION": 6,
-      "TRAVEL_TIME": 38,
-      "UNANCHORED": 12,
-      "VERTICAL": 40,
+      "SEVERED": 7,
+      "SHARED_REGION": 3,
+      "TRAVEL_TIME": 34,
+      "UNANCHORED": 7,
+      "VERTICAL": 39,
       "VISIBILITY": 5
     },
-    "verbatim_measurements": 170
+    "verbatim_measurements": 108
   },
   "lenses": {
     "balanced": {
@@ -197,5 +197,5 @@
     }
   },
   "schema_version": "immensa-topology-explorer-build-1.0.0",
-  "semantic_digest": "sha256:4e00e9fc1f45c1473020aea5931c02657a391b5bc58e268e0a658d51e38367d9"
+  "semantic_digest": "sha256:78ac8d1b3459ad96ceee902f4700dddeaded0950b115ec7706a14e2979c6a94f"
 }
